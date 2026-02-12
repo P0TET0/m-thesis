@@ -123,7 +123,7 @@ def main() -> None:
     )
     parser.add_argument(
         "--out",
-        default=r"C:\Users\miots\m-thesis\m-thesis\sige_ElectricalConductivity_curves.csv",
+        default=r"C:\Users\miots\m-thesis\m-thesis\data\output\sige_ElectricalConductivity_curves.csv",
     )
     args = parser.parse_args()
 
