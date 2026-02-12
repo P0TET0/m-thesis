@@ -102,7 +102,10 @@ def main() -> None:
         "--csv",
         default=r"C:\Users\miots\m-thesis\m-thesis\experiments\exp001\starrydata_curves.csv",
     )
-    parser.add_argument("--out", default="sige_EC_ER_curves.csv")
+    parser.add_argument(
+        "--out",
+        default=r"C:\Users\miots\m-thesis\m-thesis\data\output\sige_EC_ER_curves.csv",
+    )
     args = parser.parse_args()
 
     logging.basicConfig(level=logging.WARNING)
