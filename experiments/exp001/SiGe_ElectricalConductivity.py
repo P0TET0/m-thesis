@@ -17,6 +17,12 @@ OVERRIDES = {
     (23629, "10.1016/j.jallcom.2019.153182"): "Si0.8Ge0.2",
 }
 
+EXCLUDED_DOIS = {
+    "10.1016/0306-2619(81)90049-0",
+    "10.1063/1.1661622",
+    "10.1063/1.1663600",
+}
+
 
 def normalize_sid(value: Any) -> Any:
     if pd.isna(value):
@@ -140,7 +146,12 @@ def main() -> None:
         comp_original = getattr(row, "composition")
         sid = getattr(row, "SID")
         doi = getattr(row, "DOI")
-        key = (normalize_sid(sid), normalize_doi(doi))
+        doi_norm = normalize_doi(doi)
+        if doi_norm in EXCLUDED_DOIS:
+            logging.warning("skip index=%s: excluded DOI=%s", row.Index, doi_norm)
+            continue
+
+        key = (normalize_sid(sid), doi_norm)
 
         if key in OVERRIDES:
             normalized = normalize_sige_composition(OVERRIDES[key])
