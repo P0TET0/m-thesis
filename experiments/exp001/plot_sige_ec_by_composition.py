@@ -79,7 +79,7 @@ def main() -> None:
     )
     parser.add_argument(
         "--outdir",
-        default=r"C:\Users\miots\m-thesis\m-thesis\experiments\exp001\plots_sige_ec_by_composition",
+        default=r"C:\Users\miots\m-thesis\m-thesis\data\output",
         help="directory for output png files",
     )
     parser.add_argument(
