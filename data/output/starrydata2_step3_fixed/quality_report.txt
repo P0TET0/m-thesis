@@ -1,0 +1,52 @@
+Starrydata2 Step3 Fixed Quality Report
+generated_at: 2026-05-17 00:09:59
+
+[Row counts]
+sample_master_fixed_rows: 46661
+property_data_fixed_rows: 139676
+candidate_samples_rows: 13608
+
+[Key integrity]
+sample_key_unique_rows: 46661
+sample_key_duplicate_rows: 0
+curve_key_unique_rows: 139676
+curve_key_duplicate_rows: 0
+
+[Candidate counts]
+relaxation_fit_candidates: 13608
+accuracy_check_candidates: 9569
+extended_transport_candidates: 16272
+
+[Carrier type guess]
+carrier_type_guess
+p-type     17265
+n-type     13498
+unknown    13132
+mixed       2766
+
+[ZT unit check]
+zt_curve_rows: 20351
+zt_curve_rows_needing_check: 513
+samples_with_zt_unit_issue: 498
+unit_y
+-         19838
+K^(-1)      513
+
+[Property-family coverage]
+property_family
+seebeck                    34585
+thermal_conductivity       29515
+zt                         20351
+electrical_resistivity     17427
+electrical_conductivity    16885
+power_factor               16615
+carrier_concentration       1849
+carrier_mobility            1167
+hall_coefficient             500
+other                        393
+hall_mobility                389
+
+[Notes]
+n-type / p-type is guessed only from Seebeck sign.
+sintering_method is intentionally set to unknown for all samples.
+record_checked is intentionally set to no for all samples.
