@@ -1,0 +1,53 @@
+input_training_dataset_wide_step10_rows: 685233
+input_initial_tau_fit_training_dataset_step10_rows: 326435
+input_review_training_dataset_step10_rows: 358798
+input_sigma_rho_points_for_fitting_step10_rows: 690743
+output_training_dataset_normalized_step11_rows: 685233
+output_initial_tau_fit_training_normalized_step11_rows: 326264
+output_review_training_dataset_normalized_step11_rows: 358969
+output_sigma_rho_points_normalized_step11_rows: 690743
+output_unit_conversion_audit_step11_rows: 24
+output_problematic_unit_rows_step11_rows: 3798
+output_zt_consistency_check_step11_rows: 37230
+sigma_from_sigma_success_rows: 253818
+rho_conversion_success_rows: 430325
+rho_to_sigma_success_rows: 430325
+final_sigma_obs_S_per_m_success_rows: 683491
+seebeck_conversion_success_rows: 115934
+kappa_conversion_success_rows: 65025
+zt_normal_unit_rows: 69501
+zt_unit_abnormal_rows: 1337
+can_fit_tau_step11_true_rows: 683491
+can_eval_power_factor_step11_true_rows: 115888
+can_calc_zt_from_obs_step11_true_rows: 50014
+can_compare_zt_obs_step11_true_rows: 37230
+can_use_for_initial_tau_fit_step11_true_rows: 326264
+row_quality_step11_fit_and_pf_eval_rows: 65874
+row_quality_step11_fit_and_zt_eval_rows: 50014
+row_quality_step11_fit_only_rows: 567603
+row_quality_step11_unit_problem_rows: 1742
+sigma_obs_source_step11_from_rho_rows: 429673
+sigma_obs_source_step11_from_sigma_rows: 253818
+sigma_obs_source_step11_unavailable_rows: 1742
+n_or_p_mixed_can_fit_tau_step11_rows: 13086
+n_or_p_n_can_fit_tau_step11_rows: 209342
+n_or_p_p_can_fit_tau_step11_rows: 264752
+n_or_p_unknown_can_fit_tau_step11_rows: 196311
+n_or_p_n_can_use_for_initial_tau_fit_step11_rows: 148782
+n_or_p_p_can_use_for_initial_tau_fit_step11_rows: 177482
+zt_consistency_status_step11_large_mismatch_rows: 658
+zt_consistency_status_step11_not_available_rows: 648003
+zt_consistency_status_step11_ok_rows: 33325
+zt_consistency_status_step11_warning_rows: 3247
+zt_relative_error_le_0.2_rows: 33325
+zt_relative_error_gt_1.0_rows: 658
+sintering_method_unknown_rows: 685233
+sintering_checked_no_rows: 685233
+record_checked_no_rows: 685233
+n_or_p_columns_preserved_from_step10: yes
+note: Step11 did not perform tau_eff fitting.
+note: Step11 performed unit conversion and standardization only.
+excel_note: training_dataset_normalized has 685233 rows; wrote first 100000 rows to workbook; full data is in CSV
+excel_note: initial_tau_fit_training has 326264 rows; wrote first 100000 rows to workbook; full data is in CSV
+excel_note: review_training_dataset has 358969 rows; wrote first 100000 rows to workbook; full data is in CSV
+excel_note: sigma_rho_points_normalized has 690743 rows; wrote first 100000 rows to workbook; full data is in CSV
