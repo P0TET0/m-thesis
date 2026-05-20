@@ -1,0 +1,12 @@
+feature_name,feature_value,sample_count,ML_much_worse_count,median_sigma_ML_log_rmse,median_zt_obs_ML_mape,manual_annotation_needed_count,interpretation_step23
+nanocarbon_keyword_detected_step9,False,3201,390,0.7323475585936762,0.5615765526467575,3201,flag association only; no causal proof
+rare_metal_flag_auto_step9,False,474,41,0.9749046171725553,0.6922832470048588,474,flag association only; no causal proof
+rare_metal_flag_auto_step9,True,2727,349,0.700085881924365,0.5463253682103939,2727,flag association only; no causal proof
+toxicity_flag_auto_step9,False,977,59,0.9278794017682724,0.635830280667554,977,flag association only; no causal proof
+toxicity_flag_auto_step9,True,2224,331,0.6723842031733342,0.5393721656431552,2224,flag association only; no causal proof
+missing_additive_info_step23,False,1,0,4.850990591921373,,1,flag association only; no causal proof
+missing_additive_info_step23,True,3200,390,0.7320251939972444,0.5615765526467575,3200,flag association only; no causal proof
+missing_structure_info_step23,False,1,0,1.650187617743912,,1,flag association only; no causal proof
+missing_structure_info_step23,True,3200,390,0.7320251939972444,0.5615765526467575,3200,flag association only; no causal proof
+missing_sintering_info_step23,True,3201,390,0.7323475585936762,0.5615765526467575,3201,flag association only; no causal proof
+manual_annotation_needed_step23,True,3201,390,0.7323475585936762,0.5615765526467575,3201,flag association only; no causal proof

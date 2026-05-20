@@ -1,0 +1,4 @@
+structure_final_step17,structure_source_step17,sample_count,ML_much_worse_count,fitting_good_ML_bad_count,fitting_bad_ML_bad_count,median_sigma_ML_log_rmse,median_zt_obs_ML_mape,missing_additive_count,missing_structure_count,missing_sintering_count,manual_annotation_needed_count,interpretation_step23
+1d,unknown,1,0,1,0,1.650187617743912,,1,0,1,1,limited ML degradation in this group
+unknown,auto_step9,49,13,10,0,0.5649430466373032,0.4435738641253891,49,49,49,49,review high-error ML degradation cases; do not infer causality
+unknown,unknown,3151,377,959,10,0.7367178790469266,0.5638738250973186,3150,3151,3151,3151,review high-error ML degradation cases; do not infer causality

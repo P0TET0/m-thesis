@@ -1,0 +1,14 @@
+summary_item,value,interpretation_step23,related_file
+total samples analyzed,3201,Step23 sample universe,step23_error_cause_samples.csv
+ML much worse sample count,390,ML degradation count,step23_error_cause_samples.csv
+ML better than fitting sample count,65,ML better count,step23_error_cause_samples.csv
+fitting_good_ML_bad count,970,likely ML tau/feature limitation candidate,step23_ml_vs_fitting_cause_matrix.csv
+fitting_bad_ML_bad count,10,possible data/prefactor/physics issue candidate,step23_ml_vs_fitting_cause_matrix.csv
+missing additive info count,3200,annotation gap,step23_missing_information_summary.csv
+missing structure info count,3200,annotation gap,step23_missing_information_summary.csv
+missing sintering info count,3201,"review target only, not causal proof",step23_missing_information_summary.csv
+manual review priority sample count,500,manual review queue,step23_manual_review_priority_samples.csv
+sintering check priority sample count,300,sintering review queue,step23_sintering_check_priority_samples.csv
+high ZT error case count,660,high-ZT review set,step23_high_zt_error_cases.csv
+most common primary error hypothesis,not_evaluable,dominant candidate hypothesis,step23_error_cause_samples.csv
+largest error material system,unknown,largest ML much worse count,step23_error_by_material_system.csv

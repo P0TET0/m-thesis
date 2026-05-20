@@ -1,0 +1,23 @@
+comparison_category_step22,error_pattern_step23,primary_error_source_hypothesis_step23,sample_count,median_sigma_fitting_log_rmse,median_sigma_ML_log_rmse,median_zt_obs_fitting_mape,median_zt_obs_ML_mape,missing_additive_count,missing_structure_count,missing_sintering_count,manual_review_needed_count,interpretation_step23
+ML_better_than_fitting,both_good,material_system_out_of_distribution,24,0.29642179415812686,0.5165809673824977,0.3995654316415892,0.1812759267791757,24,24,24,24,candidate cause grouping; not causal proof
+ML_better_than_fitting,fitting_bad_ML_bad,possible_ZT_observation_or_unit_inconsistency,1,0.285486443467683,0.3735767108164412,7.893542687418531,5.989263372923681,1,1,1,1,candidate cause grouping; not causal proof
+ML_better_than_fitting,fitting_bad_ML_good,material_system_out_of_distribution,3,0.5106577122427025,0.7159792155297087,1.7138867277440628,0.8851168044826988,3,3,3,3,candidate cause grouping; not causal proof
+ML_better_than_fitting,fitting_good_ML_bad,insufficient_material_features,6,0.28694983403803886,1.3585592752581412,1.0046829164662436,0.5566820648870212,6,6,6,6,candidate cause grouping; not causal proof
+ML_better_than_fitting,fitting_good_ML_bad,tau_eff_ML_prediction_error,9,0.137215105596547,9.072557011192044,0.9999080515795438,0.5424715725502904,9,9,9,9,candidate cause grouping; not causal proof
+ML_better_than_fitting,not_evaluable,not_evaluable,22,0.35804039737139903,0.6569846840626717,0.6535956041009592,0.39104787162386756,22,22,22,22,candidate cause grouping; not causal proof
+ML_close_to_fitting,both_good,material_system_out_of_distribution,212,0.1905075322771418,0.2538412217848176,0.180076542486139,0.20177416494429767,212,212,212,212,candidate cause grouping; not causal proof
+ML_close_to_fitting,fitting_bad_ML_bad,possible_ZT_observation_or_unit_inconsistency,1,0.0571439791355826,0.0571595152853415,1.3764385274861235,1.3796074924785284,1,1,1,1,candidate cause grouping; not causal proof
+ML_close_to_fitting,fitting_good_ML_bad,insufficient_material_features,4,0.3363830814031892,1.163341652011967,0.5322155747549335,0.5136499568828139,4,4,4,4,candidate cause grouping; not causal proof
+ML_close_to_fitting,fitting_good_ML_bad,tau_eff_ML_prediction_error,5,0.2845798828921901,2.4032701006634647,0.991565883037374,0.9588136182890316,5,5,5,5,candidate cause grouping; not causal proof
+ML_close_to_fitting,not_evaluable,not_evaluable,23,0.4356289918978425,0.5074100663112632,0.5443333811159111,0.570449673503177,23,23,23,23,candidate cause grouping; not causal proof
+ML_moderately_worse,both_good,material_system_out_of_distribution,239,0.115670272886145,0.4249352960032953,0.09604057423982,0.3711633283098631,239,239,239,239,candidate cause grouping; not causal proof
+ML_moderately_worse,fitting_good_ML_bad,insufficient_material_features,31,0.3010571630762908,1.196304912756329,0.3489212645011264,0.6671742191127658,31,31,31,31,candidate cause grouping; not causal proof
+ML_moderately_worse,fitting_good_ML_bad,tau_eff_ML_prediction_error,16,0.2785779530629514,1.192753957450548,0.2505637851264157,0.6843386279387531,16,16,16,16,candidate cause grouping; not causal proof
+ML_moderately_worse,not_evaluable,not_evaluable,127,0.2305608305773361,0.7834279417917741,0.2124807297198556,0.6032569727145978,127,127,127,127,candidate cause grouping; not causal proof
+ML_much_worse,both_poor,missing_additive_or_structure_annotation,103,0.170777960137714,0.6957742418495407,0.136647039200104,0.8545358610449588,103,103,103,103,candidate cause grouping; not causal proof
+ML_much_worse,fitting_bad_ML_bad,missing_additive_or_structure_annotation,8,0.4664689979155723,1.62820130888761,1.653170392360469,13.614620005131867,8,8,8,8,candidate cause grouping; not causal proof
+ML_much_worse,fitting_good_ML_bad,insufficient_material_features,121,0.1881123652321307,1.1710379453865587,0.161300228345947,1.3638848235168968,121,121,121,121,candidate cause grouping; not causal proof
+ML_much_worse,fitting_good_ML_bad,tau_eff_ML_prediction_error,158,0.22867199793362658,1.5788476111588214,0.17940526798482564,1.336918622787451,158,158,158,158,candidate cause grouping; not causal proof
+not_evaluated,fitting_good_ML_bad,insufficient_material_features,264,0.1865473424400097,1.321602203842624,,,264,264,264,264,candidate cause grouping; not causal proof
+not_evaluated,fitting_good_ML_bad,tau_eff_ML_prediction_error,356,0.18484401038661002,1.7853546733440324,,,355,355,356,356,candidate cause grouping; not causal proof
+not_evaluated,not_evaluable,not_evaluable,1468,0.2087966638172866,0.5729091442730956,,,1468,1468,1468,1468,candidate cause grouping; not causal proof

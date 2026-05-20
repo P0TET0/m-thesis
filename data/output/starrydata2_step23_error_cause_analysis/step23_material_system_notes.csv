@@ -1,0 +1,3 @@
+material_system,sample_count,main_error_pattern,main_error_hypothesis,manual_review_need,sintering_check_need,note_for_paper_step23
+unknown,1586,ML degradation / missing annotation review,insufficient_material_features,yes,yes,This material system may have ML-worse samples; additive/structure/sintering gaps should be reviewed before interpretation.
+unknown,1615,ML degradation / missing annotation review,insufficient_material_features,yes,yes,This material system may have ML-worse samples; additive/structure/sintering gaps should be reviewed before interpretation.

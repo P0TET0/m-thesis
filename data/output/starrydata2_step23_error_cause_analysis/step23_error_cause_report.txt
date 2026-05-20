@@ -1,0 +1,55 @@
+Step23 error cause analysis report
+
+Input step22_sample_level_comparison rows: 3201
+Output step23_error_cause_samples rows: 3201
+
+error patterns:
+- fitting_good_ML_bad: 970
+- fitting_bad_ML_bad: 10
+- fitting_bad_ML_good: 3
+- both_good: 475
+- both_poor: 103
+- not_evaluable: 1640
+
+primary error hypotheses:
+- tau_eff_ML_prediction_error: 544
+- insufficient_material_features: 426
+- missing_additive_or_structure_annotation: 111
+- material_system_out_of_distribution: 478
+- n_or_p_specific_error: 0
+- possible_sintering_or_microstructure_effect: 0
+- possible_ZT_observation_or_unit_inconsistency: 2
+- direct_fitting_or_prefactor_limitation: 0
+
+missing information:
+- additive missing: 3200
+- structure missing: 3200
+- sintering missing: 3201
+- n/p paper confirmation missing: 3201
+
+review:
+- manual review priority samples: 500
+- sintering check priority samples: 300
+- high ZT error cases: 660
+
+material:
+- unknown / p: ML much worse=229, missing structure=1615, missing sintering=1615
+- unknown / n: ML much worse=161, missing structure=1585, missing sintering=1586
+
+n/p:
+- n: ML much worse=161, median sigma_ML_log_rmse=0.7071246529028821
+- p: ML much worse=229, median sigma_ML_log_rmse=0.7644596671913325
+
+sintering:
+- existing sintering_method changed rows: 0
+- existing sintering_checked changed rows: 0
+- existing record_checked changed rows: 0
+- sintering_method_final_step17 counts: {'unknown': 3201}
+
+n/p changed rows: 0
+sintering changed rows: 0
+
+Notes:
+Step23 did not make new predictions, refit tau_eff, or retrain ML models.
+Step23 organized candidate error causes but did not prove causality.
+Unknown sintering indicates missing confirmation, not a confirmed cause.

@@ -1,0 +1,6 @@
+information_type,missing_count,available_count,missing_fraction,high_error_missing_count,high_ZT_missing_count,manual_review_priority,note
+additive,3200,1,0.999687597625742,390,376,high,missing information only; not confirmed cause
+structure,3200,1,0.999687597625742,390,376,high,missing information only; not confirmed cause
+sintering,3201,0,1.0,390,376,high,missing information only; not confirmed cause
+n_or_p_paper_confirmation,3201,0,1.0,390,376,high,missing information only; not confirmed cause
+manual_paper_review,3201,0,1.0,390,376,high,missing information only; not confirmed cause
