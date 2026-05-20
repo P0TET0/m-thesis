@@ -1,0 +1,26 @@
+metric_name,metric_value,metric_note
+total_sample_results,18466.0,Rows in pf_zt_error_samples_step15.csv
+zt_eval_sample_count,6362.0,Samples with ZT pred-vs-observed MAPE
+pf_eval_sample_count,10157.0,Samples with PF MAPE
+problem_sample_count,18466.0,Samples with Step15 problem reason/category
+manual_review_candidate_count,500.0,Rows in manual_review_candidates_step15.csv
+sintering_check_candidate_count,3431.0,Rows in sintering_check_candidates_step15.csv
+best_candidate_count,300.0,Rows in best_candidate_samples_step15.csv
+median_pf_mape,0.1772812097149333,
+median_pf_log_rmse,0.2071910620515951,
+median_zt_pred_vs_obs_mape,0.1849235184904193,
+median_zt_pred_vs_obs_log_rmse,0.2114205087393448,
+median_zt_pred_vs_calc_mape,0.1693166548143881,
+median_zt_pred_vs_calc_log_rmse,0.19424247922849924,
+zt_obs_ge_1_sample_count,1777.0,Observed ZT >= 1
+zt_pred_ge_1_sample_count,1990.0,Predicted ZT >= 1
+zt_true_positive_count,1193.0,Observed and predicted ZT >= 1
+zt_false_positive_count,797.0,"Predicted ZT >= 1, observed below threshold"
+zt_false_negative_count,584.0,"Observed ZT >= 1, predicted below threshold"
+nanocarbon_sample_count,24.0,
+rare_metal_flag_sample_count,15447.0,
+toxicity_flag_sample_count,12728.0,
+n_type_sample_count,8239.0,
+p_type_sample_count,10227.0,
+mixed_sample_count,0.0,
+unknown_np_sample_count,0.0,

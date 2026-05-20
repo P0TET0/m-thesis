@@ -1,0 +1,82 @@
+Step16 PF/ZT result summary
+
+input pf_zt_error_samples_step15 sample count: 18466
+input high_zt_classification_analysis_step15 row count: 6
+input manual_review_candidates_step15 sample count: 500
+input sintering_check_candidates_step15 sample count: 3431
+input best_candidate_samples_step15 sample count: 300
+
+output step16_overall_metrics rows: 25
+output step16_zt_threshold_summary rows: 6
+output step16_ranking_correlation rows: 8
+output step16_error_level_summary rows: 26
+output step16_material_np_summary rows: 2
+output step16_next_step17_review_targets sample count: 300
+
+overall:
+- total_sample_results: 18466
+- pf_eval_sample_count: 10157
+- zt_eval_sample_count: 6362
+- problem_sample_count: 18466
+- manual_review_candidate_count: 500
+- sintering_check_candidate_count: 3431
+
+PF/ZT error:
+- median_pf_mape: 0.177281
+- median_zt_pred_vs_obs_mape: 0.184924
+- median_zt_pred_vs_calc_mape: 0.169317
+- median_zt_pred_vs_obs_log_rmse: 0.211421
+- median_zt_pred_vs_calc_log_rmse: 0.194242
+
+ZT threshold classification:
+- threshold 0.5: precision=0.911083, recall=0.82373, F1=0.865208
+- threshold 1: precision=0.647739, recall=0.779794, F1=0.707659
+- threshold 1.5: precision=0.246787, recall=0.673684, F1=0.361242
+
+Ranking correlation:
+- Spearman zt_pred_max vs zt_obs_max: 0.803437
+- Pearson zt_pred_max vs zt_obs_max: 0.0414143
+- top 50 overlap: 1 (0.02)
+- top 100 overlap: 13 (0.13)
+- top 300 overlap: 83 (0.276667)
+
+Review:
+- Step17 review target count: 300
+- step17_check_additive count: 296
+- step17_check_structure count: 296
+- step17_check_np_type count: 300
+- step17_check_sintering count: 300
+
+n/p:
+- n_or_p sample count p: 10227
+- n_or_p sample count n: 8239
+- n_or_p median ZT vs obs MAPE n: 0.166812
+- n_or_p median ZT vs obs MAPE p: 0.19456
+
+material:
+- material_system sample count unknown: 18466
+- material_system median ZT vs obs MAPE unknown / p: 0.19456
+- material_system median ZT vs obs MAPE unknown / n: 0.166812
+
+flags:
+- nanocarbon_sample_count: 24
+- rare_metal_flag_sample_count: 15447
+- toxicity_flag_sample_count: 12728
+
+sintering:
+- sintering_method=unknown rows: 18466
+- sintering_checked=no rows: 18466
+- record_checked=no rows: 18466
+
+n/p changed rows: 0
+sintering changed rows: 0
+
+sample_key duplicate check:
+- pf_zt_error_samples_step15 duplicate sample_key rows: 0
+- step16_next_step17_review_targets duplicate sample_key rows: 0
+
+Notes:
+- Step16 did not create new predictions, refit tau_eff, or recalculate PF/ZT.
+- Step16 summarized results through Step15.
+- tau_eff is a relative scale and not a physical relaxation time in seconds.
+- PF_pred/ZT_pred were calculated from sigma_pred and observed S_obs/kappa_obs; S and kappa were not predicted.

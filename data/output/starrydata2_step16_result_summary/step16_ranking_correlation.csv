@@ -1,0 +1,9 @@
+comparison_name,n_samples,pearson_corr,spearman_corr,top_k,top_k_overlap_count,top_k_overlap_rate,note
+zt_pred_max_step14 vs zt_obs_max_step14,7062,0.041414287760405684,0.8034368971646296,,,,correlation over paired non-null samples
+zt_pred_max_step14 vs zt_obs_max_step14,7062,0.041414287760405684,0.8034368971646296,50,1,0.02,"top-50 overlap; denominator uses min(top_k, n_samples)"
+zt_pred_max_step14 vs zt_obs_max_step14,7062,0.041414287760405684,0.8034368971646296,100,13,0.13,"top-100 overlap; denominator uses min(top_k, n_samples)"
+zt_pred_max_step14 vs zt_obs_max_step14,7062,0.041414287760405684,0.8034368971646296,300,83,0.27666666666666667,"top-300 overlap; denominator uses min(top_k, n_samples)"
+zt_pred_max_step14 vs zt_calc_from_obs_max_step14,7828,0.9832525148509086,0.9378287178036346,,,,correlation over paired non-null samples
+zt_pred_max_step14 vs zt_calc_from_obs_max_step14,7828,0.9832525148509086,0.9378287178036346,50,45,0.9,"top-50 overlap; denominator uses min(top_k, n_samples)"
+zt_pred_max_step14 vs zt_calc_from_obs_max_step14,7828,0.9832525148509086,0.9378287178036346,100,61,0.61,"top-100 overlap; denominator uses min(top_k, n_samples)"
+zt_pred_max_step14 vs zt_calc_from_obs_max_step14,7828,0.9832525148509086,0.9378287178036346,300,142,0.47333333333333333,"top-300 overlap; denominator uses min(top_k, n_samples)"

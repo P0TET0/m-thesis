@@ -1,0 +1,11 @@
+finding_id,finding_topic,finding_summary,supporting_metric,supporting_value,related_file,caution
+KF01,PF/ZT prediction status,tau_eff fitting after prior steps has already been used for PF/ZT estimates.,step_status,completed before Step16,step15_error_analysis_report.txt,Step16 does not create new predictions.
+KF02,ZT>=1 classification,ZT>=1 precision/recall/F1 summarize high-ZT screening performance.,precision_recall_f1,"P=0.647739, R=0.779794, F1=0.707659",step16_zt_threshold_summary.csv,False positives and false negatives remain.
+KF03,ZT error,Median ZT prediction MAPE against observed ZT.,median_zt_pred_vs_obs_mape,0.1849235184904193,step16_overall_metrics.csv,Uses Step15 sample-level metrics.
+KF04,PF error,Median PF prediction MAPE.,median_pf_mape,0.1772812097149333,step16_overall_metrics.csv,Uses Step15 sample-level metrics.
+KF05,High-ZT errors,High-ZT false positives and false negatives exist and need targeted inspection.,fp_fn_counts,"FP=797.0, FN=584.0",step16_overall_metrics.csv,Counts use the configured ZT threshold.
+KF06,Manual review,Manual review candidates are available for Step17.,manual_review_candidate_count,500.0,step16_manual_review_summary.csv,Step16 does not inspect original papers.
+KF07,Sintering check,Sintering check candidates are available for prioritized Step17 checks.,sintering_check_candidate_count,3431.0,step16_sintering_check_summary.csv,Sintering methods remain unknown in Step16.
+KF08,tau_eff caveat,tau_eff is a relative scale and not a physical relaxation time in seconds.,tau_eff_unit,relative scalar,step16_summary_notes.md,Do not interpret tau_eff as seconds.
+KF09,S/kappa caveat,S and kappa were not predicted; observed values were used.,prediction_scope,sigma_pred with observed S/kappa,step16_summary_notes.md,PF/ZT errors partly reflect the sigma prediction path.
+KF10,Step17 scope,"Step17 should inspect only high-ZT, large-error, and paper-candidate samples.",review_target_file,step16_next_step17_review_targets.csv,step16_next_step17_review_targets.csv,Targets are prioritized and capped by the script argument.
