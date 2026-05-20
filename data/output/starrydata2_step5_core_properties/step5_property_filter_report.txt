@@ -1,0 +1,91 @@
+input_rows: 139676
+property_core_curves_step5_rows: 111564
+candidate_core_curves_step5_rows: 48221
+excluded_property_curves_step5_rows: 28112
+sample_property_availability_step5_rows: 44916
+property_core_curves_step5_Electrical conductivity_curve_count: 16859
+property_core_curves_step5_Electrical conductivity_point_count: 256428
+property_core_curves_step5_Electrical resistivity_curve_count: 17451
+property_core_curves_step5_Electrical resistivity_point_count: 437430
+property_core_curves_step5_Seebeck coefficient_curve_count: 34601
+property_core_curves_step5_Seebeck coefficient_point_count: 684250
+property_core_curves_step5_Thermal conductivity_curve_count: 22302
+property_core_curves_step5_Thermal conductivity_point_count: 342397
+property_core_curves_step5_ZT_curve_count: 20351
+property_core_curves_step5_ZT_point_count: 282979
+candidate_core_curves_step5_Electrical conductivity_curve_count: 13844
+candidate_core_curves_step5_Electrical conductivity_point_count: 199388
+candidate_core_curves_step5_Electrical resistivity_curve_count: 57
+candidate_core_curves_step5_Electrical resistivity_point_count: 1792
+candidate_core_curves_step5_Seebeck coefficient_curve_count: 13877
+candidate_core_curves_step5_Seebeck coefficient_point_count: 195586
+candidate_core_curves_step5_Thermal conductivity_curve_count: 10331
+candidate_core_curves_step5_Thermal conductivity_point_count: 124982
+candidate_core_curves_step5_ZT_curve_count: 10112
+candidate_core_curves_step5_ZT_point_count: 125258
+excluded_top50: property_family=power_factor | property=Power factor | prop_y_canonical=Power factor | prop_y_raw=Power factor | property_filter_reason=excluded non-target property | curve_count=16586
+excluded_top50: property_family=thermal_conductivity | property=Thermal conductivity | prop_y_canonical=Thermal conductivity | prop_y_raw=Lattice thermal conductivity | property_filter_reason=excluded partial thermal conductivity | curve_count=6309
+excluded_top50: property_family=carrier_concentration | property=Carrier concentration | prop_y_canonical=Carrier concentration | prop_y_raw=Carrier concentration | property_filter_reason=excluded non-target property | curve_count=1841
+excluded_top50: property_family=carrier_mobility | property=Carrier mobility | prop_y_canonical=Carrier mobility | prop_y_raw=Carrier mobility | property_filter_reason=excluded non-target property | curve_count=1167
+excluded_top50: property_family=thermal_conductivity | property=Thermal conductivity | prop_y_canonical=Thermal conductivity | prop_y_raw=Electronic thermal conductivity | property_filter_reason=excluded partial thermal conductivity | curve_count=639
+excluded_top50: property_family=hall_coefficient | property=Hall coefficient | prop_y_canonical=Hall coefficient | prop_y_raw=Hall coefficient | property_filter_reason=excluded non-target property | curve_count=500
+excluded_top50: property_family=hall_mobility | property=Hall mobility | prop_y_canonical=Hall mobility | prop_y_raw=Hall mobility | property_filter_reason=excluded non-target property | curve_count=389
+excluded_top50: property_family=thermal_conductivity | property=Thermal conductivity | prop_y_canonical=Thermal conductivity | prop_y_raw=electron thermal conductivity | property_filter_reason=excluded partial thermal conductivity | curve_count=102
+excluded_top50: property_family=thermal_conductivity | property=Thermal conductivity | prop_y_canonical=Thermal conductivity | prop_y_raw=Carrier thermal conductivity | property_filter_reason=excluded partial thermal conductivity | curve_count=99
+excluded_top50: property_family=other | property=Thermal diffusivity | prop_y_canonical=Thermal diffusivity | prop_y_raw=Thermal diffusivity | property_filter_reason=excluded non-target property | curve_count=55
+excluded_top50: property_family=electrical_conductivity | property=Electrical conductivity | prop_y_canonical=Electrical conductivity | prop_y_raw=Calculated Electrical Conductivity/ Relaxation time | property_filter_reason=excluded non-target property | curve_count=38
+excluded_top50: property_family=other | property=Magnetic susceptibility_per_weight | prop_y_canonical=Magnetic susceptibility_per_weight | prop_y_raw=Magnetic susceptibility_per_weight | property_filter_reason=excluded non-target property | curve_count=34
+excluded_top50: property_family=thermal_conductivity | property=Thermal conductivity | prop_y_canonical=Thermal conductivity | prop_y_raw=Calculated Thermal Conductivity/ Relaxation time | property_filter_reason=excluded non-target property | curve_count=33
+excluded_top50: property_family=power_factor | property=Power factor | prop_y_canonical=Power factor | prop_y_raw=Calculated PF | property_filter_reason=excluded non-target property | curve_count=29
+excluded_top50: property_family=other | property=Electronic contribution | prop_y_canonical=Electronic contribution | prop_y_raw=Electronic contribution | property_filter_reason=excluded non-target property | curve_count=27
+excluded_top50: property_family=other | property=Voltage | prop_y_canonical=Voltage | prop_y_raw=Voltage | property_filter_reason=excluded non-target property | curve_count=25
+excluded_top50: property_family=other | property=phonon thermal conductance | prop_y_canonical=phonon thermal conductance | prop_y_raw=phonon thermal conductance | property_filter_reason=excluded non-target property | curve_count=25
+excluded_top50: property_family=other | property=RH | prop_y_canonical=RH | prop_y_raw=RH | property_filter_reason=excluded non-target property | curve_count=20
+excluded_top50: property_family=thermal_conductivity | property=Thermal conductivity | prop_y_canonical=Thermal conductivity | prop_y_raw=Lattice contribution | property_filter_reason=excluded partial thermal conductivity | curve_count=19
+excluded_top50: property_family=other | property=Mobility | prop_y_canonical=Mobility | prop_y_raw=Mobility | property_filter_reason=excluded non-target property | curve_count=15
+excluded_top50: property_family=other | property=hall density | prop_y_canonical=hall density | prop_y_raw=hall density | property_filter_reason=excluded non-target property | curve_count=15
+excluded_top50: property_family=thermal_conductivity | property=Thermal conductivity | prop_y_canonical=Thermal conductivity | prop_y_raw=Lattice+bipolar thermal conductivity | property_filter_reason=excluded partial thermal conductivity | curve_count=12
+excluded_top50: property_family=other | property=Hall concentration | prop_y_canonical=Hall concentration | prop_y_raw=Hall concentration | property_filter_reason=excluded non-target property | curve_count=10
+excluded_top50: property_family=other | property=Electro Motive Force | prop_y_canonical=Electro Motive Force | prop_y_raw=Electro Motive Force | property_filter_reason=excluded non-target property | curve_count=9
+excluded_top50: property_family=other | property=Max Efficiency | prop_y_canonical=Max Efficiency | prop_y_raw=Max Efficiency | property_filter_reason=excluded non-target property | curve_count=9
+excluded_top50: property_family=other | property=Specific heat | prop_y_canonical=Specific heat | prop_y_raw=Specific heat | property_filter_reason=excluded non-target property | curve_count=9
+excluded_top50: property_family=other | property=Thermoelectric voltage | prop_y_canonical=Thermoelectric voltage | prop_y_raw=Thermoelectric voltage | property_filter_reason=excluded non-target property | curve_count=9
+excluded_top50: property_family=other | property=magnetic susceptibility | prop_y_canonical=magnetic susceptibility | prop_y_raw=magnetic susceptibility | property_filter_reason=excluded non-target property | curve_count=8
+excluded_top50: property_family=other | property=Coercivity Field | prop_y_canonical=Coercivity Field | prop_y_raw=Coercivity Field | property_filter_reason=excluded non-target property | curve_count=7
+excluded_top50: property_family=other | property=S/L0T | prop_y_canonical=S/L0T | prop_y_raw=S/L0T | property_filter_reason=excluded non-target property | curve_count=7
+excluded_top50: property_family=other | property=Specific heat capacity (J/gK) | prop_y_canonical=Specific heat capacity (J/gK) | prop_y_raw=Specific heat capacity (J/gK) | property_filter_reason=excluded non-target property | curve_count=6
+excluded_top50: property_family=other | property=phonon contribution | prop_y_canonical=phonon contribution | prop_y_raw=phonon contribution | property_filter_reason=excluded non-target property | curve_count=6
+excluded_top50: property_family=other | property=Lorenz values | prop_y_canonical=Lorenz values | prop_y_raw=Lorenz values | property_filter_reason=excluded non-target property | curve_count=5
+excluded_top50: property_family=other | property=Nernst coefficient | prop_y_canonical=Nernst coefficient | prop_y_raw=Nernst coefficient | property_filter_reason=excluded non-target property | curve_count=5
+excluded_top50: property_family=carrier_concentration | property=Carrier concentration | prop_y_canonical=Carrier concentration | prop_y_raw=majority carrier concentration | property_filter_reason=excluded non-target property | curve_count=4
+excluded_top50: property_family=carrier_concentration | property=Carrier concentration | prop_y_canonical=Carrier concentration | prop_y_raw=minority carrier concentration | property_filter_reason=excluded non-target property | curve_count=4
+excluded_top50: property_family=other | property=Lorenz number | prop_y_canonical=Lorenz number | prop_y_raw=Lorenz number | property_filter_reason=excluded non-target property | curve_count=4
+excluded_top50: property_family=other | property=Open circuit voltage | prop_y_canonical=Open circuit voltage | prop_y_raw=Open circuit voltage | property_filter_reason=excluded non-target property | curve_count=4
+excluded_top50: property_family=other | property=TEP | prop_y_canonical=TEP | prop_y_raw=TEP | property_filter_reason=excluded non-target property | curve_count=4
+excluded_top50: property_family=other | property=T^(-1) | prop_y_canonical=T^(-1) | prop_y_raw=T^(-1) | property_filter_reason=excluded non-target property | curve_count=4
+excluded_top50: property_family=other | property=inverse magnetic susceptibility_mol | prop_y_canonical=inverse magnetic susceptibility_mol | prop_y_raw=inverse magnetic susceptibility_mol | property_filter_reason=excluded non-target property | curve_count=4
+excluded_top50: property_family=other | property=Phonon transmission function | prop_y_canonical=Phonon transmission function | prop_y_raw=Phonon transmission function | property_filter_reason=excluded non-target property | curve_count=3
+excluded_top50: property_family=other | property=Linewidth | prop_y_canonical=Linewidth | prop_y_raw=Linewidth | property_filter_reason=excluded non-target property | curve_count=2
+excluded_top50: property_family=other | property=Thermal expansion | prop_y_canonical=Thermal expansion | prop_y_raw=Thermal expansion | property_filter_reason=excluded non-target property | curve_count=2
+excluded_top50: property_family=other | property=Thermo gravimetry | prop_y_canonical=Thermo gravimetry | prop_y_raw=Thermo gravimetry | property_filter_reason=excluded non-target property | curve_count=2
+excluded_top50: property_family=other | property=Inverse magnetic susceptibility | prop_y_canonical=Inverse magnetic susceptibility | prop_y_raw=Inverse magnetic susceptibility | property_filter_reason=excluded non-target property | curve_count=1
+excluded_top50: property_family=other | property=Luminescence lifetime | prop_y_canonical=Luminescence lifetime | prop_y_raw=Luminescence lifetime | property_filter_reason=excluded non-target property | curve_count=1
+excluded_top50: property_family=other | property=Normalised PL Integrated Intensity | prop_y_canonical=Normalised PL Integrated Intensity | prop_y_raw=Normalised PL Integrated Intensity | property_filter_reason=excluded non-target property | curve_count=1
+excluded_top50: property_family=other | property=Specific heat capacity | prop_y_canonical=Specific heat capacity | prop_y_raw=Specific heat capacity | property_filter_reason=excluded non-target property | curve_count=1
+excluded_top50: property_family=other | property=conductance | prop_y_canonical=conductance | prop_y_raw=conductance | property_filter_reason=excluded non-target property | curve_count=1
+has_sigma_or_rho_sample_count: 33404
+has_seebeck_sample_count: 33559
+has_kappa_or_zt_sample_count: 24617
+is_learning_candidate_step5_sample_count: 18790
+n_type_candidate_sample_count: 8043
+p_type_candidate_sample_count: 9997
+mixed_type_candidate_sample_count: 739
+unknown_type_candidate_sample_count: 11
+x_values_json_missing_curve_count: 0
+y_values_json_missing_curve_count: 0
+xy_length_ok_curve_count: 111564
+xy_length_mismatch_curve_count: 0
+xy_parse_failed_curve_count: 0
+zt_unit_abnormal_curve_count: 513
+zt_unit_abnormal_sample_count: 498
+excel_note: candidate_source: C:\Users\miots\m-thesis\m-thesis\data\output\starrydata2_step4_merged\candidate_property_curves.csv
