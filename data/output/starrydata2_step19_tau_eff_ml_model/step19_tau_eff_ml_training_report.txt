@@ -1,0 +1,103 @@
+Step19 tau_eff ML report
+
+Input recommended ML dataset rows: 15623
+Input feature matrix rows: 18467
+Input target rows: 18467
+Input splits rows: 18467
+
+Training samples: 15623
+Feature count: 49
+Removed feature count: 6
+Target missing sample count: 0
+
+Executed models: baseline_mean, ridge_regression, random_forest, extra_trees, gradient_boosting
+Selected model: extra_trees
+Selection split: split_random_70_15_15_step18
+Selection metric: valid log_tau_rmse
+Selection validation log RMSE: 1.4881994795590066
+
+Primary evaluation:
+- primary split: split_doi_group_80_20_step18
+- DOI leakage count: 0
+- primary test sample count: 3201
+- primary test log_tau MAE: 1.0683280414737977
+- primary test log_tau RMSE: 1.8249169464849557
+- primary test log_tau R2: -0.18786114503275475
+- primary test log_tau Pearson: 0.30748755675102546
+- primary test log_tau Spearman: 0.47853049968934913
+- primary test tau_eff MAPE: 6055.235536742202
+- primary test within factor 2 rate: 0.5292096219931272
+- primary test within factor 3 rate: 0.704154951577632
+
+Model comparison summary:
+- gradient_boosting: primary test RMSE=1.5762512881125252, Spearman=0.46812443512009794
+- ridge_regression: primary test RMSE=1.6163340962121064, Spearman=0.3652800034755344
+- random_forest: primary test RMSE=1.6536068801622943, Spearman=0.49575088951759066
+- baseline_mean: primary test RMSE=1.6810063034922693, Spearman=nan
+- extra_trees: primary test RMSE=1.8249169464849557, Spearman=0.47853049968934913
+
+Random split test RMSE:
+- random_forest: 1.419386543405373
+- extra_trees: 1.4469861034668903
+- gradient_boosting: 1.5634657414307271
+- ridge_regression: 1.6549762122300005
+- baseline_mean: 1.7546426248958182
+
+Feature importance top 20:
+- element_count_step18: 0.11386520759637274
+- rare_metal_flag_auto_step9: 0.06556806222908133
+- contains_O_step18: 0.06414682830785842
+- contains_Ag_step18: 0.03926072606140494
+- has_chalcogen_step18: 0.03659673037603354
+- contains_C_step18: 0.0365444823735495
+- fitting_source_actual_step10__electrical_resistivity: 0.03377775353445482
+- has_alkali_or_alkaline_step18: 0.03354135837280638
+- fitting_source_actual_step10__electrical_conductivity: 0.03189042871076022
+- contains_Bi_step18: 0.03056001703344168
+- contains_Si_step18: 0.028979873165041456
+- contains_Pb_step18: 0.02885684935386139
+- contains_Co_step18: 0.0279784613787827
+- contains_Fe_step18: 0.02730952847716445
+- has_transition_metal_step18: 0.026975427882778125
+- toxicity_flag_auto_step9: 0.02611700433753972
+- has_rare_metal_attention_element_step18: 0.025206626729400904
+- has_pnictogen_step18: 0.024351263915412934
+- contains_Cu_step18: 0.023412921508472396
+- contains_Sn_step18: 0.02314692478671868
+
+Group performance:
+- material_system:
+  unknown: n=3201, RMSE=1.8249169464849557
+- n_or_p:
+  n: n=1586, RMSE=1.623931522535351
+  p: n=1615, RMSE=2.002758884341015
+- nanocarbon_keyword_detected_step9:
+  False: n=3201, RMSE=1.8249169464849557
+
+Problem samples:
+- large underprediction count: 543
+- large overprediction count: 404
+- needs_manual_review_for_ml_step19 count: 1413
+
+Leakage check:
+- suspicious feature count: 0
+- removed leakage feature count: 0
+
+Split diagnostics:
+- split_random_80_20_step18: train=12522, valid=0, test=3101, DOI leakage=1885
+- split_random_70_15_15_step18: train=10950, valid=2346, test=2327, DOI leakage=1562
+- split_doi_group_80_20_step18: train=12422, valid=0, test=3201, DOI leakage=0
+
+Output row counts:
+- model_comparison: 35
+- predictions: 234345
+- best_model_predictions: 46869
+- final_all_samples_predictions: 18467
+- feature_importance: 98
+- problem_samples: 1413
+
+Notes:
+Step19 trained machine learning models to predict log_tau_eff.
+Step19 did not recalculate sigma, PF, or ZT.
+tau_eff is relative scale and not physical seconds.
+Step20 will use predicted tau_eff to compute sigma_pred_ML, PF_pred_ML, and ZT_pred_ML.

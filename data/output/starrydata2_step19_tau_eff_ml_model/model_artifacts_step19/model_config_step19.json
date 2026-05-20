@@ -1,0 +1,7 @@
+{
+  "selected_model": "extra_trees",
+  "primary_split": "split_doi_group_80_20_step18",
+  "selection_split": "split_random_70_15_15_step18",
+  "random_state": 42,
+  "joblib_available": true
+}

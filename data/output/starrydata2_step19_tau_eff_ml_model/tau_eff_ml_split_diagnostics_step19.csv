@@ -1,0 +1,4 @@
+split_name,train_sample_count,valid_sample_count,test_sample_count,train_doi_count,test_doi_count,doi_overlap_count,doi_leakage_flag,missing_doi_count,note
+split_random_80_20_step18,12522,0,3101,3493,1987,1885,True,0,DOI appears in both train and test
+split_random_70_15_15_step18,10950,2346,2327,3408,1665,1562,True,0,DOI appears in both train and test
+split_doi_group_80_20_step18,12422,0,3201,2859,736,0,False,0,ok

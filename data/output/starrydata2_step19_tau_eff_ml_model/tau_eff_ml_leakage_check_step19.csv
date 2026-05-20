@@ -1,0 +1,3 @@
+checked_item,status,removed_columns,removed_count,note
+sample_key_duplicates,ok,[],0,feature_matrix duplicate sample_key rows=0
+leakage_columns,ok,[],0,target/evaluation-derived columns removed from model inputs
