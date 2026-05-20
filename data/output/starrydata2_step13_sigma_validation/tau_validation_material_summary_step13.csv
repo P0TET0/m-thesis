@@ -1,0 +1,7 @@
+material_system,n_or_p,validation_method_step13,sample_count,validation_ok_sample_count,excellent_sample_count,good_sample_count,moderate_sample_count,poor_sample_count,median_validation_sigma_log_rmse_step13,median_validation_sigma_mape_step13,median_validation_within_25pct_rate_step13,median_tau_eff_train_step13,median_temperature_span_step13,nanocarbon_sample_count,rare_metal_flag_sample_count,toxicity_flag_sample_count
+unknown,n,high_temperature_holdout,8239,7736,2128,2005,1775,1828,0.3623134519654142,0.3304960860935644,0.25,0.9838978391622986,472.499,17,6643,4932
+unknown,n,interleaved_holdout,8239,7736,2811,2018,1789,1118,0.29189194510430194,0.2459065477851389,0.5,0.9851854962943913,472.499,17,6643,4932
+unknown,n,low_temperature_holdout,8239,7736,2759,1681,1460,1836,0.3079754885077493,0.28427958188632324,0.42857142857142855,0.976488209434133,472.499,17,6643,4932
+unknown,p,high_temperature_holdout,10227,9341,2290,2391,2209,2451,0.3987742295693969,0.3721699644859997,0.0,1.0878111119519176,447.231,7,8804,7796
+unknown,p,interleaved_holdout,10227,9341,2620,2921,2180,1620,0.3269406645129084,0.2854951667809395,0.5,1.0783559160079086,447.231,7,8804,7796
+unknown,p,low_temperature_holdout,10227,9341,2460,2460,2051,2370,0.3732436455337924,0.3368566914942276,0.2,1.0475470984644486,447.231,7,8804,7796
