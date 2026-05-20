@@ -1,0 +1,92 @@
+Step18 tau_eff ML dataset report
+
+Input tau_fit_results_step12 rows: 18467
+Input tau_validation_primary_results_step13 rows: 18466
+Input pf_zt_error_samples_step15 rows: 18466
+Input step17_annotated_samples rows: 300
+
+tau_eff_ml_dataset_step18 rows: 18467
+tau_eff_ml_dataset_recommended_step18 rows: 15623
+tau_eff_ml_feature_matrix_step18 rows: 18467
+tau_eff_ml_target_step18 rows: 18467
+tau_eff_ml_excluded_samples_step18 rows: 2844
+
+target:
+- target_log_tau_eff_step18: count=18466, mean=-0.5031758249484924, median=0.0327811023956373, std=2.4548436181048703, min=-28.875285285102347, p25=-1.282604383967991, p75=0.8214205164584256, max=35.53683190757302
+- target_tau_eff_step18: count=18466, mean=209783961805.14563, median=1.0333243474843785, std=21555973949362.305, min=2.8815286189859186e-13, p25=0.27731412866072847, p75=2.273727417401511, max=2713001299488073.0
+
+target_quality_step18 counts:
+  medium: 13127
+  low: 5339
+  exclude: 1
+use_for_tau_eff_ml_step18=True count: 15623
+
+ml_exclusion_reason_step18 counts:
+  ok: 15623
+  large validation error: 1465
+  large sigma fit error: 1378
+  missing target: 1
+
+material_system recommended counts top 20:
+  unknown: 15623
+
+n_or_p_final_step17 recommended counts:
+  p: 8528
+  n: 7095
+nanocarbon_keyword_detected_step9 recommended counts:
+  False: 15599
+  True: 24
+rare_metal_flag_auto_step9 recommended counts:
+  True: 13385
+  False: 2238
+toxicity_flag_auto_step9 recommended counts:
+  True: 11157
+  False: 4466
+
+manual annotation:
+- paper_checked_step17:
+  no: 18467
+- additive_source_step17:
+  unknown: 18167
+  auto_step9: 300
+- structure_source_step17:
+  unknown: 18167
+  auto_step9: 300
+- sintering_source_step17:
+  unknown: 18467
+
+splits:
+- random 80/20:
+  train: 14772
+  test: 3695
+- random 70/15/15:
+  train: 12941
+  valid: 2766
+  test: 2760
+- DOI group 80/20:
+  train: 14622
+  test: 3845
+- DOI missing rows assigned by sample_key: 0
+- DOI leakage count: 0
+
+feature matrix:
+- feature count: 55
+- one-hot feature count: 23
+- binary feature count: 31
+- numeric feature count: 1
+- leakage suspect feature count: 0
+- removed leakage columns: []
+
+sample_key duplicate checks:
+- no input sample_key duplicates detected
+- tau_eff_ml_dataset_step18.csv: duplicate sample_key rows=0
+- tau_eff_ml_dataset_recommended_step18.csv: duplicate sample_key rows=0
+- tau_eff_ml_feature_matrix_step18.csv: duplicate sample_key rows=0
+- tau_eff_ml_target_step18.csv: duplicate sample_key rows=0
+- tau_eff_ml_splits_step18.csv: duplicate sample_key rows=0
+
+Notes:
+Step18 does not train a machine learning model.
+Step18 prepares labels, features, metadata, and split information for tau_eff prediction.
+The target variable is target_log_tau_eff_step18 based on log_tau_eff_step12.
+tau_eff is a relative scale, not a physical relaxation time in seconds.
