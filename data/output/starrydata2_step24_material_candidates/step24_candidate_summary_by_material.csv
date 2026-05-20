@@ -1,0 +1,5 @@
+﻿material_system,n_or_p,sample_count,candidate_A_count,candidate_B_count,high_zt_count,low_kappa_high_sigma_count,low_rare_metal_attention_count,low_toxicity_attention_count,nanocarbon_count,manual_review_needed_count,sintering_check_needed_count,median_candidate_score,max_zt_obs,max_zt_pred_ML,min_kappa_obs,max_sigma_obs,interpretation_step24
+,p,8613,916,357,956,2538,1231,2109,0,175,175,-5.0,3.839,3403929.526730024,0.0051912,7.205758265545163e+18,contains high-priority Step24 candidates
+,n,6653,360,299,445,1453,1314,2652,8,76,76,5.0,2.156489,456842.61898029206,3.407e-06,1.916618e+20,contains high-priority Step24 candidates
+unknown,p,1615,234,99,234,520,192,322,0,1615,200,-10.0,2.298333,29.630131572037207,0.1414579,126728160.23914108,contains high-priority Step24 candidates
+unknown,n,1586,104,116,142,333,282,655,0,1586,129,0.0,1.745313,19.436992925619663,0.1170704,160610938.31158715,contains high-priority Step24 candidates

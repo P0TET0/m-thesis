@@ -1,0 +1,100 @@
+Step24 Material Candidate Selection Report
+
+input downstream sample results rows: 18467
+input downstream row predictions rows: 326264
+input error cause samples rows: 3201
+output candidate_pool rows: 18467
+
+candidate counts:
+- high_zt_candidates: 3505
+- low_kappa_high_sigma_candidates: 4844
+- low_rare_metal_candidates: 3019
+- low_toxicity_candidates: 5738
+- nanocarbon_candidates: 8
+- balanced_recommended_candidates: 300
+- manual_review_needed_candidates: 300
+- sintering_check_needed_candidates: 300
+
+thresholds:
+- zt_threshold: 1.0
+- kappa_threshold: 2.0
+- sigma_threshold: 10000.0
+
+candidate tier:
+- A: 1614
+- B: 871
+- C: 2601
+- review: 4550
+- low: 8831
+
+top material systems by candidate A/B count:
+- <NA> / p: 1273
+- <NA> / n: 659
+- unknown / p: 333
+- unknown / n: 220
+
+top material systems by high ZT count:
+- <NA> / p: 956
+- <NA> / n: 445
+- unknown / p: 234
+- unknown / n: 142
+
+top material systems by low kappa high sigma count:
+- <NA> / p: 2538
+- <NA> / n: 1453
+- unknown / p: 520
+- unknown / n: 333
+
+flags:
+- rare_metal_flag_step24=True: 15448
+- toxicity_attention_flag_step24=True: 12729
+- nanocarbon_candidate=True: 8
+
+n/p:
+- n candidate A/B count: 879
+- p candidate A/B count: 1606
+- n high ZT count: 587
+- p high ZT count: 1190
+
+missing information:
+- additive unknown: 18466
+- structure unknown: 18466
+- sintering unknown: 18467
+
+n/p changed rows: 0
+sintering changed rows: 0
+
+duplicate sample_key checks:
+- pf_zt_ml_downstream_sample_results_step21.csv: rows=18467, duplicate sample_key rows=0; first row kept
+- row_agg_step24: rows=18467, duplicate sample_key rows=0; first row kept for duplicate keys
+- step23: rows=3201, duplicate sample_key rows=0; first row kept for duplicate keys
+- step22: rows=3201, duplicate sample_key rows=0; first row kept for duplicate keys
+- step17: rows=300, duplicate sample_key rows=0; first row kept for duplicate keys
+- manual_priority: rows=500, duplicate sample_key rows=0; first row kept for duplicate keys
+- sintering_priority: rows=300, duplicate sample_key rows=0; first row kept for duplicate keys
+- high_zt_error: rows=660, duplicate sample_key rows=0; first row kept for duplicate keys
+- primary_step21: rows=3201, duplicate sample_key rows=0; first row kept for duplicate keys
+- step24_candidate_pool.csv duplicate sample_key rows: 0
+- step24_balanced_recommended_candidates.csv duplicate sample_key rows: 0
+- step24_high_zt_candidates.csv duplicate sample_key rows: 0
+
+flag counts:
+- is_high_zt_observed_step24=True: 1777
+- is_high_zt_ml_predicted_step24=True: 2281
+- is_low_kappa_step24=True: 5332
+- is_high_sigma_obs_step24=True: 15107
+- is_low_kappa_high_sigma_step24=True: 4844
+- is_low_rare_metal_attention_step24=True: 3019
+- is_low_toxicity_attention_step24=True: 5738
+- is_nanocarbon_candidate_step24=True: 8
+- rare_metal_flag_step24=True: 15448
+- toxicity_attention_flag_step24=True: 12729
+
+Notes:
+Step24では新しい予測、tau_eff再fitting、ML再学習、PF/ZT再計算は行っていない。
+Step24では既存の予測・観測値を使って候補抽出を行った。
+low rare metal attention はレアメタルなし確定ではなく、注意元素が検出されないという意味である。
+low toxicity attention は弱毒性確定ではなく、毒性注意元素が検出されないという意味である。
+composition由来の元素判定は注意フラグであり、化学的・法的な安全性判定ではない。
+添加物・構造・焼結方法がunknownの場合は、情報不足として扱った。
+downstream ML predictions are for screening, not unbiased evaluation.

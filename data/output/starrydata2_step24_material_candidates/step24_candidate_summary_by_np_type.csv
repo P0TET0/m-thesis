@@ -1,0 +1,3 @@
+﻿n_or_p,sample_count,candidate_A_count,candidate_B_count,high_zt_count,low_kappa_high_sigma_count,low_rare_metal_attention_count,low_toxicity_attention_count,nanocarbon_count,manual_review_needed_count,sintering_check_needed_count,median_candidate_score
+n,8239,464,415,587,1786,1596,3307,8,1662,205,5.0
+p,10228,1150,456,1190,3058,1423,2431,0,1790,375,-5.0
