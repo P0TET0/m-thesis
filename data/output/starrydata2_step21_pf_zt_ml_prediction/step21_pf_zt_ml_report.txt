@@ -1,0 +1,51 @@
+Step21 PF/ZT ML report
+
+Input sigma_ml_primary_test_predictions_step20 rows: 276360
+Input sigma_ml_downstream_ready_step20 rows: 326264
+
+recommended model: gradient_boosting
+primary split: split_doi_group_80_20_step18
+primary test rows: 55272
+downstream rows: 326264
+
+primary PF/ZT:
+- PF calculable rows: 15177
+- ZT calculable rows: 9121
+- PF MAPE: 113.72315291447252
+- PF log RMSE: 1.4717793161237362
+- ZT vs obs MAPE: 6.629457189359563
+- ZT vs obs log RMSE: 1.2851849552778736
+- ZT vs calc MAPE: 50.35304890059137
+- ZT vs calc log RMSE: 1.2636065482902707
+
+primary ZT>=1:
+- precision: 0.5
+- recall: 0.5
+- F1: 0.5
+- accuracy: 0.8825367072789754
+- false positive: 188
+- false negative: 188
+
+downstream PF/ZT:
+- PF calculable rows: 90846
+- ZT calculable rows: 49539
+- ZT_pred_ML>=1 sample count: 2285
+- ZT_obs>=1 sample count: 1777
+
+ML vs fitting:
+- PF MAPE: fitting=0.2069587868984576, ML=113.72315291447252
+- ZT vs obs MAPE: fitting=0.5675208665853211, ML=6.629457189359563
+- ZT>=1 F1: fitting=0.695214105793451, ML=0.5
+
+problem samples:
+- pf_zt_ml_problem_samples_step21 count: 627
+- pf_zt_ml_candidate_samples_step21 count: 3240
+
+n/p changed rows: 0
+sintering changed rows: 0
+
+Notes:
+Step21 did not refit tau_eff or retrain ML models.
+Step21 calculated PF_pred_ML and ZT_pred_ML from sigma_pred_ML.
+Seebeck coefficient S and thermal conductivity kappa were not predicted; observed values were used.
+Downstream all-samples predictions are for candidate screening and not unbiased evaluation.
