@@ -1,0 +1,68 @@
+Step20 sigma ML report
+
+Input tau_eff_ml_predictions_step19 rows: 234345
+Input sigma_predictions_step12 rows: 326264
+
+sigma_ml_predictions_step20 rows: 4056915
+sigma_ml_primary_test_predictions_step20 rows: 276360
+sigma_ml_all_samples_predictions_step20 rows: 326264
+sigma_ml_downstream_ready_step20 rows: 326264
+
+Step19 selected model: extra_trees
+Primary DOI split best model: gradient_boosting
+Recommended sigma evaluation model: gradient_boosting
+Selected model worse than baseline on DOI split: yes
+
+Primary DOI test sigma performance:
+- gradient_boosting: log_RMSE=1.7139015148998702, MAPE=546.6161538269516, R2_log=0.09785512641149052, within_factor_2=0.45417209436966277
+- ridge_regression: log_RMSE=1.7534392050662033, MAPE=463.0801815422948, R2_log=0.055752191179752386, within_factor_2=0.4286076132580692
+- baseline_mean: log_RMSE=1.806701734096105, MAPE=475.11922494307765, R2_log=-0.002484076746471997, within_factor_2=0.3877008250108554
+- random_forest: log_RMSE=1.8068732736455027, MAPE=1910.0114949631302, R2_log=-0.0026744499855133608, within_factor_2=0.499764799536836
+- extra_trees: log_RMSE=2.014124880880584, MAPE=2301.51193280043, R2_log=-0.24588325586627047, within_factor_2=0.5031661600810537
+
+Baseline comparison:
+- baseline sigma log RMSE: 1.806701734096105
+- recommended model sigma log RMSE: 1.7139015148998702
+- improvement over baseline: 0.09280021919623471
+
+Fitting version comparison:
+- Step12 fitting sigma log RMSE: 0.29309257787091264
+- Step20 ML sigma log RMSE: 1.7139015148998702
+- ML vs fitting gap: 1.4208089370289576
+
+Material summary:
+- unknown / n / random_forest: median MAPE=0.5517518720625784, poor=693
+- unknown / p / random_forest: median MAPE=0.5587912383902273, poor=756
+- unknown / p / extra_trees: median MAPE=0.5678063629129344, poor=769
+- unknown / n / gradient_boosting: median MAPE=0.5750318751565746, poor=735
+- unknown / n / extra_trees: median MAPE=0.5843211558938697, poor=706
+- unknown / p / gradient_boosting: median MAPE=0.5911139774131026, poor=803
+- unknown / n / ridge_regression: median MAPE=0.6194970880038619, poor=797
+- unknown / n / baseline_mean: median MAPE=0.637410035555886, poor=857
+- unknown / p / ridge_regression: median MAPE=0.6441872029391216, poor=873
+- unknown / p / baseline_mean: median MAPE=0.6769670498965928, poor=971
+
+n/p summary:
+- n / baseline_mean: samples=1586, median MAPE=0.637410035555886
+- n / extra_trees: samples=1586, median MAPE=0.5843211558938697
+- n / gradient_boosting: samples=1586, median MAPE=0.5750318751565746
+- n / random_forest: samples=1586, median MAPE=0.5517518720625784
+- n / ridge_regression: samples=1586, median MAPE=0.6194970880038619
+- p / baseline_mean: samples=1615, median MAPE=0.6769670498965928
+- p / extra_trees: samples=1615, median MAPE=0.5678063629129344
+- p / gradient_boosting: samples=1615, median MAPE=0.5911139774131026
+- p / random_forest: samples=1615, median MAPE=0.5587912383902273
+- p / ridge_regression: samples=1615, median MAPE=0.6441872029391216
+
+problem samples:
+- sigma_ml_problem_samples_step20 count: 7960
+- needs_review_for_ML_sigma_step20 count: 7960
+
+n/p changed rows: 0
+sintering changed rows: 0
+
+Notes:
+Step20 did not calculate PF or ZT.
+Step20 calculated only sigma_pred_ML from Step19 tau_eff_pred.
+Final all-samples predictions are for downstream screening and not unbiased evaluation.
+tau_eff is relative scale, not physical seconds.
