@@ -1,0 +1,71 @@
+input_candidate_core_curves_step9_rows: 48221
+input_sigma_rho_curves_for_fitting_step9_rows: 33662
+input_learning_candidates_step9_rows: 18774
+input_initial_tau_fit_candidates_step9_rows: 18482
+input_review_needed_candidates_step9_rows: 14277
+property_points_long_step10_rows: 647006
+property_points_aggregated_step10_rows: 646621
+duplicate_property_points_step10_rows: 346
+sigma_rho_points_for_fitting_step10_rows: 690743
+training_dataset_wide_step10_rows: 685233
+initial_tau_fit_training_dataset_step10_rows: 326435
+review_training_dataset_step10_rows: 358798
+temperature_alignment_summary_step10_rows: 32759
+property_step10_Electrical conductivity_curve_count: 30296
+property_step10_Electrical conductivity_point_count: 199388
+property_step10_Electrical conductivity_valid_point_count: 199368
+property_step10_Electrical resistivity_curve_count: 17267
+property_step10_Electrical resistivity_point_count: 1792
+property_step10_Electrical resistivity_valid_point_count: 1792
+property_step10_Seebeck coefficient_curve_count: 13877
+property_step10_Seebeck coefficient_point_count: 195586
+property_step10_Seebeck coefficient_valid_point_count: 195586
+property_step10_Thermal conductivity_curve_count: 10331
+property_step10_Thermal conductivity_point_count: 124982
+property_step10_Thermal conductivity_valid_point_count: 124982
+property_step10_ZT_curve_count: 10112
+property_step10_ZT_point_count: 125258
+property_step10_ZT_valid_point_count: 125258
+unclassified_property_curve_count: 0
+x_parse_status_step10_ok_count: 81883
+y_parse_status_step10_ok_count: 81883
+xy_length_check_step10_ok_count: 81883
+temperature_unit_note_step10_ok: unit_x is K_count: 647006
+temperature_outlier_flag_step10_true_point_count: 20
+point_valid_for_step10_true_point_count: 646986
+point_valid_for_step10_false_point_count: 20
+sigma_point_count: 254744
+rho_point_count: 435999
+usable_for_tau_fit_step10_true_point_count: 688675
+selected_for_tau_fit_step10_true_point_count: 686527
+training_dataset_wide_step10_usable_for_tau_fit_true_rows: 685233
+training_dataset_wide_step10_usable_for_pf_eval_true_rows: 115988
+training_dataset_wide_step10_usable_for_zt_eval_true_rows: 66858
+initial_tau_fit_training_dataset_step10_sample_key_count: 18482
+initial_tau_fit_training_dataset_step10_rows: 326435
+review_training_dataset_step10_sample_key_count: 14277
+review_training_dataset_step10_rows: 358798
+training_sample_n_or_p_mixed_count: 556
+training_sample_n_or_p_n_count: 10968
+training_sample_n_or_p_p_count: 14021
+training_sample_n_or_p_unknown_count: 7214
+training_row_n_or_p_mixed_count: 13086
+training_row_n_or_p_n_count: 209543
+training_row_n_or_p_p_count: 264949
+training_row_n_or_p_unknown_count: 197655
+fitting_source_actual_step10_sample_Electrical conductivity_count: 16166
+fitting_source_actual_step10_sample_Electrical resistivity_count: 16593
+fitting_source_actual_step10_row_Electrical conductivity_count: 253957
+fitting_source_actual_step10_row_Electrical resistivity_count: 431276
+seebeck_matched_rows: 115988
+thermal_conductivity_matched_rows: 65032
+zt_matched_rows: 70838
+temperature_tolerance_K: 2.0
+temperature_round_decimals: 3
+sintering_method_unknown_rows: 685233
+sintering_checked_no_rows: 685233
+record_checked_no_rows: 685233
+excel_note: training_dataset_wide has 685233 rows; wrote first 100000 rows to workbook; full data is in CSV
+excel_note: initial_tau_fit_training has 326435 rows; wrote first 100000 rows to workbook; full data is in CSV
+excel_note: sigma_rho_points_for_fitting has 690743 rows; wrote first 100000 rows to workbook; full data is in CSV
+excel_note: property_points_aggregated has 646621 rows; wrote first 100000 rows to workbook; full data is in CSV
