@@ -1,0 +1,3 @@
+material_system,n_or_p,sample_count,fit_ok_sample_count,median_tau_eff_step12,mean_tau_eff_step12,median_log_tau_eff_step12,median_sigma_fit_log_rmse_step12,median_sigma_fit_mape_step12,median_sigma_holdout_log_rmse_step12,median_temperature_span_fit_step12,nanocarbon_sample_count,rare_metal_flag_sample_count,toxicity_flag_sample_count
+unknown,n,8239,8239,0.966277998299986,463250701910.95496,-0.034303703251940314,0.2252095509387828,0.1867869511001595,0.3600453498154036,472.499,17,6643,4932
+unknown,p,10228,10227,1.1040659986706003,5587963786.981539,0.09899972747259582,0.2484794467969522,0.21129662275661282,0.39854275197267786,447.2305,7,8805,7797
