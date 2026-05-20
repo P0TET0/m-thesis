@@ -1,0 +1,97 @@
+input_thermoelectric_predictions_step14_rows: 326260
+input_pf_zt_sample_results_step14_sample_count: 18466
+input_validation_sample_results_step14_sample_count: 17077
+pf_zt_error_rows_step15_rows: 326260
+pf_zt_error_samples_step15_sample_count: 18466
+pf_zt_validation_error_samples_step15_sample_count: 17077
+pf_zt_error_by_material_step15_rows: 2
+manual_review_candidates_step15_sample_count: 500
+sintering_check_candidates_step15_sample_count: 3431
+pf_error_level_sample_step15_excellent_count: 5552
+pf_error_level_sample_step15_good_count: 2925
+pf_error_level_sample_step15_moderate_count: 988
+pf_error_level_sample_step15_not_available_count: 8309
+pf_error_level_sample_step15_poor_count: 692
+zt_obs_error_level_sample_step15_excellent_count: 3353
+zt_obs_error_level_sample_step15_good_count: 1753
+zt_obs_error_level_sample_step15_moderate_count: 800
+zt_obs_error_level_sample_step15_not_available_count: 12104
+zt_obs_error_level_sample_step15_poor_count: 456
+zt_calc_error_level_sample_step15_excellent_count: 4415
+zt_calc_error_level_sample_step15_good_count: 2140
+zt_calc_error_level_sample_step15_moderate_count: 783
+zt_calc_error_level_sample_step15_not_available_count: 10638
+zt_calc_error_level_sample_step15_poor_count: 490
+zt_error_analysis_category_step15_good_prediction_count: 4457
+zt_error_analysis_category_step15_high_zt_false_negative_count: 359
+zt_error_analysis_category_step15_high_zt_false_positive_count: 630
+zt_error_analysis_category_step15_large_error_needs_review_count: 280
+zt_error_analysis_category_step15_missing_eval_data_count: 10638
+zt_error_analysis_category_step15_not_evaluated_count: 1544
+zt_error_analysis_category_step15_sigma_related_error_likely_count: 558
+zt_ge_0.5_precision: 0.9110831234256926
+zt_ge_0.5_recall: 0.8237303575495332
+zt_ge_0.5_f1: 0.86520751106327
+zt_ge_0.5_accuracy: 0.8560296371997956
+zt_ge_0.5_false_positive: 353
+zt_ge_0.5_false_negative: 774
+zt_ge_1.0_precision: 0.6477386934673367
+zt_ge_1.0_recall: 0.779794313369631
+zt_ge_1.0_f1: 0.7076585231951688
+zt_ge_1.0_accuracy: 0.8639499233520695
+zt_ge_1.0_false_positive: 701
+zt_ge_1.0_false_negative: 364
+zt_ge_1.5_precision: 0.2467866323907455
+zt_ge_1.5_recall: 0.6736842105263158
+zt_ge_1.5_f1: 0.36124176857949203
+zt_ge_1.5_accuracy: 0.9132600919775166
+zt_ge_1.5_false_positive: 586
+zt_ge_1.5_false_negative: 93
+zt_ge_1.0_precision: 0.6477386934673367
+zt_ge_1.0_recall: 0.779794313369631
+zt_ge_1.0_f1: 0.7076585231951688
+zt_ge_1.0_accuracy: 0.8639499233520695
+zt_ge_1.0_true_positive: 1289
+zt_ge_1.0_false_positive: 701
+zt_ge_1.0_false_negative: 364
+zt_ge_1.0_true_negative: 5474
+manual_review_priority_tier_step15_A_count: 672
+manual_review_priority_tier_step15_B_count: 2337
+manual_review_priority_tier_step15_C_count: 391
+manual_review_priority_tier_step15_low_count: 15066
+needs_manual_review_step15_yes_sample_count: 3202
+needs_sintering_check_later_step15_yes_sample_count: 3431
+sintering_check_reason_step15__count: 15035
+sintering_check_reason_step15_carried from Step14_count: 52
+sintering_check_reason_step15_high observed ZT_count: 18
+sintering_check_reason_step15_high observed ZT; high-ZT false negative; important candidate for paper; carried from Step14_count: 359
+sintering_check_reason_step15_high observed ZT; important candidate for paper_count: 207
+sintering_check_reason_step15_high observed ZT; important candidate for paper; high predicted ZT_count: 1163
+sintering_check_reason_step15_high observed ZT; important candidate for paper; high predicted ZT; carried from Step14_count: 5
+sintering_check_reason_step15_high observed ZT; large ZT prediction error; important candidate for paper; high predicted ZT; carried from Step14_count: 25
+sintering_check_reason_step15_high predicted ZT_count: 159
+sintering_check_reason_step15_high-ZT false positive; important candidate for paper; high predicted ZT; carried from Step14_count: 630
+sintering_check_reason_step15_large ZT prediction error; important candidate for paper_count: 9
+sintering_check_reason_step15_large ZT prediction error; important candidate for paper; carried from Step14_count: 796
+sintering_check_reason_step15_large ZT prediction error; important candidate for paper; high predicted ZT; carried from Step14_count: 8
+nanocarbon_keyword_detected_step9_true_sample_count: 24
+rare_metal_flag_auto_step9_true_sample_count: 15447
+toxicity_flag_auto_step9_true_sample_count: 12728
+n_or_p_median_zt_vs_obs_mape_n: 0.1668120445089765
+n_or_p_median_zt_vs_obs_mape_p: 0.1945595229830051
+n_or_p_median_zt_vs_calc_mape_n: 0.1569646497295772
+n_or_p_median_zt_vs_calc_mape_p: 0.176281791578034
+material_system_unknown_median_zt_vs_obs_mape: 0.1668120445089765
+material_system_unknown_median_zt_vs_obs_mape: 0.1945595229830051
+material_system_unknown_large_error_sample_count: 471
+material_system_unknown_large_error_sample_count: 367
+sintering_method_unknown_rows: 18466
+sintering_checked_no_rows: 18466
+record_checked_no_rows: 18466
+n_p_changed_rows: 0
+sintering_changed_rows: 0
+note: Step15 did not create new predictions or refit tau_eff.
+note: Step15 analyzed Step14 PF/ZT prediction results.
+note: Step14/15 ZT_pred uses predicted sigma_pred and observed S_obs/kappa_obs.
+note: Seebeck coefficient and thermal conductivity are not predicted yet.
+note: Sintering method has not been investigated; Step15 only extracts later-check candidates.
