@@ -1,0 +1,11 @@
+﻿claim_id,claim,supporting_result,supporting_file,allowed_wording,caution
+C01,tau_eff fittingでsigmaを一定程度再現できた,sigma_fit_log_rmse and sigma_fit_mape summaries,paper_table_03_tau_eff_fitting_performance_step25.csv,fitted relative tau_eff reconstructed sigma for many samples,"tau_eff is relative scale, not physical seconds"
+C02,fitted tau_effからPF/ZTを推定できた,PF/ZT fitting performance metrics,paper_table_05_pf_zt_fitting_performance_step25.csv,PF/ZT were estimated from fitted-sigma workflow,PF/ZT use predicted sigma and observed S/kappa
+C03,ZT>=1スクリーニングで一定のrecallを得た,ZT>=1 precision/recall/F1,paper_figure_data_03_zt_classification_step25.csv,the workflow showed screening utility at ZT>=1,false positives remain
+C04,MLでlog_tau_effを予測した,selected model DOI-test metrics,paper_table_06_tau_eff_ml_performance_step25.csv,ML predicted fitted log_tau_eff labels,labels come from fitted tau_eff
+C05,ML版はfitting版より低性能だった,fitting vs ML metrics,paper_table_07_fitting_vs_ml_comparison_step25.csv,direct fitting outperformed ML in this evaluation,direct fitting uses sigma observations
+C06,ML版は未知材料予測に近い評価である,DOI split and material-feature prediction,paper_table_07_fitting_vs_ml_comparison_step25.csv,ML tau prediction is closer to unknown-material screening,downstream all-sample predictions are screening only
+C07,候補材料を抽出した,candidate materials table,paper_table_09_candidate_materials_step25.csv,candidate materials were prioritized for review,manual confirmation is required
+C08,レアメタル・毒性フラグは仮判定である,composition-based flags,paper_table_09_candidate_materials_step25.csv,attention flags were used for provisional screening,not final safety or resource classification
+C09,焼結方法は未確認が多い,sintering review targets,paper_table_11_sintering_check_targets_step25.csv,many samples require sintering-method confirmation,"unknown sintering is missing information, not a proven cause"
+C10,Sとkappaは予測していない,workflow equations and limitations,paper_methods_text_draft_step25.md,S and kappa were used as observed inputs,do not claim S/kappa prediction

@@ -1,0 +1,12 @@
+﻿dataset_stage,row_count,sample_count,description,source_file,note
+Step12 fit data,18467,18467,Rows used for relative tau_eff fitting outputs.,tau_fit_results_step12.csv,tau_eff is relative scale.
+Step12 fit ok samples,18466,18466,Samples ready or successful for fitting.,tau_fit_ready_samples_step12.csv,
+Step13 validation samples,18466,18466,Primary holdout validation samples.,tau_validation_primary_results_step13.csv,high_temperature_holdout centered.
+Step14 PF/ZT sample results,18466,18466,PF/ZT results from fitted tau_eff sigma.,pf_zt_sample_results_step14.csv,S and kappa are observed values.
+Step18 recommended ML samples,15623,15623,Recommended ML dataset for fitted log_tau_eff labels.,tau_eff_ml_dataset_recommended_step18.csv,
+Step19 ML training samples,15623,15623,Samples reported in selected ML model summary.,tau_eff_ml_selected_model_summary_step19.csv,
+Step20 primary DOI test samples,3201,3201,Primary DOI split sigma evaluation samples.,sigma_ml_model_comparison_step20.csv,
+Step21 primary PF/ZT ML samples,3201,3201,Primary DOI-test PF/ZT ML sample results.,pf_zt_ml_primary_sample_results_step21.csv,
+Step22 fitting vs ML comparison samples,3201,3201,Sample-level comparison between direct fitting and ML tau prediction.,step22_sample_level_comparison.csv,
+Step24 candidate pool,18467,18467,All downstream screening candidates.,step24_candidate_pool.csv,"screening, not unbiased evaluation."
+Step24 balanced recommended candidates,300,300,Top balanced material candidates.,step24_balanced_recommended_candidates.csv,manual review required before final claims.

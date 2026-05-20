@@ -1,0 +1,16 @@
+﻿error_cause_or_pattern,sample_count,interpretation,required_action,source
+total samples analyzed,3201,Step23 sample universe,Manual review or annotation check as needed.,step23_error_cause_samples.csv
+ML much worse sample count,390,ML degradation count,Manual review or annotation check as needed.,step23_error_cause_samples.csv
+ML better than fitting sample count,65,ML better count,Manual review or annotation check as needed.,step23_error_cause_samples.csv
+fitting_good_ML_bad count,970,likely ML tau/feature limitation candidate,Manual review or annotation check as needed.,step23_ml_vs_fitting_cause_matrix.csv
+fitting_bad_ML_bad count,10,possible data/prefactor/physics issue candidate,Manual review or annotation check as needed.,step23_ml_vs_fitting_cause_matrix.csv
+missing additive info count,3200,annotation gap,Manual review or annotation check as needed.,step23_missing_information_summary.csv
+missing structure info count,3200,annotation gap,Manual review or annotation check as needed.,step23_missing_information_summary.csv
+missing sintering info count,3201,"review target only, not causal proof",Manual review or annotation check as needed.,step23_missing_information_summary.csv
+manual review priority sample count,500,manual review queue,Manual review or annotation check as needed.,step23_manual_review_priority_samples.csv
+sintering check priority sample count,300,sintering review queue,Manual review or annotation check as needed.,step23_sintering_check_priority_samples.csv
+high ZT error case count,660,high-ZT review set,Manual review or annotation check as needed.,step23_high_zt_error_cases.csv
+most common primary error hypothesis,not_evaluable,dominant candidate hypothesis,Manual review or annotation check as needed.,step23_error_cause_samples.csv
+largest error material system,unknown,largest ML much worse count,Manual review or annotation check as needed.,step23_error_by_material_system.csv
+top material system with ML degradation,229,unknown / p: ML degradation exists; review annotations and tau_eff errors,Review material annotations and tau_eff errors.,step23_error_by_material_system.csv
+caution,,"These are hypotheses and review targets, not proven causal mechanisms. Unknown sintering is missing information, not a confirmed error cause.",Avoid causal wording without paper-level confirmation.,Step25

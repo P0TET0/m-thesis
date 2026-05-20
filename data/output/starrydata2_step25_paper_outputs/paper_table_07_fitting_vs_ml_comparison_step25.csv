@@ -1,0 +1,11 @@
+﻿quantity,metric,direct_fitting_value,ml_tau_prediction_value,difference_or_gap,interpretation
+sigma,sigma log RMSE,0.2930925778709126,1.7139015148998702,1.4208089370289576,Direct fitting is expected to outperform ML because it uses sigma observations to fit tau_eff. ML prediction is closer to the intended unknown-material prediction task.
+sigma,sigma MAPE,0.2147375339104493,546.6161538269516,546.4014162930412,Direct fitting is expected to outperform ML because it uses sigma observations to fit tau_eff. ML prediction is closer to the intended unknown-material prediction task.
+PF,PF MAPE,0.2069587868984653,113.72315291446608,113.51619412756762,Direct fitting is expected to outperform ML because it uses sigma observations to fit tau_eff. ML prediction is closer to the intended unknown-material prediction task.
+ZT vs obs,ZT vs obs MAPE,0.567520866585321,6.629457189359549,6.061936322774228,Direct fitting is expected to outperform ML because it uses sigma observations to fit tau_eff. ML prediction is closer to the intended unknown-material prediction task.
+ZT vs calc,ZT vs calc MAPE,0.2155255876876054,50.35304890059129,50.13752331290368,Direct fitting is expected to outperform ML because it uses sigma observations to fit tau_eff. ML prediction is closer to the intended unknown-material prediction task.
+ZT>=1,ZT>=1 F1,0.695214105793451,0.5,-0.195214105793451,High-ZT classification at threshold 1.0.
+ZT ranking,ZT Spearman,0.81124226970897,0.5691005918349079,-0.24214167787406204,Ranking comparison using observed ZT max.
+sample count,ML much worse samples,,390.0,,Count from sample-level comparison category.
+sample count,ML better than fitting samples,,65.0,,Count from sample-level comparison category.
+sample count,problem samples,,3201.0,,All Step22 compared samples.

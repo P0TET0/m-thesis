@@ -1,0 +1,12 @@
+﻿metric,value,unit_or_scale,interpretation,source
+fit data rows,18467,rows,Rows in Step12 tau fitting output.,tau_fit_results_step12.csv
+samples fitted,18467,samples,Unique sample_key values in Step12 tau fitting output.,tau_fit_results_step12.csv
+fit ok samples,18466,samples,Samples with fit_status_step12=ok when available.,tau_fit_results_step12.csv
+median sigma_fit_log_rmse,0.2397034817475857,log scale,Median log RMSE for fitted sigma.,tau_fit_results_step12.csv
+median sigma_fit_mape,0.19963447276578672,fraction,Median sigma MAPE for fitting.,tau_fit_results_step12.csv
+median holdout_log_rmse,0.3818122823172489,log scale,Median internal holdout log RMSE where available.,tau_fit_results_step12.csv
+median holdout_mape,0.3534452358688287,fraction,Median internal holdout MAPE where available.,tau_fit_results_step12.csv
+n fit ok samples,8239,samples,n-type fit-ok samples.,tau_fit_results_step12.csv
+p fit ok samples,10227,samples,p-type fit-ok samples.,tau_fit_results_step12.csv
+tau_eff mode,empirical_group_baseline,relative,"tau_eff is a relative effective scalar, not physical seconds.",tau_fit_results_step12.csv
+tau_eff unit,relative_scale,relative,"tau_eff is a relative effective scalar, not physical seconds.",tau_fit_results_step12.csv

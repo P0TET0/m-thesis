@@ -1,0 +1,2 @@
+﻿validation_method,ok_samples,excellent_samples,good_samples,moderate_samples,poor_samples,median_log_rmse,median_mape,median_within_25pct_rate,interpretation
+high_temperature_holdout,18466,4418,4396,3984,4279,0.3827712196216248,0.3534776472826011,0.2,Primary validation of fitted tau_eff on held-out temperature rows.

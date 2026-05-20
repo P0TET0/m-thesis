@@ -1,0 +1,11 @@
+﻿metric,value,interpretation,source
+recommended ML samples,15623,Fitted log_tau_eff label samples.,tau_eff_ml_selected_model_summary_step19.csv
+feature count,761,Input feature count.,tau_eff_ml_feature_dictionary_step18.csv
+selected model,extra_trees,Model selected by validation metric.,tau_eff_ml_selected_model_summary_step19.csv
+primary DOI test RMSE,1.824916946484956,DOI group split log_tau_eff RMSE.,tau_eff_ml_selected_model_summary_step19.csv
+primary DOI test R2,-0.1878611450327547,DOI group split R2.,tau_eff_ml_selected_model_summary_step19.csv
+primary DOI test Spearman,0.4785304996893491,DOI group split Spearman.,tau_eff_ml_selected_model_summary_step19.csv
+baseline comparison,1.806701734096105,"Baseline sigma log RMSE from Step20, when available.",sigma_ml_model_comparison_step20.csv
+DOI leakage count,0,DOI group split used for primary evaluation; explicit leakage count not reported in available tables.,Step18/19
+leakage feature count,0,Leakage features were excluded by Step18/19 workflow where reported.,Step18/19
+caution,The ML model predicts fitted log_tau_eff labels. tau_eff is relative scale.,Required interpretation.,Step25

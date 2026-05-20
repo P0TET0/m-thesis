@@ -1,0 +1,12 @@
+﻿metric,value,interpretation,source
+median PF MAPE,0.1772812097149333,PF from predicted sigma and observed S/kappa.,pf_zt_sample_results_step14.csv
+median ZT vs obs MAPE,0.1849235184904193,ZT compared with observed ZT.,pf_zt_sample_results_step14.csv
+median ZT vs calc MAPE,0.1693166548143881,ZT compared with ZT calculated from observed sigma.,pf_zt_sample_results_step14.csv
+ZT>=1 precision,0.6477386934673367,Threshold classification for high-ZT screening.,step16_zt_threshold_summary.csv
+ZT>=1 recall,0.779794313369631,Threshold classification for high-ZT screening.,step16_zt_threshold_summary.csv
+ZT>=1 F1,0.7076585231951688,Threshold classification for high-ZT screening.,step16_zt_threshold_summary.csv
+ZT ranking Spearman,0.8034368971646296,Ranking correlation against observed ZT max.,step16_ranking_correlation.csv
+top100 ZT overlap,0.13,Top-100 overlap against observed ZT max.,step16_ranking_correlation.csv
+manual review candidates,500.0,Review candidates from Step15/16.,step16_overall_metrics.csv
+sintering check candidates,3431.0,Sintering check candidates from Step15/16.,step16_overall_metrics.csv
+caution,PF/ZT were calculated using predicted sigma and observed S/kappa. S and kappa were not predicted.,Required interpretation.,Step25

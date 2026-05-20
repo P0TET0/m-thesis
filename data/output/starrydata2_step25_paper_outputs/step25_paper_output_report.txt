@@ -1,0 +1,105 @@
+Step25 paper output generation report
+
+Input files:
+- loaded files:
+  - data\output\starrydata2_step12_tau_fit\tau_fit_results_step12.csv
+  - data\output\starrydata2_step12_tau_fit\tau_fit_ready_samples_step12.csv
+  - data\output\starrydata2_step12_tau_fit\tau_fit_problem_samples_step12.csv
+  - data\output\starrydata2_step12_tau_fit\step12_tau_fit_report.txt
+  - data\output\starrydata2_step13_sigma_validation\tau_validation_primary_results_step13.csv
+  - data\output\starrydata2_step13_sigma_validation\tau_validation_good_samples_step13.csv
+  - data\output\starrydata2_step13_sigma_validation\tau_validation_problem_samples_step13.csv
+  - data\output\starrydata2_step13_sigma_validation\step13_sigma_validation_report.txt
+  - data\output\starrydata2_step14_pf_zt_prediction\pf_zt_sample_results_step14.csv
+  - data\output\starrydata2_step14_pf_zt_prediction\zt_high_performance_classification_step14.csv
+  - data\output\starrydata2_step14_pf_zt_prediction\step14_pf_zt_prediction_report.txt
+  - data\output\starrydata2_step16_result_summary\step16_overall_metrics.csv
+  - data\output\starrydata2_step16_result_summary\step16_zt_threshold_summary.csv
+  - data\output\starrydata2_step16_result_summary\step16_ranking_correlation.csv
+  - data\output\starrydata2_step16_result_summary\step16_key_findings_table.csv
+  - data\output\starrydata2_step16_result_summary\step16_summary_report.txt
+  - data\output\starrydata2_step18_tau_eff_ml_dataset\tau_eff_ml_dataset_recommended_step18.csv
+  - data\output\starrydata2_step18_tau_eff_ml_dataset\tau_eff_ml_feature_dictionary_step18.csv
+  - data\output\starrydata2_step18_tau_eff_ml_dataset\step18_tau_eff_ml_dataset_report.txt
+  - data\output\starrydata2_step19_tau_eff_ml_model\tau_eff_ml_model_comparison_step19.csv
+  - data\output\starrydata2_step19_tau_eff_ml_model\tau_eff_ml_selected_model_summary_step19.csv
+  - data\output\starrydata2_step19_tau_eff_ml_model\tau_eff_ml_feature_importance_step19.csv
+  - data\output\starrydata2_step19_tau_eff_ml_model\step19_tau_eff_ml_report.txt
+  - data\output\starrydata2_step20_sigma_ml_prediction\sigma_ml_model_comparison_step20.csv
+  - data\output\starrydata2_step20_sigma_ml_prediction\sigma_ml_vs_fitting_comparison_step20.csv
+  - data\output\starrydata2_step20_sigma_ml_prediction\step20_sigma_ml_report.txt
+  - data\output\starrydata2_step21_pf_zt_ml_prediction\pf_zt_ml_primary_sample_results_step21.csv
+  - data\output\starrydata2_step21_pf_zt_ml_prediction\pf_zt_ml_high_performance_classification_step21.csv
+  - data\output\starrydata2_step21_pf_zt_ml_prediction\pf_zt_ml_vs_fitting_comparison_step21.csv
+  - data\output\starrydata2_step21_pf_zt_ml_prediction\step21_pf_zt_ml_report.txt
+  - data\output\starrydata2_step22_fitting_vs_ml_comparison\step22_overall_comparison.csv
+  - data\output\starrydata2_step22_fitting_vs_ml_comparison\step22_metric_comparison.csv
+  - data\output\starrydata2_step22_fitting_vs_ml_comparison\step22_sample_level_comparison.csv
+  - data\output\starrydata2_step22_fitting_vs_ml_comparison\step22_high_zt_classification_comparison.csv
+  - data\output\starrydata2_step22_fitting_vs_ml_comparison\step22_ranking_correlation_comparison.csv
+  - data\output\starrydata2_step22_fitting_vs_ml_comparison\step22_recommended_interpretation.csv
+  - data\output\starrydata2_step22_fitting_vs_ml_comparison\step22_comparison_report.txt
+  - data\output\starrydata2_step23_error_cause_analysis\step23_error_cause_samples.csv
+  - data\output\starrydata2_step23_error_cause_analysis\step23_error_cause_summary.csv
+  - data\output\starrydata2_step23_error_cause_analysis\step23_error_by_material_system.csv
+  - data\output\starrydata2_step23_error_cause_analysis\step23_manual_review_priority_samples.csv
+  - data\output\starrydata2_step23_error_cause_analysis\step23_sintering_check_priority_samples.csv
+  - data\output\starrydata2_step23_error_cause_analysis\step23_error_cause_report.txt
+  - data\output\starrydata2_step24_material_candidates\step24_candidate_pool.csv
+  - data\output\starrydata2_step24_material_candidates\step24_balanced_recommended_candidates.csv
+  - data\output\starrydata2_step24_material_candidates\step24_high_zt_candidates.csv
+  - data\output\starrydata2_step24_material_candidates\step24_low_kappa_high_sigma_candidates.csv
+  - data\output\starrydata2_step24_material_candidates\step24_low_rare_metal_candidates.csv
+  - data\output\starrydata2_step24_material_candidates\step24_low_toxicity_candidates.csv
+  - data\output\starrydata2_step24_material_candidates\step24_nanocarbon_candidates.csv
+  - data\output\starrydata2_step24_material_candidates\step24_manual_review_needed_candidates.csv
+  - data\output\starrydata2_step24_material_candidates\step24_sintering_check_needed_candidates.csv
+  - data\output\starrydata2_step24_material_candidates\step24_candidate_summary_by_material.csv
+  - data\output\starrydata2_step24_material_candidates\step24_candidate_selection_report.txt
+- missing files:
+
+Generated outputs:
+- paper tables: 11
+- figure data: 6
+- figures: 6
+- markdown drafts: 5
+- excel workbook: starrydata2_step25_paper_outputs.xlsx
+
+Key numerical results:
+- fit ok samples: 18466
+- median sigma fitting MAPE: 0.19963447276578672
+- Step13 median validation MAPE: 0.3534776472826011
+- fitted ZT>=1 precision/recall/F1: 0.6477386934673367/0.779794313369631/0.7076585231951688
+- ML tau primary DOI test RMSE: 1.824916946484956
+- ML sigma log RMSE: 1.7139015148998702
+- ML ZT>=1 F1: 0.5
+- fitting vs ML sigma gap: 1.4208089370289576
+- candidate pool size: 18467
+- balanced recommended candidates: 300
+- high ZT candidates: 3505
+- low kappa high sigma candidates: 4844
+- low rare metal attention candidates: 3019
+- low toxicity attention candidates: 5738
+- nanocarbon candidates: 8
+
+Cautions:
+- tau_eff relative scale
+- S/kappa not predicted
+- downstream ML screening only
+- rare metal/toxicity flags provisional
+- sintering mostly unknown
+- Step25では新しい予測、tau_eff再fitting、ML再学習、PF/ZT再計算は行っていない。
+
+Important caution check:
+- tau_eff is relative scale, not physical seconds
+- S and kappa were not predicted
+- PF/ZT use predicted sigma and observed S/kappa
+- direct fitting uses sigma observations and is expected to outperform ML
+- rare-metal/toxicity labels are provisional
+- downstream ML predictions are for screening, not unbiased evaluation
+
+Next recommended action:
+- inspect paper_table_09_candidate_materials_step25.csv
+- inspect paper_key_claims_and_cautions_step25.csv
+- use markdown drafts to write thesis/paper
+- manually review high-priority candidate materials before final claims
