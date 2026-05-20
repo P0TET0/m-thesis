@@ -1,0 +1,57 @@
+Step22 fitting vs ML comparison report
+
+Input thermoelectric_ml_primary_test_predictions_step21 rows: 55272
+Comparison sample count: 3201
+Comparison temperature row count: 55272
+
+sigma comparison:
+- fitting sigma log RMSE: 0.29309257787091264
+- ML sigma log RMSE: 1.7139015148998702
+- ML vs fitting gap: 1.4208089370289576
+- fitting sigma MAPE: 0.2147375339104493
+- ML sigma MAPE: 546.6161538269516
+
+PF comparison:
+- fitting PF MAPE: 0.20695878689846534
+- ML PF MAPE: 113.72315291446607
+- fitting PF log RMSE: 0.28061519368037263
+- ML PF log RMSE: 1.4717793161237562
+
+ZT vs observed comparison:
+- fitting ZT vs obs MAPE: 0.567520866585321
+- ML ZT vs obs MAPE: 6.629457189359549
+- fitting ZT vs obs log RMSE: 0.8115921284159524
+- ML ZT vs obs log RMSE: 1.285184955277876
+
+ZT vs calculated comparison:
+- fitting ZT vs calc MAPE: 0.21552558768760544
+- ML ZT vs calc MAPE: 50.35304890059129
+- fitting ZT vs calc log RMSE: 0.2924581615885681
+- ML ZT vs calc log RMSE: 1.2636065482902714
+
+ZT>=1 classification:
+- fitting precision / recall / F1: 0.6602870813397129 / 0.7340425531914894 / 0.695214105793451
+- ML precision / recall / F1: 0.5 / 0.5 / 0.5
+
+Ranking:
+- fitting ZT Spearman: 0.81124226970897
+- ML ZT Spearman: 0.5691005918349079
+- fitting top100 overlap: 52
+- ML top100 overlap: 30
+
+Comparison category:
+- ML_close_to_fitting count: 245
+- ML_moderately_worse count: 413
+- ML_much_worse count: 390
+- ML_better_than_fitting count: 65
+
+Problem samples count: 1478
+n/p changed rows: 0
+sintering changed rows: 0
+
+Notes:
+Step22 did not make new predictions, refit tau_eff, or retrain ML models.
+Step22 compared existing fitting and ML results.
+The fitting version uses electrical conductivity data directly, so better performance than ML is natural.
+The ML version predicts tau_eff from material information only and is closer to unknown-material prediction.
+Seebeck coefficient and thermal conductivity are not predicted in either version.

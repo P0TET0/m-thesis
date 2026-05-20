@@ -1,0 +1,3 @@
+n_or_p,sample_count,zt_eval_sample_count,median_sigma_fitting_log_rmse,median_sigma_ML_log_rmse,median_zt_obs_fitting_mape,median_zt_obs_ML_mape,fitting_ZT_ge_1_sample_count,ML_ZT_ge_1_sample_count,observed_ZT_ge_1_sample_count,interpretation_step22
+n,1586,484,0.17898324597809512,0.7071246529028821,0.15872366989921702,0.5384497459424256,172,148,142,ML worse than fitting
+p,1615,629,0.2088578654217414,0.7644596671913325,0.18757086124232009,0.5847020517702621,246,228,234,ML worse than fitting

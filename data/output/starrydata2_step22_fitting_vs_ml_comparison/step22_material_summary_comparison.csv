@@ -1,0 +1,3 @@
+material_system,n_or_p,sample_count,zt_eval_sample_count,median_sigma_fitting_log_rmse,median_sigma_ML_log_rmse,median_zt_obs_fitting_mape,median_zt_obs_ML_mape,fitting_ZT_ge_1_sample_count,ML_ZT_ge_1_sample_count,observed_ZT_ge_1_sample_count,ML_close_to_fitting_count,ML_much_worse_count,ML_better_than_fitting_count,median_sigma_gap,median_zt_obs_gap,interpretation_step22
+unknown,n,1586,484,0.17898324597809512,0.7071246529028821,0.15872366989921702,0.5384497459424256,172,148,142,103,161,31,0.528141406924787,0.3797260760432085,ML close/moderate in this group
+unknown,p,1615,629,0.2088578654217414,0.7644596671913325,0.18757086124232009,0.5847020517702621,246,228,234,142,229,34,0.5556018017695912,0.39713119052794205,ML close/moderate in this group

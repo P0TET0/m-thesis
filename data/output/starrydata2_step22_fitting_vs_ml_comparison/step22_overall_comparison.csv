@@ -1,0 +1,16 @@
+metric_name,fitting_value,ml_value,ml_minus_fitting,ml_divided_by_fitting,interpretation_step22
+sigma_log_rmse,0.29309257787091264,1.7139015148998702,1.4208089370289576,5.847645571068426,ML substantially worse; tau_eff ML model likely insufficient
+sigma_mape,0.2147375339104493,546.6161538269516,546.4014162930412,2545.508201909889,ML substantially worse; tau_eff ML model likely insufficient
+sigma_within_factor_2_rate,0.9652988855116514,0.45417209436966277,-0.5111267911419887,0.4704989316639802,"ML worse than direct fitting, as expected"
+pf_log_rmse,0.28061519368037263,1.4717793161237562,1.1911641224433835,5.244831175464247,ML substantially worse; tau_eff ML model likely insufficient
+pf_mape,0.20695878689846534,113.72315291446607,113.5161941275676,549.4966153346222,ML substantially worse; tau_eff ML model likely insufficient
+zt_vs_obs_log_rmse,0.8115921284159524,1.285184955277876,0.4735928268619236,1.583535510363157,"ML worse than direct fitting, as expected"
+zt_vs_obs_mape,0.567520866585321,6.629457189359549,6.061936322774228,11.681433370455423,ML substantially worse; tau_eff ML model likely insufficient
+zt_vs_obs_spearman,0.9571669438294376,0.7194868148453022,-0.23768012898413537,0.751683726108192,"ML worse than direct fitting, as expected"
+zt_vs_calc_log_rmse,0.2924581615885681,1.2636065482902714,0.9711483867017033,4.320640400071723,ML substantially worse; tau_eff ML model likely insufficient
+zt_vs_calc_mape,0.21552558768760544,50.35304890059129,50.13752331290368,233.62909917487733,ML substantially worse; tau_eff ML model likely insufficient
+zt_vs_calc_spearman,0.9779328517294975,0.7658078454959188,-0.21212500623357866,0.7830883727257648,"ML worse than direct fitting, as expected"
+zt_ge_1_precision,0.6602870813397129,0.5,-0.16028708133971292,0.7572463768115942,"ML worse than direct fitting, as expected"
+zt_ge_1_recall,0.7340425531914894,0.5,-0.23404255319148937,0.6811594202898551,"ML worse than direct fitting, as expected"
+zt_ge_1_f1,0.695214105793451,0.5,-0.195214105793451,0.7192028985507245,"ML worse than direct fitting, as expected"
+zt_ge_1_accuracy,0.9243986254295533,0.8825367072789754,-0.04186191815057794,0.9547144305508618,"ML worse than direct fitting, as expected"

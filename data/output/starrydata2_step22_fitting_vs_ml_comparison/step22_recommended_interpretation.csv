@@ -1,0 +1,7 @@
+topic,recommended_interpretation,supporting_metric,supporting_value,caution
+direct fitting upper reference,fitting版はsigma_obsを使ってtau_effを直接fittingしているため、上限性能に近い,sigma_log_rmse gap,1.4208089370289576,not an unknown-material prediction baseline
+ML task meaning,ML版は材料情報からtau_effを予測するため、fitting版より悪くなるのが自然,zt_vs_obs_mape gap,6.061936322774228,feature information is limited
+current ML performance,Step20/21の結果から、現時点のML版はfitting版より大きく劣る,pf_mape gap,113.5161941275676,use primary DOI test for interpretation
+cause candidates,ML版の性能悪化は、tau_eff予測モデルの不足、特徴量不足、構造・添加物情報不足が原因候補,problem sample count,,Step23 should analyze causes
+next step,Step23では誤差原因を材料系・n/p型・添加物・構造・焼結方法の観点から分析する,planned analysis,,
+S and kappa,Step21/22でもSとkappaは予測していない,method caveat,,PF/ZT use observed S/kappa

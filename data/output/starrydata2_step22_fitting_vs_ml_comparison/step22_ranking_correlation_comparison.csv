@@ -1,0 +1,13 @@
+comparison_name,version,n_samples,pearson_corr,spearman_corr,top_k,top_k_overlap_count,top_k_overlap_rate,note
+fitting ZT max vs observed ZT max,direct_fitting,1240,-0.0062803381116047635,0.81124226970897,50,17,0.34,top 50 overlap by zt_obs_max_step22 and zt_pred_fitting_max_step22
+fitting ZT max vs observed ZT max,direct_fitting,1240,-0.0062803381116047635,0.81124226970897,100,52,0.52,top 100 overlap by zt_obs_max_step22 and zt_pred_fitting_max_step22
+fitting ZT max vs observed ZT max,direct_fitting,1240,-0.0062803381116047635,0.81124226970897,300,222,0.74,top 300 overlap by zt_obs_max_step22 and zt_pred_fitting_max_step22
+ML ZT max vs observed ZT max,ml_tau_prediction,1240,0.2920745355149966,0.5691005918349079,50,9,0.18,top 50 overlap by zt_obs_max_step22 and zt_pred_ML_max_step22
+ML ZT max vs observed ZT max,ml_tau_prediction,1240,0.2920745355149966,0.5691005918349079,100,30,0.3,top 100 overlap by zt_obs_max_step22 and zt_pred_ML_max_step22
+ML ZT max vs observed ZT max,ml_tau_prediction,1240,0.2920745355149966,0.5691005918349079,300,152,0.5066666666666667,top 300 overlap by zt_obs_max_step22 and zt_pred_ML_max_step22
+fitting ZT max vs calculated ZT max,direct_fitting,1384,0.9998657500439222,0.9504023184216648,50,23,0.46,top 50 overlap by zt_calc_from_obs_max_step22 and zt_pred_fitting_max_step22
+fitting ZT max vs calculated ZT max,direct_fitting,1384,0.9998657500439222,0.9504023184216648,100,59,0.59,top 100 overlap by zt_calc_from_obs_max_step22 and zt_pred_fitting_max_step22
+fitting ZT max vs calculated ZT max,direct_fitting,1384,0.9998657500439222,0.9504023184216648,300,234,0.78,top 300 overlap by zt_calc_from_obs_max_step22 and zt_pred_fitting_max_step22
+ML ZT max vs calculated ZT max,ml_tau_prediction,1384,-0.00017245624267083585,0.6821745668632769,50,11,0.22,top 50 overlap by zt_calc_from_obs_max_step22 and zt_pred_ML_max_step22
+ML ZT max vs calculated ZT max,ml_tau_prediction,1384,-0.00017245624267083585,0.6821745668632769,100,33,0.33,top 100 overlap by zt_calc_from_obs_max_step22 and zt_pred_ML_max_step22
+ML ZT max vs calculated ZT max,ml_tau_prediction,1384,-0.00017245624267083585,0.6821745668632769,300,157,0.5233333333333333,top 300 overlap by zt_calc_from_obs_max_step22 and zt_pred_ML_max_step22
