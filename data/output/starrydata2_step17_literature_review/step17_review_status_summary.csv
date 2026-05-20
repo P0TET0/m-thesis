@@ -1,0 +1,15 @@
+summary_type,category,count,fraction,note
+paper_checked_step17,no,300,1.0,Step17 review status summary
+manual_review_status_step17,not_checked,300,1.0,Step17 review status summary
+step17_review_priority_tier,A,300,1.0,Step17 review status summary
+step17_check_additive,yes,296,0.9866666666666667,Step17 review status summary
+step17_check_additive,no,4,0.013333333333333334,Step17 review status summary
+step17_check_structure,yes,296,0.9866666666666667,Step17 review status summary
+step17_check_structure,no,4,0.013333333333333334,Step17 review status summary
+step17_check_np_type,yes,300,1.0,Step17 review status summary
+step17_check_sintering,yes,300,1.0,Step17 review status summary
+additive_source_step17,auto_step9,300,1.0,Step17 review status summary
+structure_source_step17,auto_step9,300,1.0,Step17 review status summary
+n_or_p_source_step17,existing_step6_or_step15,300,1.0,Step17 review status summary
+sintering_source_step17,unknown,300,1.0,Step17 review status summary
+sintering_checked_final_step17,no,300,1.0,Step17 review status summary

@@ -1,0 +1,65 @@
+Step17 literature review preparation report
+
+input step16_next_step17_review_targets rows: 300
+output step17_review_targets rows: 300
+output manual_annotation_template_step17 rows: 300
+output step17_annotated_samples rows: 300
+output step17_checked_samples rows: 0
+output step17_unchecked_samples rows: 300
+output step17_sintering_review_targets rows: 300
+output step17_tau_eff_ml_annotation_base rows: 300
+
+paper_checked_step17 counts:
+- paper_checked_step17 no: 300
+
+manual_review_status_step17 counts:
+- manual_review_status_step17 not_checked: 300
+
+step17_review_priority_tier counts:
+- step17_review_priority_tier A: 300
+
+check flags:
+- step17_check_additive=yes: 296
+- step17_check_structure=yes: 296
+- step17_check_np_type=yes: 300
+- step17_check_sintering=yes: 300
+
+final sources:
+- additive_source_step17 auto_step9: 300
+- structure_source_step17 auto_step9: 300
+- n_or_p_source_step17 existing_step6_or_step15: 300
+- sintering_source_step17 unknown: 300
+
+manual annotations:
+- manual_annotations specified: no
+- manual_annotations input file: 
+- manual_annotations rows: 0
+- manual_annotations applied samples: 0
+- paper_checked_step17=yes samples: 0
+- additive_paper_manual_step17 filled samples: 0
+- structure_paper_manual_step17 filled samples: 0
+- np_type_paper_manual_step17 filled samples: 0
+- sintering_method_paper_manual_step17 filled samples: 0
+
+duplicates:
+- step17_review_targets.csv duplicate sample_key rows: 0
+- manual_annotation_template_step17.csv duplicate sample_key rows: 0
+- step17_annotated_samples.csv duplicate sample_key rows: 0
+- step17_tau_eff_ml_annotation_base.csv duplicate sample_key rows: 0
+
+n/p:
+- n_or_p changed rows: 0
+- n_or_p_final_step17 exists: yes
+- n_or_p_source_step17 exists: yes
+- n_or_p_final_step17 p: 210
+- n_or_p_final_step17 n: 90
+
+sintering:
+- existing sintering_method/sintering_checked/record_checked changed rows: 0
+- sintering_method_final_step17 unknown: 300
+- sintering_checked_final_step17 no: 300
+
+Notes:
+- Step17 did not create new predictions, refit tau_eff, or recalculate PF/ZT.
+- Step17 created an original-paper review template and merged manual annotations when provided.
+- Sintering method review is targeted only to samples requested by Step16, not all samples.
