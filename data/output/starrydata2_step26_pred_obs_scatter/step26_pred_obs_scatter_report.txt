@@ -1,0 +1,93 @@
+Step26 Predicted vs Observed Scatter Report
+
+Input file used: data\output\starrydata2_step22_fitting_vs_ml_comparison\step22_row_level_comparison.csv
+Output directory: data/output/starrydata2_step26_pred_obs_scatter
+
+Loaded inputs:
+- data\output\starrydata2_step22_fitting_vs_ml_comparison\step22_row_level_comparison.csv
+- data\output\starrydata2_step21_pf_zt_ml_prediction\thermoelectric_ml_primary_test_predictions_step21.csv
+- data\output\starrydata2_step14_pf_zt_prediction\thermoelectric_predictions_step14.csv
+- data\output\starrydata2_step25_paper_outputs\paper_table_07_fitting_vs_ml_comparison_step25.csv
+
+Missing optional inputs:
+
+Column selection:
+- sigma_obs: sigma_obs_S_per_m_step11
+- sigma_fitting: sigma_pred_S_per_m_step12
+- sigma_ml: sigma_pred_ML_for_pf_zt_S_per_m_step21
+- pf_obs: power_factor_obs_W_per_mK2_step21
+- pf_fitting: power_factor_pred_fitting_W_per_mK2_step21
+- pf_ml: power_factor_pred_ML_W_per_mK2_step21
+- zt_obs: zt_obs_dimensionless_step11
+- zt_fitting: zt_pred_fitting_step21
+- zt_ml: zt_pred_ML_step21
+
+Column selection notes:
+- sigma_obs: selected exact column sigma_obs_S_per_m_step11
+- sigma_fitting: selected exact column sigma_pred_S_per_m_step12
+- sigma_ml: selected exact column sigma_pred_ML_for_pf_zt_S_per_m_step21
+- pf_obs: selected exact column power_factor_obs_W_per_mK2_step21
+- pf_fitting: selected exact column power_factor_pred_fitting_W_per_mK2_step21
+- pf_ml: selected exact column power_factor_pred_ML_W_per_mK2_step21
+- zt_obs: selected exact column zt_obs_dimensionless_step11
+- zt_fitting: selected exact column zt_pred_fitting_step21
+- zt_ml: selected exact column zt_pred_ML_step21
+
+Figures created:
+- figures_step26\figure_01_sigma_pred_vs_obs_fitting.png
+- figures_step26\figure_02_sigma_pred_vs_obs_ml.png
+- figures_step26\figure_03_pf_pred_vs_obs_fitting.png
+- figures_step26\figure_04_pf_pred_vs_obs_ml.png
+- figures_step26\figure_05_zt_pred_vs_obs_fitting.png
+- figures_step26\figure_06_zt_pred_vs_obs_ml.png
+- figures_step26\figure_08_zt_pred_vs_obs_fitting_log_positive_only.png
+- figures_step26\figure_09_zt_pred_vs_obs_ml_log_positive_only.png
+- figures_step26\figure_07_combined_pred_vs_obs_summary.png
+
+Figures skipped and reason:
+
+Rows used for each plot:
+- sigma_direct_fitting: n_rows=55272, n_plotted_rows=50000, status=created, note=obs_col=sigma_obs_S_per_m_step11; pred_col=sigma_pred_S_per_m_step12; excluded_by_scale=0; nonfinite_or_missing_pairs=0; sampled for plotting
+- sigma_ml_tau_prediction: n_rows=55272, n_plotted_rows=50000, status=created, note=obs_col=sigma_obs_S_per_m_step11; pred_col=sigma_pred_ML_for_pf_zt_S_per_m_step21; excluded_by_scale=0; nonfinite_or_missing_pairs=0; sampled for plotting
+- PF_direct_fitting: n_rows=15177, n_plotted_rows=15177, status=created, note=obs_col=power_factor_obs_W_per_mK2_step21; pred_col=power_factor_pred_fitting_W_per_mK2_step21; excluded_by_scale=0; nonfinite_or_missing_pairs=40095
+- PF_ml_tau_prediction: n_rows=15177, n_plotted_rows=15177, status=created, note=obs_col=power_factor_obs_W_per_mK2_step21; pred_col=power_factor_pred_ML_W_per_mK2_step21; excluded_by_scale=0; nonfinite_or_missing_pairs=40095
+- ZT_direct_fitting: n_rows=6381, n_plotted_rows=6381, status=created, note=obs_col=zt_obs_dimensionless_step11; pred_col=zt_pred_fitting_step21; excluded_by_scale=0; nonfinite_or_missing_pairs=48891
+- ZT_ml_tau_prediction: n_rows=6381, n_plotted_rows=6381, status=created, note=obs_col=zt_obs_dimensionless_step11; pred_col=zt_pred_ML_step21; excluded_by_scale=0; nonfinite_or_missing_pairs=48891
+- ZT_direct_fitting_log_positive_only: n_rows=6362, n_plotted_rows=6362, status=created, note=obs_col=zt_obs_dimensionless_step11; pred_col=zt_pred_fitting_step21; excluded_by_scale=19; nonfinite_or_missing_pairs=48891
+- ZT_ml_tau_prediction_log_positive_only: n_rows=6362, n_plotted_rows=6362, status=created, note=obs_col=zt_obs_dimensionless_step11; pred_col=zt_pred_ML_step21; excluded_by_scale=19; nonfinite_or_missing_pairs=48891
+- combined_pred_vs_obs_summary: n_rows=153660, n_plotted_rows=143116, status=created, note=2 x 3 summary figure; sigma and PF log-log, ZT linear
+
+Metrics for each plot:
+- sigma_direct_fitting: n=55272, MAPE=0.215, log_RMSE=0.293, Spearman=0.978, within_factor_2=0.965
+- sigma_ml_tau_prediction: n=55272, MAPE=5.47e+02, log_RMSE=1.71, Spearman=0.424, within_factor_2=0.454
+- PF_direct_fitting: n=15177, MAPE=0.207, log_RMSE=0.281, Spearman=0.969, within_factor_2=0.968
+- PF_ml_tau_prediction: n=15177, MAPE=1.14e+02, log_RMSE=1.47, Spearman=0.628, within_factor_2=0.535
+- ZT_direct_fitting: n=6381, MAPE=1.55e+06, log_RMSE=0.812, Spearman=0.957, within_factor_2=0.934
+- ZT_ml_tau_prediction: n=6381, MAPE=5.01e+06, log_RMSE=1.29, Spearman=0.721, within_factor_2=0.546
+
+Sampling information:
+- sigma_direct_fitting: original rows=55272, plotted rows=50000, sampling used=True
+- sigma_ml_tau_prediction: original rows=55272, plotted rows=50000, sampling used=True
+- PF_direct_fitting: original rows=15177, plotted rows=15177, sampling used=False
+- PF_ml_tau_prediction: original rows=15177, plotted rows=15177, sampling used=False
+- ZT_direct_fitting: original rows=6381, plotted rows=6381, sampling used=False
+- ZT_ml_tau_prediction: original rows=6381, plotted rows=6381, sampling used=False
+
+Excluded rows:
+- sigma_direct_fitting: excluded_by_scale=0; nonfinite_or_missing_pairs=0; obs_col=sigma_obs_S_per_m_step11; pred_col=sigma_pred_S_per_m_step12; excluded_by_scale=0; nonfinite_or_missing_pairs=0
+- sigma_ml_tau_prediction: excluded_by_scale=0; nonfinite_or_missing_pairs=0; obs_col=sigma_obs_S_per_m_step11; pred_col=sigma_pred_ML_for_pf_zt_S_per_m_step21; excluded_by_scale=0; nonfinite_or_missing_pairs=0
+- PF_direct_fitting: excluded_by_scale=0; nonfinite_or_missing_pairs=40095; obs_col=power_factor_obs_W_per_mK2_step21; pred_col=power_factor_pred_fitting_W_per_mK2_step21; excluded_by_scale=0; nonfinite_or_missing_pairs=40095
+- PF_ml_tau_prediction: excluded_by_scale=0; nonfinite_or_missing_pairs=40095; obs_col=power_factor_obs_W_per_mK2_step21; pred_col=power_factor_pred_ML_W_per_mK2_step21; excluded_by_scale=0; nonfinite_or_missing_pairs=40095
+- ZT_direct_fitting: excluded_by_scale=0; nonfinite_or_missing_pairs=48891; obs_col=zt_obs_dimensionless_step11; pred_col=zt_pred_fitting_step21; excluded_by_scale=0; nonfinite_or_missing_pairs=48891
+- ZT_ml_tau_prediction: excluded_by_scale=0; nonfinite_or_missing_pairs=48891; obs_col=zt_obs_dimensionless_step11; pred_col=zt_pred_ML_step21; excluded_by_scale=0; nonfinite_or_missing_pairs=48891
+
+Main interpretation:
+- The direct fitting version tends to be closer to the diagonal than the ML version when its error metrics are smaller.
+- The ML version is a harder task because tau_eff is predicted from material features.
+- See the metrics table to identify whether sigma, PF, or ZT has the largest errors.
+
+Important caveats:
+- Direct fitting uses sigma observations to fit tau_eff, so it is expected to perform better.
+- ML version predicts tau_eff from material features and is closer to unknown-material screening.
+- S and kappa are not predicted; PF and ZT use observed S and kappa.
+- tau_eff is a relative effective scalar, not a physical relaxation time in seconds.
