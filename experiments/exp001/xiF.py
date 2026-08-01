@@ -1,3 +1,4 @@
+# ドナー濃度ごとのフェルミ準位 xi_F の温度依存を PyTorch で数値計算し、グラフ化するスクリプト。
 import torch
 from math import pi
 from scipy.constants import h, k, e

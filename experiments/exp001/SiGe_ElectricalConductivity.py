@@ -1,12 +1,19 @@
+# Starrydata から SiGe の電気伝導率データを抽出・補正し、100K 超の曲線を正規化して CSV 化するスクリプト。
 import argparse
 import ast
 import json
 import logging
 import re
+from pathlib import Path
 from typing import Any, List, Optional, Tuple
 
 import pandas as pd
 
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+SIGE_OUTPUT_DIR = PROJECT_ROOT / "data" / "output" / "sige"
+DEFAULT_INPUT_CSV = PROJECT_ROOT / "experiments" / "exp001" / "starrydata_curves.csv"
+DEFAULT_OUTPUT_CSV = SIGE_OUTPUT_DIR / "sige_ElectricalConductivity_curves.csv"
 
 RE_ELEM = re.compile(r"(Si|Ge)(\d*\.?\d*)")
 RE_ELEM_ANY = re.compile(r"([A-Z][a-z]?)(\d*\.?\d*)")
@@ -119,11 +126,11 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--csv",
-        default=r"C:\Users\miots\m-thesis\m-thesis\experiments\exp001\starrydata_curves.csv",
+        default=DEFAULT_INPUT_CSV,
     )
     parser.add_argument(
         "--out",
-        default=r"C:\Users\miots\m-thesis\m-thesis\data\output\sige_ElectricalConductivity_curves.csv",
+        default=DEFAULT_OUTPUT_CSV,
     )
     args = parser.parse_args()
 
@@ -216,7 +223,9 @@ def main() -> None:
     df_save = df_out.copy()
     df_save["x_list"] = df_save["x_list"].apply(json.dumps)
     df_save["y_list"] = df_save["y_list"].apply(json.dumps)
-    df_save.to_csv(args.out, index=False)
+    out_path = Path(args.out)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    df_save.to_csv(out_path, index=False)
 
 
 if __name__ == "__main__":

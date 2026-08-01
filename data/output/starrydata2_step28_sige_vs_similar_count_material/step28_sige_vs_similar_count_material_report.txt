@@ -1,0 +1,4 @@
+sige_system: Ge-Si
+comparison_system: Ba-Cu-O-Y
+sige_curves: 127
+comparison_curves: 128

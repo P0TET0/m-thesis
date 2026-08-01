@@ -1,11 +1,21 @@
+# Starrydata から SiGe のゼーベック係数データを抽出し、組成別の CSV とプロットを作るスクリプト。
 import argparse
 import ast
 import json
 import logging
+import math
 import re
+from pathlib import Path
+from typing import Iterable
 
+import matplotlib.pyplot as plt
 import pandas as pd
 
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+SIGE_OUTPUT_DIR = PROJECT_ROOT / "data" / "output" / "sige"
+DEFAULT_INPUT_CSV = PROJECT_ROOT / "experiments" / "exp001" / "starrydata_curves.csv"
+DEFAULT_OUTPUT_CSV = SIGE_OUTPUT_DIR / "sige_Seebeck_curves.csv"
 
 RE_ELEM = re.compile(r"(Si|Ge)(\d*\.?\d*)")
 # Extract any element symbols for composition validation.
@@ -54,6 +64,12 @@ def parse_xy(raw_value):
     return [float(v) for v in parsed]
 
 
+def format_ratio(value: float) -> str:
+    formatted = f"{value:.6f}"
+    formatted = formatted.rstrip("0").rstrip(".")
+    return formatted if formatted else "0"
+
+
 def parse_composition(composition: str) -> tuple[float, float]:
     """
     # Examples:
@@ -81,6 +97,10 @@ def parse_composition(composition: str) -> tuple[float, float]:
     return si / total, ge / total
 
 
+def normalize_composition_ratio(si_frac: float, ge_frac: float) -> str:
+    return f"Si{format_ratio(si_frac)}Ge{format_ratio(ge_frac)}"
+
+
 def seebeck_sign_from_list(y_list: list[float], eps: float = 1e-9) -> str:
     if not y_list:
         return "unknown"
@@ -92,15 +112,115 @@ def seebeck_sign_from_list(y_list: list[float], eps: float = 1e-9) -> str:
     return "unknown"
 
 
+def sanitize_filename(name: str) -> str:
+    safe = re.sub(r"[^A-Za-z0-9._-]+", "_", name.strip())
+    return safe.strip("._") or "composition"
+
+
+def iter_xy_pairs(
+    x_values: Iterable[float], y_values: Iterable[float]
+) -> list[tuple[float, float]]:
+    pairs: list[tuple[float, float]] = []
+    for x, y in zip(x_values, y_values):
+        if x is None or y is None:
+            continue
+        try:
+            xf = float(x)
+            yf = float(y)
+        except (TypeError, ValueError):
+            continue
+        if not (math.isfinite(xf) and math.isfinite(yf)):
+            continue
+        pairs.append((xf, yf))
+    pairs.sort(key=lambda t: t[0])
+    return pairs
+
+
+def plot_by_composition_ratio(
+    df: pd.DataFrame,
+    outdir: Path,
+    dpi: int = 150,
+    split_csv: bool = False,
+) -> tuple[int, int, int]:
+    outdir.mkdir(parents=True, exist_ok=True)
+
+    csv_outdir = outdir / "split_csv"
+    if split_csv:
+        csv_outdir.mkdir(parents=True, exist_ok=True)
+
+    if "composition_ratio" not in df.columns:
+        return 0, 0, 0
+
+    grouped = df[df["composition_ratio"].notna()].groupby("composition_ratio", sort=True)
+    total_groups = grouped.ngroups
+
+    saved_figures = 0
+    skipped_groups = 0
+
+    for composition_ratio, group in grouped:
+        fig, ax = plt.subplots(figsize=(8, 5))
+        curve_count = 0
+
+        for row in group.itertuples(index=False):
+            x_values = getattr(row, "x_list", [])
+            y_values = getattr(row, "y_list", [])
+            pairs = iter_xy_pairs(x_values, y_values)
+            if len(pairs) < 2:
+                continue
+
+            xs, ys = zip(*pairs)
+            ax.plot(xs, ys, color="tab:orange", linewidth=1.0, alpha=0.35)
+            curve_count += 1
+
+        if curve_count == 0:
+            plt.close(fig)
+            skipped_groups += 1
+            continue
+
+        ax.set_title(f"{composition_ratio} ({curve_count} curves)")
+        ax.set_xlabel("Temperature [K]")
+        ax.set_ylabel("Seebeck coefficient [V/K]")
+        ax.grid(True, alpha=0.3)
+        fig.tight_layout()
+
+        safe_name = sanitize_filename(str(composition_ratio))
+        png_path = outdir / f"{safe_name}.png"
+        fig.savefig(png_path, dpi=dpi)
+        plt.close(fig)
+        saved_figures += 1
+
+        if split_csv:
+            csv_path = csv_outdir / f"{safe_name}.csv"
+            group.to_csv(csv_path, index=False)
+
+    return total_groups, saved_figures, skipped_groups
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--csv",
-        default=r"C:\Users\miots\m-thesis\m-thesis\experiments\exp001\starrydata_curves.csv",
+        default=DEFAULT_INPUT_CSV,
     )
     parser.add_argument(
         "--out",
-        default=r"C:\Users\miots\m-thesis\m-thesis\data\output\sige_Seebeck_curves.csv",
+        default=DEFAULT_OUTPUT_CSV,
+    )
+    parser.add_argument(
+        "--plot-outdir",
+        default=r"C:\Users\miots\m-thesis\m-thesis\data\output\sige_Seebeck_by_composition",
+        help="directory for output png files grouped by composition ratio",
+    )
+    parser.add_argument(
+        "--dpi",
+        type=int,
+        default=150,
+        help="dpi for saved figures",
+    )
+    parser.add_argument(
+        "--split-csv",
+        action="store_true",
+        help="also save one csv file per composition ratio",
     )
     args = parser.parse_args()
 
@@ -117,7 +237,7 @@ def main():
 
     records = []
     for row in df_sige.itertuples(index=True):
-        comp = row.composition
+        comp_original = row.composition
         try:
             x_list = parse_xy(row.x)
             y_list = parse_xy(row.y)
@@ -126,7 +246,7 @@ def main():
             continue
 
         try:
-            si_frac, ge_frac = parse_composition(comp)
+            si_frac, ge_frac = parse_composition(comp_original)
         except (ValueError, TypeError) as exc:
             logging.warning("skip index=%s: composition parse error: %s", row.Index, exc)
             continue
@@ -139,7 +259,7 @@ def main():
             logging.warning("skip index=%s: empty x/y list", row.Index)
             continue
 
-        # x>100K のみ残し、x 昇順で並べ直す
+        # Keep points above 100 K only.
         xy_filtered = [(x, y) for x, y in zip(x_list, y_list) if x > 100.0]
         if not xy_filtered:
             logging.warning("skip index=%s: no data above 100K", row.Index)
@@ -147,7 +267,11 @@ def main():
         xy_filtered.sort(key=lambda t: t[0])
         x_list, y_list = map(list, zip(*xy_filtered))
 
+        composition_ratio = normalize_composition_ratio(si_frac, ge_frac)
+
         record = row._asdict()
+        record["composition_original"] = comp_original
+        record["composition_ratio"] = composition_ratio
         record["x_list"] = x_list
         record["y_list"] = y_list
         record["T_min"] = min(x_list)
@@ -162,7 +286,9 @@ def main():
     preview_cols = [
         c
         for c in [
+            "composition_ratio",
             "composition",
+            "composition_original",
             "si_frac",
             "ge_frac",
             "T_min",
@@ -175,9 +301,26 @@ def main():
     print(df_out[preview_cols].head())
 
     df_save = df_out.copy()
-    df_save["x_list"] = df_save["x_list"].apply(json.dumps)
-    df_save["y_list"] = df_save["y_list"].apply(json.dumps)
-    df_save.to_csv(args.out, index=False)
+    if "x_list" in df_save.columns:
+        df_save["x_list"] = df_save["x_list"].apply(json.dumps)
+    if "y_list" in df_save.columns:
+        df_save["y_list"] = df_save["y_list"].apply(json.dumps)
+    out_path = Path(args.out)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    df_save.to_csv(out_path, index=False)
+
+    group_total, figures_saved, groups_skipped = plot_by_composition_ratio(
+        df=df_out,
+        outdir=Path(args.plot_outdir),
+        dpi=args.dpi,
+        split_csv=args.split_csv,
+    )
+    print(f"plot_groups_total: {group_total}")
+    print(f"figures_saved: {figures_saved}")
+    print(f"groups_skipped_no_curves: {groups_skipped}")
+    print(f"plot_outdir: {args.plot_outdir}")
+    if args.split_csv:
+        print(f"split_csv_outdir: {Path(args.plot_outdir) / 'split_csv'}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,898 @@
+[
+  {
+    "file": "data\\output\\starrydata2_step5_core_properties\\property_core_curves_step5.csv",
+    "read_error": null,
+    "row_count": 111564,
+    "column_count": 83,
+    "columns": [
+      "curve_id",
+      "curve_key",
+      "sample_key",
+      "SID",
+      "SID_curve",
+      "SID_sample",
+      "DOI",
+      "DOI_curve",
+      "DOI_sample",
+      "sample_id",
+      "sample_id_curve",
+      "sample_id_sample",
+      "paper_title",
+      "year",
+      "composition",
+      "composition_curve",
+      "composition_sample",
+      "material_system",
+      "n_or_p",
+      "n_or_p_basis",
+      "sintering_method",
+      "sintering_checked",
+      "record_checked",
+      "figure_id",
+      "prop_x",
+      "property_family",
+      "property",
+      "prop_y_canonical",
+      "prop_y",
+      "prop_y_raw",
+      "unit",
+      "unit_x",
+      "unit_y",
+      "n_points",
+      "n_points_step5",
+      "x_min",
+      "x_max",
+      "y_min",
+      "y_max",
+      "x_values_json",
+      "y_values_json",
+      "unit_check_note",
+      "unit_check_note_step5",
+      "xy_length_check",
+      "property_step5",
+      "property_step5_source",
+      "is_target_property_step5",
+      "property_filter_reason",
+      "merge_status",
+      "is_candidate_sample",
+      "is_learning_candidate",
+      "learning_candidate_reason",
+      "has_sigma_or_rho",
+      "has_seebeck",
+      "has_kappa_or_zt",
+      "is_target_property_for_relaxation",
+      "is_core_property",
+      "is_seebeck_curve",
+      "is_electrical_conductivity_curve",
+      "is_electrical_resistivity_curve",
+      "is_thermal_conductivity_curve",
+      "is_zt_curve",
+      "zt_unit_is_dimensionless",
+      "zt_unit_needs_check",
+      "zt_unit_check_status_x",
+      "is_relaxation_fit_candidate_x",
+      "is_accuracy_check_candidate_x",
+      "is_extended_transport_candidate_x",
+      "has_core_property",
+      "zt_curve_count",
+      "zt_unit_values",
+      "zt_unit_issue_count",
+      "zt_unit_all_dimensionless",
+      "has_seebeck_curve",
+      "has_electrical_conductivity_curve",
+      "has_electrical_resistivity_curve",
+      "has_any_electrical_transport_curve",
+      "has_thermal_conductivity_curve",
+      "has_zt_curve",
+      "is_relaxation_fit_candidate_y",
+      "is_accuracy_check_candidate_y",
+      "is_extended_transport_candidate_y",
+      "zt_unit_check_status_y"
+    ],
+    "column_info": {
+      "curve_id": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "10.1002_1439-2054_20010301_286_3_139_aid-mame139_3.0.co_2-f__sample_84409__figure_56246__prop_Electrical_conductivity__sid_49885__row_197902",
+          "10.1002_1439-2054_20010301_286_3_139_aid-mame139_3.0.co_2-f__sample_84409__figure_56248__prop_Seebeck_coefficient__sid_49885__row_197909",
+          "10.1002_1439-2054_20010301_286_3_139_aid-mame139_3.0.co_2-f__sample_84409__figure_56250__prop_ZT__sid_49885__row_197914",
+          "10.1002_1439-2054_20010301_286_3_139_aid-mame139_3.0.co_2-f__sample_84410__figure_56246__prop_Electrical_conductivity__sid_49885__row_197903",
+          "10.1002_1439-2054_20010301_286_3_139_aid-mame139_3.0.co_2-f__sample_84410__figure_56248__prop_Seebeck_coefficient__sid_49885__row_197908"
+        ]
+      },
+      "curve_key": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "10.1002_1439-2054_20010301_286_3_139_aid-mame139_3.0.co_2-f__sample_84409__figure_56246__prop_Electrical_conductivity__sid_49885__row_197902",
+          "10.1002_1439-2054_20010301_286_3_139_aid-mame139_3.0.co_2-f__sample_84409__figure_56248__prop_Seebeck_coefficient__sid_49885__row_197909",
+          "10.1002_1439-2054_20010301_286_3_139_aid-mame139_3.0.co_2-f__sample_84409__figure_56250__prop_ZT__sid_49885__row_197914",
+          "10.1002_1439-2054_20010301_286_3_139_aid-mame139_3.0.co_2-f__sample_84410__figure_56246__prop_Electrical_conductivity__sid_49885__row_197903",
+          "10.1002_1439-2054_20010301_286_3_139_aid-mame139_3.0.co_2-f__sample_84410__figure_56248__prop_Seebeck_coefficient__sid_49885__row_197908"
+        ]
+      },
+      "sample_key": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "10.1002_1439-2054_20010301_286_3_139_aid-mame139_3.0.co_2-f__sample_84409",
+          "10.1002_1439-2054_20010301_286_3_139_aid-mame139_3.0.co_2-f__sample_84410",
+          "10.1002_1439-2054_20010301_286_3_139_aid-mame139_3.0.co_2-f__sample_84415",
+          "10.1002_1439-2054_20010301_286_3_139_aid-mame139_3.0.co_2-f__sample_84416",
+          "10.1002_1439-2054_20010301_286_3_139_aid-mame139_3.0.co_2-f__sample_84417"
+        ]
+      },
+      "SID": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "49885",
+          "122",
+          "123",
+          "124",
+          "30874"
+        ]
+      },
+      "SID_curve": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "49885",
+          "122",
+          "123",
+          "124",
+          "30874"
+        ]
+      },
+      "SID_sample": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "49885",
+          "122",
+          "123",
+          "124",
+          "30874"
+        ]
+      },
+      "DOI": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "10.1002/1439-2054(20010301)286:3<139::aid-mame139>3.0.co;2-f",
+          "10.1002/adem.200500043",
+          "10.1002/adem.201200233",
+          "10.1002/adem.201400183",
+          "10.1002/adem.202000816"
+        ]
+      },
+      "DOI_curve": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "10.1002/1439-2054(20010301)286:3<139::aid-mame139>3.0.co;2-f",
+          "10.1002/adem.200500043",
+          "10.1002/adem.201200233",
+          "10.1002/adem.201400183",
+          "10.1002/adem.202000816"
+        ]
+      },
+      "DOI_sample": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "10.1002/1439-2054(20010301)286:3<139::aid-mame139>3.0.co;2-f",
+          "10.1002/adem.200500043",
+          "10.1002/adem.201200233",
+          "10.1002/adem.201400183",
+          "10.1002/adem.202000816"
+        ]
+      },
+      "sample_id": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "84409",
+          "84410",
+          "84415",
+          "84416",
+          "84417"
+        ]
+      },
+      "sample_id_curve": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "84409",
+          "84410",
+          "84415",
+          "84416",
+          "84417"
+        ]
+      },
+      "sample_id_sample": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "84409",
+          "84410",
+          "84415",
+          "84416",
+          "84417"
+        ]
+      },
+      "paper_title": {
+        "missing_rate": 1.0,
+        "representative_values": []
+      },
+      "year": {
+        "missing_rate": 1.0,
+        "representative_values": []
+      },
+      "composition": {
+        "missing_rate": 0.0003495751317629343,
+        "representative_values": [
+          "CSA doped Polyaniline",
+          "Ca3Co4O9",
+          "LaCoO3",
+          "La0.7Ca0.3CoO3",
+          "La0.6Ca0.4CoO3"
+        ]
+      },
+      "composition_curve": {
+        "missing_rate": 0.0003495751317629343,
+        "representative_values": [
+          "CSA doped Polyaniline",
+          "Ca3Co4O9",
+          "LaCoO3",
+          "La0.7Ca0.3CoO3",
+          "La0.6Ca0.4CoO3"
+        ]
+      },
+      "composition_sample": {
+        "missing_rate": 0.0003495751317629343,
+        "representative_values": [
+          "CSA doped Polyaniline",
+          "Ca3Co4O9",
+          "LaCoO3",
+          "La0.7Ca0.3CoO3",
+          "La0.6Ca0.4CoO3"
+        ]
+      },
+      "material_system": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "unknown"
+        ]
+      },
+      "n_or_p": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "p",
+          "unknown",
+          "n",
+          "mixed"
+        ]
+      },
+      "n_or_p_basis": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "Seebeck sign: positive",
+          "Seebeck sign: unknown",
+          "Seebeck sign: negative",
+          "Seebeck sign: mixed",
+          "Seebeck sign: zero"
+        ]
+      },
+      "sintering_method": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "unknown"
+        ]
+      },
+      "sintering_checked": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "no"
+        ]
+      },
+      "record_checked": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "no"
+        ]
+      },
+      "figure_id": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "56246",
+          "56248",
+          "56250",
+          "56255",
+          "20342"
+        ]
+      },
+      "prop_x": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "Temperature"
+        ]
+      },
+      "property_family": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "electrical_conductivity",
+          "seebeck",
+          "zt",
+          "electrical_resistivity",
+          "thermal_conductivity"
+        ]
+      },
+      "property": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "Electrical conductivity",
+          "Seebeck coefficient",
+          "ZT",
+          "Electrical resistivity",
+          "Thermal conductivity"
+        ]
+      },
+      "prop_y_canonical": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "Electrical conductivity",
+          "Seebeck coefficient",
+          "ZT",
+          "Electrical resistivity",
+          "Thermal conductivity"
+        ]
+      },
+      "prop_y": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "Electrical conductivity",
+          "Seebeck coefficient",
+          "ZT",
+          "Electrical resistivity",
+          "Thermal conductivity"
+        ]
+      },
+      "prop_y_raw": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "Electrical conductivity",
+          "Seebeck coefficient",
+          "ZT",
+          "Electrical resistivity",
+          "Thermal conductivity"
+        ]
+      },
+      "unit": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "ohm^(-1)*m^(-1)",
+          "V*K^(-1)",
+          "-",
+          "ohm*m",
+          "W*m^(-1)*K^(-1)"
+        ]
+      },
+      "unit_x": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "K"
+        ]
+      },
+      "unit_y": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "ohm^(-1)*m^(-1)",
+          "V*K^(-1)",
+          "-",
+          "ohm*m",
+          "W*m^(-1)*K^(-1)"
+        ]
+      },
+      "n_points": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "13",
+          "12",
+          "3",
+          "8",
+          "5"
+        ]
+      },
+      "n_points_step5": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "13",
+          "12",
+          "3",
+          "8",
+          "5"
+        ]
+      },
+      "x_min": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "299.3",
+          "302.7",
+          "306.1",
+          "300.0",
+          "304.0"
+        ]
+      },
+      "x_max": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "428.2",
+          "428.7",
+          "429.4",
+          "427.5",
+          "430.0"
+        ]
+      },
+      "y_min": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "15070.0",
+          "1.624e-05",
+          "0.01081",
+          "4170.0",
+          "1.422e-05"
+        ]
+      },
+      "y_max": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "25960.0",
+          "3.789e-05",
+          "0.02887",
+          "8744.0",
+          "2.798e-05"
+        ]
+      },
+      "x_values_json": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "[299.3,308.2,318.4,327.3,338.2,348.4,360.7,375.0,388.0,403.6,414.5,420.7,428.2]",
+          "[302.7,317.3,324.7,336.7,346.0,359.3,373.3,388.0,401.3,410.0,420.0,428.7]",
+          "[306.1,361.4,429.4]",
+          "[300.0,306.1,318.4,327.3,336.8,347.7,358.6,375.7,386.6,400.9,411.1,418.6,427.5]",
+          "[304.0,317.3,326.0,337.3,347.3,359.3,372.7,390.0,403.3,410.7,420.0,430.0]"
+        ]
+      },
+      "y_values_json": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "[25960.0,25560.0,23540.0,22200.0,21120.0,20310.0,19640.0,19240.0,18570.0,17350.0,16950.0,15870.0,15070.0]",
+          "[2.009e-05,2.009e-05,1.624e-05,1.972e-05,2.394e-05,2.651e-05,2.688e-05,3.11e-05,3.239e-05,3.202e-05,3.459e-05,3.789e-05]",
+          "[0.01081,0.0171,0.02887]",
+          "[8744.0,7937.0,7937.0,6861.0,6457.0,6592.0,5785.0,5785.0,5112.0,4978.0,4305.0,4709.0,4170.0]",
+          "[1.569e-05,1.679e-05,1.422e-05,1.661e-05,1.936e-05,2.138e-05,2.138e-05,2.284e-05,2.394e-05,2.633e-05,2.56e-05,2.798e-05]"
+        ]
+      },
+      "unit_check_note": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "not_zt",
+          "ok",
+          "needs_check"
+        ]
+      },
+      "unit_check_note_step5": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "not_zt",
+          "ok",
+          "needs_check | ZT unit is not dimensionless; check later"
+        ]
+      },
+      "xy_length_check": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "ok"
+        ]
+      },
+      "property_step5": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "Electrical conductivity",
+          "Seebeck coefficient",
+          "ZT",
+          "Electrical resistivity",
+          "Thermal conductivity"
+        ]
+      },
+      "property_step5_source": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "property_family",
+          "property"
+        ]
+      },
+      "is_target_property_step5": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "True"
+        ]
+      },
+      "property_filter_reason": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "target property"
+        ]
+      },
+      "merge_status": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "matched"
+        ]
+      },
+      "is_candidate_sample": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "True",
+          "False"
+        ]
+      },
+      "is_learning_candidate": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "True",
+          "False"
+        ]
+      },
+      "learning_candidate_reason": {
+        "missing_rate": 1.0,
+        "representative_values": []
+      },
+      "has_sigma_or_rho": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "True",
+          "False"
+        ]
+      },
+      "has_seebeck": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "True",
+          "False"
+        ]
+      },
+      "has_kappa_or_zt": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "True",
+          "False"
+        ]
+      },
+      "is_target_property_for_relaxation": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "True",
+          "False"
+        ]
+      },
+      "is_core_property": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "True",
+          "False"
+        ]
+      },
+      "is_seebeck_curve": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "False",
+          "True"
+        ]
+      },
+      "is_electrical_conductivity_curve": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "True",
+          "False"
+        ]
+      },
+      "is_electrical_resistivity_curve": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "False",
+          "True"
+        ]
+      },
+      "is_thermal_conductivity_curve": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "False",
+          "True"
+        ]
+      },
+      "is_zt_curve": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "False",
+          "True"
+        ]
+      },
+      "zt_unit_is_dimensionless": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "False",
+          "True"
+        ]
+      },
+      "zt_unit_needs_check": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "False",
+          "True"
+        ]
+      },
+      "zt_unit_check_status_x": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "not_zt",
+          "ok",
+          "needs_check"
+        ]
+      },
+      "is_relaxation_fit_candidate_x": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "True",
+          "False"
+        ]
+      },
+      "is_accuracy_check_candidate_x": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "False",
+          "True"
+        ]
+      },
+      "is_extended_transport_candidate_x": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "False",
+          "True"
+        ]
+      },
+      "has_core_property": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "True",
+          "False"
+        ]
+      },
+      "zt_curve_count": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "1",
+          "0",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "zt_unit_values": {
+        "missing_rate": 0.33640780179986374,
+        "representative_values": [
+          "-",
+          "K^(-1)",
+          "- | K^(-1)"
+        ]
+      },
+      "zt_unit_issue_count": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "0",
+          "1",
+          "2"
+        ]
+      },
+      "zt_unit_all_dimensionless": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "True",
+          "False"
+        ]
+      },
+      "has_seebeck_curve": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "True",
+          "False"
+        ]
+      },
+      "has_electrical_conductivity_curve": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "True",
+          "False"
+        ]
+      },
+      "has_electrical_resistivity_curve": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "False",
+          "True"
+        ]
+      },
+      "has_any_electrical_transport_curve": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "True",
+          "False"
+        ]
+      },
+      "has_thermal_conductivity_curve": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "False",
+          "True"
+        ]
+      },
+      "has_zt_curve": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "True",
+          "False"
+        ]
+      },
+      "is_relaxation_fit_candidate_y": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "True",
+          "False"
+        ]
+      },
+      "is_accuracy_check_candidate_y": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "False",
+          "True"
+        ]
+      },
+      "is_extended_transport_candidate_y": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "False",
+          "True"
+        ]
+      },
+      "zt_unit_check_status_y": {
+        "missing_rate": 0.0,
+        "representative_values": [
+          "ok",
+          "not_applicable",
+          "needs_check"
+        ]
+      }
+    },
+    "inferred_columns": {
+      "property_like": [
+        "prop_x",
+        "property_family",
+        "property",
+        "prop_y_canonical",
+        "prop_y",
+        "prop_y_raw",
+        "property_step5",
+        "property_step5_source",
+        "is_target_property_step5",
+        "property_filter_reason",
+        "has_sigma_or_rho",
+        "has_seebeck",
+        "is_target_property_for_relaxation",
+        "is_core_property",
+        "is_seebeck_curve",
+        "is_electrical_conductivity_curve",
+        "is_electrical_resistivity_curve",
+        "is_thermal_conductivity_curve",
+        "has_core_property",
+        "has_seebeck_curve",
+        "has_electrical_conductivity_curve",
+        "has_electrical_resistivity_curve",
+        "has_thermal_conductivity_curve"
+      ],
+      "temperature_like": [],
+      "unit_like": [
+        "unit",
+        "unit_x",
+        "unit_y",
+        "unit_check_note",
+        "unit_check_note_step5",
+        "zt_unit_is_dimensionless",
+        "zt_unit_needs_check",
+        "zt_unit_check_status_x",
+        "zt_unit_values",
+        "zt_unit_issue_count",
+        "zt_unit_all_dimensionless",
+        "zt_unit_check_status_y"
+      ],
+      "sample_id_like": [
+        "sample_key",
+        "SID",
+        "SID_curve",
+        "SID_sample",
+        "DOI_sample",
+        "sample_id",
+        "sample_id_curve",
+        "sample_id_sample",
+        "composition_sample",
+        "is_candidate_sample"
+      ],
+      "paper_id_or_doi_like": [
+        "SID",
+        "SID_curve",
+        "SID_sample",
+        "DOI",
+        "DOI_curve",
+        "DOI_sample",
+        "paper_title"
+      ],
+      "formula_or_material_like": [
+        "composition",
+        "composition_curve",
+        "composition_sample",
+        "material_system"
+      ]
+    },
+    "unit_candidates": [
+      "-",
+      "- | K^(-1)",
+      "0",
+      "1",
+      "2",
+      "False",
+      "K",
+      "K^(-1)",
+      "S*m^(-1)",
+      "True",
+      "V*K^(-1)",
+      "V/K",
+      "W*m^(-1)*K^(-1)",
+      "kg*m**2/A/s**3",
+      "needs_check",
+      "needs_check | ZT unit is not dimensionless; check later",
+      "not_applicable",
+      "not_zt",
+      "ohm*m",
+      "ohm*m^-1",
+      "ohm^(-1)*m^(-1)",
+      "ok"
+    ],
+    "property_candidates": [
+      "Calculated Electrical Conductivity",
+      "Calculated Seebeck coefficient",
+      "Conductivity",
+      "Contact resistivity",
+      "Electrical conductivity",
+      "Electrical resistivity",
+      "False",
+      "Figure of merit",
+      "Figure of merit Z",
+      "Resistance",
+      "Resistivity",
+      "S",
+      "Seebeck coefficient",
+      "Temperature",
+      "Thermal conductivity",
+      "Thermoelectric power",
+      "Thermopower",
+      "True",
+      "ZT",
+      "conductivity",
+      "electrical_conductivity",
+      "electrical_resistivity",
+      "ln(Electrical conductivity)",
+      "ln(Electrical resistivity)",
+      "log(Electrical conductivity)",
+      "log(Electrical resistivity)",
+      "other",
+      "property",
+      "property_family",
+      "seebeck",
+      "target property",
+      "thermal_conductivity",
+      "thermopower",
+      "total thermal conductivity",
+      "zt",
+      "ρ"
+    ]
+  }
+]

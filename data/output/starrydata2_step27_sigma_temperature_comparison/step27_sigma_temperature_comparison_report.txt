@@ -1,0 +1,7 @@
+selected_curves: 1947
+skipped_curves: 2
+sige_curves: 127
+pbte_based_curves: 1820
+sige_composition_ratio_groups: 17
+pbte_composition_ratio_groups: 282
+skipped_too_few_positive_points: 2

@@ -1,0 +1,62 @@
+Step30 information-rich tau_eff ML evaluation
+
+Purpose
+- Step30 is an additional evaluation restricted to samples with richer material information.
+- Step30 does not refit tau_eff.
+- Step30 does not recalculate sigma, PF, or ZT.
+- Step30 uses Step18 target_log_tau_eff_step18 as the objective variable.
+- Step30 does not causally prove why ML performance decreases.
+- Existing material_system values were all or mostly unknown, so material_system_info_step30 uses existing values when available and otherwise a coarse composition-derived Step30-only fallback. Original columns are not changed.
+
+Inputs
+- recommended: data\output\starrydata2_step18_tau_eff_ml_dataset\tau_eff_ml_dataset_recommended_step18.csv
+- feature_matrix: data\output\starrydata2_step18_tau_eff_ml_dataset\tau_eff_ml_feature_matrix_step18.csv
+- target: data\output\starrydata2_step18_tau_eff_ml_dataset\tau_eff_ml_target_step18.csv
+- metadata: data\output\starrydata2_step18_tau_eff_ml_dataset\tau_eff_ml_metadata_step18.csv
+- splits: data\output\starrydata2_step18_tau_eff_ml_dataset\tau_eff_ml_splits_step18.csv
+- step17_base: data\output\starrydata2_step17_literature_review\step17_tau_eff_ml_annotation_base.csv
+- step17_annotated: data\output\starrydata2_step17_literature_review\step17_annotated_samples.csv
+- step23_samples: data\output\starrydata2_step23_error_cause_analysis\step23_error_cause_samples.csv
+- step19_comparison: data\output\starrydata2_step19_tau_eff_ml_model\tau_eff_ml_model_comparison_step19.csv
+- paper identifier for DOI-group split/counts: DOI
+
+Leakage check
+- leakage-suspect feature columns excluded: 0
+
+Level counts
+- Level 0 all_recommended: samples=15623, DOI/paper count=3595, reason=evaluated
+- Level 1 basic_material_info: samples=15612, DOI/paper count=3592, reason=evaluated
+- Level 2 any_extra_info: samples=22, DOI/paper count=15, reason=sample_count<200; paper_count<20
+- Level 3 two_extra_info: samples=1, DOI/paper count=1, reason=sample_count<200; paper_count<20
+- Level 4 full_extra_info: samples=0, DOI/paper count=0, reason=sample_count<200; paper_count<20
+
+Representative models
+- Level 0 all_recommended: gradient_boosting by lowest paper_group RMSE; RMSE=1.8467, Spearman=0.4672
+- Level 1 basic_material_info: gradient_boosting by lowest paper_group RMSE; RMSE=1.7316, Spearman=0.4316
+- Level 2: skipped (not evaluated)
+- Level 3: skipped (not evaluated)
+- Level 4: skipped (not evaluated)
+
+Interpretation
+- Restricting to information-rich samples can improve feature quality, but it also reduces training data size.
+- If performance improves, the result supports insufficient information as a candidate contributor to lower ML performance.
+- If performance does not improve, tau_eff definition, C(T) construction, data variability, and extrapolation difficulty also need to be considered.
+- Level 0: baseline; sufficient by Step30 threshold
+- Level 1: RMSE improved versus Level 0; sufficient by Step30 threshold
+- Level 2: skipped; limited data; evaluation skipped
+- Level 3: skipped; limited data; evaluation skipped
+- Level 4: skipped; limited data; evaluation skipped
+
+Missing information summary
+- Level 0 all_recommended: additive=0.001, composition=1.000, material_system=0.999, n_or_p=1.000, sintering=0.000, structure=0.001
+- Level 1 basic_material_info: additive=0.001, composition=1.000, material_system=1.000, n_or_p=1.000, sintering=0.000, structure=0.001
+- Level 2 any_extra_info: additive=0.364, composition=1.000, material_system=1.000, n_or_p=1.000, sintering=0.000, structure=0.682
+- Level 3 two_extra_info: additive=1.000, composition=1.000, material_system=1.000, n_or_p=1.000, sintering=0.000, structure=1.000
+
+Validation
+- sample_key duplicates were checked before model evaluation.
+- feature matrix was checked for target/evaluation/prediction/error leakage patterns.
+- DOI leakage count in evaluated paper-group splits: 0.0
+- Levels below the sample or DOI/paper threshold were recorded as skipped rather than raising an error.
+- Existing n_or_p, sintering_method, sintering_checked, and record_checked values were not modified.
+- Outputs are written only under the Step30 output directory.

@@ -1,0 +1,3 @@
+materials_requested: 41
+figures_created: 41
+missing_or_empty_materials: 0

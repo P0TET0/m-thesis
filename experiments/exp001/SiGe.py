@@ -10,6 +10,11 @@ from typing import Any, Optional
 import pandas as pd
 
 
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+SIGE_OUTPUT_DIR = PROJECT_ROOT / "data" / "output" / "sige"
+DEFAULT_INPUT_CSV = PROJECT_ROOT / "experiments" / "exp001" / "starrydata_curves.csv"
+DEFAULT_OUTPUT_CSV = SIGE_OUTPUT_DIR / "sige_all_curves.csv"
+
 RE_ELEM = re.compile(r"(Si|Ge)(\d*\.?\d*)")
 RE_ELEM_ANY = re.compile(r"([A-Z][a-z]?)(\d*\.?\d*)")
 RE_ALLOWED_SEPARATOR = re.compile(r"[\s\-\(\)\[\]\{\}]+")
@@ -111,11 +116,11 @@ def main() -> None:
     )
     parser.add_argument(
         "--csv",
-        default=r"C:\Users\miots\m-thesis\m-thesis\experiments\exp001\starrydata_curves.csv",
+        default=DEFAULT_INPUT_CSV,
     )
     parser.add_argument(
         "--out",
-        default=r"C:\Users\miots\m-thesis\m-thesis\data\output\sige_all_curves.csv",
+        default=DEFAULT_OUTPUT_CSV,
     )
     args = parser.parse_args()
 

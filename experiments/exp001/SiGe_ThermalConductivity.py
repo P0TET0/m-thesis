@@ -1,11 +1,18 @@
+# Starrydata から SiGe の熱伝導率データを抽出し、組成と温度範囲を整理した CSV を作るスクリプト。
 import argparse
 import ast
 import json
 import logging
 import re
+from pathlib import Path
 
 import pandas as pd
 
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+SIGE_OUTPUT_DIR = PROJECT_ROOT / "data" / "output" / "sige"
+DEFAULT_INPUT_CSV = PROJECT_ROOT / "experiments" / "exp001" / "starrydata_curves.csv"
+DEFAULT_OUTPUT_CSV = SIGE_OUTPUT_DIR / "sige_ThermalConductivity_curves.csv"
 
 RE_ELEM = re.compile(r"(Si|Ge)(\d*\.?\d*)")
 # 組成の妥当性確認のため、元素記号を抽出する。
@@ -96,11 +103,11 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--csv",
-        default=r"C:\Users\miots\m-thesis\m-thesis\experiments\exp001\starrydata_curves.csv",
+        default=DEFAULT_INPUT_CSV,
     )
     parser.add_argument(
         "--out",
-        default=r"C:\Users\miots\m-thesis\m-thesis\data\output\sige_ThermalConductivity_curves.csv",
+        default=DEFAULT_OUTPUT_CSV,
     )
     args = parser.parse_args()
 
@@ -181,7 +188,9 @@ def main():
     df_save = df_out.copy()
     df_save["x_list"] = df_save["x_list"].apply(json.dumps)
     df_save["y_list"] = df_save["y_list"].apply(json.dumps)
-    df_save.to_csv(args.out, index=False)
+    out_path = Path(args.out)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    df_save.to_csv(out_path, index=False)
 
 
 if __name__ == "__main__":
