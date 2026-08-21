@@ -1,0 +1,9 @@
+Step36 scatter plots with metrics calculated before clipping
+============================================================
+scatter input: C:\Users\miots\m-thesis\m-thesis\data\output\starrydata2_step32_sigma_ml_by_material_system\sigma_ml_doi_holdout_predictions_by_material_system_step32.csv
+metrics input: C:\Users\miots\m-thesis\m-thesis\data\output\starrydata2_step34_sigma_ml_y_equals_x_metrics\y_equals_x_metrics_by_material_system_step34.csv
+all positive points used for metrics: 12,010
+display range applied after metrics: 1e+02--1e+08 S/m on x and y
+material systems: 16
+annotations: all-point n, visible n, all-point RMSE/MAE/Factor-2/CCC
+Existing Step35 figures were not modified.

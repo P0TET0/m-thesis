@@ -1,0 +1,11 @@
+Step37 minimal transparent sigma ML scatter plots
+=================================================
+material-system figures: 16
+one PNG per material system; no combined or grid figures
+figure text: tick values only; no title, axis labels, material name, or RMSE
+display range: 1e+02--1e+08 S/m on x and y
+RMSE scope: all positive points before display clipping
+RMSE location: rmse_by_material_system_step37.csv
+background: opaque white inside axes; transparent outside axes
+identity line: black dashed y=x
+Existing Step36 and earlier figures were not modified.

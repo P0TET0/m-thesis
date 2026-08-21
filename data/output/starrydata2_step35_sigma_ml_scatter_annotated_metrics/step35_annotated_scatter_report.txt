@@ -1,0 +1,8 @@
+Step35 annotated exp005 sigma ML scatter figures
+=================================================
+scatter input: C:\Users\miots\m-thesis\m-thesis\data\output\starrydata2_step32_sigma_ml_by_material_system\sigma_ml_doi_holdout_predictions_by_material_system_step32.csv
+metrics input: C:\Users\miots\m-thesis\m-thesis\data\output\starrydata2_step34_sigma_ml_y_equals_x_metrics\y_equals_x_metrics_by_material_system_step34.csv
+axis range: 1e+02--1e+08 S/m on x and y
+material systems: 16
+annotations: n, RMSE(log10), MAE(log10), Factor-2 rate, CCC(log10)
+Existing Step33 figures were not modified.

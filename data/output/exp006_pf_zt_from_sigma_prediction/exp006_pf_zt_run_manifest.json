@@ -1,0 +1,26 @@
+{
+  "prediction_file": "experiments/exp006/data/processed/step5b_test_predictions_default.csv",
+  "observation_file": "data/output/starrydata2_step14_pf_zt_prediction/thermoelectric_validation_predictions_step14.csv",
+  "annotation_file": "data/output/starrydata2_step9_literature_annotations/sample_literature_annotations_step9.csv",
+  "metadata_file": "data/output/starrydata2_step3_fixed/sample_master_fixed.csv",
+  "sigma_prediction_column": "sigma_pred_S_per_m",
+  "seebeck_observation_column": "S_uV_per_K",
+  "temperature_column": "T_K",
+  "kappa_observation_column": "kappa_obs_W_per_mK_step11",
+  "zt_observation_column": "zt_obs_dimensionless_step11",
+  "join_key": [
+    "sample_key",
+    "temperature_K"
+  ],
+  "nearest_temperature_matching_used": false,
+  "counts": {
+    "prediction_rows": 19008,
+    "exact_observation_key_matches": 54,
+    "valid_pf_pred_rows": 19000,
+    "valid_pf_comparison_rows": 19000,
+    "valid_zt_pred_rows": 21,
+    "zt_obs_nonmissing_rows": 25,
+    "valid_zt_obs_comparison_rows": 15,
+    "valid_zt_calc_comparison_rows": 21
+  }
+}

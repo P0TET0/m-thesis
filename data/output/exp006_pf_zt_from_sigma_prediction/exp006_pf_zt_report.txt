@@ -1,0 +1,109 @@
+exp006 PF/ZT from existing sigma prediction
+=================================================
+
+Processing scope
+----------------
+- Downstream calculation only; exp006 sigma predictions were not recomputed.
+- No ML retraining and no tau_eff refitting were performed.
+- Existing input files were read-only; all outputs are new files in the requested directory.
+
+Selected inputs
+---------------
+- Prediction file: experiments/exp006/data/processed/step5b_test_predictions_default.csv
+- Primary selection reason: exp006 Step5B default/recommended configuration file; it contains one config_id and the existing sigma_pred_S_per_m column.
+- sigma prediction column: sigma_pred_S_per_m -> sigma_pred_exp006_S_per_m
+- S observation column: S_uV_per_K -> seebeck_obs_V_per_K (multiplied by 1e-6)
+- Temperature column: T_K -> temperature_K
+- sigma observation column: sigma_S_per_m -> sigma_obs_S_per_m
+- Observation file: data/output/starrydata2_step14_pf_zt_prediction/thermoelectric_validation_predictions_step14.csv
+- kappa observation column: kappa_obs_W_per_mK_step11 (or normalized alias) -> kappa_obs_W_per_mK
+- ZT observation column: zt_obs_dimensionless_step11 (or normalized alias) -> ZT_obs
+- Annotation metadata: data/output/starrydata2_step9_literature_annotations/sample_literature_annotations_step9.csv
+- Sample metadata: data/output/starrydata2_step3_fixed/sample_master_fixed.csv
+
+Join rule and coverage
+----------------------
+- S_obs is already in the exp006 prediction file, so no S temperature join was needed.
+- kappa_obs and ZT_obs were joined by sample_key + temperature_K with exact equality.
+- No nearest-temperature matching, interpolation, or newly invented temperature correspondence was used.
+- Sample-level descriptive fields were joined by sample_key only; existing source values were copied, not edited.
+- prediction_rows: 19,008
+- exact_observation_key_matches: 54
+- valid_pf_pred_rows: 19,000
+- valid_pf_comparison_rows: 19,000
+- valid_zt_pred_rows: 21
+- zt_obs_nonmissing_rows: 25
+- valid_zt_obs_comparison_rows: 15
+- valid_zt_calc_comparison_rows: 21
+
+Units and formulas
+------------------
+- sigma_pred_exp006_S_per_m and sigma_obs_S_per_m: S/m
+- seebeck_obs_V_per_K: V/K (converted from microV/K)
+- kappa_obs_W_per_mK: W/(m K)
+- temperature_K: K
+- PF_pred = S_obs^2 * sigma_pred_exp006 [W/(m K^2)]
+- ZT_pred = S_obs^2 * sigma_pred_exp006 * T / kappa_obs [dimensionless]
+- PF_obs and ZT_calc_from_obs use the same formulas with sigma_obs.
+
+Exclusions
+----------
+- PF prediction is not calculated when S_obs is missing or sigma_pred <= 0/missing.
+- ZT prediction is additionally not calculated when temperature <= 0/missing or kappa <= 0/missing.
+- Error metrics use only finite comparable pairs; MAPE excludes actual zero values and log metrics require both values > 0.
+- Extreme-error flag: prediction/observation differs by a factor of at least 10 on a positive pair.
+
+Primary metrics
+---------------
+- sigma log RMSE: 1.40646
+- sigma MAE log10: 0.852082
+- sigma MAPE (%): 2.83436e+09
+- PF MAPE (%): 2.83436e+09
+- PF log RMSE: 1.40646
+- ZT_pred vs ZT_obs MAPE (%): 1326.94
+- ZT_pred vs ZT_calc_from_obs MAPE (%): 937.132
+- ZT >= 1 row-level F1: NA
+- Sample max-ZT ranking correlation (Spearman): -0.416667
+
+Candidate search record
+-----------------------
+- Prediction candidates satisfying required columns: 53
+  - experiments/exp006/data/processed/focus_broad_families/focus_broad_families_largest_error_rows.csv
+  - experiments/exp006/data/processed/focus_broad_families/focus_broad_families_prediction_rows.csv
+  - experiments/exp006/data/processed/focus_broad_families/focus_broad_families_prediction_rows_broad_BiSbTe_tetradymite_like.csv
+  - experiments/exp006/data/processed/focus_broad_families/focus_broad_families_prediction_rows_broad_BiTe_like.csv
+  - experiments/exp006/data/processed/focus_broad_families/focus_broad_families_prediction_rows_broad_CoSb_skutterudite_like.csv
+  - experiments/exp006/data/processed/focus_broad_families/focus_broad_families_prediction_rows_broad_GeTe_like.csv
+  - experiments/exp006/data/processed/focus_broad_families/focus_broad_families_prediction_rows_broad_Mg2SiSn_like.csv
+  - experiments/exp006/data/processed/focus_broad_families/focus_broad_families_prediction_rows_broad_other_formula_system.csv
+  - experiments/exp006/data/processed/focus_broad_families/focus_broad_families_prediction_rows_broad_oxide.csv
+  - experiments/exp006/data/processed/focus_broad_families/focus_broad_families_prediction_rows_broad_PbTe_like.csv
+  - experiments/exp006/data/processed/focus_broad_families/focus_broad_families_prediction_rows_broad_SbTe_like.csv
+  - experiments/exp006/data/processed/focus_broad_families/focus_broad_families_prediction_rows_broad_selenide.csv
+  - experiments/exp006/data/processed/focus_broad_families/focus_broad_families_prediction_rows_broad_SnTe_like.csv
+  - experiments/exp006/data/processed/focus_broad_families/focus_broad_families_prediction_rows_broad_sulfide.csv
+  - experiments/exp006/data/processed/focus_broad_families/focus_broad_families_prediction_rows_broad_telluride.csv
+  - experiments/exp006/data/processed/focus_broad_families/focus_broad_families_prediction_rows_unknown_material_group.csv
+  - experiments/exp006/data/processed/focus_sige_like/focus_sige_like_largest_error_rows.csv
+  - experiments/exp006/data/processed/focus_sige_like/focus_sige_like_prediction_rows.csv
+  - experiments/exp006/data/processed/focus_sige_like/focus_sige_like_prediction_rows_n.csv
+  - experiments/exp006/data/processed/focus_sige_like/focus_sige_like_prediction_rows_p.csv
+  - experiments/exp006/data/processed/step5b_test_predictions.csv
+  - experiments/exp006/data/processed/step5b_test_predictions_default.csv
+  - experiments/exp006/data/processed/step5b_test_predictions_global_default.csv
+  - experiments/exp006/data/processed/step5b_test_predictions_unavailable.csv
+  - experiments/exp006/data/processed/step5b_test_predictions_valid.csv
+  - experiments/exp006/data/processed/step5c_largest_abs_error_rows.csv
+  - experiments/exp006/data/processed/step5d_largest_error_diagnostics_top100.csv
+  - experiments/exp006/data/processed/step6b_broad_family/step5b_test_predictions.csv
+  - experiments/exp006/data/processed/step6b_broad_family/step5b_test_predictions_default.csv
+  - experiments/exp006/data/processed/step6b_broad_family/step5b_test_predictions_global_default.csv
+- Normalized observation candidates considered: 2
+  - data/output/starrydata2_step11_unit_normalized/zt_consistency_check_step11.csv
+  - data/output/starrydata2_step14_pf_zt_prediction/thermoelectric_validation_predictions_step14.csv
+
+Interpretation
+--------------
+- This analysis isolates how the already-generated exp006 sigma prediction propagates into PF/ZT when observed S and kappa are held fixed.
+- It is not a complete unknown-material ZT model because S and kappa are observed, not predicted.
+- Sparse exact kappa/ZT matches limit ZT, high-ZT classification, and ranking conclusions; see valid-row counts above.

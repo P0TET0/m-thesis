@@ -1,0 +1,10 @@
+Step41 all-material sigma ML scatter on wide axes
+=================================================
+axis range: 1e-06--1e+10 S/m on both axes
+reference canvas: 2471 x 1991 px
+reference width/height ratio: 1.241084882
+input positive finite points: 12,010
+plotted points: 12,010
+material colors: identical to Step40 and the supplied legend
+legend exported separately to preserve the reference plot ratio
+Existing Step40 and earlier figures were not modified.

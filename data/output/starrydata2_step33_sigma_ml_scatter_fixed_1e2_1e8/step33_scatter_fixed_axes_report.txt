@@ -1,0 +1,9 @@
+Step33 fixed-axis sigma ML scatter figures
+==========================================
+input: C:\Users\miots\m-thesis\m-thesis\data\output\starrydata2_step32_sigma_ml_by_material_system\sigma_ml_doi_holdout_predictions_by_material_system_step32.csv
+axis range: 1e+02--1e+08 S/m on both axes
+material systems: 16
+total points: 12,010
+visible points: 11,930
+clipped points: 80
+Existing Step32 figures were not modified.

@@ -1,0 +1,9 @@
+Step40 all-material sigma ML scatter with reference colors
+==========================================================
+input positive finite points: 12,010
+plotted points inside 1e2--1e8 on both axes: 11,930
+legend material systems with points: 15
+color mapping: supplied exp006 legend order using Matplotlib tab10
+legend n: plotted point count after fixed-axis filtering
+half-Heusler is omitted because its plotted point count is zero
+Existing Step33 and later figures were not modified.

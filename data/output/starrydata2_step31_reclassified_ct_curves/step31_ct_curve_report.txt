@@ -1,0 +1,199 @@
+Step31 reclassified material-system C(T) report
+=======================================================
+
+Definition
+----------
+C(T) is newly defined in Step31 as the median measured sigma_exp in each 25 K bin
+for each host_family_key. The primary C(T) is not split by n/p.
+Finer final_material_group_key values are exported for analysis but do not fragment the host-level C(T).
+This definition is separate from the empirical prefactor C(T) used by Step12; no Step12 file was modified.
+
+Selected input
+--------------
+path: C:\Users\miots\m-thesis\m-thesis\data\output\starrydata2_step14_pf_zt_prediction\thermoelectric_validation_predictions_step14.csv
+mode: point_table
+column mapping: sample_key=sample_key, sample_id=sample_id, paper_id=DOI, composition=composition, material_name=[not found], material_system=material_system, temperature=temperature_K, sigma=sigma_obs_S_per_m_step11, seebeck=seebeck_obs_V_per_K_step11, n_or_p=n_or_p
+preserved source columns: []
+Seebeck unit handling: seebeck_obs_V_per_K_step11 explicitly indicates V/K
+
+Candidate input audit
+---------------------
+- C:\Users\miots\m-thesis\m-thesis\data\output\starrydata2_step18_tau_eff_ml_dataset\tau_eff_ml_dataset_recommended_step18.csv: not usable; point fields missing=temperature,sigma; curve fields missing=prop_x,property_step5,unit_x,unit_y,x_values_json,y_values_json
+  point aliases: sample_key=sample_key, sample_id=sample_id, paper_id=DOI, composition=composition, material_name=[not found], material_system=material_system, temperature=[not found], sigma=[not found], seebeck=seebeck_obs_V_per_K_step11, n_or_p=n_or_p
+- C:\Users\miots\m-thesis\m-thesis\data\output\starrydata2_step18_tau_eff_ml_dataset\tau_eff_ml_metadata_step18.csv: not usable; point fields missing=temperature,sigma; curve fields missing=prop_x,property_step5,unit_x,unit_y,x_values_json,y_values_json
+  point aliases: sample_key=sample_key, sample_id=sample_id, paper_id=DOI, composition=composition, material_name=[not found], material_system=material_system, temperature=[not found], sigma=[not found], seebeck=[not found], n_or_p=n_or_p
+- C:\Users\miots\m-thesis\m-thesis\data\output\starrydata2_step16_result_summary\step16_material_np_summary.csv: not usable; point fields missing=sample_key,temperature,sigma; curve fields missing=sample_key,composition,prop_x,property_step5,unit_x,unit_y,x_values_json,y_values_json
+  point aliases: sample_key=[not found], sample_id=[not found], paper_id=[not found], composition=[not found], material_name=[not found], material_system=material_system, temperature=[not found], sigma=[not found], seebeck=[not found], n_or_p=n_or_p
+- C:\Users\miots\m-thesis\m-thesis\data\output\starrydata2_step15_pf_zt_error_analysis\pf_zt_error_samples_step15.csv: not usable; point fields missing=temperature,sigma; curve fields missing=prop_x,property_step5,unit_x,unit_y,x_values_json,y_values_json
+  point aliases: sample_key=sample_key, sample_id=sample_id, paper_id=DOI, composition=composition, material_name=[not found], material_system=material_system, temperature=[not found], sigma=[not found], seebeck=[not found], n_or_p=n_or_p
+- C:\Users\miots\m-thesis\m-thesis\data\output\starrydata2_step14_pf_zt_prediction\pf_zt_material_summary_step14.csv: not usable; point fields missing=sample_key,temperature,sigma; curve fields missing=sample_key,composition,prop_x,property_step5,unit_x,unit_y,x_values_json,y_values_json
+  point aliases: sample_key=[not found], sample_id=[not found], paper_id=[not found], composition=[not found], material_name=[not found], material_system=material_system, temperature=[not found], sigma=[not found], seebeck=[not found], n_or_p=n_or_p
+- C:\Users\miots\m-thesis\m-thesis\data\output\starrydata2_step14_pf_zt_prediction\pf_zt_problem_samples_step14.csv: not usable; point fields missing=temperature,sigma; curve fields missing=prop_x,property_step5,unit_x,unit_y,x_values_json,y_values_json
+  point aliases: sample_key=sample_key, sample_id=sample_id, paper_id=DOI, composition=composition, material_name=[not found], material_system=material_system, temperature=[not found], sigma=[not found], seebeck=[not found], n_or_p=n_or_p
+- C:\Users\miots\m-thesis\m-thesis\data\output\starrydata2_step14_pf_zt_prediction\pf_zt_sample_results_step14.csv: not usable; point fields missing=temperature,sigma; curve fields missing=prop_x,property_step5,unit_x,unit_y,x_values_json,y_values_json
+  point aliases: sample_key=sample_key, sample_id=sample_id, paper_id=DOI, composition=composition, material_name=[not found], material_system=material_system, temperature=[not found], sigma=[not found], seebeck=[not found], n_or_p=n_or_p
+- C:\Users\miots\m-thesis\m-thesis\data\output\starrydata2_step14_pf_zt_prediction\pf_zt_validation_sample_results_step14.csv: not usable; point fields missing=temperature,sigma; curve fields missing=prop_x,property_step5,unit_x,unit_y,x_values_json,y_values_json
+  point aliases: sample_key=sample_key, sample_id=sample_id, paper_id=DOI, composition=composition, material_name=[not found], material_system=material_system, temperature=[not found], sigma=[not found], seebeck=[not found], n_or_p=n_or_p
+- C:\Users\miots\m-thesis\m-thesis\data\output\starrydata2_step14_pf_zt_prediction\thermoelectric_validation_predictions_step14.csv: usable point table
+  point aliases: sample_key=sample_key, sample_id=sample_id, paper_id=DOI, composition=composition, material_name=[not found], material_system=material_system, temperature=temperature_K, sigma=sigma_obs_S_per_m_step11, seebeck=seebeck_obs_V_per_K_step11, n_or_p=n_or_p
+
+Filtering and binning
+---------------------
+excluded_missing_or_nonfinite_temperature_points: 0
+excluded_missing_sample_key_points: 0
+excluded_nonfinite_sigma_points: 0
+excluded_nonpositive_sigma_points: 0
+input_rows: 70590
+valid_sigma_points: 70590
+temperature_bin_width_K: 25
+temperature bin convention: floor(T / 25 + 0.5) * 25 (nearest center; half-up)
+minimum rows per plotted primary bin: 3
+sigma condition: finite and strictly positive
+temperature condition: finite after conversion to kelvin
+bins with fewer than 3 rows are retained in CSV and excluded from all primary plots
+outlier handling: no positive finite sigma value was clipped; extreme input values remain in C(T) and can affect plot limits
+dopant threshold: 0.05 (fraction >= threshold is major; fraction < threshold is dopant candidate)
+final-group thresholds: min_rows=30, min_samples=3, min_papers=1
+catch-all split: host::other_formula_system=valid elements extracted but no named rule matched; unknown_material_group=no valid elements extracted from formula/name/family
+GeTe handling: Ge and Te as major elements are classified as host::GeTe after higher-priority BiSbTe/PbTe/SnTe rules
+plot x-axis policy: every panel includes at least 0-1300 K; data above 1300 K are retained
+
+Hierarchical material grouping
+------------------------------
+parse_status counts: {'stoichiometry_parsed': 69976, 'element_presence_fallback': 505, 'parse_failed': 109}
+group_backoff_level counts: {'major_element_system_used': 61128, 'backed_off_to_broad_family': 7745, 'backed_off_to_host_family': 1608, 'unknown': 109}
+host_family_key groups: 15
+major_element_system_key groups: 1297
+final_material_group_key groups: 343
+low-confidence/parse-failure rows exported: 614
+material_group_counts rows: 1655
+
+Material-system classification counts
+-------------------------------------
+- host::BiSbTe: rows=2722, samples=801, bins=21, plotted_bins=19
+- host::PbTe: rows=3807, samples=1079, bins=31, plotted_bins=28
+- host::SnTe: rows=2139, samples=658, bins=33, plotted_bins=30
+- host::GeTe: rows=1903, samples=557, bins=27, plotted_bins=23
+- host::BiTe: rows=2853, samples=821, bins=35, plotted_bins=27
+- host::SbTe: rows=1471, samples=348, bins=46, plotted_bins=35
+- host::SiGe: rows=735, samples=191, bins=42, plotted_bins=37
+- host::Mg2SiSn: rows=2319, samples=639, bins=29, plotted_bins=28
+- host::CoSb_skutterudite: rows=7965, samples=1888, bins=40, plotted_bins=38
+- host::oxide: rows=10487, samples=2452, bins=50, plotted_bins=48
+- host::sulfide: rows=4448, samples=1152, bins=45, plotted_bins=42
+- host::selenide: rows=5109, samples=1441, bins=38, plotted_bins=37
+- host::telluride: rows=2197, samples=570, bins=45, plotted_bins=41
+- host::other_formula_system: rows=22326, samples=4450, bins=56, plotted_bins=53
+- unknown_material_group: rows=109, samples=30, bins=32, plotted_bins=10
+
+Ge-Te-containing records
+------------------------
+rows containing both Ge and Te: 2616
+samples containing both Ge and Te: 728
+sample counts by assigned Step31 group: {'host::GeTe': 557, 'host::PbTe': 92, 'host::SnTe': 36, 'host::CoSb_skutterudite': 15, 'host::SbTe': 12, 'host::BiSbTe': 10, 'host::BiTe': 5, 'host::selenide': 1}
+GeTe is now an explicit mother phase: host::GeTe.
+
+n/p reclassification summary
+-----------------------------
+- original=n, reclassified=n, basis=existing clear n_or_p, sign_mixed=False, samples=7729
+- original=n, reclassified=n, basis=existing clear n_or_p, sign_mixed=True, samples=7
+- original=p, reclassified=p, basis=existing clear n_or_p, sign_mixed=False, samples=9330
+- original=p, reclassified=p, basis=existing clear n_or_p, sign_mixed=True, samples=11
+overall n/p sample counts: {'p': 9341, 'n': 7736}
+S≈0 threshold: abs(sample median S) < 1e-8 V/K -> unknown
+sign_mixed_step31 is True when a sample contains both S > +1e-8 and S < -1e-8 V/K.
+
+C(T) outputs and plots
+----------------------
+material systems with at least one plotted C(T) bin: 15
+systems in requested all-material overlay: ['host::other_formula_system', 'host::oxide', 'host::CoSb_skutterudite', 'host::selenide', 'host::sulfide', 'host::PbTe', 'host::BiTe', 'host::BiSbTe', 'host::SnTe', 'host::Mg2SiSn']
+systems in paper grid: ['host::other_formula_system', 'host::oxide', 'host::CoSb_skutterudite', 'host::selenide', 'host::sulfide', 'host::PbTe', 'host::BiTe', 'host::BiSbTe', 'host::SnTe', 'host::Mg2SiSn', 'host::telluride', 'host::GeTe']
+n/p supplementary figures include paired comparison plots plus separate n-only and p-only plots for every eligible material system.
+figure files:
+- figures/figure_step31_all_material_system_ct_curves.png
+- figures/figure_step31_all_material_system_ct_curves_complete.png
+- figures/figure_step31_ct_curve_host_other_formula_system.png
+- figures/figure_step31_ct_curve_host_oxide.png
+- figures/figure_step31_ct_curve_host_CoSb_skutterudite.png
+- figures/figure_step31_ct_curve_host_selenide.png
+- figures/figure_step31_ct_curve_host_sulfide.png
+- figures/figure_step31_ct_curve_host_PbTe.png
+- figures/figure_step31_ct_curve_host_BiTe.png
+- figures/figure_step31_ct_curve_host_BiSbTe.png
+- figures/figure_step31_ct_curve_host_SnTe.png
+- figures/figure_step31_ct_curve_host_Mg2SiSn.png
+- figures/figure_step31_ct_curve_host_telluride.png
+- figures/figure_step31_ct_curve_host_GeTe.png
+- figures/figure_step31_ct_curve_host_SbTe.png
+- figures/figure_step31_ct_curve_host_SiGe.png
+- figures/figure_step31_ct_curve_unknown_material_group.png
+- figures/figure_step31_ct_curves_grid.png
+- figures/np_split/figure_step31_ct_curve_np_split_host_BiSbTe.png
+- figures/np_split/figure_step31_ct_curve_np_split_host_PbTe.png
+- figures/np_split/figure_step31_ct_curve_np_split_host_SnTe.png
+- figures/np_split/figure_step31_ct_curve_np_split_host_GeTe.png
+- figures/np_split/figure_step31_ct_curve_np_split_host_BiTe.png
+- figures/np_split/figure_step31_ct_curve_np_split_host_SbTe.png
+- figures/np_split/figure_step31_ct_curve_np_split_host_SiGe.png
+- figures/np_split/figure_step31_ct_curve_np_split_host_Mg2SiSn.png
+- figures/np_split/figure_step31_ct_curve_np_split_host_CoSb_skutterudite.png
+- figures/np_split/figure_step31_ct_curve_np_split_host_oxide.png
+- figures/np_split/figure_step31_ct_curve_np_split_host_sulfide.png
+- figures/np_split/figure_step31_ct_curve_np_split_host_selenide.png
+- figures/np_split/figure_step31_ct_curve_np_split_host_telluride.png
+- figures/np_split/figure_step31_ct_curve_np_split_host_other_formula_system.png
+- figures/np_split/figure_step31_ct_curve_np_split_unknown_material_group.png
+- figures/np_split/figure_step31_ct_curves_np_split_grid.png
+- figures/np_split/figure_step31_all_material_system_ct_curves_n.png
+- figures/np_split/n_only/figure_step31_ct_curve_n_host_BiSbTe.png
+- figures/np_split/n_only/figure_step31_ct_curve_n_host_PbTe.png
+- figures/np_split/n_only/figure_step31_ct_curve_n_host_SnTe.png
+- figures/np_split/n_only/figure_step31_ct_curve_n_host_GeTe.png
+- figures/np_split/n_only/figure_step31_ct_curve_n_host_BiTe.png
+- figures/np_split/n_only/figure_step31_ct_curve_n_host_SbTe.png
+- figures/np_split/n_only/figure_step31_ct_curve_n_host_SiGe.png
+- figures/np_split/n_only/figure_step31_ct_curve_n_host_Mg2SiSn.png
+- figures/np_split/n_only/figure_step31_ct_curve_n_host_CoSb_skutterudite.png
+- figures/np_split/n_only/figure_step31_ct_curve_n_host_oxide.png
+- figures/np_split/n_only/figure_step31_ct_curve_n_host_sulfide.png
+- figures/np_split/n_only/figure_step31_ct_curve_n_host_selenide.png
+- figures/np_split/n_only/figure_step31_ct_curve_n_host_telluride.png
+- figures/np_split/n_only/figure_step31_ct_curve_n_host_other_formula_system.png
+- figures/np_split/n_only/figure_step31_ct_curve_n_unknown_material_group.png
+- figures/np_split/figure_step31_ct_curves_n_only_grid.png
+- figures/np_split/figure_step31_all_material_system_ct_curves_p.png
+- figures/np_split/p_only/figure_step31_ct_curve_p_host_BiSbTe.png
+- figures/np_split/p_only/figure_step31_ct_curve_p_host_PbTe.png
+- figures/np_split/p_only/figure_step31_ct_curve_p_host_SnTe.png
+- figures/np_split/p_only/figure_step31_ct_curve_p_host_GeTe.png
+- figures/np_split/p_only/figure_step31_ct_curve_p_host_BiTe.png
+- figures/np_split/p_only/figure_step31_ct_curve_p_host_SbTe.png
+- figures/np_split/p_only/figure_step31_ct_curve_p_host_SiGe.png
+- figures/np_split/p_only/figure_step31_ct_curve_p_host_Mg2SiSn.png
+- figures/np_split/p_only/figure_step31_ct_curve_p_host_CoSb_skutterudite.png
+- figures/np_split/p_only/figure_step31_ct_curve_p_host_oxide.png
+- figures/np_split/p_only/figure_step31_ct_curve_p_host_sulfide.png
+- figures/np_split/p_only/figure_step31_ct_curve_p_host_selenide.png
+- figures/np_split/p_only/figure_step31_ct_curve_p_host_telluride.png
+- figures/np_split/p_only/figure_step31_ct_curve_p_host_other_formula_system.png
+- figures/np_split/p_only/figure_step31_ct_curve_p_unknown_material_group.png
+- figures/np_split/figure_step31_ct_curves_p_only_grid.png
+
+Output safety and interpretation
+--------------------------------
+existing Step31 output replaced after staging validation: True
+All files were first generated and validated in a staging directory, then installed into the Step31 directory.
+Only the previously generated Step31 directory was replaced; no Step12 output was modified.
+Original material_system and n_or_p values remain preserved in dedicated original columns.
+The n/p-split C(T) CSV and figures are supplementary; the unsplit host-family C(T) remains the primary Step31 baseline.
+
+Sanity checks
+-------------
+input/output row count equal: True (70590 vs 70590)
+final_material_group_key has no blanks: True
+parsed_elements column exists: True
+host_family_key column exists: True
+major_element_system_key column exists: True
+group_backoff_level column exists: True
+material_group_counts.csv exists: True
+report exists: True

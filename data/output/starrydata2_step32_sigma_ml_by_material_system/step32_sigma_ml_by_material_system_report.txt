@@ -1,0 +1,53 @@
+Step32 exp005 ML sigma prediction by exp006 material system
+===========================================================
+
+Method
+------
+sigma_ML(T) = prefactor_C(T) * tau_eff_ML.
+The broad-family classification calls experiments/exp006/build_step6a_material_group_keys.py directly.
+The Step12 prefactor is recovered exactly from retained Step13 values:
+prefactor_C(T) = sigma_pred_validation(T) / tau_eff_train.
+
+Scope
+-----
+Step14/Step13 valid point rows: 70,590
+screening rows: 70,590
+screening samples: 17,077
+screening final model: extra_trees
+screening note: model was fitted on all recommended ML samples; these rows are not unbiased evaluation.
+DOI holdout evaluation rows: 12,010
+DOI holdout evaluation samples: 2,943
+DOI holdout evaluation model: gradient_boosting
+DOI holdout split: split_doi_group_80_20_step18
+
+Overall DOI holdout metrics
+----------------------------
+sigma log RMSE: 1.57672
+sigma log MAE: 1.01322
+sigma MAPE: 259.335
+within factor 2: 0.498168
+
+Material systems
+----------------
+- broad::other_formula_system: screening samples=4064, evaluation samples=712, plotted bins=53, log_RMSE=1.456, factor2=0.421
+- broad::oxide: screening samples=2474, evaluation samples=306, plotted bins=49, log_RMSE=2.758, factor2=0.399
+- broad::CoSb_skutterudite_like: screening samples=1821, evaluation samples=409, plotted bins=38, log_RMSE=0.9304, factor2=0.653
+- broad::selenide: screening samples=1597, evaluation samples=221, plotted bins=37, log_RMSE=1.516, factor2=0.402
+- broad::SbTe_like: screening samples=1310, evaluation samples=248, plotted bins=42, log_RMSE=0.8983, factor2=0.584
+- broad::BiTe_like: screening samples=1125, evaluation samples=164, plotted bins=32, log_RMSE=1.193, factor2=0.627
+- broad::BiSbTe_tetradymite_like: screening samples=928, evaluation samples=203, plotted bins=26, log_RMSE=1.011, factor2=0.714
+- broad::sulfide: screening samples=910, evaluation samples=155, plotted bins=42, log_RMSE=1.546, factor2=0.319
+- broad::PbTe_like: screening samples=747, evaluation samples=176, plotted bins=30, log_RMSE=0.9328, factor2=0.638
+- broad::Mg2SiSn_like: screening samples=616, evaluation samples=133, plotted bins=29, log_RMSE=2.422, factor2=0.484
+- broad::telluride: screening samples=566, evaluation samples=51, plotted bins=42, log_RMSE=2.069, factor2=0.374
+- broad::SnTe_like: screening samples=440, evaluation samples=76, plotted bins=31, log_RMSE=0.7813, factor2=0.567
+- broad::SiGe_like: screening samples=288, evaluation samples=60, plotted bins=42, log_RMSE=1.654, factor2=0.383
+- broad::GeTe_like: screening samples=177, evaluation samples=28, plotted bins=14, log_RMSE=1.342, factor2=0.412
+- unknown_material_group: screening samples=12, evaluation samples=1, plotted bins=4, log_RMSE=4.7, factor2=0.000
+- broad::half_heusler: screening samples=2, evaluation samples=0, plotted bins=0, not evaluated
+
+Caveats
+-------
+The material-system curves are medians of sample predictions in 25 K bins, not predictions for a single composition.
+The exp006 broad_family taxonomy is heuristic and includes an unknown/catch-all group.
+tau_eff is the exp005 relative effective scale, not a physical relaxation time in seconds.

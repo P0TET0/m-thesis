@@ -1,0 +1,47 @@
+Step34: y=x線への一致度（exp005 ML sigma）
+=========================================
+
+対象
+----
+Step33散布図と同じDOIグループ・ホールドアウト点を使用。
+visible_1e2_1e8_* は散布図に表示された10^2～10^8 S/m内の点、
+all_points_* は表示範囲外を含む全正値点に対する指標。
+
+主要指標
+--------
+- RMSE(log10): 0に近いほどy=xに近い。大きな外れを強く評価する。
+- MAE(log10): 0に近いほどy=xに近い。10^MAEが平均的な倍率誤差。
+- Factor-2率: 予測/実測が0.5～2に入る割合。1に近いほど良い。
+- CCC(log10): 相関とy=xへの一致を同時評価。1が理想。
+
+全材料系（表示範囲内）
+----------------------
+点数: 11,930
+RMSE(log10): 0.6017
+MAE(log10): 0.4165
+平均倍率誤差: 2.609
+Factor-2率: 0.5015
+CCC(log10): 0.3132
+
+材料系別（表示範囲内、RMSE(log10)昇順）
+-----------------------------------------
+- broad::BiSbTe_tetradymite_like: n=705, RMSE=0.3111, MAE=0.2368, 倍率誤差=1.725, Factor-2=0.7177, CCC=-0.05405, 信頼度=high_n_ge_100
+- broad::SnTe_like: n=233, RMSE=0.3393, MAE=0.2877, 倍率誤差=1.939, Factor-2=0.5665, CCC=0.2752, 信頼度=high_n_ge_100
+- broad::BiTe_like: n=570, RMSE=0.3869, MAE=0.2922, 倍率誤差=1.96, Factor-2=0.6316, CCC=-0.1679, 信頼度=high_n_ge_100
+- broad::SbTe_like: n=918, RMSE=0.3901, MAE=0.3085, 倍率誤差=2.035, Factor-2=0.5839, CCC=0.2275, 信頼度=high_n_ge_100
+- broad::CoSb_skutterudite_like: n=1580, RMSE=0.4041, MAE=0.2905, 倍率誤差=1.952, Factor-2=0.6532, CCC=0.1704, 信頼度=high_n_ge_100
+- broad::PbTe_like: n=669, RMSE=0.4051, MAE=0.2986, 倍率誤差=1.989, Factor-2=0.6383, CCC=0.2207, 信頼度=high_n_ge_100
+- broad::GeTe_like: n=80, RMSE=0.5827, MAE=0.4249, 倍率誤差=2.66, Factor-2=0.4125, CCC=0.1924, 信頼度=moderate_n_30_to_99
+- broad::other_formula_system: n=3577, RMSE=0.6233, MAE=0.4668, 倍率誤差=2.929, Factor-2=0.4219, CCC=0.2535, 信頼度=high_n_ge_100
+- broad::Mg2SiSn_like: n=480, RMSE=0.6281, MAE=0.4263, 倍率誤差=2.669, Factor-2=0.5062, CCC=0.001436, 信頼度=high_n_ge_100
+- broad::sulfide: n=646, RMSE=0.6341, MAE=0.5075, 倍率誤差=3.217, Factor-2=0.3204, CCC=-0.01437, 信頼度=high_n_ge_100
+- broad::selenide: n=834, RMSE=0.6585, MAE=0.4971, 倍率誤差=3.141, Factor-2=0.4017, CCC=0.07014, 信頼度=high_n_ge_100
+- broad::SiGe_like: n=196, RMSE=0.7182, MAE=0.5556, 倍率誤差=3.594, Factor-2=0.3827, CCC=0.3202, 信頼度=high_n_ge_100
+- broad::telluride: n=161, RMSE=0.74, MAE=0.5477, 倍率誤差=3.529, Factor-2=0.3789, CCC=0.0138, 信頼度=high_n_ge_100
+- broad::oxide: n=1279, RMSE=0.9709, MAE=0.606, 倍率誤差=4.037, Factor-2=0.412, CCC=0.04652, 信頼度=high_n_ge_100
+- unknown_material_group: n=2, RMSE=2.041, MAE=2.041, 倍率誤差=109.9, Factor-2=0, CCC=2.991e-05, 信頼度=low_n_lt_30
+
+注意
+----
+点数が30未満の材料系は指標が不安定。特に分類不能はn=2。
+Pearson相関が高くても、傾き1・切片0でなければy=xへの一致が良いとは限らない。

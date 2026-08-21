@@ -1,0 +1,303 @@
+ここから
+
+現在のプロジェクトの exp006 内で予測済みの電気伝導率 sigma_pred を用いて，PF_pred と ZT_pred を計算する処理を追加してください。
+
+目的：
+exp006で得られた予測電気伝導率 sigma_pred を用いて，
+PF_pred = S_obs^2 * sigma_pred
+ZT_pred = S_obs^2 * sigma_pred * T / kappa_obs
+を計算する。
+ここで，S_obs と kappa_obs は予測せず，Starrydata2由来の実験値を用いる。
+この処理は，予測した電気伝導率がPF/ZT評価に与える影響を確認するためのものであり，完全な未知材料ZT予測ではない。
+
+作成するスクリプト：
+- compute_pf_zt_from_exp006_sigma.py
+
+出力先：
+- data/output/exp006_pf_zt_from_sigma_prediction
+
+重要な制約：
+- 既存ファイルを上書きしないこと。
+- exp006のsigma予測値は再計算しないこと。
+- MLモデルの再学習は行わないこと。
+- tau_effの再フィッティングは行わないこと。
+- Seebeck係数 S と熱伝導率 kappa は予測しないこと。
+- n_or_p，material_system，sintering_method，sintering_checked，record_checked などの既存列の値は変更しないこと。
+- 新しい列を追加するだけにすること。
+
+入力ファイル探索：
+まず，exp006内または data/output 以下から，exp006で作成されたsigma予測ファイルを探索してください。
+
+探索対象例：
+- experiments/exp006/
+- data/output/exp006*/
+- data/output/*exp006*/
+- data/output/starrydata2_exp006*/
+- data/output/**/exp006*
+
+優先して探す列：
+- sample_key
+- temperature_K
+- temp_bin_center_K
+- sigma_pred
+- sigma_pred_S_per_m
+- sigma_pred_exp006
+- sigma_pred_ML
+- sigma_pred_DF
+- sigma_pred_BF
+- config
+- config_id
+- model_name
+- material_system
+- n_or_p
+
+また，PF/ZT計算に必要な以下の実験値列が同じファイルに含まれているか確認してください。
+- seebeck_obs_V_per_K
+- kappa_obs_W_per_mK
+- zt_obs
+- sigma_obs_S_per_m
+- temperature_K
+
+同じファイルに S_obs や kappa_obs がない場合は，以下の既存ファイルから sample_key と temperature_K または temp_bin_center_K で結合してください。
+
+候補：
+- data/output/starrydata2_step14_pf_zt_prediction/thermoelectric_validation_predictions_step14.csv
+- data/output/starrydata2_step21_pf_zt_ml_prediction/thermoelectric_ml_downstream_predictions_step21.csv
+- data/output/starrydata2_step20_sigma_ml_prediction/sigma_ml_downstream_ready_step20.csv
+- data/output/starrydata2_step18_tau_eff_ml_dataset/tau_eff_ml_dataset_recommended_step18.csv
+- その他，sample_key，temperature_K，seebeck_obs，kappa_obs，zt_obs を持つファイル
+
+結合ルール：
+1. まず sample_key + temperature_K で完全一致結合を試す。
+2. temperature_K がない場合は sample_key + temp_bin_center_K で結合する。
+3. それでも結合できない場合は，既存の対応済みデータを持つファイルを探索し，どのキーで結合したかをreportに記録する。
+4. 新たに最近傍温度対応を勝手に作らないこと。既存の前処理済み対応を優先すること。
+
+単位：
+- sigma_pred は S/m として扱う。
+- S_obs は V/K として扱う。
+- kappa_obs は W/(m K) として扱う。
+- temperature は K として扱う。
+- もし Seebeck係数が microV/K らしい列しか見つからない場合は，V/Kに変換する。ただし，変換した列名と判断理由をreportに記録する。
+- kappa <= 0，temperature <= 0，sigma_pred <= 0 の行はPF/ZT計算から除外する。
+
+計算式：
+各行について以下を計算する。
+
+PF_pred_exp006_W_per_mK2 =
+    seebeck_obs_V_per_K ** 2 * sigma_pred_exp006_S_per_m
+
+ZT_pred_exp006 =
+    seebeck_obs_V_per_K ** 2 * sigma_pred_exp006_S_per_m * temperature_K / kappa_obs_W_per_mK
+
+比較用に，sigma_obs がある場合は以下も計算する。
+
+PF_obs_W_per_mK2 =
+    seebeck_obs_V_per_K ** 2 * sigma_obs_S_per_m
+
+ZT_calc_from_obs =
+    seebeck_obs_V_per_K ** 2 * sigma_obs_S_per_m * temperature_K / kappa_obs_W_per_mK
+
+ZT_obs がある場合は，ZT_pred_exp006 と ZT_obs を比較する。
+ZT_calc_from_obs がある場合は，ZT_pred_exp006 と ZT_calc_from_obs も比較する。
+
+複数のsigma_predがある場合：
+exp006の出力に複数のconfigや複数のsigma_pred列がある場合は，混ぜないこと。
+以下のどちらかで処理する。
+
+A. config_id / model_name / prediction_type がある場合：
+- configごとにPF/ZTを計算する。
+- configごとの評価指標を出力する。
+
+B. 複数のsigma_pred列がある場合：
+- 各列を別predictionとして扱い，列ごとにPF/ZTを計算する。
+- どの列を使ったかをreportに記録する。
+
+primaryまたはrecommendedを示す列がある場合は，それを代表結果として扱う。
+代表結果の選び方はreportに必ず記録する。
+
+評価指標：
+row-levelで以下を計算する。
+
+sigma評価：
+- sigma_log_RMSE
+- sigma_MAE_log
+- sigma_MAPE
+
+PF評価：
+- PF_MAPE
+- PF_log_RMSE
+- valid_PF_rows
+
+ZT評価：
+- ZT_pred_exp006 vs ZT_obs の MAPE
+- ZT_pred_exp006 vs ZT_obs の MAE
+- ZT_pred_exp006 vs ZT_obs の RMSE
+- ZT_pred_exp006 vs ZT_calc_from_obs の MAPE
+- ZT_pred_exp006 vs ZT_calc_from_obs の MAE
+- ZT_pred_exp006 vs ZT_calc_from_obs の RMSE
+- valid_ZT_obs_rows
+- valid_ZT_calc_rows
+
+高ZT候補抽出：
+threshold = 1.0 を主評価とする。
+可能なら threshold = 0.5, 1.0, 1.5 も出力する。
+
+ZT_obs がある行について：
+- precision
+- recall
+- F1
+- true positive
+- false positive
+- false negative
+- true negative
+
+試料単位評価：
+sample_keyごとに以下を集計する。
+- max_ZT_obs
+- max_ZT_pred_exp006
+- max_ZT_calc_from_obs
+- mean_ZT_pred_exp006
+- number_of_temperature_points
+- high_ZT_obs_flag = max_ZT_obs >= 1
+- high_ZT_pred_flag = max_ZT_pred_exp006 >= 1
+
+sample-levelでも高ZT分類性能を出す。
+
+順位評価：
+sample-levelで，max_ZT_obs と max_ZT_pred_exp006 の順位の一致度を計算する。
+Spearman相関を計算してよいが，出力列名やreportでは「ranking_correlation」または「順位一致度」と書く。
+同様に，top-k overlapを k = 50, 100, 300 で計算する。
+ただし，データ数がk未満の場合は可能な範囲で計算する。
+
+出力ファイル：
+以下を作成する。
+
+1. exp006_pf_zt_row_predictions.csv
+行単位の計算結果。
+含める列：
+- sample_key
+- temperature_K
+- material_system
+- n_or_p
+- sigma_obs_S_per_m
+- sigma_pred_exp006_S_per_m
+- seebeck_obs_V_per_K
+- kappa_obs_W_per_mK
+- PF_obs_W_per_mK2
+- PF_pred_exp006_W_per_mK2
+- ZT_obs
+- ZT_calc_from_obs
+- ZT_pred_exp006
+- PF_error列
+- ZT_error列
+- config_id または prediction_source があれば保持
+
+2. exp006_pf_zt_sample_summary.csv
+sample_key単位の集計結果。
+
+3. exp006_pf_zt_overall_metrics.csv
+全体評価指標。
+
+4. exp006_high_zt_classification.csv
+thresholdごとの高ZT分類性能。
+
+5. exp006_ranking_summary.csv
+順位一致度とtop-k overlap。
+
+6. exp006_problem_rows.csv
+以下のような問題行を抽出。
+- sigma_predが欠損
+- S_obsが欠損
+- kappa_obsが欠損
+- ZT_obsが欠損
+- kappa <= 0
+- sigma_pred <= 0
+- PF/ZT誤差が極端に大きい行
+
+7. exp006_problem_samples.csv
+sample_key単位の問題試料。
+
+8. exp006_pf_zt_report.txt
+処理内容，入力ファイル，列対応，計算式，除外件数，主要結果を文章でまとめる。
+
+9. exp006_pf_zt_notes.md
+論文や説明に使える短い解釈文を出力する。
+
+10. starrydata2_exp006_pf_zt_from_sigma_prediction.xlsx
+主要CSVをExcelシートとしてまとめる。
+
+図の作成：
+可能であれば以下も作成する。
+
+出力先：
+- data/output/exp006_pf_zt_from_sigma_prediction/figures
+
+図：
+1. figure_exp006_sigma_pred_vs_obs.png
+- x軸 sigma_obs
+- y軸 sigma_pred_exp006
+- log-log
+- y=x線を表示
+
+2. figure_exp006_pf_pred_vs_obs.png
+- x軸 PF_obs
+- y軸 PF_pred_exp006
+- log-log
+- y=x線を表示
+
+3. figure_exp006_zt_pred_vs_obs.png
+- x軸 ZT_obs
+- y軸 ZT_pred_exp006
+- y=x線を表示
+
+4. figure_exp006_zt_pred_vs_calc.png
+- x軸 ZT_calc_from_obs
+- y軸 ZT_pred_exp006
+- y=x線を表示
+
+5. figure_exp006_high_zt_confusion.png
+- threshold=1.0 の混同行列
+
+注意：
+図は見やすい文字サイズにすること。
+ただし，図作成に必要な列が不足している場合はスキップし，reportに理由を書くこと。
+
+検証：
+以下を必ず確認すること。
+
+- python compute_pf_zt_from_exp006_sigma.py が正常終了すること
+- python -m py_compile compute_pf_zt_from_exp006_sigma.py が正常終了すること
+- PF/ZT計算に使用した行数がreportに出ていること
+- S，kappa，temperature，sigma_pred の単位がreportに出ていること
+- 既存ファイルを上書きしていないこと
+- n_or_p，material_system，sintering_methodなど既存列を変更していないこと
+- sigma_predを再計算していないこと
+- ML再学習を行っていないこと
+- tau_eff再フィッティングを行っていないこと
+
+最後に，以下を報告してください。
+
+- 作成したスクリプト名
+- 使用した入力ファイル
+- 出力先
+- 使用したsigma_pred列名
+- S_obs列名
+- kappa_obs列名
+- temperature列名
+- ZT_obs列名
+- 計算できたPF/ZT行数
+- ZT_obsと比較できた行数
+- ZT_calc_from_obsと比較できた行数
+- 主要な評価指標
+  - sigma log RMSE
+  - PF MAPE
+  - ZT vs obs MAPE
+  - ZT vs calc MAPE
+  - ZT>=1 F1
+  - 順位一致度
+- 作成したCSV一覧
+- 作成した図一覧
+- 検証結果
+
+ここまで

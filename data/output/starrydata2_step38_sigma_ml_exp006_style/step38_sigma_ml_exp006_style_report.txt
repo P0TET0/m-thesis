@@ -1,0 +1,10 @@
+Step38 exp006-style sigma ML scatter plots
+==========================================
+material-system figures: 16
+style: material name at upper left, dense log grid, legend at lower right
+markers: one green circle series; carrier type is not separated
+display range: 1e+02--1e+08 S/m on x and y
+RMSE scope: all positive points before display clipping
+RMSE location: rmse_by_material_system_step38.csv
+background: opaque white inside axes; transparent outside axes
+Existing Step37 and earlier figures were not modified.
