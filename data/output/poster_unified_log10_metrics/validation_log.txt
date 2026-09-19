@@ -1,0 +1,71 @@
+Poster unified log10-ratio metrics validation
+================================================
+
+Inputs
+sigma prediction rows: C:\Users\miots\m-thesis\m-thesis\experiments\exp006\data\processed\step6b_broad_family\step5b_test_predictions.parquet
+sigma existing metrics reference: C:\Users\miots\m-thesis\m-thesis\experiments\exp006\data\processed\step6c_broad_family\step6c_broad_family_default_metrics_for_figures.csv
+ZT common-cohort rows: C:\Users\miots\m-thesis\m-thesis\data\output\exp005_ml_df_exp006_common_cohort_zt_comparison\three_method_row_comparisons.csv
+ZT existing metrics reference: C:\Users\miots\m-thesis\m-thesis\data\output\exp005_ml_df_exp006_common_cohort_zt_comparison\three_method_model_metrics.csv
+
+Columns and evaluation definitions
+sigma: exp=sigma_S_per_m, pred=sigma_pred_S_per_m
+sigma config_id=sample_holdout__ref_conservative_valid__eval_all_valid__material_family__sample_median
+ZT: exp=ZT_obs
+ZT exp005_DF: pred=ZT_pred_exp005_DF
+ZT exp005_ML: pred=ZT_pred_exp005_ML
+ZT exp006: pred=ZT_pred_exp006
+ZT evaluation level=row; common cohort=383 rows / 109 samples / ±2 K.
+Sample-max and common DOI-group CV results were not loaded or mixed in.
+
+Sigma reproduction checks (PASS)
+sigma rmse_log10_pred_over_exp: calculated=1.25086797175794, reference=1.25086797175794, abs_diff=0
+sigma mae_log10_pred_over_exp: calculated=0.723745697120183, reference=0.723745697120183, abs_diff=0
+sigma factor2_accuracy: calculated=0.426665963728385, reference=0.426665963728385, abs_diff=5.55e-17
+sigma factor10_accuracy: calculated=0.783793757908056, reference=0.783793757908056, abs_diff=0
+
+ZT consistency checks (PASS)
+RMSE values below are recalculated directly with np.log10; the existing
+natural-log RMSE is used only for an independent ln(10) consistency check.
+ZT exp005_DF RMSE: direct_log10=0.447284024007101, existing_ln/ln(10)=0.447284024007097, abs_diff=3.77e-15
+ZT exp005_DF factor-2: calculated=0.9155672823219, reference=0.9155672823219, abs_diff=0
+ZT exp005_ML RMSE: direct_log10=0.858836877918992, existing_ln/ln(10)=0.858836877918992, abs_diff=0
+ZT exp005_ML factor-2: calculated=0.313984168865435, reference=0.313984168865435, abs_diff=5.55e-17
+ZT exp006 RMSE: direct_log10=0.563263988944853, existing_ln/ln(10)=0.563263988944853, abs_diff=0
+ZT exp006 factor-2: calculated=0.406332453825858, reference=0.406332453825857, abs_diff=5.55e-17
+
+Exclusions
+sigma exp006_broad_family: n_total=19008, n_valid=18968, n_excluded=40
+  exp_missing_or_nonnumeric: 0
+  pred_missing_or_nonnumeric: 40
+  exp_inf: 0
+  pred_inf: 0
+  exp_nonpositive: 0
+  pred_nonpositive: 0
+  Note: reason counts may overlap between experimental and predicted values.
+ZT exp005_DF: n_total=383, n_valid=379, n_excluded=4
+  exp_missing_or_nonnumeric: 0
+  pred_missing_or_nonnumeric: 0
+  exp_inf: 0
+  pred_inf: 0
+  exp_nonpositive: 4
+  pred_nonpositive: 0
+  Note: reason counts may overlap between experimental and predicted values.
+ZT exp005_ML: n_total=383, n_valid=379, n_excluded=4
+  exp_missing_or_nonnumeric: 0
+  pred_missing_or_nonnumeric: 0
+  exp_inf: 0
+  pred_inf: 0
+  exp_nonpositive: 4
+  pred_nonpositive: 0
+  Note: reason counts may overlap between experimental and predicted values.
+ZT exp006: n_total=383, n_valid=379, n_excluded=4
+  exp_missing_or_nonnumeric: 0
+  pred_missing_or_nonnumeric: 0
+  exp_inf: 0
+  pred_inf: 0
+  exp_nonpositive: 4
+  pred_nonpositive: 0
+  Note: reason counts may overlap between experimental and predicted values.
+
+Final status: PASS
+No PPTX files or pre-existing result CSV/figure files were modified.

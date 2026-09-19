@@ -33,6 +33,11 @@ METHODS = [
     ("exp005_ML", "exp005 ML", "ZT_pred_exp005_ML", "#C77720"),
     ("exp006", "exp006", "ZT_pred_exp006", "#2B7A98"),
 ]
+SIGMA_METHODS = [
+    ("exp005_DF", "exp005 DF", "sigma_pred_exp005_DF_S_per_m", "#3B7A57"),
+    ("exp005_ML", "exp005 ML", "sigma_pred_exp005_S_per_m", "#C77720"),
+    ("exp006", "exp006", "sigma_pred_exp006_S_per_m", "#2B7A98"),
+]
 BOOTSTRAP_SEED = 20260810
 BOOTSTRAP_REPLICATES = 20_000
 
@@ -172,6 +177,48 @@ def build_metrics(rows: pd.DataFrame, samples: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(records)
 
 
+def build_sigma_metrics(rows: pd.DataFrame) -> pd.DataFrame:
+    records: list[dict[str, object]] = []
+    actual = finite(rows["sigma_obs_S_per_m"])
+    for key, label, prediction, _color in SIGMA_METHODS:
+        predicted = finite(rows[prediction])
+        valid = actual.gt(0) & predicted.gt(0)
+        actual_valid = actual.loc[valid]
+        predicted_valid = predicted.loc[valid]
+        log10_error = np.log10(predicted_valid / actual_valid)
+        records.append(
+            {
+                "method_key": key,
+                "method_label": label,
+                "prediction_column": prediction,
+                "comparable_rows": int(valid.sum()),
+                "comparable_samples": int(rows.loc[valid, "sample_key"].nunique()),
+                "comparable_DOIs": int(
+                    rows.loc[valid, "exp006_DOI_normalized"].nunique()
+                ),
+                "sigma_log10_RMSE": float(
+                    np.sqrt(np.mean(np.square(log10_error)))
+                ),
+                "sigma_log10_MAE": float(np.mean(np.abs(log10_error))),
+                "sigma_within_factor_2_rate": float(
+                    np.mean(np.abs(log10_error) <= np.log10(2.0))
+                ),
+                "sigma_spearman": float(
+                    actual_valid.corr(predicted_valid, method="spearman")
+                ),
+                "sigma_pearson_log10": float(
+                    np.log10(actual_valid).corr(
+                        np.log10(predicted_valid), method="pearson"
+                    )
+                ),
+                "sigma_median_predicted_over_observed": float(
+                    np.median(predicted_valid / actual_valid)
+                ),
+            }
+        )
+    return pd.DataFrame(records)
+
+
 def bootstrap_mean_ci(values: pd.Series) -> tuple[float, float, float, float]:
     values = finite(values).dropna().to_numpy(dtype=float)
     rng = np.random.default_rng(BOOTSTRAP_SEED)
@@ -260,6 +307,90 @@ def plot_parity(rows: pd.DataFrame, metrics: pd.DataFrame, output: Path) -> None
         color="#555555",
     )
     fig.tight_layout(rect=(0, 0.04, 1, 0.94))
+    fig.savefig(output, dpi=220, bbox_inches="tight")
+    plt.close(fig)
+
+
+def plot_sigma_parity(
+    rows: pd.DataFrame, sigma_metrics: pd.DataFrame, output: Path
+) -> None:
+    columns = [
+        "sigma_obs_S_per_m",
+        *[prediction for _key, _label, prediction, _color in SIGMA_METHODS],
+    ]
+    positive_values = pd.concat(
+        [finite(rows[column]) for column in columns], ignore_index=True
+    )
+    positive_values = positive_values.loc[positive_values.gt(0)]
+    lower = 10.0 ** math.floor(math.log10(float(positive_values.min())))
+    upper = 10.0 ** math.ceil(math.log10(float(positive_values.max())))
+
+    fig, axes = plt.subplots(1, 3, figsize=(17.2, 5.9), sharex=True, sharey=True)
+    actual = finite(rows["sigma_obs_S_per_m"])
+    for ax, (key, label, prediction, color) in zip(axes, SIGMA_METHODS):
+        predicted = finite(rows[prediction])
+        valid = actual.gt(0) & predicted.gt(0)
+        metric = sigma_metrics.loc[sigma_metrics["method_key"].eq(key)].iloc[0]
+        ax.scatter(
+            actual.loc[valid],
+            predicted.loc[valid],
+            s=24,
+            alpha=0.52,
+            color=color,
+            edgecolors="none",
+        )
+        ax.plot(
+            [lower, upper],
+            [lower, upper],
+            "--",
+            color="#B7352D",
+            linewidth=1.6,
+            label="Predicted = observed",
+        )
+        ax.plot(
+            [lower, upper],
+            [2.0 * lower, 2.0 * upper],
+            ":",
+            color="#777777",
+            linewidth=1.0,
+        )
+        ax.plot(
+            [lower, upper],
+            [0.5 * lower, 0.5 * upper],
+            ":",
+            color="#777777",
+            linewidth=1.0,
+        )
+        ax.set_xscale("log")
+        ax.set_yscale("log")
+        ax.set_xlim(lower, upper)
+        ax.set_ylim(lower, upper)
+        ax.set_aspect("equal", adjustable="box")
+        ax.grid(which="both", alpha=0.20)
+        ax.set_xlabel(r"Observed $\sigma$ (S m$^{-1}$)", fontsize=13)
+        ax.set_title(
+            f"{label}\n"
+            f"log$_{{10}}$ RMSE={metric['sigma_log10_RMSE']:.3f}, "
+            f"factor-2={metric['sigma_within_factor_2_rate'] * 100:.1f}%",
+            fontsize=13,
+        )
+        ax.tick_params(axis="both", which="major", labelsize=11)
+    axes[0].set_ylabel(r"Predicted $\sigma$ (S m$^{-1}$)", fontsize=13)
+    fig.suptitle(
+        f"Same {len(rows):,} rows / {rows['sample_key'].nunique():,} samples: "
+        r"electrical conductivity ($\sigma$) parity",
+        fontsize=18,
+    )
+    fig.text(
+        0.5,
+        0.012,
+        "Red dashed: equality; gray dotted: factor-of-2 bounds. "
+        "DF is direct in-sample fitting; ML and exp006 are held-out predictions.",
+        ha="center",
+        fontsize=11,
+        color="#555555",
+    )
+    fig.tight_layout(rect=(0, 0.055, 1, 0.92))
     fig.savefig(output, dpi=220, bbox_inches="tight")
     plt.close(fig)
 
@@ -424,6 +555,7 @@ def main() -> None:
     rows = load_rows(args.input.resolve())
     samples = sample_summary(rows)
     metrics = build_metrics(rows, samples)
+    sigma_metrics = build_sigma_metrics(rows)
     paired = build_paired_comparison(samples)
     by_material = material_metrics(samples)
 
@@ -435,9 +567,15 @@ def main() -> None:
         write_csv(rows, stage / "three_method_row_comparisons.csv")
         write_csv(samples, stage / "three_method_sample_summary.csv")
         write_csv(metrics, stage / "three_method_model_metrics.csv")
+        write_csv(sigma_metrics, stage / "three_method_sigma_model_metrics.csv")
         write_csv(paired, stage / "exp006_vs_exp005_ML_paired_comparison.csv")
         write_csv(by_material, stage / "three_method_material_system_metrics.csv")
         plot_parity(rows, metrics, figures / "figure_three_method_parity_reported_zt_2K.png")
+        plot_sigma_parity(
+            rows,
+            sigma_metrics,
+            figures / "figure_three_method_parity_sigma_common_2K_cohort.png",
+        )
         plot_metric_overview(
             metrics, figures / "figure_three_method_performance_metrics_reported_zt_2K.png"
         )
@@ -457,6 +595,7 @@ def main() -> None:
 
     print(f"output_dir: {output}")
     print(metrics[["method_label", "sample_balanced_row_MAE", "row_log_RMSE", "row_spearman", "row_within_factor_2_rate"]].to_string(index=False))
+    print(sigma_metrics[["method_label", "sigma_log10_RMSE", "sigma_within_factor_2_rate", "sigma_spearman"]].to_string(index=False))
     print(paired.to_string(index=False))
 
 

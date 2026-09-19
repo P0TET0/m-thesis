@@ -1,0 +1,68 @@
+Common-cohort sigma/ZT unified log10 metric validation
+==========================================================
+input=C:\Users\miots\m-thesis\m-thesis\data\output\exp005_ml_df_exp006_common_cohort_zt_comparison\three_method_row_comparisons.csv
+cohort rows=383; samples=109; DOIs=83; evaluation_level=row
+formula=log10(pred/exp); valid=finite(exp,pred) and exp>0 and pred>0
+exp006 variant=old/default used in displayed parity figures (not broad_family)
+
+PASS exp005_DF sigma RMSE(log10): calculated=0.119441079071829, reference=0.119441079071828, abs_diff=4.16e-17
+PASS exp005_DF sigma MAE(log10): calculated=0.0886320632183849, reference=0.0886320632183848, abs_diff=8.33e-17
+PASS exp005_DF sigma factor-2: calculated=0.97911227154047, reference=0.97911227154047, abs_diff=0
+PASS exp005_DF ZT RMSE(log10) vs existing ln/ln(10): calculated=0.447284024007101, reference=0.447284024007097, abs_diff=3.77e-15
+PASS exp005_DF ZT factor-2: calculated=0.9155672823219, reference=0.9155672823219, abs_diff=0
+PASS exp005_ML sigma RMSE(log10): calculated=0.802527996655856, reference=0.802527996655856, abs_diff=0
+PASS exp005_ML sigma MAE(log10): calculated=0.537310406736233, reference=0.537310406736233, abs_diff=0
+PASS exp005_ML sigma factor-2: calculated=0.33420365535248, reference=0.33420365535248, abs_diff=0
+PASS exp005_ML ZT RMSE(log10) vs existing ln/ln(10): calculated=0.858836877918992, reference=0.858836877918992, abs_diff=0
+PASS exp005_ML ZT factor-2: calculated=0.313984168865435, reference=0.313984168865435, abs_diff=5.55e-17
+PASS exp006 sigma RMSE(log10): calculated=0.567799058171318, reference=0.567799058171318, abs_diff=0
+PASS exp006 sigma MAE(log10): calculated=0.429944352245557, reference=0.429944352245556, abs_diff=5.55e-17
+PASS exp006 sigma factor-2: calculated=0.415143603133159, reference=0.415143603133159, abs_diff=0
+PASS exp006 ZT RMSE(log10) vs existing ln/ln(10): calculated=0.563263988944853, reference=0.563263988944853, abs_diff=0
+PASS exp006 ZT factor-2: calculated=0.406332453825858, reference=0.406332453825857, abs_diff=5.55e-17
+
+Exclusions
+sigma exp005_DF: total=383, valid=383, excluded=0
+  exp_missing_or_nonnumeric: 0
+  pred_missing_or_nonnumeric: 0
+  exp_inf: 0
+  pred_inf: 0
+  exp_nonpositive: 0
+  pred_nonpositive: 0
+sigma exp005_ML: total=383, valid=383, excluded=0
+  exp_missing_or_nonnumeric: 0
+  pred_missing_or_nonnumeric: 0
+  exp_inf: 0
+  pred_inf: 0
+  exp_nonpositive: 0
+  pred_nonpositive: 0
+sigma exp006: total=383, valid=383, excluded=0
+  exp_missing_or_nonnumeric: 0
+  pred_missing_or_nonnumeric: 0
+  exp_inf: 0
+  pred_inf: 0
+  exp_nonpositive: 0
+  pred_nonpositive: 0
+ZT exp005_DF: total=383, valid=379, excluded=4
+  exp_missing_or_nonnumeric: 0
+  pred_missing_or_nonnumeric: 0
+  exp_inf: 0
+  pred_inf: 0
+  exp_nonpositive: 4
+  pred_nonpositive: 0
+ZT exp005_ML: total=383, valid=379, excluded=4
+  exp_missing_or_nonnumeric: 0
+  pred_missing_or_nonnumeric: 0
+  exp_inf: 0
+  pred_inf: 0
+  exp_nonpositive: 4
+  pred_nonpositive: 0
+ZT exp006: total=383, valid=379, excluded=4
+  exp_missing_or_nonnumeric: 0
+  pred_missing_or_nonnumeric: 0
+  exp_inf: 0
+  pred_inf: 0
+  exp_nonpositive: 4
+  pred_nonpositive: 0
+
+Final status: PASS
