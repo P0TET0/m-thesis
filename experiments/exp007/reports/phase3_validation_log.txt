@@ -1,0 +1,22 @@
+Phase 3 oxide inventory validation
+status=PASS
+oxide_rows=3437
+oxide_samples=610
+oxide_papers=439
+material_labels=506
+candidate_families=13
+manual_review_samples=184
+failed_checks=0
+all_current_oxide_rows_captured: PASS | rows=3,437; expected=3,437
+oxide_row_ids_unique: PASS | unique=3,437
+parsing_join_complete: PASS | missing=0
+all_parsed_elements_contain_O: PASS | expected for current broad::oxide rule
+all_current_reasons_are_contains_O: PASS | contains_O
+all_current_parse_sources_are_formula_raw: PASS | formula_raw
+sample_count_reconciles: PASS | samples=610
+label_count_reconciles: PASS | labels=506
+family_rows_reconcile: PASS | sum=3,437
+family_samples_nonempty: PASS | families=13
+review_queue_reconciles: PASS | review_samples=184
+residuals_finite: PASS | rows=3,437
+inputs_unchanged_during_build: PASS | SHA-256 before and after build

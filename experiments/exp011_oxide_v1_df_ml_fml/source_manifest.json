@@ -1,0 +1,67 @@
+{
+  "taxonomy": "oxide_v1",
+  "taxonomy_sha256": "185239a6fa68e0403c1984b9e6338dd5eec4842b116cbab6201d33e2fc706999",
+  "input_rows": 97086,
+  "train_rows": 78078,
+  "test_rows": 19008,
+  "train_samples": 12822,
+  "test_samples": 3191,
+  "train_test_sample_overlap": 0,
+  "train_test_doi_overlap": 1969,
+  "df_ml_bin_width_K": 25,
+  "fml_bin_width_K": 100,
+  "min_reference_samples": 3,
+  "min_df_fit_points": 5,
+  "temperature_filter": "all_temperatures",
+  "model": {
+    "name": "ExtraTreesRegressor",
+    "n_estimators": 300,
+    "min_samples_leaf": 3,
+    "random_state": 42
+  },
+  "versions": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.5.4",
+    "pandas": "3.0.1",
+    "sklearn": "1.9.1",
+    "matplotlib": "3.11.2"
+  },
+  "sources": [
+    {
+      "path": "experiments/exp006/data/processed/step6a_validation_rows_with_splits_key_broad_family.csv",
+      "sha256": "315a2e86f87b72bcfaba9c3e4b2f2493f1ccd30bd7bbe7da57483859e3b6d896"
+    },
+    {
+      "path": "data/output/starrydata2_step18_tau_eff_ml_dataset/tau_eff_ml_feature_matrix_step18.csv",
+      "sha256": "af011ad3b441ef13d29c3badf18c2d2731718636aee190f8e76f13ef3f1544c4"
+    },
+    {
+      "path": "experiments/exp007/data/processed/phase6_oxide_v1_all_row_assignments.csv",
+      "sha256": "44a1ab108e8b3faec39ea4b374ad35f25086d569a8db23f149f8c43380188f30"
+    },
+    {
+      "path": "data/output/exp006_pf_zt_from_sigma_prediction_full_curves/exp006_pf_zt_row_predictions.csv",
+      "sha256": "42fbf677b51a90f5668c3e0ff977bcd60d9b0785b238de8b1cf6c9e86bf9a734"
+    },
+    {
+      "path": "experiments/exp006/data/processed/step6b_broad_family/step5b_test_predictions_default.csv",
+      "sha256": "ac044f3cdfb6e7bab707aa300dac490f5fcb10ce8075f3d12890e5a6887d2be3"
+    },
+    {
+      "path": "experiments/exp007/data/processed/phase6_oxide_v1_test_predictions.csv",
+      "sha256": "9e9ddb400517d20ba8bb5ebc952a49b8366db141a21e8f6f0ddd5fd5102ee612"
+    },
+    {
+      "path": "experiments/exp007/oxide_taxonomy_v1.py",
+      "sha256": "128e58a238a8aa8ebc04def17a4acc57f3b2058c7c945ef349d38bbf91e84603"
+    },
+    {
+      "path": "experiments/exp005/fit_tau_eff_step12.py",
+      "sha256": "21e810e0c652019805ad2ae63ddfc4c99d5683f956e3c01e9bedff170a585b54"
+    },
+    {
+      "path": "experiments/exp005/train_tau_eff_ml_step19.py",
+      "sha256": "f27b65486b3e4e14ef55e4d37de4652ae076483220ff6d4cb20bde6c3b7d6b85"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+exp007 Phase 1 independent check
+=====================================
+PASS all_source_rows_preserved_in_order: source=19008; residuals=19008
+PASS row_ids_unique: duplicates=0
+PASS row_residuals_recompute: max_abs_difference=1.78e-15
+PASS non_evaluable_rows_have_blank_residual: non_evaluable=40
+PASS residual_ranks_are_complete: rank_count=18968; evaluable=18968
+PASS outlier_export_matches_factor_10_rule: expected=4101; output=4101
+PASS sample_summary_has_unique_samples: sample_rows=3191
+PASS material_summary_reconciles_rows: total=19008; evaluable=18968
+PASS temperature_summary_reconciles_rows: total=19008; evaluable=18968
+PASS paper_summary_reconciles_rows: total=19008; evaluable=18968
+PASS residual_bands_reconcile: bands=18968; evaluable=18968
+PASS builder_validation_all_pass: failed=0
+PASS source_hash_matches_manifest: current=ac044f3cdfb6e7bab707aa300dac490f5fcb10ce8075f3d12890e5a6887d2be3
+PASS workbook_has_expected_sheets: sheets=['Summary', 'Outliers', 'Unavailable rows', 'Sample summary', 'Material summary', 'Temperature summary', 'Paper summary']
+PASS workbook_is_nonempty: size_bytes=2343178
+PASS report_records_primary_baseline: baseline and residual definition present
+PASS workbook_validation_passed: workbook validation log final status
+
+test_rows=19008
+evaluable_rows=18968
+samples=3191
+factor_10_outlier_rows=4101
+maximum_residual_recompute_difference=1.78e-15
+Final status: PASS

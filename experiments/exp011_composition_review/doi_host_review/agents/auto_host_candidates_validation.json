@@ -1,0 +1,1068 @@
+{
+  "source": "local starrydata_papers.csv metadata; candidates only, no full text verification",
+  "real_title_count": 20,
+  "real_title_results": [
+    {
+      "DOI": "10.1021/am100654p",
+      "title": "Promising Thermoelectric Properties of Commercial PEDOT:PSS Materials and Their Bi2Te3Powder Composites",
+      "candidates": []
+    },
+    {
+      "DOI": "10.1021/am405410e",
+      "title": "Exploration of Zn Resonance Levels and Thermoelectric Properties in I-Doped PbTe with ZnTe Nanostructures",
+      "candidates": [
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "element_doped_host",
+          "host_formula": "PbTe",
+          "host_name": "PbTe",
+          "host_elements": [
+            "Pb",
+            "Te"
+          ],
+          "dopant_elements": [
+            "I"
+          ],
+          "formula_kind": "formula",
+          "span": [
+            68,
+            80
+          ],
+          "host_span": [
+            76,
+            80
+          ],
+          "matched_text": "I-Doped PbTe",
+          "cautions": [
+            "composite_or_multiphase_context",
+            "multiple_material_candidates"
+          ]
+        },
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "title_material_mention",
+          "host_formula": "ZnTe",
+          "host_name": "ZnTe",
+          "host_elements": [
+            "Zn",
+            "Te"
+          ],
+          "dopant_elements": [],
+          "formula_kind": "formula",
+          "span": [
+            86,
+            90
+          ],
+          "host_span": [
+            86,
+            90
+          ],
+          "matched_text": "ZnTe",
+          "cautions": [
+            "composite_or_multiphase_context",
+            "material_role_not_explicit",
+            "multiple_material_candidates"
+          ]
+        }
+      ]
+    },
+    {
+      "DOI": "10.1016/j.actamat.2010.09.054",
+      "title": "Influence of powder morphology on thermoelectric anisotropy of spark-plasma-sintered Bi–Te-based thermoelectric materials",
+      "candidates": [
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "host_based",
+          "host_formula": "Bi-Te",
+          "host_name": "Bi-Te",
+          "host_elements": [
+            "Bi",
+            "Te"
+          ],
+          "dopant_elements": [],
+          "formula_kind": "element_family",
+          "span": [
+            85,
+            96
+          ],
+          "host_span": [
+            85,
+            90
+          ],
+          "matched_text": "Bi–Te-based",
+          "cautions": [
+            "element_family_not_stoichiometry"
+          ]
+        }
+      ]
+    },
+    {
+      "DOI": "10.1016/j.actamat.2013.10.062",
+      "title": "Influence of in situ formed MoSi2 inclusions on the thermoelectrical properties of an N-type silicon–germanium alloy",
+      "candidates": [
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "alloy_or_solid_solution",
+          "host_formula": null,
+          "host_name": "silicon-germanium",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [],
+          "formula_kind": "chemical_name",
+          "span": [
+            93,
+            116
+          ],
+          "host_span": [
+            93,
+            110
+          ],
+          "matched_text": "silicon–germanium alloy",
+          "cautions": [
+            "composite_or_multiphase_context",
+            "multiple_material_candidates",
+            "name_stoichiometry_unspecified"
+          ]
+        },
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "title_material_mention",
+          "host_formula": "MoSi2",
+          "host_name": "MoSi2",
+          "host_elements": [
+            "Mo",
+            "Si"
+          ],
+          "dopant_elements": [],
+          "formula_kind": "formula",
+          "span": [
+            28,
+            33
+          ],
+          "host_span": [
+            28,
+            33
+          ],
+          "matched_text": "MoSi2",
+          "cautions": [
+            "composite_or_multiphase_context",
+            "material_role_not_explicit",
+            "multiple_material_candidates"
+          ]
+        }
+      ]
+    },
+    {
+      "DOI": "10.1016/j.actamat.2014.04.060",
+      "title": "Thermoelectric properties of highly efficient Bi-doped Mg2Si1−x−ySnxGey materials",
+      "candidates": [
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "element_doped_host",
+          "host_formula": "Mg2Si1-x-ySnxGey",
+          "host_name": "Mg2Si1-x-ySnxGey",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Sn",
+            "Ge"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "formula_kind": "variable_formula",
+          "span": [
+            46,
+            71
+          ],
+          "host_span": [
+            55,
+            71
+          ],
+          "matched_text": "Bi-doped Mg2Si1−x−ySnxGey",
+          "cautions": [
+            "variable_composition"
+          ]
+        }
+      ]
+    },
+    {
+      "DOI": "10.1002/adma.200600527",
+      "title": "New Directions for Low-Dimensional Thermoelectric Materials",
+      "candidates": []
+    },
+    {
+      "DOI": "10.1002/adma.201100449",
+      "title": "Semimetal/Semiconductor Nanocomposites for Thermoelectrics",
+      "candidates": []
+    },
+    {
+      "DOI": "10.1146/annurev-matsci-062910-100445",
+      "title": "Recent Developments in Semiconductor Thermoelectric Physics and Materials",
+      "candidates": []
+    },
+    {
+      "DOI": "10.1063/1.4933254",
+      "title": "A synthetic approach for enhanced thermoelectric properties of PEDOT:PSS bulk composites",
+      "candidates": []
+    },
+    {
+      "DOI": "10.1002/adma.201004200",
+      "title": "Heavily Doped p-Type PbSe with High Thermoelectric Performance: An Alternative for PbTe",
+      "candidates": [
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "title_material_mention",
+          "host_formula": "PbSe",
+          "host_name": "PbSe",
+          "host_elements": [
+            "Pb",
+            "Se"
+          ],
+          "dopant_elements": [],
+          "formula_kind": "formula",
+          "span": [
+            21,
+            25
+          ],
+          "host_span": [
+            21,
+            25
+          ],
+          "matched_text": "PbSe",
+          "cautions": [
+            "material_role_not_explicit",
+            "multiple_material_candidates"
+          ]
+        },
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "title_material_mention",
+          "host_formula": "PbTe",
+          "host_name": "PbTe",
+          "host_elements": [
+            "Pb",
+            "Te"
+          ],
+          "dopant_elements": [],
+          "formula_kind": "formula",
+          "span": [
+            83,
+            87
+          ],
+          "host_span": [
+            83,
+            87
+          ],
+          "matched_text": "PbTe",
+          "cautions": [
+            "material_role_not_explicit",
+            "multiple_material_candidates"
+          ]
+        }
+      ]
+    },
+    {
+      "DOI": "10.1021/acssuschemeng.0c08013",
+      "title": "Novel Accelerated Penetration Extraction for Polyphenol Extraction from Pomegranate Skins: Utilization of Fick’s Law",
+      "candidates": []
+    },
+    {
+      "DOI": "10.1016/j.matchemphys.2015.06.002",
+      "title": "Fabrication of textured CoFe2O4 ceramics by a novel RTGG method using rod-like α-FeOOH particles as templates",
+      "candidates": [
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "title_material_mention",
+          "host_formula": "CoFe2O4",
+          "host_name": "CoFe2O4",
+          "host_elements": [
+            "Co",
+            "Fe",
+            "O"
+          ],
+          "dopant_elements": [],
+          "formula_kind": "formula",
+          "span": [
+            24,
+            31
+          ],
+          "host_span": [
+            24,
+            31
+          ],
+          "matched_text": "CoFe2O4",
+          "cautions": [
+            "composite_or_multiphase_context",
+            "material_role_not_explicit",
+            "multiple_material_candidates"
+          ]
+        },
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "title_material_mention",
+          "host_formula": "FeOOH",
+          "host_name": "FeOOH",
+          "host_elements": [
+            "Fe",
+            "O",
+            "H"
+          ],
+          "dopant_elements": [],
+          "formula_kind": "formula",
+          "span": [
+            81,
+            86
+          ],
+          "host_span": [
+            81,
+            86
+          ],
+          "matched_text": "FeOOH",
+          "cautions": [
+            "composite_or_multiphase_context",
+            "material_role_not_explicit",
+            "multiple_material_candidates"
+          ]
+        }
+      ]
+    },
+    {
+      "DOI": "10.1007/s10853-025-12109-5",
+      "title": "Scalable strategy for high-performance n-type Mg3(Sb, Bi)2 alloys with optimized thermoelectric properties",
+      "candidates": [
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "alloy_or_solid_solution",
+          "host_formula": "Mg3(Sb, Bi)2",
+          "host_name": "Mg3(Sb, Bi)2",
+          "host_elements": [
+            "Mg",
+            "Sb",
+            "Bi"
+          ],
+          "dopant_elements": [],
+          "formula_kind": "grouped_formula",
+          "span": [
+            46,
+            65
+          ],
+          "host_span": [
+            46,
+            58
+          ],
+          "matched_text": "Mg3(Sb, Bi)2 alloys",
+          "cautions": []
+        }
+      ]
+    },
+    {
+      "DOI": "10.1111/jace.15934",
+      "title": "Improved dielectric strength and energy storage density in Ba6−3xLa8+2xTi18O54 (x = 0.5, 2/3, and 0.75) ceramics",
+      "candidates": [
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "title_material_mention",
+          "host_formula": "Ba6-3xLa8+2xTi18O54",
+          "host_name": "Ba6-3xLa8+2xTi18O54",
+          "host_elements": [
+            "Ba",
+            "La",
+            "Ti",
+            "O"
+          ],
+          "dopant_elements": [],
+          "formula_kind": "variable_formula",
+          "span": [
+            59,
+            78
+          ],
+          "host_span": [
+            59,
+            78
+          ],
+          "matched_text": "Ba6−3xLa8+2xTi18O54",
+          "cautions": [
+            "material_role_not_explicit",
+            "variable_composition"
+          ]
+        }
+      ]
+    },
+    {
+      "DOI": "10.1021/acsami.9b08108",
+      "title": "High Thermoelectric Performance in n-Type Polycrystalline SnSe via Dual Incorporation of Cl and PbSe and Dense Nanostructures",
+      "candidates": [
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "title_material_mention",
+          "host_formula": "SnSe",
+          "host_name": "SnSe",
+          "host_elements": [
+            "Sn",
+            "Se"
+          ],
+          "dopant_elements": [],
+          "formula_kind": "formula",
+          "span": [
+            58,
+            62
+          ],
+          "host_span": [
+            58,
+            62
+          ],
+          "matched_text": "SnSe",
+          "cautions": [
+            "composite_or_multiphase_context",
+            "material_role_not_explicit",
+            "multiple_material_candidates"
+          ]
+        },
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "title_material_mention",
+          "host_formula": "PbSe",
+          "host_name": "PbSe",
+          "host_elements": [
+            "Pb",
+            "Se"
+          ],
+          "dopant_elements": [],
+          "formula_kind": "formula",
+          "span": [
+            96,
+            100
+          ],
+          "host_span": [
+            96,
+            100
+          ],
+          "matched_text": "PbSe",
+          "cautions": [
+            "composite_or_multiphase_context",
+            "material_role_not_explicit",
+            "multiple_material_candidates"
+          ]
+        }
+      ]
+    },
+    {
+      "DOI": "10.1007/s10904-021-01887-5",
+      "title": "Structural and Magnetic Tuning of LaFeO3 Orthoferrite Substituted Different Rare Earth Elements to Optimize Their Technological Applications",
+      "candidates": [
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "title_material_mention",
+          "host_formula": "LaFeO3",
+          "host_name": "LaFeO3",
+          "host_elements": [
+            "La",
+            "Fe",
+            "O"
+          ],
+          "dopant_elements": [],
+          "formula_kind": "formula",
+          "span": [
+            34,
+            40
+          ],
+          "host_span": [
+            34,
+            40
+          ],
+          "matched_text": "LaFeO3",
+          "cautions": [
+            "material_role_not_explicit"
+          ]
+        }
+      ]
+    },
+    {
+      "DOI": "10.1016/j.jallcom.2021.161843",
+      "title": "N-type amorphous silicon-germanium thin films with embedded nanocrystals as a novel thermoelectric material of elevated ZT",
+      "candidates": [
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "title_material_mention",
+          "host_formula": null,
+          "host_name": "silicon-germanium",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [],
+          "formula_kind": "chemical_name",
+          "span": [
+            17,
+            34
+          ],
+          "host_span": [
+            17,
+            34
+          ],
+          "matched_text": "silicon-germanium",
+          "cautions": [
+            "material_role_not_explicit",
+            "name_stoichiometry_unspecified"
+          ]
+        }
+      ]
+    },
+    {
+      "DOI": "10.1002/adem.202500553",
+      "title": "Dislocation‐Mediated Thermoelectric Performance and Mechanical Behavior",
+      "candidates": []
+    },
+    {
+      "DOI": "10.1021/acsami.8b02553",
+      "title": "Synthesis and Electrochemical Properties of LiNi0.5Mn1.5O4 for Li-Ion Batteries by the Metal–Organic Framework Method",
+      "candidates": [
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "title_material_mention",
+          "host_formula": "LiNi0.5Mn1.5O4",
+          "host_name": "LiNi0.5Mn1.5O4",
+          "host_elements": [
+            "Li",
+            "Ni",
+            "Mn",
+            "O"
+          ],
+          "dopant_elements": [],
+          "formula_kind": "formula",
+          "span": [
+            44,
+            58
+          ],
+          "host_span": [
+            44,
+            58
+          ],
+          "matched_text": "LiNi0.5Mn1.5O4",
+          "cautions": [
+            "material_role_not_explicit"
+          ]
+        }
+      ]
+    },
+    {
+      "DOI": "10.1016/j.matlet.2014.02.054",
+      "title": "Synthesis, SPS processing and low temperature transport properties of polycrystalline FeSb2 with nano-scale grains",
+      "candidates": [
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "title_material_mention",
+          "host_formula": "FeSb2",
+          "host_name": "FeSb2",
+          "host_elements": [
+            "Fe",
+            "Sb"
+          ],
+          "dopant_elements": [],
+          "formula_kind": "formula",
+          "span": [
+            86,
+            91
+          ],
+          "host_span": [
+            86,
+            91
+          ],
+          "matched_text": "FeSb2",
+          "cautions": [
+            "material_role_not_explicit"
+          ]
+        }
+      ]
+    }
+  ],
+  "synthetic_examples": [
+    {
+      "title": "B-doped Si0.8Ge0.2 thermoelectric alloys",
+      "abstract": "",
+      "candidates": [
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "element_doped_host",
+          "host_formula": "Si0.8Ge0.2",
+          "host_name": "Si0.8Ge0.2",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [
+            "B"
+          ],
+          "formula_kind": "formula",
+          "span": [
+            0,
+            18
+          ],
+          "host_span": [
+            8,
+            18
+          ],
+          "matched_text": "B-doped Si0.8Ge0.2",
+          "cautions": []
+        }
+      ]
+    },
+    {
+      "title": "Thermoelectric properties of Si0.8Ge0.2 doped with phosphorus",
+      "abstract": "",
+      "candidates": [
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "host_doped_with_element",
+          "host_formula": "Si0.8Ge0.2",
+          "host_name": "Si0.8Ge0.2",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [
+            "P"
+          ],
+          "formula_kind": "formula",
+          "span": [
+            29,
+            61
+          ],
+          "host_span": [
+            29,
+            39
+          ],
+          "matched_text": "Si0.8Ge0.2 doped with phosphorus",
+          "cautions": []
+        }
+      ]
+    },
+    {
+      "title": "High performance Bi0.5Sb1.5Te3-based thermoelectric alloys",
+      "abstract": "",
+      "candidates": [
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "host_based",
+          "host_formula": "Bi0.5Sb1.5Te3",
+          "host_name": "Bi0.5Sb1.5Te3",
+          "host_elements": [
+            "Bi",
+            "Sb",
+            "Te"
+          ],
+          "dopant_elements": [],
+          "formula_kind": "formula",
+          "span": [
+            17,
+            36
+          ],
+          "host_span": [
+            17,
+            30
+          ],
+          "matched_text": "Bi0.5Sb1.5Te3-based",
+          "cautions": []
+        }
+      ]
+    },
+    {
+      "title": "Thermoelectric properties of bismuth antimony telluride alloys",
+      "abstract": "",
+      "candidates": [
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "alloy_or_solid_solution",
+          "host_formula": null,
+          "host_name": "bismuth antimony telluride",
+          "host_elements": [
+            "Bi",
+            "Sb",
+            "Te"
+          ],
+          "dopant_elements": [],
+          "formula_kind": "chemical_name",
+          "span": [
+            29,
+            62
+          ],
+          "host_span": [
+            29,
+            55
+          ],
+          "matched_text": "bismuth antimony telluride alloys",
+          "cautions": [
+            "name_stoichiometry_unspecified"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Comparison of PbTe and SnSe composites",
+      "abstract": "",
+      "candidates": [
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "title_material_mention",
+          "host_formula": "PbTe",
+          "host_name": "PbTe",
+          "host_elements": [
+            "Pb",
+            "Te"
+          ],
+          "dopant_elements": [],
+          "formula_kind": "formula",
+          "span": [
+            14,
+            18
+          ],
+          "host_span": [
+            14,
+            18
+          ],
+          "matched_text": "PbTe",
+          "cautions": [
+            "composite_or_multiphase_context",
+            "material_role_not_explicit",
+            "multiple_material_candidates",
+            "review_or_comparison_context"
+          ]
+        },
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "title_material_mention",
+          "host_formula": "SnSe",
+          "host_name": "SnSe",
+          "host_elements": [
+            "Sn",
+            "Se"
+          ],
+          "dopant_elements": [],
+          "formula_kind": "formula",
+          "span": [
+            23,
+            27
+          ],
+          "host_span": [
+            23,
+            27
+          ],
+          "matched_text": "SnSe",
+          "cautions": [
+            "composite_or_multiphase_context",
+            "material_role_not_explicit",
+            "multiple_material_candidates",
+            "review_or_comparison_context"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "In situ SPS and BCS measurements",
+      "abstract": "",
+      "candidates": []
+    },
+    {
+      "title": "Thermoelectric Si<sub>0.8</sub>Ge<sub>0.2</sub> alloys",
+      "abstract": "",
+      "candidates": [
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "alloy_or_solid_solution",
+          "host_formula": "Si0.8Ge0.2",
+          "host_name": "Si0.8Ge0.2",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [],
+          "formula_kind": "formula",
+          "span": [
+            15,
+            54
+          ],
+          "host_span": [
+            15,
+            41
+          ],
+          "matched_text": "Si<sub>0.8</sub>Ge<sub>0.2</sub> alloys",
+          "cautions": []
+        }
+      ]
+    },
+    {
+      "title": "Thermoelectric properties of Bi2-xSbxTe3",
+      "abstract": "",
+      "candidates": [
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "title_material_mention",
+          "host_formula": "Bi2-xSbxTe3",
+          "host_name": "Bi2-xSbxTe3",
+          "host_elements": [
+            "Bi",
+            "Sb",
+            "Te"
+          ],
+          "dopant_elements": [],
+          "formula_kind": "variable_formula",
+          "span": [
+            29,
+            40
+          ],
+          "host_span": [
+            29,
+            40
+          ],
+          "matched_text": "Bi2-xSbxTe3",
+          "cautions": [
+            "material_role_not_explicit",
+            "variable_composition"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thermoelectric silicon-germanium alloys",
+      "abstract": "",
+      "candidates": [
+        {
+          "candidate_only": true,
+          "source": "title",
+          "method": "alloy_or_solid_solution",
+          "host_formula": null,
+          "host_name": "silicon-germanium",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [],
+          "formula_kind": "chemical_name",
+          "span": [
+            15,
+            39
+          ],
+          "host_span": [
+            15,
+            32
+          ],
+          "matched_text": "silicon-germanium alloys",
+          "cautions": [
+            "name_stoichiometry_unspecified"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Doped alloys",
+      "abstract": "B-doped SiGe was synthesized. Si0.8Ge0.2 doped with phosphorus was also studied.",
+      "candidates": [
+        {
+          "candidate_only": true,
+          "source": "abstract",
+          "method": "element_doped_host",
+          "host_formula": "SiGe",
+          "host_name": "SiGe",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [
+            "B"
+          ],
+          "formula_kind": "formula",
+          "span": [
+            0,
+            12
+          ],
+          "host_span": [
+            8,
+            12
+          ],
+          "matched_text": "B-doped SiGe",
+          "cautions": [
+            "multiple_material_candidates"
+          ]
+        },
+        {
+          "candidate_only": true,
+          "source": "abstract",
+          "method": "host_doped_with_element",
+          "host_formula": "Si0.8Ge0.2",
+          "host_name": "Si0.8Ge0.2",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [
+            "P"
+          ],
+          "formula_kind": "formula",
+          "span": [
+            30,
+            62
+          ],
+          "host_span": [
+            30,
+            40
+          ],
+          "matched_text": "Si0.8Ge0.2 doped with phosphorus",
+          "cautions": [
+            "multiple_material_candidates"
+          ]
+        }
+      ]
+    }
+  ],
+  "specification": {
+    "function": "candidates_from_text(title: str | None, abstract_text: str | None) -> list[dict]",
+    "side_effects": "none; no file/network access and no mutation of input text",
+    "status": "all results are unverified candidates, not final host assignments",
+    "methods": [
+      "element_doped_host",
+      "host_doped_with_element",
+      "host_based",
+      "alloy_or_solid_solution",
+      "title_material_mention"
+    ],
+    "offsets": "0-based, end-exclusive Python string indices into original title/abstract; span covers matched_text and host_span covers original host mention",
+    "formula_policy": "Preserve all stated host constituents and coefficients. No threshold removal. Variable/grouped formulas are retained without evaluating coefficients. Names with unknown stoichiometry have host_formula=null. Element-family notations are marked separately.",
+    "dopants": "Set only for explicit X-doped Y or Y doped with X relations with a single named/chemical-symbol element; other additives stay ambiguous.",
+    "fallback": "Title chemical mentions are weak candidates carrying material_role_not_explicit. Bare mentions in abstracts are not extracted. Multiple candidates are kept, with caution.",
+    "known_limits": [
+      "No universal chemical name resolver; supported English element and binary anion names only.",
+      "No full nested-bracket/polymer/charge/isotope parser.",
+      "No implied dopant inference or resolution of comparative target roles.",
+      "Family names such as half-Heusler, skutterudite, and Zintl are not enough to invent an exact formula.",
+      "Merged typography such as Bi2Te3Powder can produce no candidate.",
+      "A named precursor/inclusion can be returned as a weak title candidate; caller must not treat weak mentions as confirmed hosts."
+    ]
+  },
+  "validation": {
+    "real_title_cases": 20,
+    "synthetic_cases": 10,
+    "offset_roundtrip": "passed for every candidate",
+    "chemical_regressions": [
+      "Si0.8Ge0.2 retains Ge and explicit B dopant",
+      "Mg3(Sb,Bi)2 retains all three elements",
+      "Mg2Si1-x-ySnxGey retains Sn and Ge",
+      "Ba6-3xLa8+2xTi18O54 not truncated to Ba6",
+      "English In and acronyms SPS/BCS rejected",
+      "Greek delta/epsilon retained with variable_composition caution",
+      "Unsupported coefficient tails including markup-separated Sr(Ti,Fe)O 3− δ rejected instead of truncating the formula"
+    ],
+    "corrections_from_real_title_inspection": [
+      "Added multi-variable algebraic coefficients after discovering a truncated Mg2Si1-x-ySnxGey candidate.",
+      "Added single-level grouped formula support after discovering a truncated Mg3(Sb,Bi)2 candidate.",
+      "Broadened inclusion/composite caution words for MoSi2 inclusions and ZnTe nanostructures."
+    ],
+    "manual_review_conclusion": "20 actual metadata titles reviewed. Remaining weak candidates can be inclusion, precursor, or comparator compounds; they remain flagged rather than selected. No automatic host confirmation performed."
+  },
+  "coefficient_suffix_regressions": [
+    {
+      "input_title": "Sr(Ti,Fe)O 3− δ mixed-conducting perovskites",
+      "expected_host_formulas": [],
+      "actual_host_formulas": [],
+      "passed": true
+    },
+    {
+      "input_title": "Proton-Electron Hole Interactions in Sr(Ti,Fe)O 3− δ Mixed-Conducting Perovskites",
+      "expected_host_formulas": [],
+      "actual_host_formulas": [],
+      "passed": true
+    },
+    {
+      "input_title": "Sr(Ti,Fe)O3−δ mixed-conducting perovskites",
+      "expected_host_formulas": [
+        "Sr(Ti,Fe)O3-δ"
+      ],
+      "actual_host_formulas": [
+        "Sr(Ti,Fe)O3-δ"
+      ],
+      "passed": true
+    },
+    {
+      "input_title": "TiO2-δ materials",
+      "expected_host_formulas": [
+        "TiO2-δ"
+      ],
+      "actual_host_formulas": [
+        "TiO2-δ"
+      ],
+      "passed": true
+    },
+    {
+      "input_title": "TiO2-ε materials",
+      "expected_host_formulas": [
+        "TiO2-ε"
+      ],
+      "actual_host_formulas": [
+        "TiO2-ε"
+      ],
+      "passed": true
+    },
+    {
+      "input_title": "TiO2-δ/2 materials",
+      "expected_host_formulas": [],
+      "actual_host_formulas": [],
+      "passed": true
+    },
+    {
+      "input_title": "TiO2-delta materials",
+      "expected_host_formulas": [],
+      "actual_host_formulas": [],
+      "passed": true
+    },
+    {
+      "input_title": "TiO2 − δ materials",
+      "expected_host_formulas": [],
+      "actual_host_formulas": [],
+      "passed": true
+    },
+    {
+      "input_title": "B-doped Si0.8Ge0.2 alloys",
+      "expected_host_formulas": [
+        "Si0.8Ge0.2"
+      ],
+      "actual_host_formulas": [
+        "Si0.8Ge0.2"
+      ],
+      "passed": true
+    },
+    {
+      "input_title": "SrTi 1−x Fe x O 3− δ materials",
+      "expected_host_formulas": [],
+      "actual_host_formulas": [],
+      "passed": true
+    }
+  ]
+}

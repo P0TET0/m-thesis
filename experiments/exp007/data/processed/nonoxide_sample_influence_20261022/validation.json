@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "input_sha256": {
+    "data\\processed\\phase1_sigma_residual_rows.csv": "552eaba4097494f15ab3cb0e881fff9255f6deded73e6dff8ffb26f5a2b98ba6",
+    "data\\processed\\phase2_material_visual_summary.csv": "907ba8504d6e219c0dddd2d8dab13d656bdc2541562e04c4393f1b5ee57856a5"
+  },
+  "original_test_rows": 19008,
+  "evaluable_nonoxide_rows": 15531,
+  "nonoxide_categories": 14,
+  "sample_deletions_checked": 2579,
+  "direct_filter_metric_checks": "all candidates",
+  "baseline_reconciled": "all 14 categories",
+  "original_inputs_unchanged": true,
+  "refitted": false,
+  "selection": "maximum row-weighted RMSE reduction within each category; MAE maximum also retained",
+  "sample_equal_definition": "mean of within-sample MAE; square root of mean within-sample MSE (not median signed residual)",
+  "formula_note": "post-hoc influence diagnostics, not validated outlier removal or improved model performance"
+}

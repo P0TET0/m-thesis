@@ -1,0 +1,14 @@
+exp007 Phase 2 visualization validation
+========================================
+PASS phase1_validation_all_pass: checks=14
+PASS evaluable_row_count_preserved: rows=18968
+PASS material_summary_reconciles: sum=18968
+PASS temperature_summary_reconciles: sum=18968
+PASS oxide_summary_reconciles: sum=18968
+PASS all_figure_files_created: files=8
+PASS phase1_source_unchanged: before=552eaba4097494f15ab3cb0e881fff9255f6deded73e6dff8ffb26f5a2b98ba6; after=552eaba4097494f15ab3cb0e881fff9255f6deded73e6dff8ffb26f5a2b98ba6
+
+figure_files=8
+evaluable_rows=18968
+broad_oxide_rows=3437
+Final status: PASS

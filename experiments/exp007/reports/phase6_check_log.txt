@@ -1,0 +1,35 @@
+Phase 6 independent checks
+status=PASS
+checks=31
+failed=0
+required_outputs_exist: PASS | missing=[]
+all_build_checks_pass: PASS | failed=0
+assignment_row_count: PASS | rows=17715
+assignment_row_ids_unique: PASS | duplicates=0
+taxonomy_fixed: PASS | 185239a6fa68e0403c1984b9e6338dd5eec4842b116cbab6201d33e2fc706999
+heldout_assignment_count: PASS | rows=3437
+heldout_assignments_match_phase4: PASS | row-level oxide_v1 group keys
+prediction_row_count: PASS | rows=19008
+prediction_status_counts: PASS | {'ok': 18890, 'unreliable_reference_bin': 70, 'missing_reference_bin': 48}
+prediction_formula: PASS | max_abs_diff=2.794e-09
+reference_bins_nonempty: PASS | bins=548; reliable=449
+comparison_row_count: PASS | rows=19008
+paired_row_count: PASS | rows=18890
+nonoxide_predictions_unchanged: PASS | rows=15531; max_abs_delta=1.157e-15
+oxide_predictions_materially_changed: PASS | changed=3210
+paired_metrics_recomputed_broad_family_100K: PASS | max_abs_difference=2.220e-16
+paired_metrics_recomputed_oxide_v1_100K: PASS | max_abs_difference=5.551e-17
+baseline_overall_reproduces_phase0: PASS | mae_diff=0.000e+00
+overall_table_complete: PASS | overall=4; paired=4; deltas=32
+scope_rows_complete: PASS | ['all_oxide_assigned', 'default_eligible', 'excluded_only', 'review_only']
+group_coverage_reconciles: PASS | rows=3437; groups=14
+group_metrics_scopes: PASS | ['all_assigned', 'default_eligible']
+sample_rows_unique: PASS | samples=3187
+manifest_sources_exist: PASS | missing=[]
+manifest_hashes_match: PASS | current SHA-256 versus recorded
+workbook_zip_integrity: PASS | bad_member=None
+workbook_sheets_complete: PASS | sheets=['Group coverage', 'Oxide assignments', 'Oxide groups', 'Oxide scopes', 'Prediction rows', 'Reference bins', 'Sample changes', 'Summary', 'Validation']
+workbook_has_no_error_text: PASS | scan of xl/*.xml
+workbook_nonempty: PASS | size=1022172
+workbook_validation_passes: PASS | phase6_workbook_validation_log.txt
+report_documents_single_change: PASS | controlled-comparison statements

@@ -1,0 +1,20 @@
+exp007 Phase 0 independent check
+=====================================
+PASS three_variants_present
+PASS two_weightings_per_variant
+PASS status_has_three_variants
+PASS all_reference_checks_pass
+PASS reference_tolerance_met
+PASS common_metrics_complete
+PASS common_cohort_nonempty
+PASS one_primary_baseline
+PASS primary_is_100K
+PASS roles_are_unique
+PASS manifest_has_six_sources
+PASS manifest_run_integrity_passed
+PASS report_records_primary
+PASS exp006_sources_still_match_manifest
+
+common_prediction_rows=18883
+maximum_reference_abs_difference=1.11e-16
+Final status: PASS

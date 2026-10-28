@@ -1,0 +1,18 @@
+Phase 8 build validation
+status=PASS
+checks=14
+pass=14
+PASS frozen_100K_bins_reproduced: Alternate-bin implementation exactly reproduces the frozen 100 K centers
+PASS oxide_assignment_complete: source=17,715; assignments=17,715
+PASS scenario_count: scenarios=13
+PASS one_row_per_scenario_and_test_row: rows=39,416
+PASS fixed_primary_denominator: rows_per_scenario=[3032]
+PASS metrics_finite: All reported model-sensitivity metric values are finite
+PASS frozen_prediction_status_exact: rows_compared=3,032
+PASS frozen_residuals_exact: max_abs_diff baseline=1.776e-15; oxide_v1=8.793e-14
+PASS sample_holdout_no_overlap: overlapping_sample_groups=0
+PASS evaluation_sensitivity_complete: rows=6
+PASS leave_one_group_out_complete: rows=24; expected=24
+PASS all_model_scenarios_mae_rmse_improve: improved=39/39 scenario-weighting combinations
+PASS all_evaluation_sensitivities_mae_rmse_improve: improved=6/6
+PASS all_leave_one_group_out_mae_rmse_improve: improved=24/24

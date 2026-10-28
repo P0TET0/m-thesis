@@ -1,0 +1,32 @@
+{
+  "tables": {
+    "sample_host_review": {
+      "rows": 104832,
+      "bytes": 36549808,
+      "sha256": "18175f5fa98709c316c31dfaa258081aea5deec6f8267f13ca04d500c389c4e8",
+      "all_cells_match_jsonl": true
+    },
+    "paper_coverage": {
+      "rows": 17337,
+      "bytes": 8534067,
+      "sha256": "4e1af0fff53eff62bf6bf9e6770106bcb3b0d51d02af505a0855384a50772746",
+      "all_cells_match_jsonl": true
+    },
+    "host_evidence": {
+      "rows": 7707,
+      "bytes": 3077826,
+      "sha256": "28aecd1a0b6d886f6666c033a00dbc48538b565f643db056a6c8b81f4f1d9150",
+      "all_cells_match_jsonl": true
+    }
+  },
+  "input_hashes_unchanged": {
+    "starrydata_curves.csv": true,
+    "starrydata_samples.csv": true,
+    "starrydata_papers.csv": true
+  },
+  "unique_doi_sample_keys": true,
+  "curve_count_reconciled": true,
+  "all_evidence_links_valid": true,
+  "candidates_not_marked_confirmed_or_removed": true,
+  "normalizations_sum_to_one": true
+}

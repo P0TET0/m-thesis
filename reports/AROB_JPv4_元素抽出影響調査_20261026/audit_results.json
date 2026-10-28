@@ -1,0 +1,421 @@
+{
+  "rule": "strict_flat_formula_v1",
+  "comparison_unit": "unique sample_key",
+  "step9_used_as_truth": false,
+  "model_loaded": false,
+  "model_fitted": false,
+  "predictions_recomputed": false,
+  "metadata_rows": 18467,
+  "original_element_feature_mismatches": 0,
+  "fig7_train_samples": 3577,
+  "fig7_training_feature_available": true,
+  "fig7_published_points": 1547,
+  "fig7_old_base_feature_candidates": 54,
+  "fig7_material_category_candidates": 28,
+  "fig7_total_candidates": 82,
+  "fig7_final_columns": 74,
+  "fig7_element_features_retained": 29,
+  "fig7_final_columns_match_recomputed_preprocessing": true,
+  "fig7_final_columns_match_importance": true,
+  "fig7_imputation_matches": true,
+  "cohorts": [
+    {
+      "cohort": "old_candidates",
+      "label": "旧ML候補",
+      "samples": 15623,
+      "clear_formula": 12930,
+      "review": 2693,
+      "element_set_diff": 4456,
+      "omission_samples": 4421,
+      "extra_samples": 36,
+      "both_missing_and_extra": 1,
+      "affected_feature_samples": 4456,
+      "affected_active_input_samples": 4456,
+      "different_elements_but_no_feature_diff": 0,
+      "affected_feature_cells": 15506,
+      "affected_feature_columns": 28,
+      "omission_affected_feature_columns": 28,
+      "diff_percent_all": 28.522050822505282,
+      "diff_percent_clear": 34.46249033255994
+    },
+    {
+      "cohort": "old_doi_train",
+      "label": "旧ML DOI学習",
+      "samples": 12422,
+      "clear_formula": 10234,
+      "review": 2188,
+      "element_set_diff": 3541,
+      "omission_samples": 3512,
+      "extra_samples": 30,
+      "both_missing_and_extra": 1,
+      "affected_feature_samples": 3541,
+      "affected_active_input_samples": 3541,
+      "different_elements_but_no_feature_diff": 0,
+      "affected_feature_cells": 12360,
+      "affected_feature_columns": 28,
+      "omission_affected_feature_columns": 28,
+      "diff_percent_all": 28.505876670423444,
+      "diff_percent_clear": 34.60035176861442
+    },
+    {
+      "cohort": "old_doi_test",
+      "label": "旧ML DOI評価",
+      "samples": 3201,
+      "clear_formula": 2696,
+      "review": 505,
+      "element_set_diff": 915,
+      "omission_samples": 909,
+      "extra_samples": 6,
+      "both_missing_and_extra": 0,
+      "affected_feature_samples": 915,
+      "affected_active_input_samples": 915,
+      "different_elements_but_no_feature_diff": 0,
+      "affected_feature_cells": 3146,
+      "affected_feature_columns": 25,
+      "omission_affected_feature_columns": 25,
+      "diff_percent_all": 28.58481724461106,
+      "diff_percent_clear": 33.939169139465875
+    },
+    {
+      "cohort": "fig2_fig6_common",
+      "label": "図2・6共通",
+      "samples": 109,
+      "clear_formula": 90,
+      "review": 19,
+      "element_set_diff": 31,
+      "omission_samples": 31,
+      "extra_samples": 0,
+      "both_missing_and_extra": 0,
+      "affected_feature_samples": 31,
+      "affected_active_input_samples": 31,
+      "different_elements_but_no_feature_diff": 0,
+      "affected_feature_cells": 120,
+      "affected_feature_columns": 16,
+      "omission_affected_feature_columns": 16,
+      "diff_percent_all": 28.440366972477065,
+      "diff_percent_clear": 34.44444444444444
+    },
+    {
+      "cohort": "fig4_published",
+      "label": "図4掲載",
+      "samples": 2943,
+      "clear_formula": 2489,
+      "review": 454,
+      "element_set_diff": 865,
+      "omission_samples": 859,
+      "extra_samples": 6,
+      "both_missing_and_extra": 0,
+      "affected_feature_samples": 865,
+      "affected_active_input_samples": 865,
+      "different_elements_but_no_feature_diff": 0,
+      "affected_feature_cells": 2933,
+      "affected_feature_columns": 25,
+      "omission_affected_feature_columns": 25,
+      "diff_percent_all": 29.391777098199118,
+      "diff_percent_clear": 34.752912816392126
+    },
+    {
+      "cohort": "fig7_ml_train",
+      "label": "図7 ML学習（全材料）",
+      "samples": 3577,
+      "clear_formula": 3044,
+      "review": 533,
+      "element_set_diff": 1087,
+      "omission_samples": 1084,
+      "extra_samples": 3,
+      "both_missing_and_extra": 0,
+      "affected_feature_samples": 1087,
+      "affected_active_input_samples": 1087,
+      "different_elements_but_no_feature_diff": 0,
+      "affected_feature_cells": 3681,
+      "affected_feature_columns": 27,
+      "omission_affected_feature_columns": 27,
+      "diff_percent_all": 30.388593793681856,
+      "diff_percent_clear": 35.7095926412615
+    },
+    {
+      "cohort": "fig7_published",
+      "label": "図7 ML掲載",
+      "samples": 280,
+      "clear_formula": 259,
+      "review": 21,
+      "element_set_diff": 127,
+      "omission_samples": 127,
+      "extra_samples": 0,
+      "both_missing_and_extra": 0,
+      "affected_feature_samples": 127,
+      "affected_active_input_samples": 127,
+      "different_elements_but_no_feature_diff": 0,
+      "affected_feature_cells": 435,
+      "affected_feature_columns": 18,
+      "omission_affected_feature_columns": 18,
+      "diff_percent_all": 45.357142857142854,
+      "diff_percent_clear": 49.034749034749034
+    }
+  ],
+  "review_reasons": [
+    {
+      "cohort": "old_candidates",
+      "review_reason": "grouped_formula_or_component_not_adjudicated",
+      "samples": 2541
+    },
+    {
+      "cohort": "old_candidates",
+      "review_reason": "internal_whitespace_or_description",
+      "samples": 58
+    },
+    {
+      "cohort": "old_candidates",
+      "review_reason": "composite_separator_or_annotation",
+      "samples": 56
+    },
+    {
+      "cohort": "old_candidates",
+      "review_reason": "unconsumed_or_invalid_element_token",
+      "samples": 20
+    },
+    {
+      "cohort": "old_candidates",
+      "review_reason": "variable_charge_or_unsupported_character",
+      "samples": 14
+    },
+    {
+      "cohort": "old_candidates",
+      "review_reason": "missing_or_unspecified",
+      "samples": 4
+    },
+    {
+      "cohort": "old_doi_train",
+      "review_reason": "grouped_formula_or_component_not_adjudicated",
+      "samples": 2064
+    },
+    {
+      "cohort": "old_doi_train",
+      "review_reason": "internal_whitespace_or_description",
+      "samples": 49
+    },
+    {
+      "cohort": "old_doi_train",
+      "review_reason": "composite_separator_or_annotation",
+      "samples": 41
+    },
+    {
+      "cohort": "old_doi_train",
+      "review_reason": "unconsumed_or_invalid_element_token",
+      "samples": 16
+    },
+    {
+      "cohort": "old_doi_train",
+      "review_reason": "variable_charge_or_unsupported_character",
+      "samples": 14
+    },
+    {
+      "cohort": "old_doi_train",
+      "review_reason": "missing_or_unspecified",
+      "samples": 4
+    },
+    {
+      "cohort": "old_doi_test",
+      "review_reason": "grouped_formula_or_component_not_adjudicated",
+      "samples": 477
+    },
+    {
+      "cohort": "old_doi_test",
+      "review_reason": "composite_separator_or_annotation",
+      "samples": 15
+    },
+    {
+      "cohort": "old_doi_test",
+      "review_reason": "internal_whitespace_or_description",
+      "samples": 9
+    },
+    {
+      "cohort": "old_doi_test",
+      "review_reason": "unconsumed_or_invalid_element_token",
+      "samples": 4
+    },
+    {
+      "cohort": "fig2_fig6_common",
+      "review_reason": "grouped_formula_or_component_not_adjudicated",
+      "samples": 18
+    },
+    {
+      "cohort": "fig2_fig6_common",
+      "review_reason": "internal_whitespace_or_description",
+      "samples": 1
+    },
+    {
+      "cohort": "fig4_published",
+      "review_reason": "grouped_formula_or_component_not_adjudicated",
+      "samples": 432
+    },
+    {
+      "cohort": "fig4_published",
+      "review_reason": "composite_separator_or_annotation",
+      "samples": 13
+    },
+    {
+      "cohort": "fig4_published",
+      "review_reason": "internal_whitespace_or_description",
+      "samples": 6
+    },
+    {
+      "cohort": "fig4_published",
+      "review_reason": "unconsumed_or_invalid_element_token",
+      "samples": 3
+    },
+    {
+      "cohort": "fig7_ml_train",
+      "review_reason": "grouped_formula_or_component_not_adjudicated",
+      "samples": 495
+    },
+    {
+      "cohort": "fig7_ml_train",
+      "review_reason": "internal_whitespace_or_description",
+      "samples": 13
+    },
+    {
+      "cohort": "fig7_ml_train",
+      "review_reason": "composite_separator_or_annotation",
+      "samples": 10
+    },
+    {
+      "cohort": "fig7_ml_train",
+      "review_reason": "unconsumed_or_invalid_element_token",
+      "samples": 10
+    },
+    {
+      "cohort": "fig7_ml_train",
+      "review_reason": "variable_charge_or_unsupported_character",
+      "samples": 5
+    },
+    {
+      "cohort": "fig7_published",
+      "review_reason": "grouped_formula_or_component_not_adjudicated",
+      "samples": 21
+    }
+  ],
+  "input_hashes_before_and_after_equal": true,
+  "input_manifest": [
+    {
+      "name": "metadata",
+      "path": "data/output/starrydata2_step18_tau_eff_ml_dataset/tau_eff_ml_metadata_step18.csv",
+      "sha256": "e5c664875bd2346edcb082159944e8ba2071f637fad88a749c73a35da3307022"
+    },
+    {
+      "name": "features",
+      "path": "data/output/starrydata2_step18_tau_eff_ml_dataset/tau_eff_ml_feature_matrix_step18.csv",
+      "sha256": "af011ad3b441ef13d29c3badf18c2d2731718636aee190f8e76f13ef3f1544c4"
+    },
+    {
+      "name": "recommended",
+      "path": "data/output/starrydata2_step18_tau_eff_ml_dataset/tau_eff_ml_dataset_recommended_step18.csv",
+      "sha256": "6890c2080a6c0b1228aa85710eafe52132f1bc4e987676590dcad7a551285ddc"
+    },
+    {
+      "name": "splits",
+      "path": "data/output/starrydata2_step18_tau_eff_ml_dataset/tau_eff_ml_splits_step18.csv",
+      "sha256": "36a39f48405e547ebbbe7ae90978f9ca466d1acb30f8927b6b89a2ba51411108"
+    },
+    {
+      "name": "old_columns",
+      "path": "data/output/starrydata2_step19_tau_eff_ml_model/best_model_feature_columns_step19.json",
+      "sha256": "f49d8e68702875ab73030d5eb6d9db8e31eb556989bf3ae9be89c475b46ab949"
+    },
+    {
+      "name": "common_samples",
+      "path": "data/output/exp005_ml_df_exp006_common_cohort_zt_comparison/three_method_sample_summary.csv",
+      "sha256": "ca0455334542fb835538489e717da44dc6b18f0fc2141b5491d2fbbbb2774c15"
+    },
+    {
+      "name": "common_rows",
+      "path": "data/output/exp005_ml_df_exp006_common_cohort_zt_comparison/three_method_row_comparisons.csv",
+      "sha256": "a42390d51afc4fc10126dcd4faf723152f756910531276c697816b9032a098d3"
+    },
+    {
+      "name": "common_metrics",
+      "path": "data/output/exp005_ml_df_exp006_common_cohort_zt_comparison/three_method_model_metrics.csv",
+      "sha256": "2b532f7a6b470d2d97c8ed1aa04e1d1313bfb5d7ae4d73c5661bf3a594191148"
+    },
+    {
+      "name": "fig4",
+      "path": "data/output/df_ml_fml_material_parity_20261025/plot_source_ML.csv",
+      "sha256": "d857be69a89ef51e70b129841833b0d02545554a91ef0035e7e3ea24d80fd372"
+    },
+    {
+      "name": "fig7_samples",
+      "path": "experiments/exp011_oxide_v1_df_ml_fml/data/ml_sample_audit_fine.csv",
+      "sha256": "021b41e4c92b45bee7fc0829b3fbdbaccf720d0dfcd20177b7b758318b98f79b"
+    },
+    {
+      "name": "fig7_plot",
+      "path": "experiments/exp011_oxide_v1_df_ml_fml/data/plot_source_fine.csv",
+      "sha256": "e4c6f2e15174f12481b2cddf7f4b0b48a43233bc8bd40c9d9f8fb57acd46eceb"
+    },
+    {
+      "name": "fig7_predictions",
+      "path": "experiments/exp011_oxide_v1_df_ml_fml/data/predictions_fine.csv",
+      "sha256": "593d4781074bae719110f3fb555f30aef34caf9cb0f29f637a8f939866aeecbb"
+    },
+    {
+      "name": "fig7_metrics",
+      "path": "experiments/exp011_oxide_v1_df_ml_fml/data/metrics.csv",
+      "sha256": "335d7273ca2d0a4afbe85bdd03c41e920203f1d665076ee4553544d9b9b1f8b6"
+    },
+    {
+      "name": "fig7_feature_audit",
+      "path": "experiments/exp011_oxide_v1_df_ml_fml/data/feature_audit_fine.csv",
+      "sha256": "5f954aa8311932ff281888c5a8665a4cb5eb0b224f7388769f2d0e644f4db575"
+    },
+    {
+      "name": "fig7_importance",
+      "path": "experiments/exp011_oxide_v1_df_ml_fml/data/feature_importance_fine.csv",
+      "sha256": "287fb514ace5face2a1b61c56cc43459068167da34d603c15b6cfe38f2d277e8"
+    },
+    {
+      "name": "fig7_model",
+      "path": "experiments/exp011_oxide_v1_df_ml_fml/models/ml_fine.joblib",
+      "sha256": "8d0bf6b2765e8c187dc4ce13ce63cacc73c8739d5baa719298dd4d967cfc4740"
+    },
+    {
+      "name": "fig7_manifest",
+      "path": "experiments/exp011_oxide_v1_df_ml_fml/source_manifest.json",
+      "sha256": "e28ed5d84556341835034884169edf4f9706858c687b70fbbdc9eb6d4759fc89"
+    },
+    {
+      "name": "step18_code",
+      "path": "experiments/exp005/build_tau_eff_ml_dataset_step18.py",
+      "sha256": "97365682561117b73184a854c1969f7698f81367981f0a763ddd0ec139c81280"
+    },
+    {
+      "name": "step19_code",
+      "path": "experiments/exp005/train_tau_eff_ml_step19.py",
+      "sha256": "f27b65486b3e4e14ef55e4d37de4652ae076483220ff6d4cb20bde6c3b7d6b85"
+    },
+    {
+      "name": "fig7_code",
+      "path": "experiments/exp011_oxide_v1_df_ml_fml/build_oxide_comparison.py",
+      "sha256": "c09cac571ae983bb0caa0b64aa181cde9b2792babf1a8f07e77145df5d92035b"
+    },
+    {
+      "name": "fig2_png",
+      "path": "data/output/exp005_ml_df_exp006_common_cohort_zt_comparison/figures/figure_three_method_parity_sigma_common_2K_cohort.png",
+      "sha256": "a9a50442b6fca8d581fedf31f704f0563b381d0588d87012c8e1bc82e1537ed0"
+    },
+    {
+      "name": "fig6_png",
+      "path": "data/output/exp005_ml_df_exp006_common_cohort_zt_comparison/figures/figure_three_method_parity_reported_zt_2K.png",
+      "sha256": "e5e981b0b0900aeb2085c32b6980c62b57ccb4ae7eedbdd0bb1f341c7f69d79b"
+    },
+    {
+      "name": "fig4_png",
+      "path": "data/output/df_ml_fml_material_parity_20261025/sigma/ML/overview_full_range.png",
+      "sha256": "bb076114c09bbfd4a68a3f33874c508c453018380b672c14930eba08c64b6e23"
+    },
+    {
+      "name": "fig7_png",
+      "path": "experiments/exp011_oxide_v1_df_ml_fml/figures/sigma/all_oxides_full_range.png",
+      "sha256": "4e23dd6f7959f8c3f4b6dde38fbb89cc7b1c8bd03279d80aba4b607c9ab78ffd"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+PASS: train-only references and own-sample exclusion on a hand-checkable fixture
+PASS: original input hashes unchanged and train/test sample sets disjoint
+PASS: broad predictions, ZT formula, frozen FML values, ML split, common-row metrics
+PASS: fine predictions, ZT formula, frozen FML values, ML split, common-row metrics
+PASS: before/after observations and classifications match; both DF and ML actually changed
+PASS: 132 comparison PNG/PDF pairs, full-range axes, counts and gallery links
+status=PASS

@@ -1,0 +1,2885 @@
+{
+  "generated_at_utc": "2026-10-26T02:26:05.808890+00:00",
+  "source": "C:\\Users\\miots\\m-thesis\\m-thesis\\experiments\\exp011_composition_review\\doi_host_review\\cache\\sample_host_review.jsonl",
+  "source_sha256": "a44b34225cad075d5e1a12822e8b004e5d0e50c405db8ba452704ff0070ff879",
+  "unit": "unique normalized DOI + sample_id; not curve rows",
+  "method": "x_i=n_i/sum(n_j); remove x_i <= threshold once, then renormalize retained elements",
+  "scope": "Numeric flat recorded formulas only; fractions are not verified physical concentrations",
+  "total_samples": 104832,
+  "parseable_samples": 71213,
+  "unsupported_samples": 33619,
+  "reviewed_role_comparison_samples": 556,
+  "reviewed_role_comparison_dois": 36,
+  "reviewed_samples_with_recorded_dopants": 171,
+  "reviewed_samples_with_known_scale_mismatch": 4,
+  "thresholds": [
+    {
+      "threshold_fraction": "0.001",
+      "threshold_at_percent": 0.1,
+      "all_parseable_samples": {
+        "samples_with_any_element_removed": 1384,
+        "samples_with_no_elements_left": 0,
+        "samples_with_one_element_left": 1415,
+        "samples_with_multiple_elements_left": 69798
+      },
+      "reviewed_roles_comparison": {
+        "samples_with_confirmed_host_element_removed": 0,
+        "samples_with_confirmed_recorded_dopant_retained": 153,
+        "samples_matching_reviewed_element_removal": 403,
+        "samples_with_either_role_mismatch": 153
+      },
+      "examples": {
+        "host_removed": [],
+        "dopant_retained": [
+          {
+            "doi": "10.1038/ncomms5515",
+            "sample_id": "371",
+            "composition_original": "K0.02Pb1Te0.7S0.3",
+            "sample_name": "K0.02Pb1Te0.7S0.3",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "K",
+            "evidence_ids": "other2_06",
+            "data_quality_flags": "phase_separated_mixed_host;host_family_not_single_phase",
+            "source_sample_record": "13645",
+            "atomic_fractions_from_recorded_coefficients": {
+              "K": 0.009900990099009901,
+              "Pb": 0.49504950495049505,
+              "Te": 0.3465346534653465,
+              "S": 0.1485148514851485
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "K",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1038/ncomms5515",
+            "sample_id": "339",
+            "composition_original": "K0.015Pb1Te0.7S0.3",
+            "sample_name": "K0.015Pb1Te0.7S0.3",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "K",
+            "evidence_ids": "other2_06",
+            "data_quality_flags": "phase_separated_mixed_host;host_family_not_single_phase",
+            "source_sample_record": "13648",
+            "atomic_fractions_from_recorded_coefficients": {
+              "K": 0.007444168734491315,
+              "Pb": 0.49627791563275436,
+              "Te": 0.34739454094292804,
+              "S": 0.1488833746898263
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "K",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "329",
+            "composition_original": "Pb1Te0.65S0.35Na0.06",
+            "sample_name": "Pb1Te0.65S0.35Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3228",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.3155339805825243,
+              "S": 0.16990291262135923,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1038/ncomms5515",
+            "sample_id": "419",
+            "composition_original": "K0.03Pb1Te0.7S0.3",
+            "sample_name": "K0.03Pb1Te0.7S0.3",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "K",
+            "evidence_ids": "other2_06",
+            "data_quality_flags": "phase_separated_mixed_host;host_family_not_single_phase",
+            "source_sample_record": "13646",
+            "atomic_fractions_from_recorded_coefficients": {
+              "K": 0.014778325123152709,
+              "Pb": 0.49261083743842365,
+              "Te": 0.3448275862068966,
+              "S": 0.1477832512315271
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "K",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1038/ncomms5515",
+            "sample_id": "204",
+            "composition_original": "K0.01Pb1Te0.7S0.3",
+            "sample_name": "K0.01Pb1Te0.7S0.3",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "K",
+            "evidence_ids": "other2_06",
+            "data_quality_flags": "phase_separated_mixed_host;host_family_not_single_phase",
+            "source_sample_record": "13644",
+            "atomic_fractions_from_recorded_coefficients": {
+              "K": 0.004975124378109453,
+              "Pb": 0.4975124378109453,
+              "Te": 0.3482587064676617,
+              "S": 0.14925373134328357
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "K",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "317",
+            "composition_original": "Pb1Te0.7S0.3Na0.06",
+            "sample_name": "Pb1Te0.7S0.3Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3232",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.33980582524271846,
+              "S": 0.14563106796116504,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "230",
+            "composition_original": "Pb1Te0.75S0.25Na0.06",
+            "sample_name": "Pb1Te0.75S0.25Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3230",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.3640776699029126,
+              "S": 0.12135922330097088,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "224",
+            "composition_original": "Pb1Te0.8S0.2Na0.06",
+            "sample_name": "Pb1Te0.8S0.2Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3229",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.3883495145631068,
+              "S": 0.0970873786407767,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1038/ncomms5515",
+            "sample_id": "304",
+            "composition_original": "K0.005Pb1Te0.7S0.3",
+            "sample_name": "K0.005Pb1Te0.7S0.3",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "K",
+            "evidence_ids": "other2_06",
+            "data_quality_flags": "phase_separated_mixed_host;host_family_not_single_phase",
+            "source_sample_record": "13647",
+            "atomic_fractions_from_recorded_coefficients": {
+              "K": 0.0024937655860349127,
+              "Pb": 0.49875311720698257,
+              "Te": 0.3491271820448878,
+              "S": 0.14962593516209477
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "K",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1038/ncomms5515",
+            "sample_id": "409",
+            "composition_original": "K0.025Pb1Te0.7S0.3",
+            "sample_name": "K0.025Pb1Te0.7S0.3",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "K",
+            "evidence_ids": "other2_06",
+            "data_quality_flags": "phase_separated_mixed_host;host_family_not_single_phase",
+            "source_sample_record": "13649",
+            "atomic_fractions_from_recorded_coefficients": {
+              "K": 0.012345679012345678,
+              "Pb": 0.49382716049382713,
+              "Te": 0.345679012345679,
+              "S": 0.14814814814814814
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "K",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "185",
+            "composition_original": "Pb1Te0.9S0.1Na0.06",
+            "sample_name": "Pb1Te0.9S0.1Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3227",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.4368932038834951,
+              "S": 0.04854368932038835,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1021/ja206380h",
+            "sample_id": "343",
+            "composition_original": "Pb0.98Na0.02Te0.88S0.12",
+            "sample_name": "Pb0.98Na0.02Te0.88S0.12",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_05",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only",
+            "source_sample_record": "11799",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.49,
+              "Na": 0.01,
+              "Te": 0.44,
+              "S": 0.06
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "threshold_fraction": "0.005",
+      "threshold_at_percent": 0.5,
+      "all_parseable_samples": {
+        "samples_with_any_element_removed": 6777,
+        "samples_with_no_elements_left": 0,
+        "samples_with_one_element_left": 1482,
+        "samples_with_multiple_elements_left": 69731
+      },
+      "reviewed_roles_comparison": {
+        "samples_with_confirmed_host_element_removed": 0,
+        "samples_with_confirmed_recorded_dopant_retained": 112,
+        "samples_matching_reviewed_element_removal": 444,
+        "samples_with_either_role_mismatch": 112
+      },
+      "examples": {
+        "host_removed": [],
+        "dopant_retained": [
+          {
+            "doi": "10.1038/ncomms5515",
+            "sample_id": "371",
+            "composition_original": "K0.02Pb1Te0.7S0.3",
+            "sample_name": "K0.02Pb1Te0.7S0.3",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "K",
+            "evidence_ids": "other2_06",
+            "data_quality_flags": "phase_separated_mixed_host;host_family_not_single_phase",
+            "source_sample_record": "13645",
+            "atomic_fractions_from_recorded_coefficients": {
+              "K": 0.009900990099009901,
+              "Pb": 0.49504950495049505,
+              "Te": 0.3465346534653465,
+              "S": 0.1485148514851485
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "K",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1038/ncomms5515",
+            "sample_id": "339",
+            "composition_original": "K0.015Pb1Te0.7S0.3",
+            "sample_name": "K0.015Pb1Te0.7S0.3",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "K",
+            "evidence_ids": "other2_06",
+            "data_quality_flags": "phase_separated_mixed_host;host_family_not_single_phase",
+            "source_sample_record": "13648",
+            "atomic_fractions_from_recorded_coefficients": {
+              "K": 0.007444168734491315,
+              "Pb": 0.49627791563275436,
+              "Te": 0.34739454094292804,
+              "S": 0.1488833746898263
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "K",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "329",
+            "composition_original": "Pb1Te0.65S0.35Na0.06",
+            "sample_name": "Pb1Te0.65S0.35Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3228",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.3155339805825243,
+              "S": 0.16990291262135923,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1038/ncomms5515",
+            "sample_id": "419",
+            "composition_original": "K0.03Pb1Te0.7S0.3",
+            "sample_name": "K0.03Pb1Te0.7S0.3",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "K",
+            "evidence_ids": "other2_06",
+            "data_quality_flags": "phase_separated_mixed_host;host_family_not_single_phase",
+            "source_sample_record": "13646",
+            "atomic_fractions_from_recorded_coefficients": {
+              "K": 0.014778325123152709,
+              "Pb": 0.49261083743842365,
+              "Te": 0.3448275862068966,
+              "S": 0.1477832512315271
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "K",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "317",
+            "composition_original": "Pb1Te0.7S0.3Na0.06",
+            "sample_name": "Pb1Te0.7S0.3Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3232",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.33980582524271846,
+              "S": 0.14563106796116504,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "230",
+            "composition_original": "Pb1Te0.75S0.25Na0.06",
+            "sample_name": "Pb1Te0.75S0.25Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3230",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.3640776699029126,
+              "S": 0.12135922330097088,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "224",
+            "composition_original": "Pb1Te0.8S0.2Na0.06",
+            "sample_name": "Pb1Te0.8S0.2Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3229",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.3883495145631068,
+              "S": 0.0970873786407767,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1038/ncomms5515",
+            "sample_id": "409",
+            "composition_original": "K0.025Pb1Te0.7S0.3",
+            "sample_name": "K0.025Pb1Te0.7S0.3",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "K",
+            "evidence_ids": "other2_06",
+            "data_quality_flags": "phase_separated_mixed_host;host_family_not_single_phase",
+            "source_sample_record": "13649",
+            "atomic_fractions_from_recorded_coefficients": {
+              "K": 0.012345679012345678,
+              "Pb": 0.49382716049382713,
+              "Te": 0.345679012345679,
+              "S": 0.14814814814814814
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "K",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "185",
+            "composition_original": "Pb1Te0.9S0.1Na0.06",
+            "sample_name": "Pb1Te0.9S0.1Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3227",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.4368932038834951,
+              "S": 0.04854368932038835,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1021/ja206380h",
+            "sample_id": "343",
+            "composition_original": "Pb0.98Na0.02Te0.88S0.12",
+            "sample_name": "Pb0.98Na0.02Te0.88S0.12",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_05",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only",
+            "source_sample_record": "11799",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.49,
+              "Na": 0.01,
+              "Te": 0.44,
+              "S": 0.06
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "265",
+            "composition_original": "Pb1Te0.85S0.15Na0.06",
+            "sample_name": "Pb1Te0.85S0.15Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3231",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.41262135922330095,
+              "S": 0.07281553398058252,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1038/srep14641",
+            "sample_id": "4754",
+            "composition_original": "Yb0.26Co4Sb12",
+            "sample_name": "Yb0.26",
+            "host_material": "CoSb3",
+            "host_elements": "Co;Sb",
+            "dopant_elements": "Yb",
+            "evidence_ids": "other2_07",
+            "data_quality_flags": "dopant_is_void_filler",
+            "source_sample_record": "15389",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Yb": 0.015990159901599015,
+              "Co": 0.24600246002460024,
+              "Sb": 0.7380073800738007
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Co",
+              "Sb",
+              "Yb"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "threshold_fraction": "0.01",
+      "threshold_at_percent": 1.0,
+      "all_parseable_samples": {
+        "samples_with_any_element_removed": 12986,
+        "samples_with_no_elements_left": 0,
+        "samples_with_one_element_left": 1580,
+        "samples_with_multiple_elements_left": 69633
+      },
+      "reviewed_roles_comparison": {
+        "samples_with_confirmed_host_element_removed": 4,
+        "samples_with_confirmed_recorded_dopant_retained": 52,
+        "samples_matching_reviewed_element_removal": 500,
+        "samples_with_either_role_mismatch": 56
+      },
+      "examples": {
+        "host_removed": [
+          {
+            "doi": "10.1021/acs.chemmater.6b02308",
+            "sample_id": "9531",
+            "composition_original": "Mg2Si0.28Ge0.02Sn0.7",
+            "sample_name": "x=0.02",
+            "host_material": "Mg2(Si,Ge,Sn)",
+            "host_elements": "Mg;Si;Ge;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_07",
+            "data_quality_flags": "abstract_and_si_description_only;do_not_reset_mg_excess",
+            "source_sample_record": "18635",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Mg": 0.6666666666666666,
+              "Si": 0.09333333333333334,
+              "Ge": 0.006666666666666667,
+              "Sn": 0.23333333333333334
+            },
+            "removed_elements": [
+              "Ge"
+            ],
+            "retained_elements": [
+              "Mg",
+              "Si",
+              "Sn"
+            ]
+          },
+          {
+            "doi": "10.1021/acs.chemmater.6b02308",
+            "sample_id": "9532",
+            "composition_original": "Mg2Si0.27Ge0.03Sn0.7",
+            "sample_name": "x=0.03",
+            "host_material": "Mg2(Si,Ge,Sn)",
+            "host_elements": "Mg;Si;Ge;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_07",
+            "data_quality_flags": "abstract_and_si_description_only;do_not_reset_mg_excess",
+            "source_sample_record": "18646",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Mg": 0.6666666666666666,
+              "Si": 0.09,
+              "Ge": 0.01,
+              "Sn": 0.23333333333333334
+            },
+            "removed_elements": [
+              "Ge"
+            ],
+            "retained_elements": [
+              "Mg",
+              "Si",
+              "Sn"
+            ]
+          },
+          {
+            "doi": "10.1021/acs.chemmater.6b02308",
+            "sample_id": "9535",
+            "composition_original": "Mg2Si0.3Ge0.02Sn0.68",
+            "sample_name": "y=0.02",
+            "host_material": "Mg2(Si,Ge,Sn)",
+            "host_elements": "Mg;Si;Ge;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_07",
+            "data_quality_flags": "abstract_and_si_description_only;do_not_reset_mg_excess",
+            "source_sample_record": "18647",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Mg": 0.6666666666666666,
+              "Si": 0.1,
+              "Ge": 0.006666666666666667,
+              "Sn": 0.22666666666666666
+            },
+            "removed_elements": [
+              "Ge"
+            ],
+            "retained_elements": [
+              "Mg",
+              "Si",
+              "Sn"
+            ]
+          },
+          {
+            "doi": "10.1021/acs.chemmater.6b02308",
+            "sample_id": "9536",
+            "composition_original": "Mg2Si0.3Ge0.03Sn0.67",
+            "sample_name": "y=0.03",
+            "host_material": "Mg2(Si,Ge,Sn)",
+            "host_elements": "Mg;Si;Ge;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_07",
+            "data_quality_flags": "abstract_and_si_description_only;do_not_reset_mg_excess",
+            "source_sample_record": "18638",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Mg": 0.6666666666666666,
+              "Si": 0.1,
+              "Ge": 0.01,
+              "Sn": 0.22333333333333333
+            },
+            "removed_elements": [
+              "Ge"
+            ],
+            "retained_elements": [
+              "Mg",
+              "Si",
+              "Sn"
+            ]
+          }
+        ],
+        "dopant_retained": [
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "329",
+            "composition_original": "Pb1Te0.65S0.35Na0.06",
+            "sample_name": "Pb1Te0.65S0.35Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3228",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.3155339805825243,
+              "S": 0.16990291262135923,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1038/ncomms5515",
+            "sample_id": "419",
+            "composition_original": "K0.03Pb1Te0.7S0.3",
+            "sample_name": "K0.03Pb1Te0.7S0.3",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "K",
+            "evidence_ids": "other2_06",
+            "data_quality_flags": "phase_separated_mixed_host;host_family_not_single_phase",
+            "source_sample_record": "13646",
+            "atomic_fractions_from_recorded_coefficients": {
+              "K": 0.014778325123152709,
+              "Pb": 0.49261083743842365,
+              "Te": 0.3448275862068966,
+              "S": 0.1477832512315271
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "K",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "317",
+            "composition_original": "Pb1Te0.7S0.3Na0.06",
+            "sample_name": "Pb1Te0.7S0.3Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3232",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.33980582524271846,
+              "S": 0.14563106796116504,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "230",
+            "composition_original": "Pb1Te0.75S0.25Na0.06",
+            "sample_name": "Pb1Te0.75S0.25Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3230",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.3640776699029126,
+              "S": 0.12135922330097088,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "224",
+            "composition_original": "Pb1Te0.8S0.2Na0.06",
+            "sample_name": "Pb1Te0.8S0.2Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3229",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.3883495145631068,
+              "S": 0.0970873786407767,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1038/ncomms5515",
+            "sample_id": "409",
+            "composition_original": "K0.025Pb1Te0.7S0.3",
+            "sample_name": "K0.025Pb1Te0.7S0.3",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "K",
+            "evidence_ids": "other2_06",
+            "data_quality_flags": "phase_separated_mixed_host;host_family_not_single_phase",
+            "source_sample_record": "13649",
+            "atomic_fractions_from_recorded_coefficients": {
+              "K": 0.012345679012345678,
+              "Pb": 0.49382716049382713,
+              "Te": 0.345679012345679,
+              "S": 0.14814814814814814
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "K",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "185",
+            "composition_original": "Pb1Te0.9S0.1Na0.06",
+            "sample_name": "Pb1Te0.9S0.1Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3227",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.4368932038834951,
+              "S": 0.04854368932038835,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "265",
+            "composition_original": "Pb1Te0.85S0.15Na0.06",
+            "sample_name": "Pb1Te0.85S0.15Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3231",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.41262135922330095,
+              "S": 0.07281553398058252,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1038/srep14641",
+            "sample_id": "4754",
+            "composition_original": "Yb0.26Co4Sb12",
+            "sample_name": "Yb0.26",
+            "host_material": "CoSb3",
+            "host_elements": "Co;Sb",
+            "dopant_elements": "Yb",
+            "evidence_ids": "other2_07",
+            "data_quality_flags": "dopant_is_void_filler",
+            "source_sample_record": "15389",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Yb": 0.015990159901599015,
+              "Co": 0.24600246002460024,
+              "Sb": 0.7380073800738007
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Co",
+              "Sb",
+              "Yb"
+            ]
+          },
+          {
+            "doi": "10.1038/srep14641",
+            "sample_id": "4757",
+            "composition_original": "Yb0.20Co4Sb12",
+            "sample_name": "Yb0.20",
+            "host_material": "CoSb3",
+            "host_elements": "Co;Sb",
+            "dopant_elements": "Yb",
+            "evidence_ids": "other2_07",
+            "data_quality_flags": "dopant_is_void_filler",
+            "source_sample_record": "15391",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Yb": 0.012345679012345678,
+              "Co": 0.24691358024691357,
+              "Sb": 0.7407407407407407
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Co",
+              "Sb",
+              "Yb"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "6047",
+            "composition_original": "Pb1Te0.9S0.1Na0.06",
+            "sample_name": "x=10%",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3240",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.4368932038834951,
+              "S": 0.04854368932038835,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "6048",
+            "composition_original": "Pb1Te0.85S0.15Na0.06",
+            "sample_name": "x=15%",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3233",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.41262135922330095,
+              "S": 0.07281553398058252,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "threshold_fraction": "0.02",
+      "threshold_at_percent": 2.0,
+      "all_parseable_samples": {
+        "samples_with_any_element_removed": 21499,
+        "samples_with_no_elements_left": 0,
+        "samples_with_one_element_left": 1740,
+        "samples_with_multiple_elements_left": 69473
+      },
+      "reviewed_roles_comparison": {
+        "samples_with_confirmed_host_element_removed": 14,
+        "samples_with_confirmed_recorded_dopant_retained": 18,
+        "samples_matching_reviewed_element_removal": 524,
+        "samples_with_either_role_mismatch": 32
+      },
+      "examples": {
+        "host_removed": [
+          {
+            "doi": "10.1021/acs.chemmater.6b02308",
+            "sample_id": "9531",
+            "composition_original": "Mg2Si0.28Ge0.02Sn0.7",
+            "sample_name": "x=0.02",
+            "host_material": "Mg2(Si,Ge,Sn)",
+            "host_elements": "Mg;Si;Ge;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_07",
+            "data_quality_flags": "abstract_and_si_description_only;do_not_reset_mg_excess",
+            "source_sample_record": "18635",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Mg": 0.6666666666666666,
+              "Si": 0.09333333333333334,
+              "Ge": 0.006666666666666667,
+              "Sn": 0.23333333333333334
+            },
+            "removed_elements": [
+              "Ge"
+            ],
+            "retained_elements": [
+              "Mg",
+              "Si",
+              "Sn"
+            ]
+          },
+          {
+            "doi": "10.1021/acs.chemmater.6b02308",
+            "sample_id": "9532",
+            "composition_original": "Mg2Si0.27Ge0.03Sn0.7",
+            "sample_name": "x=0.03",
+            "host_material": "Mg2(Si,Ge,Sn)",
+            "host_elements": "Mg;Si;Ge;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_07",
+            "data_quality_flags": "abstract_and_si_description_only;do_not_reset_mg_excess",
+            "source_sample_record": "18646",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Mg": 0.6666666666666666,
+              "Si": 0.09,
+              "Ge": 0.01,
+              "Sn": 0.23333333333333334
+            },
+            "removed_elements": [
+              "Ge"
+            ],
+            "retained_elements": [
+              "Mg",
+              "Si",
+              "Sn"
+            ]
+          },
+          {
+            "doi": "10.1021/acs.chemmater.6b02308",
+            "sample_id": "9533",
+            "composition_original": "Mg2Si0.26Ge0.04Sn0.7",
+            "sample_name": "x=0.04",
+            "host_material": "Mg2(Si,Ge,Sn)",
+            "host_elements": "Mg;Si;Ge;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_07",
+            "data_quality_flags": "abstract_and_si_description_only;do_not_reset_mg_excess",
+            "source_sample_record": "18636",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Mg": 0.6666666666666666,
+              "Si": 0.08666666666666667,
+              "Ge": 0.013333333333333334,
+              "Sn": 0.23333333333333334
+            },
+            "removed_elements": [
+              "Ge"
+            ],
+            "retained_elements": [
+              "Mg",
+              "Si",
+              "Sn"
+            ]
+          },
+          {
+            "doi": "10.1021/acs.chemmater.6b02308",
+            "sample_id": "9534",
+            "composition_original": "Mg2Si0.25Ge0.05Sn0.7",
+            "sample_name": "x=0.05",
+            "host_material": "Mg2(Si,Ge,Sn)",
+            "host_elements": "Mg;Si;Ge;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_07",
+            "data_quality_flags": "abstract_and_si_description_only;do_not_reset_mg_excess",
+            "source_sample_record": "18637",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Mg": 0.6666666666666666,
+              "Si": 0.08333333333333333,
+              "Ge": 0.016666666666666666,
+              "Sn": 0.23333333333333334
+            },
+            "removed_elements": [
+              "Ge"
+            ],
+            "retained_elements": [
+              "Mg",
+              "Si",
+              "Sn"
+            ]
+          },
+          {
+            "doi": "10.1021/acs.chemmater.6b02308",
+            "sample_id": "9535",
+            "composition_original": "Mg2Si0.3Ge0.02Sn0.68",
+            "sample_name": "y=0.02",
+            "host_material": "Mg2(Si,Ge,Sn)",
+            "host_elements": "Mg;Si;Ge;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_07",
+            "data_quality_flags": "abstract_and_si_description_only;do_not_reset_mg_excess",
+            "source_sample_record": "18647",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Mg": 0.6666666666666666,
+              "Si": 0.1,
+              "Ge": 0.006666666666666667,
+              "Sn": 0.22666666666666666
+            },
+            "removed_elements": [
+              "Ge"
+            ],
+            "retained_elements": [
+              "Mg",
+              "Si",
+              "Sn"
+            ]
+          },
+          {
+            "doi": "10.1021/acs.chemmater.6b02308",
+            "sample_id": "9536",
+            "composition_original": "Mg2Si0.3Ge0.03Sn0.67",
+            "sample_name": "y=0.03",
+            "host_material": "Mg2(Si,Ge,Sn)",
+            "host_elements": "Mg;Si;Ge;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_07",
+            "data_quality_flags": "abstract_and_si_description_only;do_not_reset_mg_excess",
+            "source_sample_record": "18638",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Mg": 0.6666666666666666,
+              "Si": 0.1,
+              "Ge": 0.01,
+              "Sn": 0.22333333333333333
+            },
+            "removed_elements": [
+              "Ge"
+            ],
+            "retained_elements": [
+              "Mg",
+              "Si",
+              "Sn"
+            ]
+          },
+          {
+            "doi": "10.1021/acs.chemmater.6b02308",
+            "sample_id": "9537",
+            "composition_original": "Mg2Si0.3Ge0.04Sn0.66",
+            "sample_name": "y=0.04",
+            "host_material": "Mg2(Si,Ge,Sn)",
+            "host_elements": "Mg;Si;Ge;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_07",
+            "data_quality_flags": "abstract_and_si_description_only;do_not_reset_mg_excess",
+            "source_sample_record": "18648",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Mg": 0.6666666666666666,
+              "Si": 0.1,
+              "Ge": 0.013333333333333334,
+              "Sn": 0.22
+            },
+            "removed_elements": [
+              "Ge"
+            ],
+            "retained_elements": [
+              "Mg",
+              "Si",
+              "Sn"
+            ]
+          },
+          {
+            "doi": "10.1021/acs.chemmater.6b02308",
+            "sample_id": "9538",
+            "composition_original": "Mg2Si0.3Ge0.05Sn0.65",
+            "sample_name": "y=0.05",
+            "host_material": "Mg2(Si,Ge,Sn)",
+            "host_elements": "Mg;Si;Ge;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_07",
+            "data_quality_flags": "abstract_and_si_description_only;do_not_reset_mg_excess",
+            "source_sample_record": "18639",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Mg": 0.6666666666666666,
+              "Si": 0.1,
+              "Ge": 0.016666666666666666,
+              "Sn": 0.21666666666666667
+            },
+            "removed_elements": [
+              "Ge"
+            ],
+            "retained_elements": [
+              "Mg",
+              "Si",
+              "Sn"
+            ]
+          },
+          {
+            "doi": "10.3390/ma11040649",
+            "sample_id": "83155",
+            "composition_original": "Zr0.95Hf0.05NiSn",
+            "sample_name": "Zr(1-x)HfxNiSn, x=0.05",
+            "host_material": "(Zr,Hf)NiSn",
+            "host_elements": "Zr;Hf;Ni;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_01",
+            "data_quality_flags": "phase_separation_possible;host_family_not_phase_resolved",
+            "source_sample_record": "84700",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Zr": 0.31666666666666665,
+              "Hf": 0.016666666666666666,
+              "Ni": 0.3333333333333333,
+              "Sn": 0.3333333333333333
+            },
+            "removed_elements": [
+              "Hf"
+            ],
+            "retained_elements": [
+              "Ni",
+              "Sn",
+              "Zr"
+            ]
+          },
+          {
+            "doi": "10.3390/ma11040649",
+            "sample_id": "83165",
+            "composition_original": "Zr0.05Hf0.95NiSn",
+            "sample_name": "Zr(1-x)HfxNiSn, x=0.95",
+            "host_material": "(Zr,Hf)NiSn",
+            "host_elements": "Zr;Hf;Ni;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_01",
+            "data_quality_flags": "phase_separation_possible;host_family_not_phase_resolved",
+            "source_sample_record": "84704",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Zr": 0.016666666666666666,
+              "Hf": 0.31666666666666665,
+              "Ni": 0.3333333333333333,
+              "Sn": 0.3333333333333333
+            },
+            "removed_elements": [
+              "Zr"
+            ],
+            "retained_elements": [
+              "Hf",
+              "Ni",
+              "Sn"
+            ]
+          },
+          {
+            "doi": "10.3390/ma11040649",
+            "sample_id": "83242",
+            "composition_original": "Ti0.95Zr0.05NiSn",
+            "sample_name": "Ti(1-x)ZrxNiSn, x=0.05",
+            "host_material": "(Ti,Zr)NiSn",
+            "host_elements": "Ti;Zr;Ni;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_01",
+            "data_quality_flags": "phase_separation_possible;host_family_not_phase_resolved",
+            "source_sample_record": "84686",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Ti": 0.31666666666666665,
+              "Zr": 0.016666666666666666,
+              "Ni": 0.3333333333333333,
+              "Sn": 0.3333333333333333
+            },
+            "removed_elements": [
+              "Zr"
+            ],
+            "retained_elements": [
+              "Ni",
+              "Sn",
+              "Ti"
+            ]
+          },
+          {
+            "doi": "10.3390/ma11040649",
+            "sample_id": "83258",
+            "composition_original": "Ti0.05Zr0.95NiSn",
+            "sample_name": "Ti(1-x)ZrxNiSn, x=0.95",
+            "host_material": "(Ti,Zr)NiSn",
+            "host_elements": "Ti;Zr;Ni;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_01",
+            "data_quality_flags": "phase_separation_possible;host_family_not_phase_resolved",
+            "source_sample_record": "84689",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Ti": 0.016666666666666666,
+              "Zr": 0.31666666666666665,
+              "Ni": 0.3333333333333333,
+              "Sn": 0.3333333333333333
+            },
+            "removed_elements": [
+              "Ti"
+            ],
+            "retained_elements": [
+              "Ni",
+              "Sn",
+              "Zr"
+            ]
+          }
+        ],
+        "dopant_retained": [
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "329",
+            "composition_original": "Pb1Te0.65S0.35Na0.06",
+            "sample_name": "Pb1Te0.65S0.35Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3228",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.3155339805825243,
+              "S": 0.16990291262135923,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "317",
+            "composition_original": "Pb1Te0.7S0.3Na0.06",
+            "sample_name": "Pb1Te0.7S0.3Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3232",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.33980582524271846,
+              "S": 0.14563106796116504,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "230",
+            "composition_original": "Pb1Te0.75S0.25Na0.06",
+            "sample_name": "Pb1Te0.75S0.25Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3230",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.3640776699029126,
+              "S": 0.12135922330097088,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "224",
+            "composition_original": "Pb1Te0.8S0.2Na0.06",
+            "sample_name": "Pb1Te0.8S0.2Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3229",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.3883495145631068,
+              "S": 0.0970873786407767,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "185",
+            "composition_original": "Pb1Te0.9S0.1Na0.06",
+            "sample_name": "Pb1Te0.9S0.1Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3227",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.4368932038834951,
+              "S": 0.04854368932038835,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "265",
+            "composition_original": "Pb1Te0.85S0.15Na0.06",
+            "sample_name": "Pb1Te0.85S0.15Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3231",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.41262135922330095,
+              "S": 0.07281553398058252,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "6047",
+            "composition_original": "Pb1Te0.9S0.1Na0.06",
+            "sample_name": "x=10%",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3240",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.4368932038834951,
+              "S": 0.04854368932038835,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "6048",
+            "composition_original": "Pb1Te0.85S0.15Na0.06",
+            "sample_name": "x=15%",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3233",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.41262135922330095,
+              "S": 0.07281553398058252,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "6049",
+            "composition_original": "Pb1Te0.8S0.2Na0.06",
+            "sample_name": "x=20%",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3234",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.3883495145631068,
+              "S": 0.0970873786407767,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "6050",
+            "composition_original": "Pb1Te0.75S0.25Na0.06",
+            "sample_name": "x=25%",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3241",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.3640776699029126,
+              "S": 0.12135922330097088,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "6051",
+            "composition_original": "Pb1Te0.7S0.3Na0.06",
+            "sample_name": "x=30%",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3242",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.33980582524271846,
+              "S": 0.14563106796116504,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "6052",
+            "composition_original": "Pb1Te0.65S0.35Na0.06",
+            "sample_name": "x=35%",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3235",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.3155339805825243,
+              "S": 0.16990291262135923,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "threshold_fraction": "0.05",
+      "threshold_at_percent": 5.0,
+      "all_parseable_samples": {
+        "samples_with_any_element_removed": 32919,
+        "samples_with_no_elements_left": 0,
+        "samples_with_one_element_left": 2124,
+        "samples_with_multiple_elements_left": 69089
+      },
+      "reviewed_roles_comparison": {
+        "samples_with_confirmed_host_element_removed": 38,
+        "samples_with_confirmed_recorded_dopant_retained": 1,
+        "samples_matching_reviewed_element_removal": 517,
+        "samples_with_either_role_mismatch": 39
+      },
+      "examples": {
+        "host_removed": [
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "185",
+            "composition_original": "Pb1Te0.9S0.1Na0.06",
+            "sample_name": "Pb1Te0.9S0.1Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3227",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.4368932038834951,
+              "S": 0.04854368932038835,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [
+              "Na",
+              "S"
+            ],
+            "retained_elements": [
+              "Pb",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "6047",
+            "composition_original": "Pb1Te0.9S0.1Na0.06",
+            "sample_name": "x=10%",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3240",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.4368932038834951,
+              "S": 0.04854368932038835,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [
+              "Na",
+              "S"
+            ],
+            "retained_elements": [
+              "Pb",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1021/acs.chemmater.6b02308",
+            "sample_id": "9531",
+            "composition_original": "Mg2Si0.28Ge0.02Sn0.7",
+            "sample_name": "x=0.02",
+            "host_material": "Mg2(Si,Ge,Sn)",
+            "host_elements": "Mg;Si;Ge;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_07",
+            "data_quality_flags": "abstract_and_si_description_only;do_not_reset_mg_excess",
+            "source_sample_record": "18635",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Mg": 0.6666666666666666,
+              "Si": 0.09333333333333334,
+              "Ge": 0.006666666666666667,
+              "Sn": 0.23333333333333334
+            },
+            "removed_elements": [
+              "Ge"
+            ],
+            "retained_elements": [
+              "Mg",
+              "Si",
+              "Sn"
+            ]
+          },
+          {
+            "doi": "10.1021/acs.chemmater.6b02308",
+            "sample_id": "9532",
+            "composition_original": "Mg2Si0.27Ge0.03Sn0.7",
+            "sample_name": "x=0.03",
+            "host_material": "Mg2(Si,Ge,Sn)",
+            "host_elements": "Mg;Si;Ge;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_07",
+            "data_quality_flags": "abstract_and_si_description_only;do_not_reset_mg_excess",
+            "source_sample_record": "18646",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Mg": 0.6666666666666666,
+              "Si": 0.09,
+              "Ge": 0.01,
+              "Sn": 0.23333333333333334
+            },
+            "removed_elements": [
+              "Ge"
+            ],
+            "retained_elements": [
+              "Mg",
+              "Si",
+              "Sn"
+            ]
+          },
+          {
+            "doi": "10.1021/acs.chemmater.6b02308",
+            "sample_id": "9533",
+            "composition_original": "Mg2Si0.26Ge0.04Sn0.7",
+            "sample_name": "x=0.04",
+            "host_material": "Mg2(Si,Ge,Sn)",
+            "host_elements": "Mg;Si;Ge;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_07",
+            "data_quality_flags": "abstract_and_si_description_only;do_not_reset_mg_excess",
+            "source_sample_record": "18636",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Mg": 0.6666666666666666,
+              "Si": 0.08666666666666667,
+              "Ge": 0.013333333333333334,
+              "Sn": 0.23333333333333334
+            },
+            "removed_elements": [
+              "Ge"
+            ],
+            "retained_elements": [
+              "Mg",
+              "Si",
+              "Sn"
+            ]
+          },
+          {
+            "doi": "10.1021/acs.chemmater.6b02308",
+            "sample_id": "9534",
+            "composition_original": "Mg2Si0.25Ge0.05Sn0.7",
+            "sample_name": "x=0.05",
+            "host_material": "Mg2(Si,Ge,Sn)",
+            "host_elements": "Mg;Si;Ge;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_07",
+            "data_quality_flags": "abstract_and_si_description_only;do_not_reset_mg_excess",
+            "source_sample_record": "18637",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Mg": 0.6666666666666666,
+              "Si": 0.08333333333333333,
+              "Ge": 0.016666666666666666,
+              "Sn": 0.23333333333333334
+            },
+            "removed_elements": [
+              "Ge"
+            ],
+            "retained_elements": [
+              "Mg",
+              "Si",
+              "Sn"
+            ]
+          },
+          {
+            "doi": "10.1021/acs.chemmater.6b02308",
+            "sample_id": "9535",
+            "composition_original": "Mg2Si0.3Ge0.02Sn0.68",
+            "sample_name": "y=0.02",
+            "host_material": "Mg2(Si,Ge,Sn)",
+            "host_elements": "Mg;Si;Ge;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_07",
+            "data_quality_flags": "abstract_and_si_description_only;do_not_reset_mg_excess",
+            "source_sample_record": "18647",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Mg": 0.6666666666666666,
+              "Si": 0.1,
+              "Ge": 0.006666666666666667,
+              "Sn": 0.22666666666666666
+            },
+            "removed_elements": [
+              "Ge"
+            ],
+            "retained_elements": [
+              "Mg",
+              "Si",
+              "Sn"
+            ]
+          },
+          {
+            "doi": "10.1021/acs.chemmater.6b02308",
+            "sample_id": "9536",
+            "composition_original": "Mg2Si0.3Ge0.03Sn0.67",
+            "sample_name": "y=0.03",
+            "host_material": "Mg2(Si,Ge,Sn)",
+            "host_elements": "Mg;Si;Ge;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_07",
+            "data_quality_flags": "abstract_and_si_description_only;do_not_reset_mg_excess",
+            "source_sample_record": "18638",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Mg": 0.6666666666666666,
+              "Si": 0.1,
+              "Ge": 0.01,
+              "Sn": 0.22333333333333333
+            },
+            "removed_elements": [
+              "Ge"
+            ],
+            "retained_elements": [
+              "Mg",
+              "Si",
+              "Sn"
+            ]
+          },
+          {
+            "doi": "10.1021/acs.chemmater.6b02308",
+            "sample_id": "9537",
+            "composition_original": "Mg2Si0.3Ge0.04Sn0.66",
+            "sample_name": "y=0.04",
+            "host_material": "Mg2(Si,Ge,Sn)",
+            "host_elements": "Mg;Si;Ge;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_07",
+            "data_quality_flags": "abstract_and_si_description_only;do_not_reset_mg_excess",
+            "source_sample_record": "18648",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Mg": 0.6666666666666666,
+              "Si": 0.1,
+              "Ge": 0.013333333333333334,
+              "Sn": 0.22
+            },
+            "removed_elements": [
+              "Ge"
+            ],
+            "retained_elements": [
+              "Mg",
+              "Si",
+              "Sn"
+            ]
+          },
+          {
+            "doi": "10.1021/acs.chemmater.6b02308",
+            "sample_id": "9538",
+            "composition_original": "Mg2Si0.3Ge0.05Sn0.65",
+            "sample_name": "y=0.05",
+            "host_material": "Mg2(Si,Ge,Sn)",
+            "host_elements": "Mg;Si;Ge;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_07",
+            "data_quality_flags": "abstract_and_si_description_only;do_not_reset_mg_excess",
+            "source_sample_record": "18639",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Mg": 0.6666666666666666,
+              "Si": 0.1,
+              "Ge": 0.016666666666666666,
+              "Sn": 0.21666666666666667
+            },
+            "removed_elements": [
+              "Ge"
+            ],
+            "retained_elements": [
+              "Mg",
+              "Si",
+              "Sn"
+            ]
+          },
+          {
+            "doi": "10.1063/1.4726041",
+            "sample_id": "21199",
+            "composition_original": "Si95Ge05",
+            "sample_name": "Si95Ge05_LS",
+            "host_material": "SiGe",
+            "host_elements": "Si;Ge",
+            "dopant_elements": "P",
+            "evidence_ids": "sige_stoib_2012",
+            "data_quality_flags": "dopant_P_omitted_from_raw_formula;05は5、09は9の表記。Ge0.5/0.9と読み替えない;P原料ガス1vol.%は固体中1at.%ではない;reported_dopant_not_in_raw_composition",
+            "source_sample_record": "17825",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Si": 0.95,
+              "Ge": 0.05
+            },
+            "removed_elements": [
+              "Ge"
+            ],
+            "retained_elements": [
+              "Si"
+            ]
+          },
+          {
+            "doi": "10.1063/1.4726041",
+            "sample_id": "21200",
+            "composition_original": "Si95Ge05",
+            "sample_name": "Si95Ge05_CAS",
+            "host_material": "SiGe",
+            "host_elements": "Si;Ge",
+            "dopant_elements": "P",
+            "evidence_ids": "sige_stoib_2012",
+            "data_quality_flags": "dopant_P_omitted_from_raw_formula;05は5、09は9の表記。Ge0.5/0.9と読み替えない;P原料ガス1vol.%は固体中1at.%ではない;reported_dopant_not_in_raw_composition",
+            "source_sample_record": "17826",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Si": 0.95,
+              "Ge": 0.05
+            },
+            "removed_elements": [
+              "Ge"
+            ],
+            "retained_elements": [
+              "Si"
+            ]
+          }
+        ],
+        "dopant_retained": [
+          {
+            "doi": "10.1073/pnas.1617663113",
+            "sample_id": "31557",
+            "composition_original": "Nb0.8Ti0.2FeSb",
+            "sample_name": "Nb0.8Ti0.2FeSb",
+            "host_material": "NbFeSb",
+            "host_elements": "Nb;Fe;Sb",
+            "dopant_elements": "Ti",
+            "evidence_ids": "other_11",
+            "data_quality_flags": "",
+            "source_sample_record": "36148",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Nb": 0.26666666666666666,
+              "Ti": 0.06666666666666667,
+              "Fe": 0.3333333333333333,
+              "Sb": 0.3333333333333333
+            },
+            "removed_elements": [],
+            "retained_elements": [
+              "Fe",
+              "Nb",
+              "Sb",
+              "Ti"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "threshold_fraction": "0.1",
+      "threshold_at_percent": 10.0,
+      "all_parseable_samples": {
+        "samples_with_any_element_removed": 44329,
+        "samples_with_no_elements_left": 0,
+        "samples_with_one_element_left": 3114,
+        "samples_with_multiple_elements_left": 68099
+      },
+      "reviewed_roles_comparison": {
+        "samples_with_confirmed_host_element_removed": 62,
+        "samples_with_confirmed_recorded_dopant_retained": 0,
+        "samples_matching_reviewed_element_removal": 494,
+        "samples_with_either_role_mismatch": 62
+      },
+      "examples": {
+        "host_removed": [
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "224",
+            "composition_original": "Pb1Te0.8S0.2Na0.06",
+            "sample_name": "Pb1Te0.8S0.2Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3229",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.3883495145631068,
+              "S": 0.0970873786407767,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [
+              "Na",
+              "S"
+            ],
+            "retained_elements": [
+              "Pb",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "185",
+            "composition_original": "Pb1Te0.9S0.1Na0.06",
+            "sample_name": "Pb1Te0.9S0.1Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3227",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.4368932038834951,
+              "S": 0.04854368932038835,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [
+              "Na",
+              "S"
+            ],
+            "retained_elements": [
+              "Pb",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1021/ja206380h",
+            "sample_id": "343",
+            "composition_original": "Pb0.98Na0.02Te0.88S0.12",
+            "sample_name": "Pb0.98Na0.02Te0.88S0.12",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_05",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only",
+            "source_sample_record": "11799",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.49,
+              "Na": 0.01,
+              "Te": 0.44,
+              "S": 0.06
+            },
+            "removed_elements": [
+              "Na",
+              "S"
+            ],
+            "retained_elements": [
+              "Pb",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "265",
+            "composition_original": "Pb1Te0.85S0.15Na0.06",
+            "sample_name": "Pb1Te0.85S0.15Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3231",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.41262135922330095,
+              "S": 0.07281553398058252,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [
+              "Na",
+              "S"
+            ],
+            "retained_elements": [
+              "Pb",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "6047",
+            "composition_original": "Pb1Te0.9S0.1Na0.06",
+            "sample_name": "x=10%",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3240",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.4368932038834951,
+              "S": 0.04854368932038835,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [
+              "Na",
+              "S"
+            ],
+            "retained_elements": [
+              "Pb",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "6048",
+            "composition_original": "Pb1Te0.85S0.15Na0.06",
+            "sample_name": "x=15%",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3233",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.41262135922330095,
+              "S": 0.07281553398058252,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [
+              "Na",
+              "S"
+            ],
+            "retained_elements": [
+              "Pb",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "6049",
+            "composition_original": "Pb1Te0.8S0.2Na0.06",
+            "sample_name": "x=20%",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3234",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.3883495145631068,
+              "S": 0.0970873786407767,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [
+              "Na",
+              "S"
+            ],
+            "retained_elements": [
+              "Pb",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1021/ja206380h",
+            "sample_id": "6114",
+            "composition_original": "Pb0.98Na0.02Te0.88S0.12",
+            "sample_name": "x=0.12",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_05",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only",
+            "source_sample_record": "11803",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.49,
+              "Na": 0.01,
+              "Te": 0.44,
+              "S": 0.06
+            },
+            "removed_elements": [
+              "Na",
+              "S"
+            ],
+            "retained_elements": [
+              "Pb",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1021/ja206380h",
+            "sample_id": "6119",
+            "composition_original": "Pb0.98Na0.02Te0.88S0.12",
+            "sample_name": "PbTe-PbS12% 2%Na",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_05",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only",
+            "source_sample_record": "11807",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.49,
+              "Na": 0.01,
+              "Te": 0.44,
+              "S": 0.06
+            },
+            "removed_elements": [
+              "Na",
+              "S"
+            ],
+            "retained_elements": [
+              "Pb",
+              "Te"
+            ]
+          },
+          {
+            "doi": "10.1021/acs.chemmater.6b02308",
+            "sample_id": "9530",
+            "composition_original": "Mg2Si0.3Sn0.7",
+            "sample_name": "x,y=0",
+            "host_material": "Mg2(Si,Sn)",
+            "host_elements": "Mg;Si;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_07",
+            "data_quality_flags": "abstract_and_si_description_only;do_not_reset_mg_excess",
+            "source_sample_record": "18634",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Mg": 0.6666666666666666,
+              "Si": 0.1,
+              "Sn": 0.23333333333333334
+            },
+            "removed_elements": [
+              "Si"
+            ],
+            "retained_elements": [
+              "Mg",
+              "Sn"
+            ]
+          },
+          {
+            "doi": "10.1021/acs.chemmater.6b02308",
+            "sample_id": "9531",
+            "composition_original": "Mg2Si0.28Ge0.02Sn0.7",
+            "sample_name": "x=0.02",
+            "host_material": "Mg2(Si,Ge,Sn)",
+            "host_elements": "Mg;Si;Ge;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_07",
+            "data_quality_flags": "abstract_and_si_description_only;do_not_reset_mg_excess",
+            "source_sample_record": "18635",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Mg": 0.6666666666666666,
+              "Si": 0.09333333333333334,
+              "Ge": 0.006666666666666667,
+              "Sn": 0.23333333333333334
+            },
+            "removed_elements": [
+              "Ge",
+              "Si"
+            ],
+            "retained_elements": [
+              "Mg",
+              "Sn"
+            ]
+          },
+          {
+            "doi": "10.1021/acs.chemmater.6b02308",
+            "sample_id": "9532",
+            "composition_original": "Mg2Si0.27Ge0.03Sn0.7",
+            "sample_name": "x=0.03",
+            "host_material": "Mg2(Si,Ge,Sn)",
+            "host_elements": "Mg;Si;Ge;Sn",
+            "dopant_elements": "",
+            "evidence_ids": "other_07",
+            "data_quality_flags": "abstract_and_si_description_only;do_not_reset_mg_excess",
+            "source_sample_record": "18646",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Mg": 0.6666666666666666,
+              "Si": 0.09,
+              "Ge": 0.01,
+              "Sn": 0.23333333333333334
+            },
+            "removed_elements": [
+              "Ge",
+              "Si"
+            ],
+            "retained_elements": [
+              "Mg",
+              "Sn"
+            ]
+          }
+        ],
+        "dopant_retained": []
+      }
+    },
+    {
+      "threshold_fraction": "0.5",
+      "threshold_at_percent": 50.0,
+      "all_parseable_samples": {
+        "samples_with_any_element_removed": 69952,
+        "samples_with_no_elements_left": 18950,
+        "samples_with_one_element_left": 52263,
+        "samples_with_multiple_elements_left": 0,
+        "pure_sige_50_50_exception_samples": 56
+      },
+      "reviewed_roles_comparison": {
+        "samples_with_confirmed_host_element_removed": 556,
+        "samples_with_confirmed_recorded_dopant_retained": 0,
+        "samples_matching_reviewed_element_removal": 0,
+        "samples_with_either_role_mismatch": 556
+      },
+      "examples": {
+        "host_removed": [
+          {
+            "doi": "10.1038/ncomms5515",
+            "sample_id": "371",
+            "composition_original": "K0.02Pb1Te0.7S0.3",
+            "sample_name": "K0.02Pb1Te0.7S0.3",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "K",
+            "evidence_ids": "other2_06",
+            "data_quality_flags": "phase_separated_mixed_host;host_family_not_single_phase",
+            "source_sample_record": "13645",
+            "atomic_fractions_from_recorded_coefficients": {
+              "K": 0.009900990099009901,
+              "Pb": 0.49504950495049505,
+              "Te": 0.3465346534653465,
+              "S": 0.1485148514851485
+            },
+            "removed_elements": [
+              "K",
+              "Pb",
+              "S",
+              "Te"
+            ],
+            "retained_elements": []
+          },
+          {
+            "doi": "10.1038/ncomms5515",
+            "sample_id": "339",
+            "composition_original": "K0.015Pb1Te0.7S0.3",
+            "sample_name": "K0.015Pb1Te0.7S0.3",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "K",
+            "evidence_ids": "other2_06",
+            "data_quality_flags": "phase_separated_mixed_host;host_family_not_single_phase",
+            "source_sample_record": "13648",
+            "atomic_fractions_from_recorded_coefficients": {
+              "K": 0.007444168734491315,
+              "Pb": 0.49627791563275436,
+              "Te": 0.34739454094292804,
+              "S": 0.1488833746898263
+            },
+            "removed_elements": [
+              "K",
+              "Pb",
+              "S",
+              "Te"
+            ],
+            "retained_elements": []
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "329",
+            "composition_original": "Pb1Te0.65S0.35Na0.06",
+            "sample_name": "Pb1Te0.65S0.35Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3228",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.3155339805825243,
+              "S": 0.16990291262135923,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ],
+            "retained_elements": []
+          },
+          {
+            "doi": "10.1038/ncomms5515",
+            "sample_id": "419",
+            "composition_original": "K0.03Pb1Te0.7S0.3",
+            "sample_name": "K0.03Pb1Te0.7S0.3",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "K",
+            "evidence_ids": "other2_06",
+            "data_quality_flags": "phase_separated_mixed_host;host_family_not_single_phase",
+            "source_sample_record": "13646",
+            "atomic_fractions_from_recorded_coefficients": {
+              "K": 0.014778325123152709,
+              "Pb": 0.49261083743842365,
+              "Te": 0.3448275862068966,
+              "S": 0.1477832512315271
+            },
+            "removed_elements": [
+              "K",
+              "Pb",
+              "S",
+              "Te"
+            ],
+            "retained_elements": []
+          },
+          {
+            "doi": "10.1038/ncomms5515",
+            "sample_id": "204",
+            "composition_original": "K0.01Pb1Te0.7S0.3",
+            "sample_name": "K0.01Pb1Te0.7S0.3",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "K",
+            "evidence_ids": "other2_06",
+            "data_quality_flags": "phase_separated_mixed_host;host_family_not_single_phase",
+            "source_sample_record": "13644",
+            "atomic_fractions_from_recorded_coefficients": {
+              "K": 0.004975124378109453,
+              "Pb": 0.4975124378109453,
+              "Te": 0.3482587064676617,
+              "S": 0.14925373134328357
+            },
+            "removed_elements": [
+              "K",
+              "Pb",
+              "S",
+              "Te"
+            ],
+            "retained_elements": []
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "317",
+            "composition_original": "Pb1Te0.7S0.3Na0.06",
+            "sample_name": "Pb1Te0.7S0.3Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3232",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.33980582524271846,
+              "S": 0.14563106796116504,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ],
+            "retained_elements": []
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "230",
+            "composition_original": "Pb1Te0.75S0.25Na0.06",
+            "sample_name": "Pb1Te0.75S0.25Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3230",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.3640776699029126,
+              "S": 0.12135922330097088,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ],
+            "retained_elements": []
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "224",
+            "composition_original": "Pb1Te0.8S0.2Na0.06",
+            "sample_name": "Pb1Te0.8S0.2Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3229",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.3883495145631068,
+              "S": 0.0970873786407767,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ],
+            "retained_elements": []
+          },
+          {
+            "doi": "10.1038/ncomms5515",
+            "sample_id": "304",
+            "composition_original": "K0.005Pb1Te0.7S0.3",
+            "sample_name": "K0.005Pb1Te0.7S0.3",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "K",
+            "evidence_ids": "other2_06",
+            "data_quality_flags": "phase_separated_mixed_host;host_family_not_single_phase",
+            "source_sample_record": "13647",
+            "atomic_fractions_from_recorded_coefficients": {
+              "K": 0.0024937655860349127,
+              "Pb": 0.49875311720698257,
+              "Te": 0.3491271820448878,
+              "S": 0.14962593516209477
+            },
+            "removed_elements": [
+              "K",
+              "Pb",
+              "S",
+              "Te"
+            ],
+            "retained_elements": []
+          },
+          {
+            "doi": "10.1038/ncomms5515",
+            "sample_id": "409",
+            "composition_original": "K0.025Pb1Te0.7S0.3",
+            "sample_name": "K0.025Pb1Te0.7S0.3",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "K",
+            "evidence_ids": "other2_06",
+            "data_quality_flags": "phase_separated_mixed_host;host_family_not_single_phase",
+            "source_sample_record": "13649",
+            "atomic_fractions_from_recorded_coefficients": {
+              "K": 0.012345679012345678,
+              "Pb": 0.49382716049382713,
+              "Te": 0.345679012345679,
+              "S": 0.14814814814814814
+            },
+            "removed_elements": [
+              "K",
+              "Pb",
+              "S",
+              "Te"
+            ],
+            "retained_elements": []
+          },
+          {
+            "doi": "10.1039/c5ee01147g",
+            "sample_id": "185",
+            "composition_original": "Pb1Te0.9S0.1Na0.06",
+            "sample_name": "Pb1Te0.9S0.1Na0.06",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_06",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+            "source_sample_record": "3227",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.4854368932038835,
+              "Te": 0.4368932038834951,
+              "S": 0.04854368932038835,
+              "Na": 0.02912621359223301
+            },
+            "removed_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ],
+            "retained_elements": []
+          },
+          {
+            "doi": "10.1021/ja206380h",
+            "sample_id": "343",
+            "composition_original": "Pb0.98Na0.02Te0.88S0.12",
+            "sample_name": "Pb0.98Na0.02Te0.88S0.12",
+            "host_material": "PbTe-PbS",
+            "host_elements": "Pb;Te;S",
+            "dopant_elements": "Na",
+            "evidence_ids": "other_05",
+            "data_quality_flags": "multiphase_or_nanostructured;abstract_only",
+            "source_sample_record": "11799",
+            "atomic_fractions_from_recorded_coefficients": {
+              "Pb": 0.49,
+              "Na": 0.01,
+              "Te": 0.44,
+              "S": 0.06
+            },
+            "removed_elements": [
+              "Na",
+              "Pb",
+              "S",
+              "Te"
+            ],
+            "retained_elements": []
+          }
+        ],
+        "dopant_retained": []
+      }
+    }
+  ],
+  "case_studies": [
+    {
+      "doi": "10.1021/acs.chemmater.6b02308",
+      "sample_id": "9531",
+      "composition_original": "Mg2Si0.28Ge0.02Sn0.7",
+      "sample_name": "x=0.02",
+      "host_material": "Mg2(Si,Ge,Sn)",
+      "host_elements": "Mg;Si;Ge;Sn",
+      "dopant_elements": "",
+      "evidence_ids": "other_07",
+      "data_quality_flags": "abstract_and_si_description_only;do_not_reset_mg_excess",
+      "source_sample_record": "18635",
+      "atomic_fractions_from_recorded_coefficients": {
+        "Mg": 0.6666666666666666,
+        "Si": 0.09333333333333334,
+        "Ge": 0.006666666666666667,
+        "Sn": 0.23333333333333334
+      },
+      "removed_elements": [],
+      "retained_elements": [
+        "Ge",
+        "Mg",
+        "Si",
+        "Sn"
+      ]
+    },
+    {
+      "doi": "10.3390/nano11041014",
+      "sample_id": "89330",
+      "composition_original": "LaCr0.2Mn0.2Fe0.2Co0.2Ni0.2O3",
+      "sample_name": "La-CMFCNO FC",
+      "host_material": "La(Cr,Mn,Fe,Co,Ni)O3",
+      "host_elements": "La;Cr;Mn;Fe;Co;Ni;O",
+      "dopant_elements": "",
+      "evidence_ids": "other2_15",
+      "data_quality_flags": "high_entropy_host;small_coefficients_are_host_constituents",
+      "source_sample_record": "90040",
+      "atomic_fractions_from_recorded_coefficients": {
+        "La": 0.2,
+        "Cr": 0.04,
+        "Mn": 0.04,
+        "Fe": 0.04,
+        "Co": 0.04,
+        "Ni": 0.04,
+        "O": 0.6
+      },
+      "removed_elements": [],
+      "retained_elements": [
+        "Co",
+        "Cr",
+        "Fe",
+        "La",
+        "Mn",
+        "Ni",
+        "O"
+      ]
+    },
+    {
+      "doi": "10.1016/j.jallcom.2018.09.029",
+      "sample_id": "41700",
+      "composition_original": "Si80Ge20B0.005",
+      "sample_name": "Si80Ge20B0.5at%",
+      "host_material": "SiGe",
+      "host_elements": "Si;Ge",
+      "dopant_elements": "B",
+      "evidence_ids": "sige_murugasami_b_2019",
+      "data_quality_flags": "coefficient_scale_mismatch: Si/Geが80/20なのにB係数は0.005–0.02。試料名と原論文は0.5–2.0at%でありraw組成係数の尺度が一致しない;原本組成は修正せず品質問題として保持",
+      "source_sample_record": "48623",
+      "atomic_fractions_from_recorded_coefficients": {
+        "Si": 0.7999600019999,
+        "Ge": 0.199990000499975,
+        "B": 4.999750012499375e-05
+      },
+      "removed_elements": [],
+      "retained_elements": [
+        "B",
+        "Ge",
+        "Si"
+      ]
+    },
+    {
+      "doi": "10.1073/pnas.1617663113",
+      "sample_id": "31557",
+      "composition_original": "Nb0.8Ti0.2FeSb",
+      "sample_name": "Nb0.8Ti0.2FeSb",
+      "host_material": "NbFeSb",
+      "host_elements": "Nb;Fe;Sb",
+      "dopant_elements": "Ti",
+      "evidence_ids": "other_11",
+      "data_quality_flags": "",
+      "source_sample_record": "36148",
+      "atomic_fractions_from_recorded_coefficients": {
+        "Nb": 0.26666666666666666,
+        "Ti": 0.06666666666666667,
+        "Fe": 0.3333333333333333,
+        "Sb": 0.3333333333333333
+      },
+      "removed_elements": [],
+      "retained_elements": [
+        "Fe",
+        "Nb",
+        "Sb",
+        "Ti"
+      ]
+    }
+  ],
+  "case_study_evidence": [
+    {
+      "evidence_id": "other_07",
+      "doi": "10.1021/acs.chemmater.6b02308",
+      "source_type": "primary_literature_manual",
+      "source_url": "https://pubs.acs.org/doi/abs/10.1021/acs.chemmater.6b02308",
+      "source_location": "Abstract; Supporting Information description, Figures S1-S3",
+      "short_excerpt": "Sb-doped solid solutions",
+      "interpretation_ja": "Mg2Si–Mg2Ge–Mg2Sn三元固溶体系を明記し、Sbをドーパントとして区別している。Ge量0.02～0.05は少量でも母材の固溶成分。Mg過剰量は元組成として維持する。",
+      "verification_level": "primary_abstract_and_supporting_information_description_web_index",
+      "host_candidate": "",
+      "dopant_candidates": "",
+      "applicable_sample_count": 18,
+      "limitations": "抜粋だけでなく該当箇所と試料対応を参照。本文全体を精読した意味ではない。",
+      "local_cache": "agents\\other_evidence.json"
+    },
+    {
+      "evidence_id": "other_11",
+      "doi": "10.1073/pnas.1617663113",
+      "source_type": "primary_literature_manual",
+      "source_url": "https://www.pnas.org/content/pnas/113/48/13576.full.pdf",
+      "source_location": "Results and Discussion, thermal-conductivity discussion; Figure 7 caption, p. 13580",
+      "short_excerpt": "With increased Ti doping, the lattice thermal conductivity decreases significantly",
+      "interpretation_ja": "Nb1-xTixFeSbをTiドーピング系列として扱い、Nb0.95Ti0.05FeSbとNb0.8Ti0.2FeSbを図7で明示。組成式のNb/Fe/Sbが母材、Tiが置換ドーパント。",
+      "verification_level": "primary_fulltext_sections_web_index",
+      "host_candidate": "",
+      "dopant_candidates": "",
+      "applicable_sample_count": 13,
+      "limitations": "抜粋だけでなく該当箇所と試料対応を参照。本文全体を精読した意味ではない。",
+      "local_cache": "agents\\other_evidence.json"
+    },
+    {
+      "evidence_id": "other2_15",
+      "doi": "10.3390/nano11041014",
+      "source_type": "primary_literature_manual",
+      "source_url": "https://www.mdpi.com/2079-4991/11/4/1014/pdf?version=1618999648",
+      "source_location": "2. Materials and Methods, printed page 3, nominal compositions (1)-(3)",
+      "short_excerpt": "B-site was fixed",
+      "interpretation_ja": "BサイトCr/Mn/Fe/Co/Ni各0.2を維持し、AサイトLa、Nd、La0.5Nd0.5を比較する高エントロピーペロブスカイト。各0.2は母材構成元素で、ドープではない。",
+      "verification_level": "primary_fulltext_sections_web_index",
+      "host_candidate": "",
+      "dopant_candidates": "",
+      "applicable_sample_count": 12,
+      "limitations": "抜粋だけでなく該当箇所と試料対応を参照。本文全体を精読した意味ではない。",
+      "local_cache": "agents\\other_evidence_2.json"
+    },
+    {
+      "evidence_id": "sige_murugasami_b_2019",
+      "doi": "10.1016/j.jallcom.2018.09.029",
+      "source_type": "primary_literature_manual",
+      "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0925838818332584",
+      "source_location": "Introduction 最終段落; Material selection 最終文; Conclusion 第1文",
+      "short_excerpt": "The SiGe alloy doped with B (0.5–2.0 at.%)",
+      "interpretation_ja": "BをドープしたSiGe系列を作製し、p型RTG SiGeと比較。Material selectionでもBをdoping elementと記載。",
+      "verification_level": "publisher_abstract_and_section_snippets",
+      "host_candidate": "",
+      "dopant_candidates": "",
+      "applicable_sample_count": 5,
+      "limitations": "抜粋だけでなく該当箇所と試料対応を参照。本文全体を精読した意味ではない。",
+      "local_cache": "agents\\sige_evidence.json"
+    }
+  ]
+}

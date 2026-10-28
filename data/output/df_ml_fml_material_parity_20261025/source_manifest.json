@@ -1,0 +1,78 @@
+[
+  {
+    "path": "data\\output\\exp006_pf_zt_from_sigma_prediction_full_curves\\exp006_pf_zt_row_predictions.csv",
+    "sha256": "42fbf677b51a90f5668c3e0ff977bcd60d9b0785b238de8b1cf6c9e86bf9a734"
+  },
+  {
+    "path": "data\\output\\starrydata2_step22_fitting_vs_ml_comparison\\step22_row_level_comparison.csv",
+    "sha256": "83bdb4a8ebecc67f691605519029faac23dd436d5c2e1a4c6f7cac3fcb2bf0b8"
+  },
+  {
+    "path": "data\\output\\starrydata2_step32_sigma_ml_by_material_system\\sample_material_system_classification_step32.csv",
+    "sha256": "fff8477cffbb4b72770b9b594edc0a3a89bef0bce9bd622e3ee319e389055e8e"
+  },
+  {
+    "path": "data\\output\\starrydata2_step32_sigma_ml_by_material_system\\sigma_ml_doi_holdout_predictions_by_material_system_step32.csv",
+    "sha256": "ddbe61b23c96fc6f5666e807440ecf182d4645b1c8ee508518629780df09ab44"
+  },
+  {
+    "path": "experiments\\exp006\\data\\processed\\focus_broad_families\\focus_broad_families_prediction_rows_broad_BiSbTe_tetradymite_like.csv",
+    "sha256": "d3837e9464d67eb0804fe3b630525a40e4fde174e000a30ce5fc657c3b90de46"
+  },
+  {
+    "path": "experiments\\exp006\\data\\processed\\focus_broad_families\\focus_broad_families_prediction_rows_broad_BiTe_like.csv",
+    "sha256": "e13cffd4856d4b6121763c4f075327f2e2d0e878f355e4abe90d92cba28e574c"
+  },
+  {
+    "path": "experiments\\exp006\\data\\processed\\focus_broad_families\\focus_broad_families_prediction_rows_broad_CoSb_skutterudite_like.csv",
+    "sha256": "63f40ffd1c9c6b78bfa807d5d30136af43b30635013524ec62ef70ad9ed8bc50"
+  },
+  {
+    "path": "experiments\\exp006\\data\\processed\\focus_broad_families\\focus_broad_families_prediction_rows_broad_GeTe_like.csv",
+    "sha256": "3e169789999794a62a16510c6de9ee39bc99c651168a919476465fcca189771f"
+  },
+  {
+    "path": "experiments\\exp006\\data\\processed\\focus_broad_families\\focus_broad_families_prediction_rows_broad_Mg2SiSn_like.csv",
+    "sha256": "c7ef603107c453ca77bc0949917383c56b8d2ab37a3c513c71276464c429b4c7"
+  },
+  {
+    "path": "experiments\\exp006\\data\\processed\\focus_broad_families\\focus_broad_families_prediction_rows_broad_other_formula_system.csv",
+    "sha256": "22f8eda702c749accf2712f222841f2e672602be64058a8a0ea74553e85e5b76"
+  },
+  {
+    "path": "experiments\\exp006\\data\\processed\\focus_broad_families\\focus_broad_families_prediction_rows_broad_oxide.csv",
+    "sha256": "edc8e67d2b82529c29c98e4eb9091b3193a383d79c575e1761b63bfa16b1a79d"
+  },
+  {
+    "path": "experiments\\exp006\\data\\processed\\focus_broad_families\\focus_broad_families_prediction_rows_broad_PbTe_like.csv",
+    "sha256": "676b5818f688b35f129eed6118db643a623cf87a806270da33a39c632919c1b2"
+  },
+  {
+    "path": "experiments\\exp006\\data\\processed\\focus_broad_families\\focus_broad_families_prediction_rows_broad_SbTe_like.csv",
+    "sha256": "9cbbd643e8882c827c346c8c9db4ec12e4f7115767add128a46c1250d54701fb"
+  },
+  {
+    "path": "experiments\\exp006\\data\\processed\\focus_broad_families\\focus_broad_families_prediction_rows_broad_selenide.csv",
+    "sha256": "48e69edefa4e8e2f6d143c43824dcf74aa65dccb7f1f7d6c6ccc10c3f4d85497"
+  },
+  {
+    "path": "experiments\\exp006\\data\\processed\\focus_broad_families\\focus_broad_families_prediction_rows_broad_SnTe_like.csv",
+    "sha256": "3dd3f01019885a0e33fa97020785bbaceaf94a49b5dc4ca92631f6076502744d"
+  },
+  {
+    "path": "experiments\\exp006\\data\\processed\\focus_broad_families\\focus_broad_families_prediction_rows_broad_sulfide.csv",
+    "sha256": "b631514b67e8f6aea5e3cca7dacb5a8c4506d5708ab90fc2240a6bcb81d630c1"
+  },
+  {
+    "path": "experiments\\exp006\\data\\processed\\focus_broad_families\\focus_broad_families_prediction_rows_broad_telluride.csv",
+    "sha256": "b53a935e866d8bd7d5414d7169a0835e8b85a64820a153e435286fbbc6d7d9e5"
+  },
+  {
+    "path": "experiments\\exp006\\data\\processed\\focus_broad_families\\focus_broad_families_prediction_rows_unknown_material_group.csv",
+    "sha256": "6f08a21a9fe39bbdf6a8f6fb6fdb757f4365dc4cad76041256cb4cba08d6aacc"
+  },
+  {
+    "path": "experiments\\exp006\\data\\processed\\focus_sige_like\\focus_sige_like_prediction_rows.csv",
+    "sha256": "ac886998538f10d239033d66d1b40d009bc734d3dd9b79a1c0f2884c022e87f4"
+  }
+]

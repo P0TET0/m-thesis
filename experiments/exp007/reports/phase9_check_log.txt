@@ -1,0 +1,27 @@
+Phase 9 independent validation
+status=PASS
+checks=23
+pass=23
+PASS all_outputs_exist: missing=[]
+PASS build_checks_pass: pass=16/16
+PASS key_results_complete: records=12
+PASS claims_complete: claims=9
+PASS group_summary_complete: groups=12
+PASS study_flow_complete: steps=7
+PASS manifest_complete: inputs=14
+PASS key_metric_matches_mae_log10: delta=-0.148087
+PASS key_metric_matches_rmse_log10: delta=-0.227671
+PASS key_metric_matches_factor_2_accuracy: delta=0.014745
+PASS key_metric_matches_factor_5_accuracy: delta=0.077078
+PASS key_metric_matches_factor_10_accuracy: delta=0.043901
+PASS bootstrap_interval_matches_mae_log10: CI=[-0.242798,-0.065749]
+PASS bootstrap_interval_matches_rmse_log10: CI=[-0.367067,-0.106394]
+PASS bootstrap_interval_matches_factor_2_accuracy: CI=[-0.020773,0.049931]
+PASS coverage_matches: coverage=1.000000->0.984169
+PASS group_deltas_match: max_abs_diff=0.000e+00
+PASS group_exception_stated: direction=consistently_worsened; n=6
+PASS robustness_counts_match: 39/39 model-setting x weighting comparisons improve
+PASS report_main_numbers_present: Primary cohort, performance, and coverage numbers are present
+PASS report_balances_claims: Uncertainty, coverage, external validation, and structure limitations are explicit
+PASS abstract_bilingual_and_consistent: Both abstracts contain the primary cohort and effect size
+PASS figure_nonempty: bytes=396933

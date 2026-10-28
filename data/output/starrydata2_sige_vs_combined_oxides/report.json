@@ -1,0 +1,25 @@
+{
+  "source": "C:\\Users\\miots\\m-thesis\\m-thesis\\data\\output\\starrydata2_step29_sige_vs_listed_materials\\step27_selected_curve_map.csv",
+  "oxide_systems": [
+    "Ca-Co-O",
+    "La-O-Sr-Ti",
+    "Al-O-Zn",
+    "La-Mn-O-Sr",
+    "Co-Na-O",
+    "Ba-Cu-O-Y",
+    "Bi-Ca-Co-O",
+    "O-Ti",
+    "Nb-O-Sr-Ti",
+    "Ba-Co-Fe-O-Sr",
+    "Co-La-O-Sr",
+    "O-Zn",
+    "Ga-O-Zn",
+    "O-Sr-Ti"
+  ],
+  "excluded_oxyselenide": "Bi-Cu-O-Se",
+  "sige_curves": 127,
+  "oxide_curves": 2006,
+  "aggregation": "Pool individual curves, not sum conductivity values. Each curve has equal weight.",
+  "trend": "Median at 180 equally spaced temperatures; linear interpolation within each curve range, no extrapolation; at least 2 curves required.",
+  "y_axis": "Log scale; displayed limits use pooled 1st and 99.5th percentiles, matching step29."
+}

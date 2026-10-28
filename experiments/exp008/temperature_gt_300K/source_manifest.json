@@ -1,0 +1,40 @@
+{
+  "sources": [
+    {
+      "method": "DF",
+      "path": "C:\\Users\\miots\\m-thesis\\m-thesis\\data\\output\\df_ml_fml_material_parity_20261025\\plot_source_DF.csv",
+      "sha256": "46deec0fa433f522d83bd473b26943fb78178c21e0b8e9d654da2e4195c83770",
+      "rows_before": 55272,
+      "rows_after": 41500,
+      "excluded_at_cutoff": 113
+    },
+    {
+      "method": "ML",
+      "path": "C:\\Users\\miots\\m-thesis\\m-thesis\\data\\output\\df_ml_fml_material_parity_20261025\\plot_source_ML.csv",
+      "sha256": "d857be69a89ef51e70b129841833b0d02545554a91ef0035e7e3ea24d80fd372",
+      "rows_before": 12010,
+      "rows_after": 10323,
+      "excluded_at_cutoff": 7
+    },
+    {
+      "method": "FML",
+      "path": "C:\\Users\\miots\\m-thesis\\m-thesis\\data\\output\\df_ml_fml_material_parity_20261025\\plot_source_FML.csv",
+      "sha256": "10e23a0b2433c755efc60dd9887a3dfb1c6d2469074cf86e5611cab99743b7a3",
+      "rows_before": 18968,
+      "rows_after": 10655,
+      "excluded_at_cutoff": 70
+    }
+  ],
+  "filter": {
+    "column": "temperature_K",
+    "operator": ">",
+    "threshold_K": 300.0
+  },
+  "prediction_values": "Unchanged subset of existing predictions; no refitting or training",
+  "temperature_color_limits_K": [
+    0.0,
+    1400.0
+  ],
+  "subsampling": false,
+  "validation": "Strict cutoff, source parity counts, material partitions, plotted coordinates, shared axes and full-range coverage checked"
+}

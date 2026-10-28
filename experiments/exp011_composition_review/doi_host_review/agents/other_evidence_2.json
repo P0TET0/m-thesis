@@ -1,0 +1,2608 @@
+{
+  "reviewed_papers": [
+    {
+      "doi": "10.1038/srep19775",
+      "title": "Anisotropic magnetic entropy change in RFeO3 single crystals(R = Tb, Tm, or Y)",
+      "review_level": "primary_fulltext_sections",
+      "evidence": [
+        {
+          "evidence_id": "other2_01",
+          "url": "https://www.nature.com/articles/srep19775",
+          "location": "Methods: sample preparation / single-crystal growth",
+          "short_quote": "TbFeO3, TmFeO3 and YFeO3 single crystals were grown",
+          "summary_ja": "MethodsでTbFeO3、TmFeO3、YFeO3の化学量論的原料と単結晶作製を明記。対象は3種のRFeO3で、Rはドーパントではない。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "doi": "10.1038/srep19775",
+          "sample_ids": [
+            "69557",
+            "69558",
+            "69559",
+            "69560",
+            "69561",
+            "69562",
+            "69564",
+            "69566",
+            "69567",
+            "69631",
+            "69633",
+            "69634",
+            "69638",
+            "69639",
+            "69640",
+            "69641",
+            "69642",
+            "69643",
+            "69647",
+            "69648",
+            "69698",
+            "69699",
+            "69703",
+            "69706",
+            "69707",
+            "69708",
+            "69709",
+            "69710",
+            "69711",
+            "69712",
+            "69713",
+            "69714",
+            "69715",
+            "69716",
+            "69717",
+            "69718",
+            "69719",
+            "69723",
+            "69724",
+            "69725",
+            "69742",
+            "69743",
+            "69744",
+            "69745",
+            "69746",
+            "69747",
+            "69748",
+            "69749",
+            "69750",
+            "69751",
+            "69752",
+            "69753",
+            "69754",
+            "69755",
+            "69756",
+            "69757",
+            "69758",
+            "69759",
+            "69760",
+            "69761",
+            "70072",
+            "70073",
+            "70074",
+            "70075",
+            "70076",
+            "70077",
+            "70078",
+            "70081",
+            "70085",
+            "70086",
+            "70089",
+            "70090",
+            "70092",
+            "70094",
+            "70095",
+            "70096",
+            "70097",
+            "70098",
+            "70099",
+            "70100"
+          ],
+          "composition_condition": "TbFeO3",
+          "host_family": "TbFeO3",
+          "host_elements": [
+            "Tb",
+            "Fe",
+            "O"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "Methodsに一致するRFeO3母材。方位・磁場条件の違いは元素のドープを意味しない。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other2_01"
+          ]
+        },
+        {
+          "doi": "10.1038/srep19775",
+          "sample_ids": [
+            "69836",
+            "69837",
+            "69864",
+            "69865",
+            "69873",
+            "69874",
+            "69875",
+            "69879",
+            "69880",
+            "69881",
+            "69882",
+            "69883",
+            "69884",
+            "69885",
+            "69886",
+            "69887",
+            "69888",
+            "69889",
+            "69890",
+            "69891",
+            "70025",
+            "69897",
+            "69898",
+            "69899",
+            "70026",
+            "70027",
+            "70028",
+            "70029",
+            "70030",
+            "70031",
+            "70032",
+            "70033",
+            "70034",
+            "70035",
+            "70036",
+            "70037",
+            "70038",
+            "70039",
+            "70040",
+            "70041",
+            "70042",
+            "70043",
+            "70044",
+            "70045",
+            "70046",
+            "70047",
+            "70048",
+            "70049",
+            "70050",
+            "70051",
+            "70052",
+            "70053",
+            "70054",
+            "70055",
+            "70056",
+            "70057",
+            "70058",
+            "70059",
+            "70060",
+            "70061"
+          ],
+          "composition_condition": "YFeO3",
+          "host_family": "YFeO3",
+          "host_elements": [
+            "Y",
+            "Fe",
+            "O"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "Methodsに一致するRFeO3母材。方位・磁場条件の違いは元素のドープを意味しない。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other2_01"
+          ]
+        },
+        {
+          "doi": "10.1038/srep19775",
+          "sample_ids": [
+            "70101",
+            "70102",
+            "70103",
+            "70104",
+            "70105",
+            "70106",
+            "70107",
+            "70108",
+            "70109",
+            "70110",
+            "70140",
+            "70141",
+            "70142",
+            "70143",
+            "70144",
+            "70145",
+            "70146",
+            "70148",
+            "70149",
+            "70150"
+          ],
+          "composition_condition": "TmFeO3",
+          "host_family": "TmFeO3",
+          "host_elements": [
+            "Tm",
+            "Fe",
+            "O"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "Methodsに一致するRFeO3母材。方位・磁場条件の違いは元素のドープを意味しない。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other2_01"
+          ]
+        }
+      ]
+    },
+    {
+      "doi": "10.1038/srep11010",
+      "title": "Enhanced magnetic refrigeration properties in Mn-rich Ni-Mn-Sn ribbons by optimal annealing",
+      "review_level": "primary_fulltext_sections",
+      "evidence": [
+        {
+          "evidence_id": "other2_02",
+          "url": "https://www.nature.com/articles/srep11010",
+          "location": "Methods: alloy ingot preparation and annealing",
+          "short_quote": "as-cast ingot of Ni43Mn46Sn11 was prepared by arc-melting",
+          "summary_ja": "Ni43Mn46Sn11リボンの焼鈍時間を変更する実験。秤量時の追加Mnは溶解中の蒸発補償であり、独立したドーパントではない。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "doi": "10.1038/srep11010",
+          "sample_ids": [
+            "55597",
+            "55598",
+            "55599",
+            "55602",
+            "55603",
+            "55617",
+            "55618",
+            "55619",
+            "55621",
+            "55629",
+            "55630",
+            "55631",
+            "55632",
+            "55633",
+            "55634",
+            "55635",
+            "55636",
+            "55637",
+            "55638",
+            "55644",
+            "55645",
+            "55646",
+            "55647",
+            "55651",
+            "55652",
+            "55653",
+            "55654",
+            "55655",
+            "55656",
+            "55648",
+            "55649",
+            "55659",
+            "55663",
+            "55664",
+            "55665",
+            "55668",
+            "55669",
+            "55670",
+            "55671"
+          ],
+          "composition_condition": "Ni43Mn46Sn11",
+          "host_family": "Ni-Mn-Sn alloy",
+          "host_elements": [
+            "Ni",
+            "Mn",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "Ni/Mn/Snは論文に明記された三元合金の構成元素。",
+          "data_quality_flags": [
+            "composition_in_atomic_percent",
+            "annealing_changes_structure_not_nominal_elements"
+          ],
+          "evidence_ids": [
+            "other2_02"
+          ]
+        }
+      ]
+    },
+    {
+      "doi": "10.1038/ncomms12146",
+      "title": "Dome-shaped magnetic order competing with high-temperature superconductivity at high pressures in FeSe",
+      "review_level": "primary_fulltext_sections",
+      "evidence": [
+        {
+          "evidence_id": "other2_03",
+          "url": "https://www.nature.com/articles/ncomms12146",
+          "location": "Methods > Sample preparation",
+          "short_quote": "High-quality FeSe single crystals used in the present study",
+          "summary_ja": "MethodsでFeSe単結晶の作製を記載。主な制御変数は圧力であり、別元素の置換系列ではない。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "doi": "10.1038/ncomms12146",
+          "sample_ids": [
+            "38313",
+            "38314",
+            "38315",
+            "38316",
+            "38317",
+            "38318",
+            "38319",
+            "38320",
+            "38321",
+            "38322",
+            "38323",
+            "38324",
+            "38325",
+            "38326",
+            "38327",
+            "38328",
+            "38329",
+            "38330",
+            "38331",
+            "38332",
+            "38333",
+            "38334",
+            "38335",
+            "38336",
+            "38337",
+            "38338",
+            "38339",
+            "38340",
+            "38341",
+            "38342",
+            "38343",
+            "38344",
+            "38345",
+            "38347",
+            "38348",
+            "38349",
+            "38350"
+          ],
+          "composition_condition": "FeSe",
+          "host_family": "FeSe",
+          "host_elements": [
+            "Fe",
+            "Se"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "MethodsのFeSe単結晶と組成が一致。圧力条件をドープと扱わない。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other2_03"
+          ]
+        }
+      ]
+    },
+    {
+      "doi": "10.1038/am.2017.8",
+      "title": "Electronic origin of the high thermoelectric performance of GeTe among the p-type group IV monotellurides",
+      "review_level": "primary_fulltext_sections",
+      "evidence": [
+        {
+          "evidence_id": "other2_04",
+          "url": "https://www.nature.com/articles/am20178",
+          "location": "Results: paragraph after Table 1; Figures 3 and 6 captions",
+          "short_quote": "extrinsic Bi doping at Ge sites",
+          "summary_ja": "本文でGe1-xBixTeのBiをGeサイトの外因性ドーパントと記載。図3/6にはSnTe:I、PbTe:Naの比較データもあり、全試料をGeTeに統一できない。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "doi": "10.1038/am.2017.8",
+          "sample_ids": [
+            "31875",
+            "31882",
+            "31890"
+          ],
+          "composition_condition": "GeTe",
+          "host_family": "GeTe",
+          "host_elements": [
+            "Ge",
+            "Te"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文がBiの置換サイトと母材GeTeを明示。GeTe:Bi表記ではドープ量のみ未指定。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other2_04"
+          ]
+        },
+        {
+          "doi": "10.1038/am.2017.8",
+          "sample_ids": [
+            "31876"
+          ],
+          "composition_condition": "Bi0.04Ge0.96Te",
+          "host_family": "GeTe",
+          "host_elements": [
+            "Ge",
+            "Te"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文がBiの置換サイトと母材GeTeを明示。GeTe:Bi表記ではドープ量のみ未指定。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other2_04"
+          ]
+        },
+        {
+          "doi": "10.1038/am.2017.8",
+          "sample_ids": [
+            "31877",
+            "31878",
+            "31879"
+          ],
+          "composition_condition": "Bi0.06Ge0.94Te",
+          "host_family": "GeTe",
+          "host_elements": [
+            "Ge",
+            "Te"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文がBiの置換サイトと母材GeTeを明示。GeTe:Bi表記ではドープ量のみ未指定。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other2_04"
+          ]
+        },
+        {
+          "doi": "10.1038/am.2017.8",
+          "sample_ids": [
+            "31880"
+          ],
+          "composition_condition": "Bi0.008GeTe",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "BiドープGeTeが候補だが、記載係数は本文のGe1-xBixTe系列と一致しない。欠落係数や誤記を自動修正しない。",
+          "data_quality_flags": [
+            "recorded_coefficients_do_not_match_nominal_series"
+          ],
+          "evidence_ids": [
+            "other2_04"
+          ],
+          "candidate_host_family": "GeTe"
+        },
+        {
+          "doi": "10.1038/am.2017.8",
+          "sample_ids": [
+            "31881",
+            "31889"
+          ],
+          "composition_condition": "Bi0.007GeTe",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "BiドープGeTeが候補だが、記載係数は本文のGe1-xBixTe系列と一致しない。欠落係数や誤記を自動修正しない。",
+          "data_quality_flags": [
+            "recorded_coefficients_do_not_match_nominal_series"
+          ],
+          "evidence_ids": [
+            "other2_04"
+          ],
+          "candidate_host_family": "GeTe"
+        },
+        {
+          "doi": "10.1038/am.2017.8",
+          "sample_ids": [
+            "31883"
+          ],
+          "composition_condition": "SnTe",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "SnTe/PbTeの比較試料。GeTeの母材判定を適用しない。元の比較論文と個別条件の再確認が必要。",
+          "data_quality_flags": [
+            "comparison_material_excluded"
+          ],
+          "evidence_ids": [
+            "other2_04"
+          ]
+        },
+        {
+          "doi": "10.1038/am.2017.8",
+          "sample_ids": [
+            "31884"
+          ],
+          "composition_condition": "PbTe",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "SnTe/PbTeの比較試料。GeTeの母材判定を適用しない。元の比較論文と個別条件の再確認が必要。",
+          "data_quality_flags": [
+            "comparison_material_excluded"
+          ],
+          "evidence_ids": [
+            "other2_04"
+          ]
+        },
+        {
+          "doi": "10.1038/am.2017.8",
+          "sample_ids": [
+            "31885"
+          ],
+          "composition_condition": "Bi0.02Ge0.98Te",
+          "host_family": "GeTe",
+          "host_elements": [
+            "Ge",
+            "Te"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文がBiの置換サイトと母材GeTeを明示。GeTe:Bi表記ではドープ量のみ未指定。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other2_04"
+          ]
+        },
+        {
+          "doi": "10.1038/am.2017.8",
+          "sample_ids": [
+            "31886"
+          ],
+          "composition_condition": "Bi0.05Ge0.95Te",
+          "host_family": "GeTe",
+          "host_elements": [
+            "Ge",
+            "Te"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文がBiの置換サイトと母材GeTeを明示。GeTe:Bi表記ではドープ量のみ未指定。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other2_04"
+          ]
+        },
+        {
+          "doi": "10.1038/am.2017.8",
+          "sample_ids": [
+            "31887"
+          ],
+          "composition_condition": "Bi0.009Ge0.991Te",
+          "host_family": "GeTe",
+          "host_elements": [
+            "Ge",
+            "Te"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文がBiの置換サイトと母材GeTeを明示。GeTe:Bi表記ではドープ量のみ未指定。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other2_04"
+          ]
+        },
+        {
+          "doi": "10.1038/am.2017.8",
+          "sample_ids": [
+            "31888"
+          ],
+          "composition_condition": "Bi0.07Ge0.94Te",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "BiドープGeTeが候補だが、記載係数は本文のGe1-xBixTe系列と一致しない。欠落係数や誤記を自動修正しない。",
+          "data_quality_flags": [
+            "recorded_coefficients_do_not_match_nominal_series"
+          ],
+          "evidence_ids": [
+            "other2_04"
+          ],
+          "candidate_host_family": "GeTe"
+        },
+        {
+          "doi": "10.1038/am.2017.8",
+          "sample_ids": [
+            "31891",
+            "31896",
+            "31897"
+          ],
+          "composition_condition": "PbTe:Na",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "SnTe/PbTeの比較試料。GeTeの母材判定を適用しない。元の比較論文と個別条件の再確認が必要。",
+          "data_quality_flags": [
+            "comparison_material_excluded"
+          ],
+          "evidence_ids": [
+            "other2_04"
+          ]
+        },
+        {
+          "doi": "10.1038/am.2017.8",
+          "sample_ids": [
+            "31892",
+            "31894",
+            "31895"
+          ],
+          "composition_condition": "GeTe:Bi",
+          "host_family": "GeTe",
+          "host_elements": [
+            "Ge",
+            "Te"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文がBiの置換サイトと母材GeTeを明示。GeTe:Bi表記ではドープ量のみ未指定。",
+          "data_quality_flags": [
+            "dopant_amount_unspecified"
+          ],
+          "evidence_ids": [
+            "other2_04"
+          ]
+        },
+        {
+          "doi": "10.1038/am.2017.8",
+          "sample_ids": [
+            "31893",
+            "31898",
+            "31899"
+          ],
+          "composition_condition": "SnTe0.985I0.015",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "SnTe/PbTeの比較試料。GeTeの母材判定を適用しない。元の比較論文と個別条件の再確認が必要。",
+          "data_quality_flags": [
+            "comparison_material_excluded"
+          ],
+          "evidence_ids": [
+            "other2_04"
+          ]
+        }
+      ]
+    },
+    {
+      "doi": "10.1038/ncomms4640",
+      "title": "Contrasting role of antimony and bismuth dopants on the thermoelectric performance of lead selenide",
+      "review_level": "primary_abstract_and_figure_captions",
+      "evidence": [
+        {
+          "evidence_id": "other2_05",
+          "url": "https://www.nature.com/articles/ncomms4640",
+          "location": "Abstract; Figures 1-4 captions",
+          "short_quote": "Substituting antimony or bismuth for lead",
+          "summary_ja": "要旨にSb/BiのPbサイト置換を明記。図説明がPb1-xSbxSe/Pb1-xBixSe系列を示す。Sbはナノ析出にも関与し、全量固溶を意味しない。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "doi": "10.1038/ncomms4640",
+          "sample_ids": [
+            "25504"
+          ],
+          "composition_condition": "Pb0.98Sb0.02Se",
+          "host_family": "PbSe",
+          "host_elements": [
+            "Pb",
+            "Se"
+          ],
+          "dopant_elements": [
+            "Sb"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "要旨と図説明でPbSeへのSb/Bi置換を確認。ドーパント役割の確認であり、析出分率の同定ではない。",
+          "data_quality_flags": [
+            "abstract_and_figure_captions_only",
+            "sb_dopant_can_form_nanoprecipitates"
+          ],
+          "evidence_ids": [
+            "other2_05"
+          ]
+        },
+        {
+          "doi": "10.1038/ncomms4640",
+          "sample_ids": [
+            "25498"
+          ],
+          "composition_condition": "Pb0.99925Sb0.00075Se",
+          "host_family": "PbSe",
+          "host_elements": [
+            "Pb",
+            "Se"
+          ],
+          "dopant_elements": [
+            "Sb"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "要旨と図説明でPbSeへのSb/Bi置換を確認。ドーパント役割の確認であり、析出分率の同定ではない。",
+          "data_quality_flags": [
+            "abstract_and_figure_captions_only",
+            "sb_dopant_can_form_nanoprecipitates"
+          ],
+          "evidence_ids": [
+            "other2_05"
+          ]
+        },
+        {
+          "doi": "10.1038/ncomms4640",
+          "sample_ids": [
+            "25499"
+          ],
+          "composition_condition": "Pb0.99875Sb0.00125Se",
+          "host_family": "PbSe",
+          "host_elements": [
+            "Pb",
+            "Se"
+          ],
+          "dopant_elements": [
+            "Sb"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "要旨と図説明でPbSeへのSb/Bi置換を確認。ドーパント役割の確認であり、析出分率の同定ではない。",
+          "data_quality_flags": [
+            "abstract_and_figure_captions_only",
+            "sb_dopant_can_form_nanoprecipitates"
+          ],
+          "evidence_ids": [
+            "other2_05"
+          ]
+        },
+        {
+          "doi": "10.1038/ncomms4640",
+          "sample_ids": [
+            "25500",
+            "25505"
+          ],
+          "composition_condition": "Pb0.9975Sb0.0025Se",
+          "host_family": "PbSe",
+          "host_elements": [
+            "Pb",
+            "Se"
+          ],
+          "dopant_elements": [
+            "Sb"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "要旨と図説明でPbSeへのSb/Bi置換を確認。ドーパント役割の確認であり、析出分率の同定ではない。",
+          "data_quality_flags": [
+            "abstract_and_figure_captions_only",
+            "sb_dopant_can_form_nanoprecipitates"
+          ],
+          "evidence_ids": [
+            "other2_05"
+          ]
+        },
+        {
+          "doi": "10.1038/ncomms4640",
+          "sample_ids": [
+            "25501",
+            "25506"
+          ],
+          "composition_condition": "Pb0.995Sb0.005Se",
+          "host_family": "PbSe",
+          "host_elements": [
+            "Pb",
+            "Se"
+          ],
+          "dopant_elements": [
+            "Sb"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "要旨と図説明でPbSeへのSb/Bi置換を確認。ドーパント役割の確認であり、析出分率の同定ではない。",
+          "data_quality_flags": [
+            "abstract_and_figure_captions_only",
+            "sb_dopant_can_form_nanoprecipitates"
+          ],
+          "evidence_ids": [
+            "other2_05"
+          ]
+        },
+        {
+          "doi": "10.1038/ncomms4640",
+          "sample_ids": [
+            "25502",
+            "25507"
+          ],
+          "composition_condition": "Pb0.9925Sb0.0075Se",
+          "host_family": "PbSe",
+          "host_elements": [
+            "Pb",
+            "Se"
+          ],
+          "dopant_elements": [
+            "Sb"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "要旨と図説明でPbSeへのSb/Bi置換を確認。ドーパント役割の確認であり、析出分率の同定ではない。",
+          "data_quality_flags": [
+            "abstract_and_figure_captions_only",
+            "sb_dopant_can_form_nanoprecipitates"
+          ],
+          "evidence_ids": [
+            "other2_05"
+          ]
+        },
+        {
+          "doi": "10.1038/ncomms4640",
+          "sample_ids": [
+            "25503"
+          ],
+          "composition_condition": "Pb0.99Sb0.01Se",
+          "host_family": "PbSe",
+          "host_elements": [
+            "Pb",
+            "Se"
+          ],
+          "dopant_elements": [
+            "Sb"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "要旨と図説明でPbSeへのSb/Bi置換を確認。ドーパント役割の確認であり、析出分率の同定ではない。",
+          "data_quality_flags": [
+            "abstract_and_figure_captions_only",
+            "sb_dopant_can_form_nanoprecipitates"
+          ],
+          "evidence_ids": [
+            "other2_05"
+          ]
+        },
+        {
+          "doi": "10.1038/ncomms4640",
+          "sample_ids": [
+            "25508",
+            "25509"
+          ],
+          "composition_condition": "undefined",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "組成未記載であり、Sb系列/Bi系列/比較試料の対応を判別できない。",
+          "data_quality_flags": [
+            "missing_composition"
+          ],
+          "evidence_ids": [
+            "other2_05"
+          ]
+        },
+        {
+          "doi": "10.1038/ncomms4640",
+          "sample_ids": [
+            "25514"
+          ],
+          "composition_condition": "Pb0.99Bi0.01Se",
+          "host_family": "PbSe",
+          "host_elements": [
+            "Pb",
+            "Se"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "要旨と図説明でPbSeへのSb/Bi置換を確認。ドーパント役割の確認であり、析出分率の同定ではない。",
+          "data_quality_flags": [
+            "abstract_and_figure_captions_only"
+          ],
+          "evidence_ids": [
+            "other2_05"
+          ]
+        },
+        {
+          "doi": "10.1038/ncomms4640",
+          "sample_ids": [
+            "25516"
+          ],
+          "composition_condition": "Pb0.985Bi0.015Se",
+          "host_family": "PbSe",
+          "host_elements": [
+            "Pb",
+            "Se"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "要旨と図説明でPbSeへのSb/Bi置換を確認。ドーパント役割の確認であり、析出分率の同定ではない。",
+          "data_quality_flags": [
+            "abstract_and_figure_captions_only"
+          ],
+          "evidence_ids": [
+            "other2_05"
+          ]
+        },
+        {
+          "doi": "10.1038/ncomms4640",
+          "sample_ids": [
+            "25515"
+          ],
+          "composition_condition": "Pb0.98Bi0.02Se",
+          "host_family": "PbSe",
+          "host_elements": [
+            "Pb",
+            "Se"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "要旨と図説明でPbSeへのSb/Bi置換を確認。ドーパント役割の確認であり、析出分率の同定ではない。",
+          "data_quality_flags": [
+            "abstract_and_figure_captions_only"
+          ],
+          "evidence_ids": [
+            "other2_05"
+          ]
+        },
+        {
+          "doi": "10.1038/ncomms4640",
+          "sample_ids": [
+            "25510",
+            "25497"
+          ],
+          "composition_condition": "PbSe",
+          "host_family": "PbSe",
+          "host_elements": [
+            "Pb",
+            "Se"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "要旨と図説明でPbSeへのSb/Bi置換を確認。ドーパント役割の確認であり、析出分率の同定ではない。",
+          "data_quality_flags": [
+            "abstract_and_figure_captions_only"
+          ],
+          "evidence_ids": [
+            "other2_05"
+          ]
+        },
+        {
+          "doi": "10.1038/ncomms4640",
+          "sample_ids": [
+            "25511"
+          ],
+          "composition_condition": "Pb0.9975Bi0.0025Se",
+          "host_family": "PbSe",
+          "host_elements": [
+            "Pb",
+            "Se"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "要旨と図説明でPbSeへのSb/Bi置換を確認。ドーパント役割の確認であり、析出分率の同定ではない。",
+          "data_quality_flags": [
+            "abstract_and_figure_captions_only"
+          ],
+          "evidence_ids": [
+            "other2_05"
+          ]
+        },
+        {
+          "doi": "10.1038/ncomms4640",
+          "sample_ids": [
+            "25512"
+          ],
+          "composition_condition": "Pb0.995Bi0.005Se",
+          "host_family": "PbSe",
+          "host_elements": [
+            "Pb",
+            "Se"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "要旨と図説明でPbSeへのSb/Bi置換を確認。ドーパント役割の確認であり、析出分率の同定ではない。",
+          "data_quality_flags": [
+            "abstract_and_figure_captions_only"
+          ],
+          "evidence_ids": [
+            "other2_05"
+          ]
+        },
+        {
+          "doi": "10.1038/ncomms4640",
+          "sample_ids": [
+            "25513"
+          ],
+          "composition_condition": "Pb0.9925Bi0.0075Se",
+          "host_family": "PbSe",
+          "host_elements": [
+            "Pb",
+            "Se"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "要旨と図説明でPbSeへのSb/Bi置換を確認。ドーパント役割の確認であり、析出分率の同定ではない。",
+          "data_quality_flags": [
+            "abstract_and_figure_captions_only"
+          ],
+          "evidence_ids": [
+            "other2_05"
+          ]
+        }
+      ]
+    },
+    {
+      "doi": "10.1038/ncomms5515",
+      "title": "Broad temperature plateau for thermoelectric figure of merit ZT>2 in phase-separated PbTe0.7S0.3",
+      "review_level": "primary_fulltext_sections_web_index",
+      "evidence": [
+        {
+          "evidence_id": "other2_06",
+          "url": "https://www.nature.com/articles/ncomms5515",
+          "location": "Methods > Synthesis; Abstract (phase separation)",
+          "short_quote": "A series of x mol% K-doped PbTe0.7S0.3",
+          "summary_ja": "MethodsがK濃度0.5、1、1.5、2、2.5、3 mol%系列を明示。母体はPbTe/PbSに富む相に分かれるPbTe0.7S0.3で、Sを微量ドーパントとして消去しない。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "doi": "10.1038/ncomms5515",
+          "sample_ids": [
+            "371",
+            "6145"
+          ],
+          "composition_condition": "K0.02Pb1Te0.7S0.3",
+          "host_family": "PbTe-PbS",
+          "host_elements": [
+            "Pb",
+            "Te",
+            "S"
+          ],
+          "dopant_elements": [
+            "K"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "Kドープ量系列と母体組成がMethodsに一致。相分離する混合母材としてPb/Te/Sを保持。",
+          "data_quality_flags": [
+            "phase_separated_mixed_host",
+            "host_family_not_single_phase"
+          ],
+          "evidence_ids": [
+            "other2_06"
+          ]
+        },
+        {
+          "doi": "10.1038/ncomms5515",
+          "sample_ids": [
+            "339",
+            "6144"
+          ],
+          "composition_condition": "K0.015Pb1Te0.7S0.3",
+          "host_family": "PbTe-PbS",
+          "host_elements": [
+            "Pb",
+            "Te",
+            "S"
+          ],
+          "dopant_elements": [
+            "K"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "Kドープ量系列と母体組成がMethodsに一致。相分離する混合母材としてPb/Te/Sを保持。",
+          "data_quality_flags": [
+            "phase_separated_mixed_host",
+            "host_family_not_single_phase"
+          ],
+          "evidence_ids": [
+            "other2_06"
+          ]
+        },
+        {
+          "doi": "10.1038/ncomms5515",
+          "sample_ids": [
+            "419",
+            "6147"
+          ],
+          "composition_condition": "K0.03Pb1Te0.7S0.3",
+          "host_family": "PbTe-PbS",
+          "host_elements": [
+            "Pb",
+            "Te",
+            "S"
+          ],
+          "dopant_elements": [
+            "K"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "Kドープ量系列と母体組成がMethodsに一致。相分離する混合母材としてPb/Te/Sを保持。",
+          "data_quality_flags": [
+            "phase_separated_mixed_host",
+            "host_family_not_single_phase"
+          ],
+          "evidence_ids": [
+            "other2_06"
+          ]
+        },
+        {
+          "doi": "10.1038/ncomms5515",
+          "sample_ids": [
+            "204",
+            "6143"
+          ],
+          "composition_condition": "K0.01Pb1Te0.7S0.3",
+          "host_family": "PbTe-PbS",
+          "host_elements": [
+            "Pb",
+            "Te",
+            "S"
+          ],
+          "dopant_elements": [
+            "K"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "Kドープ量系列と母体組成がMethodsに一致。相分離する混合母材としてPb/Te/Sを保持。",
+          "data_quality_flags": [
+            "phase_separated_mixed_host",
+            "host_family_not_single_phase"
+          ],
+          "evidence_ids": [
+            "other2_06"
+          ]
+        },
+        {
+          "doi": "10.1038/ncomms5515",
+          "sample_ids": [
+            "304",
+            "6142"
+          ],
+          "composition_condition": "K0.005Pb1Te0.7S0.3",
+          "host_family": "PbTe-PbS",
+          "host_elements": [
+            "Pb",
+            "Te",
+            "S"
+          ],
+          "dopant_elements": [
+            "K"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "Kドープ量系列と母体組成がMethodsに一致。相分離する混合母材としてPb/Te/Sを保持。",
+          "data_quality_flags": [
+            "phase_separated_mixed_host",
+            "host_family_not_single_phase"
+          ],
+          "evidence_ids": [
+            "other2_06"
+          ]
+        },
+        {
+          "doi": "10.1038/ncomms5515",
+          "sample_ids": [
+            "409",
+            "6139",
+            "6146"
+          ],
+          "composition_condition": "K0.025Pb1Te0.7S0.3",
+          "host_family": "PbTe-PbS",
+          "host_elements": [
+            "Pb",
+            "Te",
+            "S"
+          ],
+          "dopant_elements": [
+            "K"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "Kドープ量系列と母体組成がMethodsに一致。相分離する混合母材としてPb/Te/Sを保持。",
+          "data_quality_flags": [
+            "phase_separated_mixed_host",
+            "host_family_not_single_phase"
+          ],
+          "evidence_ids": [
+            "other2_06"
+          ]
+        },
+        {
+          "doi": "10.1038/ncomms5515",
+          "sample_ids": [
+            "6140"
+          ],
+          "composition_condition": "Na0.02Pb0.96Sr0.04Te",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "Na/SrまたはNa/Mgを含むPbTe比較試料にはKドープPbTe0.7S0.3の判定を適用できない。",
+          "data_quality_flags": [
+            "comparison_material_excluded"
+          ],
+          "evidence_ids": [
+            "other2_06"
+          ]
+        },
+        {
+          "doi": "10.1038/ncomms5515",
+          "sample_ids": [
+            "6141"
+          ],
+          "composition_condition": "Na0.02Pb0.94Mg0.06Te",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "Na/SrまたはNa/Mgを含むPbTe比較試料にはKドープPbTe0.7S0.3の判定を適用できない。",
+          "data_quality_flags": [
+            "comparison_material_excluded"
+          ],
+          "evidence_ids": [
+            "other2_06"
+          ]
+        }
+      ]
+    },
+    {
+      "doi": "10.1038/srep14641",
+      "title": "Band Structure Engineering and Thermoelectric Properties of Charge-Compensated Filled Skutterudites",
+      "review_level": "primary_fulltext_sections",
+      "evidence": [
+        {
+          "evidence_id": "other2_07",
+          "url": "https://www.nature.com/articles/srep14641",
+          "location": "Introduction (Ga and Yb site roles); Methods (nominal series); Figure 4 caption",
+          "short_quote": "Yb atoms as second fillers (dopants)",
+          "summary_ja": "Co-Sb骨格の空隙をYbが充填。Gaは空隙充填とSb置換を組み合わせる。MethodsのGa含有組成はSb12-z/3であり、データの一律Sb12表記と差がある。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "doi": "10.1038/srep14641",
+          "sample_ids": [
+            "4749"
+          ],
+          "composition_condition": "Ga0.20Co4Sb12",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "CoSb3骨格とGa/Ybの役割は本文に明記されるが、データのSb12はMethodsのSb欠損係数と不一致。試料対応の再確認まで保留。",
+          "data_quality_flags": [
+            "recorded_sb_coefficient_differs_from_paper",
+            "ga_has_filler_and_substitution_roles"
+          ],
+          "evidence_ids": [
+            "other2_07"
+          ],
+          "candidate_host_family": "CoSb3"
+        },
+        {
+          "doi": "10.1038/srep14641",
+          "sample_ids": [
+            "4750"
+          ],
+          "composition_condition": "Yb0.05Ga0.20Co4Sb12",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "CoSb3骨格とGa/Ybの役割は本文に明記されるが、データのSb12はMethodsのSb欠損係数と不一致。試料対応の再確認まで保留。",
+          "data_quality_flags": [
+            "recorded_sb_coefficient_differs_from_paper",
+            "ga_has_filler_and_substitution_roles"
+          ],
+          "evidence_ids": [
+            "other2_07"
+          ],
+          "candidate_host_family": "CoSb3"
+        },
+        {
+          "doi": "10.1038/srep14641",
+          "sample_ids": [
+            "4751"
+          ],
+          "composition_condition": "Yb0.10Ga0.20Co4Sb12",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "CoSb3骨格とGa/Ybの役割は本文に明記されるが、データのSb12はMethodsのSb欠損係数と不一致。試料対応の再確認まで保留。",
+          "data_quality_flags": [
+            "recorded_sb_coefficient_differs_from_paper",
+            "ga_has_filler_and_substitution_roles"
+          ],
+          "evidence_ids": [
+            "other2_07"
+          ],
+          "candidate_host_family": "CoSb3"
+        },
+        {
+          "doi": "10.1038/srep14641",
+          "sample_ids": [
+            "4752"
+          ],
+          "composition_condition": "Yb0.15Ga0.20Co4Sb12",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "CoSb3骨格とGa/Ybの役割は本文に明記されるが、データのSb12はMethodsのSb欠損係数と不一致。試料対応の再確認まで保留。",
+          "data_quality_flags": [
+            "recorded_sb_coefficient_differs_from_paper",
+            "ga_has_filler_and_substitution_roles"
+          ],
+          "evidence_ids": [
+            "other2_07"
+          ],
+          "candidate_host_family": "CoSb3"
+        },
+        {
+          "doi": "10.1038/srep14641",
+          "sample_ids": [
+            "4753"
+          ],
+          "composition_condition": "Yb0.20Ga0.20Co4Sb12",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "CoSb3骨格とGa/Ybの役割は本文に明記されるが、データのSb12はMethodsのSb欠損係数と不一致。試料対応の再確認まで保留。",
+          "data_quality_flags": [
+            "recorded_sb_coefficient_differs_from_paper",
+            "ga_has_filler_and_substitution_roles"
+          ],
+          "evidence_ids": [
+            "other2_07"
+          ],
+          "candidate_host_family": "CoSb3"
+        },
+        {
+          "doi": "10.1038/srep14641",
+          "sample_ids": [
+            "4754"
+          ],
+          "composition_condition": "Yb0.26Co4Sb12",
+          "host_family": "CoSb3",
+          "host_elements": [
+            "Co",
+            "Sb"
+          ],
+          "dopant_elements": [
+            "Yb"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "Yb充填Co4Sb12系列を本文・図4で確認。空隙の充填元素Ybをドーパントとして分離する。",
+          "data_quality_flags": [
+            "dopant_is_void_filler"
+          ],
+          "evidence_ids": [
+            "other2_07"
+          ]
+        },
+        {
+          "doi": "10.1038/srep14641",
+          "sample_ids": [
+            "4755"
+          ],
+          "composition_condition": "Yb0.20Ga0.15Co4Sb12",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "CoSb3骨格とGa/Ybの役割は本文に明記されるが、データのSb12はMethodsのSb欠損係数と不一致。試料対応の再確認まで保留。",
+          "data_quality_flags": [
+            "recorded_sb_coefficient_differs_from_paper",
+            "ga_has_filler_and_substitution_roles"
+          ],
+          "evidence_ids": [
+            "other2_07"
+          ],
+          "candidate_host_family": "CoSb3"
+        },
+        {
+          "doi": "10.1038/srep14641",
+          "sample_ids": [
+            "4756"
+          ],
+          "composition_condition": "Yb0.20Ga0.10Co4Sb12",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "CoSb3骨格とGa/Ybの役割は本文に明記されるが、データのSb12はMethodsのSb欠損係数と不一致。試料対応の再確認まで保留。",
+          "data_quality_flags": [
+            "recorded_sb_coefficient_differs_from_paper",
+            "ga_has_filler_and_substitution_roles"
+          ],
+          "evidence_ids": [
+            "other2_07"
+          ],
+          "candidate_host_family": "CoSb3"
+        },
+        {
+          "doi": "10.1038/srep14641",
+          "sample_ids": [
+            "4757"
+          ],
+          "composition_condition": "Yb0.20Co4Sb12",
+          "host_family": "CoSb3",
+          "host_elements": [
+            "Co",
+            "Sb"
+          ],
+          "dopant_elements": [
+            "Yb"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "Yb充填Co4Sb12系列を本文・図4で確認。空隙の充填元素Ybをドーパントとして分離する。",
+          "data_quality_flags": [
+            "dopant_is_void_filler"
+          ],
+          "evidence_ids": [
+            "other2_07"
+          ]
+        },
+        {
+          "doi": "10.1038/srep14641",
+          "sample_ids": [
+            "4758"
+          ],
+          "composition_condition": "Yb0.40Ga0.15Co4Sb12",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "CoSb3骨格とGa/Ybの役割は本文に明記されるが、データのSb12はMethodsのSb欠損係数と不一致。試料対応の再確認まで保留。",
+          "data_quality_flags": [
+            "recorded_sb_coefficient_differs_from_paper",
+            "ga_has_filler_and_substitution_roles"
+          ],
+          "evidence_ids": [
+            "other2_07"
+          ],
+          "candidate_host_family": "CoSb3"
+        },
+        {
+          "doi": "10.1038/srep14641",
+          "sample_ids": [
+            "4759"
+          ],
+          "composition_condition": "Yb0.35Ga0.15Co4Sb12",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "CoSb3骨格とGa/Ybの役割は本文に明記されるが、データのSb12はMethodsのSb欠損係数と不一致。試料対応の再確認まで保留。",
+          "data_quality_flags": [
+            "recorded_sb_coefficient_differs_from_paper",
+            "ga_has_filler_and_substitution_roles"
+          ],
+          "evidence_ids": [
+            "other2_07"
+          ],
+          "candidate_host_family": "CoSb3"
+        },
+        {
+          "doi": "10.1038/srep14641",
+          "sample_ids": [
+            "4760"
+          ],
+          "composition_condition": "Yb0.30Ga0.15Co4Sb12",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "CoSb3骨格とGa/Ybの役割は本文に明記されるが、データのSb12はMethodsのSb欠損係数と不一致。試料対応の再確認まで保留。",
+          "data_quality_flags": [
+            "recorded_sb_coefficient_differs_from_paper",
+            "ga_has_filler_and_substitution_roles"
+          ],
+          "evidence_ids": [
+            "other2_07"
+          ],
+          "candidate_host_family": "CoSb3"
+        },
+        {
+          "doi": "10.1038/srep14641",
+          "sample_ids": [
+            "4761"
+          ],
+          "composition_condition": "Yb0.25Ga0.15Co4Sb12",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "CoSb3骨格とGa/Ybの役割は本文に明記されるが、データのSb12はMethodsのSb欠損係数と不一致。試料対応の再確認まで保留。",
+          "data_quality_flags": [
+            "recorded_sb_coefficient_differs_from_paper",
+            "ga_has_filler_and_substitution_roles"
+          ],
+          "evidence_ids": [
+            "other2_07"
+          ],
+          "candidate_host_family": "CoSb3"
+        },
+        {
+          "doi": "10.1038/srep14641",
+          "sample_ids": [
+            "4762"
+          ],
+          "composition_condition": "Yb0.26Ga0.20Co4Sb12",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "CoSb3骨格とGa/Ybの役割は本文に明記されるが、データのSb12はMethodsのSb欠損係数と不一致。試料対応の再確認まで保留。",
+          "data_quality_flags": [
+            "recorded_sb_coefficient_differs_from_paper",
+            "ga_has_filler_and_substitution_roles"
+          ],
+          "evidence_ids": [
+            "other2_07"
+          ],
+          "candidate_host_family": "CoSb3"
+        }
+      ]
+    },
+    {
+      "doi": "10.1038/s41598-017-12792-8",
+      "title": "Fermi surface topology and magnetotransport in semimetallic LuSb",
+      "review_level": "primary_fulltext_sections",
+      "evidence": [
+        {
+          "evidence_id": "other2_08",
+          "url": "https://www.nature.com/articles/s41598-017-12792-8",
+          "location": "Methods: single-crystal growth, XRD and EDX characterization",
+          "short_quote": "Single crystals of LuSb were grown from Sn flux",
+          "summary_ja": "LuSb単結晶をSnフラックスから成長。XRDに不純物相がないこととEDXによる組成確認を記載。Snは成長溶媒で、LuSb組成中のドーパントとは記載されない。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "doi": "10.1038/s41598-017-12792-8",
+          "sample_ids": [
+            "37831",
+            "37837",
+            "37838",
+            "37839",
+            "37840",
+            "37841",
+            "37842",
+            "37843",
+            "37844",
+            "37857",
+            "37858",
+            "37859",
+            "37860",
+            "37861",
+            "37862",
+            "37863",
+            "37864",
+            "37865",
+            "37836",
+            "37835",
+            "37834",
+            "37833",
+            "37832"
+          ],
+          "composition_condition": "LuSb",
+          "host_family": "LuSb",
+          "host_elements": [
+            "Lu",
+            "Sb"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "Methodsの母材LuSbと組成が一致。成長用フラックスを組成へ追加しない。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other2_08"
+          ]
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma11101807",
+      "title": "Effects of Pr and Yb Dual Doping on the Thermoelectric Properties of CaMnO3",
+      "review_level": "primary_abstract_and_fulltext_sections_web_index",
+      "evidence": [
+        {
+          "evidence_id": "other2_09",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6213430/",
+          "location": "Abstract; Figures 4 and 5 captions; nominal composition series",
+          "short_quote": "Ca-site dual doping",
+          "summary_ja": "Ca1-2xPrxYbxMnO3 (x=0〜0.05)をCaサイトへのPr/Yb共ドープとして明記。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "doi": "10.3390/ma11101807",
+          "sample_ids": [
+            "53749",
+            "53756",
+            "53762",
+            "53771",
+            "53777"
+          ],
+          "composition_condition": "CaMnO3",
+          "host_family": "CaMnO3",
+          "host_elements": [
+            "Ca",
+            "Mn",
+            "O"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "記載組成がPr/Yb共ドープ系列の名目組成に一致。CaMnO3を母材とする。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other2_09"
+          ]
+        },
+        {
+          "doi": "10.3390/ma11101807",
+          "sample_ids": [
+            "53750",
+            "53757",
+            "53763",
+            "53772",
+            "53778"
+          ],
+          "composition_condition": "Ca0.98Pr0.01Yb0.01MnO3",
+          "host_family": "CaMnO3",
+          "host_elements": [
+            "Ca",
+            "Mn",
+            "O"
+          ],
+          "dopant_elements": [
+            "Pr",
+            "Yb"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "記載組成がPr/Yb共ドープ系列の名目組成に一致。CaMnO3を母材とする。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other2_09"
+          ]
+        },
+        {
+          "doi": "10.3390/ma11101807",
+          "sample_ids": [
+            "53752",
+            "53758",
+            "53764",
+            "53773",
+            "53779"
+          ],
+          "composition_condition": "Ca0.96Pr0.02Yb0.02MnO3",
+          "host_family": "CaMnO3",
+          "host_elements": [
+            "Ca",
+            "Mn",
+            "O"
+          ],
+          "dopant_elements": [
+            "Pr",
+            "Yb"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "記載組成がPr/Yb共ドープ系列の名目組成に一致。CaMnO3を母材とする。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other2_09"
+          ]
+        },
+        {
+          "doi": "10.3390/ma11101807",
+          "sample_ids": [
+            "53754",
+            "53760",
+            "53766",
+            "53775",
+            "53781"
+          ],
+          "composition_condition": "Ca0.92Pr0.04Yb0.04MnO3",
+          "host_family": "CaMnO3",
+          "host_elements": [
+            "Ca",
+            "Mn",
+            "O"
+          ],
+          "dopant_elements": [
+            "Pr",
+            "Yb"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "記載組成がPr/Yb共ドープ系列の名目組成に一致。CaMnO3を母材とする。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other2_09"
+          ]
+        },
+        {
+          "doi": "10.3390/ma11101807",
+          "sample_ids": [
+            "53755",
+            "53761",
+            "53767",
+            "53776",
+            "53782"
+          ],
+          "composition_condition": "Ca0.9Pr0.05Yb0.05MnO3",
+          "host_family": "CaMnO3",
+          "host_elements": [
+            "Ca",
+            "Mn",
+            "O"
+          ],
+          "dopant_elements": [
+            "Pr",
+            "Yb"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "記載組成がPr/Yb共ドープ系列の名目組成に一致。CaMnO3を母材とする。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other2_09"
+          ]
+        },
+        {
+          "doi": "10.3390/ma11101807",
+          "sample_ids": [
+            "53759",
+            "53765",
+            "53774",
+            "53780",
+            "53788"
+          ],
+          "composition_condition": "Ca0.94Pr0.03Yb0.03MnO3",
+          "host_family": "CaMnO3",
+          "host_elements": [
+            "Ca",
+            "Mn",
+            "O"
+          ],
+          "dopant_elements": [
+            "Pr",
+            "Yb"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "記載組成がPr/Yb共ドープ系列の名目組成に一致。CaMnO3を母材とする。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other2_09"
+          ]
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma15124126",
+      "title": "Effect of Sr Deficiency on Electrical Conductivity of Yb-Doped Strontium Zirconate",
+      "review_level": "primary_fulltext_sections_web_index",
+      "evidence": [
+        {
+          "evidence_id": "other2_10",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9229988/",
+          "location": "Abstract; 2. Materials and Methods; 3.1. Crystal Structure",
+          "short_quote": "Substitution of Zr4+ with Yb3+",
+          "summary_ja": "SrxZr0.95Yb0.05O3-δ系列。YbはZr置換を中心とする受容体ドーパント。x=0.94ではZrO2系の副相が報告される。酸素欠損とSr欠損を単純な元素除去で修復できない。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "doi": "10.3390/ma15124126",
+          "sample_ids": [
+            "63317",
+            "63319",
+            "63320",
+            "63321",
+            "63322",
+            "63323",
+            "75692",
+            "75693",
+            "75694",
+            "75695",
+            "75696",
+            "75697"
+          ],
+          "composition_condition": "SrZr0.95Yb0.05O3",
+          "host_family": "SrZrO3",
+          "host_elements": [
+            "Sr",
+            "Zr",
+            "O"
+          ],
+          "dopant_elements": [
+            "Yb"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "Ybを受容体ドーパントと記載。Sr欠損量や酸素欠損は母材の欠陥として別途保持する必要がある。",
+          "data_quality_flags": [
+            "oxygen_deficiency_not_encoded",
+            "sr_deficiency_not_repaired"
+          ],
+          "evidence_ids": [
+            "other2_10"
+          ]
+        },
+        {
+          "doi": "10.3390/ma15124126",
+          "sample_ids": [
+            "63330",
+            "63331",
+            "63332",
+            "63333",
+            "63334",
+            "63335",
+            "75698",
+            "75699",
+            "75700",
+            "75701",
+            "75702",
+            "75703"
+          ],
+          "composition_condition": "Sr0.98Zr0.95Yb0.05O3",
+          "host_family": "SrZrO3",
+          "host_elements": [
+            "Sr",
+            "Zr",
+            "O"
+          ],
+          "dopant_elements": [
+            "Yb"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "Ybを受容体ドーパントと記載。Sr欠損量や酸素欠損は母材の欠陥として別途保持する必要がある。",
+          "data_quality_flags": [
+            "oxygen_deficiency_not_encoded",
+            "sr_deficiency_not_repaired"
+          ],
+          "evidence_ids": [
+            "other2_10"
+          ]
+        },
+        {
+          "doi": "10.3390/ma15124126",
+          "sample_ids": [
+            "63337",
+            "63338",
+            "75704",
+            "75705"
+          ],
+          "composition_condition": "Sr0.94Zr0.95Yb0.05O3",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "SrZrO3系母材が候補だが、x=0.94ではZrO2およびYb安定化ZrO2副相があり、単一母材・単一置換サイトへの確定は保留。",
+          "data_quality_flags": [
+            "secondary_phases_reported",
+            "oxygen_deficiency_not_encoded"
+          ],
+          "evidence_ids": [
+            "other2_10"
+          ],
+          "candidate_host_family": "SrZrO3"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/cryst10070610",
+      "title": "Microwave Irradiation to Produce High Performance Thermoelectric Material Based on Al Doped ZnO Nanostructures",
+      "review_level": "primary_abstract_and_fulltext_sections_web_index",
+      "evidence": [
+        {
+          "evidence_id": "other2_11",
+          "url": "https://www.mdpi.com/2073-4352/10/7/610",
+          "location": "Abstract; Results and Discussion (Al concentration and ZnAl2O4)",
+          "short_quote": "Al dopant at the concentration range 0.5–3 mol %",
+          "summary_ja": "ZnOナノ構造へのAlドープ0.5〜3 mol%系列。高濃度でのZnAl2O4形成が議論され、Al量と固溶量は同一とは限らない。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "doi": "10.3390/cryst10070610",
+          "sample_ids": [
+            "52798",
+            "52804",
+            "52813",
+            "52818",
+            "52823"
+          ],
+          "composition_condition": "ZnO",
+          "host_family": "ZnO",
+          "host_elements": [
+            "Zn",
+            "O"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "要旨にZnOへのAlドープ濃度系列が明記され、原組成のAl量と一致。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other2_11"
+          ]
+        },
+        {
+          "doi": "10.3390/cryst10070610",
+          "sample_ids": [
+            "52799",
+            "52803",
+            "52814",
+            "52819",
+            "52824"
+          ],
+          "composition_condition": "Al0.005(ZnO)0.995",
+          "host_family": "ZnO",
+          "host_elements": [
+            "Zn",
+            "O"
+          ],
+          "dopant_elements": [
+            "Al"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "要旨にZnOへのAlドープ濃度系列が明記され、原組成のAl量と一致。",
+          "data_quality_flags": [
+            "mixture_style_composition_notation"
+          ],
+          "evidence_ids": [
+            "other2_11"
+          ]
+        },
+        {
+          "doi": "10.3390/cryst10070610",
+          "sample_ids": [
+            "52800",
+            "52805",
+            "52815",
+            "52820",
+            "52825"
+          ],
+          "composition_condition": "Al0.01(ZnO)0.99",
+          "host_family": "ZnO",
+          "host_elements": [
+            "Zn",
+            "O"
+          ],
+          "dopant_elements": [
+            "Al"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "要旨にZnOへのAlドープ濃度系列が明記され、原組成のAl量と一致。",
+          "data_quality_flags": [
+            "mixture_style_composition_notation"
+          ],
+          "evidence_ids": [
+            "other2_11"
+          ]
+        },
+        {
+          "doi": "10.3390/cryst10070610",
+          "sample_ids": [
+            "52801",
+            "52807",
+            "52816",
+            "52821",
+            "52826"
+          ],
+          "composition_condition": "Al0.02(ZnO)0.98",
+          "host_family": "ZnO",
+          "host_elements": [
+            "Zn",
+            "O"
+          ],
+          "dopant_elements": [
+            "Al"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "要旨にZnOへのAlドープ濃度系列が明記され、原組成のAl量と一致。",
+          "data_quality_flags": [
+            "mixture_style_composition_notation"
+          ],
+          "evidence_ids": [
+            "other2_11"
+          ]
+        },
+        {
+          "doi": "10.3390/cryst10070610",
+          "sample_ids": [
+            "52802",
+            "52808",
+            "52817",
+            "52822",
+            "52827"
+          ],
+          "composition_condition": "Al0.03(ZnO)0.97",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "ZnO母材・Al添加の意図は明確だが、3 mol%でZnAl2O4の副相形成があり、全Alを除去した単一母材試料としての採用を保留。",
+          "data_quality_flags": [
+            "secondary_phase_zinc_aluminate"
+          ],
+          "evidence_ids": [
+            "other2_11"
+          ],
+          "candidate_host_family": "ZnO"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma12132057",
+      "title": "Exploring Tantalum as a Potential Dopant to Promote the Thermoelectric Performance of Zinc Oxide",
+      "review_level": "primary_fulltext_sections_web_index",
+      "evidence": [
+        {
+          "evidence_id": "other2_12",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6651819/",
+          "location": "2. Materials and Methods; 3.1. Phase Composition and Microstructure",
+          "short_quote": "segregation of ZnTa2O6 at the grain boundaries",
+          "summary_ja": "Zn1-xTaxO (x=0,0.002,0.004,0.006,0.008)を作製。Taの溶解度が限られ、高濃度試料でZnTa2O6副相を検出する。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "doi": "10.3390/ma12132057",
+          "sample_ids": [
+            "55483",
+            "55488",
+            "55501"
+          ],
+          "composition_condition": "ZnO",
+          "host_family": "ZnO",
+          "host_elements": [
+            "Zn",
+            "O"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "MethodsのZn1-xTaxO系列と一致。Taをドーパントとして分離する。XRDで未検出の微量副相の不存在までは断定しない。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other2_12"
+          ]
+        },
+        {
+          "doi": "10.3390/ma12132057",
+          "sample_ids": [
+            "55484",
+            "55489",
+            "55502",
+            "55506",
+            "55510"
+          ],
+          "composition_condition": "Zn0.998Ta0.002O",
+          "host_family": "ZnO",
+          "host_elements": [
+            "Zn",
+            "O"
+          ],
+          "dopant_elements": [
+            "Ta"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "MethodsのZn1-xTaxO系列と一致。Taをドーパントとして分離する。XRDで未検出の微量副相の不存在までは断定しない。",
+          "data_quality_flags": [
+            "dopant_solubility_limited"
+          ],
+          "evidence_ids": [
+            "other2_12"
+          ]
+        },
+        {
+          "doi": "10.3390/ma12132057",
+          "sample_ids": [
+            "55485",
+            "55490",
+            "55503",
+            "55507",
+            "55511"
+          ],
+          "composition_condition": "Zn0.996Ta0.004O",
+          "host_family": "ZnO",
+          "host_elements": [
+            "Zn",
+            "O"
+          ],
+          "dopant_elements": [
+            "Ta"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "MethodsのZn1-xTaxO系列と一致。Taをドーパントとして分離する。XRDで未検出の微量副相の不存在までは断定しない。",
+          "data_quality_flags": [
+            "dopant_solubility_limited"
+          ],
+          "evidence_ids": [
+            "other2_12"
+          ]
+        },
+        {
+          "doi": "10.3390/ma12132057",
+          "sample_ids": [
+            "55486",
+            "55491",
+            "55504",
+            "55508",
+            "55512"
+          ],
+          "composition_condition": "Zn0.994Ta0.006O",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "ZnOが主母材候補だが、ZnTa2O6副相を伴うため全Taが単一母材のドーパントであると扱わない。",
+          "data_quality_flags": [
+            "secondary_phase_zn_ta_oxide",
+            "dopant_solubility_limit"
+          ],
+          "evidence_ids": [
+            "other2_12"
+          ],
+          "candidate_host_family": "ZnO"
+        },
+        {
+          "doi": "10.3390/ma12132057",
+          "sample_ids": [
+            "55487",
+            "55492",
+            "55505",
+            "55509",
+            "55513"
+          ],
+          "composition_condition": "Zn0.992Ta0.008O",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "ZnOが主母材候補だが、ZnTa2O6副相を伴うため全Taが単一母材のドーパントであると扱わない。",
+          "data_quality_flags": [
+            "secondary_phase_zn_ta_oxide",
+            "dopant_solubility_limit"
+          ],
+          "evidence_ids": [
+            "other2_12"
+          ],
+          "candidate_host_family": "ZnO"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma13173865",
+      "title": "Antiferromagnetic Ordering and Transport Anomalies in Single-Crystalline CeAgAs2",
+      "review_level": "primary_fulltext_sections_web_index",
+      "evidence": [
+        {
+          "evidence_id": "other2_13",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7503398/",
+          "location": "2.1. Crystal Growth and Characterization; 4. Conclusions",
+          "short_quote": "prepared crystal was homogeneous and single phase",
+          "summary_ja": "CeAgAs2単結晶を作製し、EDXでCe約24.6、Ag約25、As約50.4 at.%を確認。ヨウ素は輸送剤で、母材構成元素や意図的ドーパントとは記載されない。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "doi": "10.3390/ma13173865",
+          "sample_ids": [
+            "36609",
+            "36610",
+            "36611",
+            "36612",
+            "36613",
+            "36614",
+            "36615",
+            "36616",
+            "36617",
+            "36618",
+            "36619",
+            "36620",
+            "36621",
+            "36622",
+            "36623",
+            "36624",
+            "36625",
+            "36626",
+            "36627",
+            "36628",
+            "36629"
+          ],
+          "composition_condition": "CeAgAs2",
+          "host_family": "CeAgAs2",
+          "host_elements": [
+            "Ce",
+            "Ag",
+            "As"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "MethodsのCeAgAs2単結晶と原組成が一致。全3元素を母材として保持。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other2_13"
+          ]
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/app8010052",
+      "title": "Thermal Stability and Tuning of Thermoelectric Properties of Ag1−xSb1+xTe2+x (0 ≤ x ≤ 0.4) Alloys",
+      "review_level": "primary_abstract_in_author_institution_repository",
+      "evidence": [
+        {
+          "evidence_id": "other2_14",
+          "url": "https://badap.agh.edu.pl/publikacja/116137",
+          "location": "Abstract, second paragraph (phase constitution and cooling rate)",
+          "short_quote": "The other alloys must be regarded as multi-phase materials.",
+          "summary_ja": "Ag1-xSb1+xTe2+xは非化学量論組成系列。急冷x=0.19だけが単一β相で、他は多相と記載。組成式だけで冷却条件や相分率を同定できない。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "doi": "10.3390/app8010052",
+          "sample_ids": [
+            "10703",
+            "10704",
+            "10705"
+          ],
+          "composition_condition": "Ag0.6Sb1.4Te2.4",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "Ag/Sb/Teは三元系の構成元素であり少量元素除去の対象ではないが、本文要旨では冷却条件依存の多相性がある。試料ごとの相構成対応を未確認のため単一母材判定を保留。",
+          "data_quality_flags": [
+            "nonstoichiometry_is_not_extrinsic_doping",
+            "cooling_dependent_multiphase_material",
+            "phase_assignment_needs_sample_condition"
+          ],
+          "evidence_ids": [
+            "other2_14"
+          ],
+          "candidate_host_family": "AgSbTe2-based Ag-Sb-Te alloy"
+        },
+        {
+          "doi": "10.3390/app8010052",
+          "sample_ids": [
+            "10708",
+            "10714",
+            "10715",
+            "10716",
+            "10717",
+            "10718",
+            "10719",
+            "10720"
+          ],
+          "composition_condition": "Ag0.9Sb1.1Te2.1",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "Ag/Sb/Teは三元系の構成元素であり少量元素除去の対象ではないが、本文要旨では冷却条件依存の多相性がある。試料ごとの相構成対応を未確認のため単一母材判定を保留。",
+          "data_quality_flags": [
+            "nonstoichiometry_is_not_extrinsic_doping",
+            "cooling_dependent_multiphase_material",
+            "phase_assignment_needs_sample_condition"
+          ],
+          "evidence_ids": [
+            "other2_14"
+          ],
+          "candidate_host_family": "AgSbTe2-based Ag-Sb-Te alloy"
+        },
+        {
+          "doi": "10.3390/app8010052",
+          "sample_ids": [
+            "10709",
+            "10707"
+          ],
+          "composition_condition": "Ag0.83Sb1.17Te2.17",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "Ag/Sb/Teは三元系の構成元素であり少量元素除去の対象ではないが、本文要旨では冷却条件依存の多相性がある。試料ごとの相構成対応を未確認のため単一母材判定を保留。",
+          "data_quality_flags": [
+            "nonstoichiometry_is_not_extrinsic_doping",
+            "cooling_dependent_multiphase_material",
+            "phase_assignment_needs_sample_condition"
+          ],
+          "evidence_ids": [
+            "other2_14"
+          ],
+          "candidate_host_family": "AgSbTe2-based Ag-Sb-Te alloy"
+        },
+        {
+          "doi": "10.3390/app8010052",
+          "sample_ids": [
+            "10710"
+          ],
+          "composition_condition": "AgSbTe2",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "Ag/Sb/Teは三元系の構成元素であり少量元素除去の対象ではないが、本文要旨では冷却条件依存の多相性がある。試料ごとの相構成対応を未確認のため単一母材判定を保留。",
+          "data_quality_flags": [
+            "nonstoichiometry_is_not_extrinsic_doping",
+            "cooling_dependent_multiphase_material",
+            "phase_assignment_needs_sample_condition"
+          ],
+          "evidence_ids": [
+            "other2_14"
+          ],
+          "candidate_host_family": "AgSbTe2-based Ag-Sb-Te alloy"
+        },
+        {
+          "doi": "10.3390/app8010052",
+          "sample_ids": [
+            "10711",
+            "10712",
+            "10713"
+          ],
+          "composition_condition": "Ag0.81Sb1.19Te2.19",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "Ag/Sb/Teは三元系の構成元素であり少量元素除去の対象ではないが、本文要旨では冷却条件依存の多相性がある。試料ごとの相構成対応を未確認のため単一母材判定を保留。",
+          "data_quality_flags": [
+            "nonstoichiometry_is_not_extrinsic_doping",
+            "cooling_dependent_multiphase_material",
+            "phase_assignment_needs_sample_condition"
+          ],
+          "evidence_ids": [
+            "other2_14"
+          ],
+          "candidate_host_family": "AgSbTe2-based Ag-Sb-Te alloy"
+        },
+        {
+          "doi": "10.3390/app8010052",
+          "sample_ids": [
+            "10706"
+          ],
+          "composition_condition": "Ag0.7Sb1.3Te2.3",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "Ag/Sb/Teは三元系の構成元素であり少量元素除去の対象ではないが、本文要旨では冷却条件依存の多相性がある。試料ごとの相構成対応を未確認のため単一母材判定を保留。",
+          "data_quality_flags": [
+            "nonstoichiometry_is_not_extrinsic_doping",
+            "cooling_dependent_multiphase_material",
+            "phase_assignment_needs_sample_condition"
+          ],
+          "evidence_ids": [
+            "other2_14"
+          ],
+          "candidate_host_family": "AgSbTe2-based Ag-Sb-Te alloy"
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/nano11041014",
+      "title": "Polysubstituted High-Entropy [LaNd](Cr0.2Mn0.2Fe0.2Co0.2Ni0.2)O3 Perovskites: Correlation of the Electrical and Magnetic Properties",
+      "review_level": "primary_fulltext_sections_web_index",
+      "evidence": [
+        {
+          "evidence_id": "other2_15",
+          "url": "https://www.mdpi.com/2079-4991/11/4/1014/pdf?version=1618999648",
+          "location": "2. Materials and Methods, printed page 3, nominal compositions (1)-(3)",
+          "short_quote": "B-site was fixed",
+          "summary_ja": "BサイトCr/Mn/Fe/Co/Ni各0.2を維持し、AサイトLa、Nd、La0.5Nd0.5を比較する高エントロピーペロブスカイト。各0.2は母材構成元素で、ドープではない。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "doi": "10.3390/nano11041014",
+          "sample_ids": [
+            "89330",
+            "89331",
+            "89336",
+            "89337"
+          ],
+          "composition_condition": "LaCr0.2Mn0.2Fe0.2Co0.2Ni0.2O3",
+          "host_family": "La(Cr,Mn,Fe,Co,Ni)O3",
+          "host_elements": [
+            "La",
+            "Cr",
+            "Mn",
+            "Fe",
+            "Co",
+            "Ni",
+            "O"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "Methodsの高エントロピー母材組成に一致。Bサイトの各0.2および混合Aサイトの各0.5はすべて残す。",
+          "data_quality_flags": [
+            "high_entropy_host",
+            "small_coefficients_are_host_constituents"
+          ],
+          "evidence_ids": [
+            "other2_15"
+          ]
+        },
+        {
+          "doi": "10.3390/nano11041014",
+          "sample_ids": [
+            "89332",
+            "89333",
+            "89338",
+            "89339"
+          ],
+          "composition_condition": "NdCr0.2Mn0.2Fe0.2Co0.2Ni0.2O3",
+          "host_family": "Nd(Cr,Mn,Fe,Co,Ni)O3",
+          "host_elements": [
+            "Nd",
+            "Cr",
+            "Mn",
+            "Fe",
+            "Co",
+            "Ni",
+            "O"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "Methodsの高エントロピー母材組成に一致。Bサイトの各0.2および混合Aサイトの各0.5はすべて残す。",
+          "data_quality_flags": [
+            "high_entropy_host",
+            "small_coefficients_are_host_constituents"
+          ],
+          "evidence_ids": [
+            "other2_15"
+          ]
+        },
+        {
+          "doi": "10.3390/nano11041014",
+          "sample_ids": [
+            "89334",
+            "89335",
+            "89340",
+            "89341"
+          ],
+          "composition_condition": "La0.5Nd0.5Cr0.2Mn0.2Fe0.2Co0.2Ni0.2O3",
+          "host_family": "(La,Nd)(Cr,Mn,Fe,Co,Ni)O3",
+          "host_elements": [
+            "La",
+            "Nd",
+            "Cr",
+            "Mn",
+            "Fe",
+            "Co",
+            "Ni",
+            "O"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "Methodsの高エントロピー母材組成に一致。Bサイトの各0.2および混合Aサイトの各0.5はすべて残す。",
+          "data_quality_flags": [
+            "high_entropy_host",
+            "small_coefficients_are_host_constituents"
+          ],
+          "evidence_ids": [
+            "other2_15"
+          ]
+        }
+      ]
+    }
+  ],
+  "method_notes_ja": [
+    "追加調査15 DOI。DOIとsample_idの組を適用範囲とし、同じ論文にある別母材の比較試料に主題母材を流用しない。",
+    "原文の本文節・要旨・図説明を実際に確認した範囲のみ記録。検索エンジン経由の一次本文抜粋はprimary_fulltext_sections_web_indexと明示する。",
+    "組成係数だけではドーパントを決めない。論文のドープ、固溶体、非化学量論性、充填、相分離の記載を区別する。原組成の補正・係数の再正規化は行わない。",
+    "unresolvedは単一母材への採用を保留。候補はcandidate_host_familyに別記する。記載組成と論文の名目組成が一致しない場合も、候補を確定扱いしない。",
+    "件数はデータベースの(doi,sample_id)数であり、物理的に独立な作製試料数ではない。"
+  ],
+  "review_summary": {
+    "doi_count": 15,
+    "database_sample_count": 490,
+    "sample_status_counts": {
+      "host_and_roles_confirmed": 425,
+      "unresolved": 65
+    }
+  }
+}

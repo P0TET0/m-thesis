@@ -1,0 +1,27 @@
+{
+  "oxide_scope": "exact exp007 default-eligible paired row IDs",
+  "oxide_target_rows": 2984,
+  "oxide_target_samples": 552,
+  "oxide_groups": 12,
+  "nonoxide_scope": "unchanged",
+  "carrier_colors": {
+    "p": "#D55E00",
+    "n": "#0072B2",
+    "other": "#777777"
+  },
+  "prediction_values_changed": false,
+  "reference_sources": [
+    {
+      "path": "experiments/exp007/data/processed/phase6_prediction_comparison_rows.csv",
+      "sha256": "ca1b4ed788a7eea8c682552e6762cbadf9f664aa111659c2315a2e3eb308adad"
+    },
+    {
+      "path": "experiments/exp007/explain_oxide_results_20261016.py",
+      "sha256": "c28d1f99010a7712f6694b0670f0330d435ae14dd52758f3edb384cfa760597c"
+    }
+  ],
+  "raw_prediction_hashes": {
+    "broad": "7ed03c63ecfe40481461e4f4528d3f5a9c1f92e7f2ebe206b290cda279d51f03",
+    "fine": "593d4781074bae719110f3fb555f30aef34caf9cb0f29f637a8f939866aeecbb"
+  }
+}

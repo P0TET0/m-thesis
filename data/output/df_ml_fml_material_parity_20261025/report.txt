@@ -1,0 +1,48 @@
+DF / ML / FML material-wise parity figures (2026-10-25)
+
+DF: Step22 direct-fit sigma, all saved primary DOI-test comparison rows. This
+uses the evaluated sample's fitted tau: a fitting reference, not held-out DF.
+ML: Step32 DOI-holdout sigma rows, matching the source of Step38 material plots.
+The Step22 S/kappa/reported-ZT join is exact on sample_key and temperature_K.
+All ML sigma values and reconstructed ZT are checked against saved Step22 values.
+DF/ML classification: saved Step32 sample map; missing samples use the existing
+Step32 adapter to the exp006 broad_family classifier.
+FML: the exact cleaned 15 input tables used by the requested exp006 focus overview.
+Groups and sigma are retained from those tables. S/kappa/reported ZT are joined
+from the full-curves downstream file by unique row_id, with sample, temperature,
+sigma-observation and S agreement checks. Original nearest-temperature joins
+are within +/-2 K; their deltas are included in plot_source_FML.csv.
+
+ZT = S_observed^2 * sigma_predicted * T / kappa_observed. S and kappa are NOT
+independent predictions. Only finite observed/predicted pairs are plotted.
+Reported ZT is used on the x axis, never ZT calculated from observed sigma.
+The older downstream FML ZT column belongs to a different sigma prediction
+version: it is intentionally recomputed from the requested focus sigma here.
+There is no interpolation, retraining, new fitting, or source-file replacement.
+
+Sigma excludes nonpositive/nonfinite pairs. ZT includes zero/negative measured
+values in full-range figures. Fixed axes: sigma 1e2--1e8 S/m, ZT 0--3.
+Every fixed panel explicitly counts off-axis points; full-range panels include
+all paired points and use identical per-material limits across the 3 methods.
+Metrics use all paired points, including points outside fixed display limits.
+No random point subsampling is used. N denotes temperature points, not samples.
+The 16th classification (half-Heusler) has screening rows in the saved index
+but no held-out pairs in these inputs. Empty classifications remain visible.
+
+Each method/quantity has 16 individual panels, a 4x4 overview, and a pooled
+all-material scatter, each as fixed/full-range PNG and PDF. The 3 methods use
+different native cohorts/splits; these are NOT matched-cohort benchmarks.
+
+Reproduce: python scripts/build_df_ml_fml_material_parity.py
+Sources and SHA256: source_manifest.json
+All plotted values: plot_source_DF.csv, plot_source_ML.csv, plot_source_FML.csv
+Counts, all-point RMSE and image paths: figure_index.csv
+
+Paired counts by method / quantity:
+method  quantity
+DF      sigma       55272
+        zt           6381
+FML     sigma       18968
+        zt           2279
+ML      sigma       12010
+        zt           1401

@@ -1,0 +1,20 @@
+Phase 9 research synthesis validation
+status=PASS
+checks=16
+pass=16
+PASS phase7_independent_validation: Phase 7 check log is PASS
+PASS phase8_independent_validation: Phase 8 check log is PASS
+PASS key_result_ids_unique: records=12
+PASS claim_ids_unique: claims=9
+PASS group_summary_complete: groups=12
+PASS primary_mae_supported: delta=-0.148087; CI=[-0.242798,-0.065749]
+PASS primary_rmse_supported: delta=-0.227671; CI=[-0.367067,-0.106394]
+PASS factor2_uncertainty_preserved: CI=[-0.020773,0.049931]
+PASS model_robustness_preserved: improved=39/39
+PASS evaluation_robustness_preserved: improved=6/6
+PASS leave_one_out_preserved: improved=24/24
+PASS group_exception_preserved: delta=0.075031; direction=consistently_worsened
+PASS report_required_sections: All required research sections are present
+PASS report_limits_external_generalization: External-generalization limitation is explicit
+PASS abstract_bilingual: Japanese and English abstracts are present
+PASS claim_sources_resolve: Every claim has an evidence source

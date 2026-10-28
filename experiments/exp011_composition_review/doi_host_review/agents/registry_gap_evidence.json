@@ -1,0 +1,584 @@
+{
+  "reviewer": "registry_gap_review",
+  "reviewed_at": "2026-10-25",
+  "scope_ja": "Crossref未収録の5 DOIを公式DOI解決先・出版社・著者原稿で確認。書誌の存在確認と個別母材の確信度を区別し、全試料はhost_only_confirmedとしてドーパント除去を行わない。",
+  "reviewed_papers": [
+    {
+      "doi": "10.11311/jscta1974.5.11",
+      "title": "The Thermal Conductivity and Diffusivity of MnxFe3-xO4 (0≤x≤1.5) from 200 to 700K",
+      "bibliography_verified": true,
+      "bibliography_source_url": "https://www.jstage.jst.go.jp/article/jscta1974/5/1/5_1_11/_article/-char/en",
+      "review_level": "publisher_abstract",
+      "evidence": [
+        {
+          "evidence_id": "registry_jscta_1978",
+          "url": "https://www.jstage.jst.go.jp/article/jscta1974/5/1/5_1_11/_article/-char/en",
+          "location": "J-STAGE article metadata; Abstract, first sentence",
+          "short_quote": "and hematite",
+          "summary_ja": "抄録がMnxFe3-xO4のx=0試料とhematite測定を明記。対象CSVのmagnetite Fe3O4、hematite Fe2O3という試料名・組成に対応する。Mnを含まない対照試料へMn系分類を一律付与しない。",
+          "access_method": "公開J-STAGE HTMLを承認付きurllibで直接取得。検索索引とも照合。",
+          "accessed_date": "2026-10-25"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "43512"
+          ],
+          "composition_condition": "DOIとsample_id、listed_samplesの原組成・試料名を対応。紙面の試料番号の新規推定はしない。",
+          "host_family": "Fe3O4",
+          "host_elements": [
+            "Fe",
+            "O"
+          ],
+          "dopant_elements": [],
+          "dopant_candidates": [],
+          "additive_components": [],
+          "status": "host_only_confirmed",
+          "reason_ja": "抄録のx=0磁鉄鉱と元試料名polycrystalline magnetite・Fe3O4が対応。",
+          "evidence_ids": [
+            "registry_jscta_1978"
+          ],
+          "data_quality_flags": [
+            "individual_dopant_removal_not_authorized_by_this_review"
+          ]
+        },
+        {
+          "sample_ids": [
+            "43514"
+          ],
+          "composition_condition": "DOIとsample_id、listed_samplesの原組成・試料名を対応。紙面の試料番号の新規推定はしない。",
+          "host_family": "Fe2O3",
+          "host_elements": [
+            "Fe",
+            "O"
+          ],
+          "dopant_elements": [],
+          "dopant_candidates": [],
+          "additive_components": [],
+          "status": "host_only_confirmed",
+          "reason_ja": "抄録にhematiteを別試料として明記し、元試料名polycrystalline hematite・Fe2O3と対応。",
+          "evidence_ids": [
+            "registry_jscta_1978"
+          ],
+          "data_quality_flags": [
+            "individual_dopant_removal_not_authorized_by_this_review"
+          ]
+        }
+      ],
+      "note_ja": "1978年、Netsu Sokutei 5(1), 11–18。タイトルはMn系列だが元CSVにはFe3O4/Fe2O3のみ。",
+      "access_availability": {
+        "official_html_obtained": true,
+        "abstract_obtained": true,
+        "fulltext_downloaded": false,
+        "pdf_link_present": true,
+        "doi_present_on_official_page": true
+      },
+      "listed_samples": [
+        {
+          "sample_id": "43512",
+          "sample_name": "polycrystalline magnetite (this work)",
+          "composition": "Fe3O4",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "43514",
+          "sample_name": "polycrystalline hematite (this work)",
+          "composition": "Fe2O3",
+          "composition_details": ""
+        }
+      ]
+    },
+    {
+      "doi": "10.14136/j.cnki.issn1673-2812.2015.05.001",
+      "title": "PbTe0.8Se0.2基热电材料载流子浓度优化与Mg合金化",
+      "bibliography_verified": true,
+      "bibliography_source_url": "https://link.oversea.cnki.net/doi/10.14136/j.cnki.issn1673-2812.2015.05.001",
+      "review_level": "official_publisher_abstract",
+      "evidence": [
+        {
+          "evidence_id": "registry_cnki_2015",
+          "url": "https://link.oversea.cnki.net/doi/10.14136/j.cnki.issn1673-2812.2015.05.001",
+          "location": "CNKI official abstract; sentences about Na doping and Mg alloying",
+          "short_quote": "Na掺杂PbTe0.8Se0.2合金",
+          "summary_ja": "公式要旨はNaをドープ、Mgを合金化成分として明確に区別する。Na2%の基準試料とMg1〜3%追加系列を記載し、入力試料名・組成系列に対応する。Se0.2やMg0.01〜0.03を微量という理由で消さない。",
+          "access_method": "chndoi登録公式ページから海外CNKI公式リンクへ遷移し公開要旨HTMLを承認付きurllibで直接取得。国内CNKIリンクはTLSホスト名不一致で取得できず、海外リンクは正常に取得。",
+          "accessed_date": "2026-10-25"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "91865"
+          ],
+          "composition_condition": "DOIとsample_id、listed_samplesの原組成・試料名を対応。紙面の試料番号の新規推定はしない。",
+          "host_family": "Pb(Te,Se)",
+          "host_elements": [
+            "Pb",
+            "Te",
+            "Se"
+          ],
+          "dopant_elements": [],
+          "dopant_candidates": [],
+          "additive_components": [],
+          "status": "host_only_confirmed",
+          "reason_ja": "公式タイトル・要旨のPbTe0.8Se0.2母材と、Na=0/Mg=0という元試料名・組成が整合。Na候補を無添加試料へ転記しない。",
+          "evidence_ids": [
+            "registry_cnki_2015"
+          ],
+          "data_quality_flags": [
+            "official_abstract_only",
+            "individual_sample_figures_not_checked"
+          ]
+        },
+        {
+          "sample_ids": [
+            "91867",
+            "91868",
+            "91870",
+            "91871"
+          ],
+          "composition_condition": "DOIとsample_id、listed_samplesの原組成・試料名を対応。紙面の試料番号の新規推定はしない。",
+          "host_family": "Pb(Te,Se)",
+          "host_elements": [
+            "Pb",
+            "Te",
+            "Se"
+          ],
+          "dopant_elements": [],
+          "dopant_candidates": [
+            "Na"
+          ],
+          "additive_components": [],
+          "status": "host_only_confirmed",
+          "reason_ja": "公式要旨のNa添加PbTe0.8Se0.2系列と組成・試料名が整合。Naの役割記載はあるが全個別試料の図・濃度の本文照合は未実施。",
+          "evidence_ids": [
+            "registry_cnki_2015"
+          ],
+          "data_quality_flags": [
+            "official_abstract_only",
+            "individual_sample_figures_not_checked"
+          ]
+        },
+        {
+          "sample_ids": [
+            "91873",
+            "91874",
+            "91875"
+          ],
+          "composition_condition": "DOIとsample_id、listed_samplesの原組成・試料名を対応。紙面の試料番号の新規推定はしない。",
+          "host_family": "(Pb,Mg)(Te,Se)",
+          "host_elements": [
+            "Pb",
+            "Mg",
+            "Te",
+            "Se"
+          ],
+          "dopant_elements": [],
+          "dopant_candidates": [
+            "Na"
+          ],
+          "additive_components": [],
+          "status": "host_only_confirmed",
+          "reason_ja": "要旨のNa2%を基準としてMg1〜3%を合金化する系列と試料名・組成が対応。Mgは母材の合金成分として残し、Na添加と区別する。",
+          "evidence_ids": [
+            "registry_cnki_2015"
+          ],
+          "data_quality_flags": [
+            "official_abstract_only",
+            "individual_sample_figures_not_checked"
+          ]
+        }
+      ],
+      "note_ja": "材料科学与工程学报 2015,33(05),625–629+634。著者: 岳贤强、朱铁军、赵新兵。公式タイトルの化学式は0.8/0.2であり、ローカル書誌のo.8/o.2を訂正する根拠となる。母材系のみを記録しNa除去・再正規化は行わない。",
+      "access_availability": {
+        "official_html_obtained": true,
+        "abstract_obtained": true,
+        "fulltext_downloaded": false,
+        "doi_present_on_official_page": true,
+        "doi_resolution_url": "https://www.chndoi.org/Resolution/Handler?doi=10.14136/j.cnki.issn1673-2812.2015.05.001"
+      },
+      "listed_samples": [
+        {
+          "sample_id": "91871",
+          "sample_name": "Na=0.02 ,Mg=0",
+          "composition": "Na0.02Pb0.98Te0.8Se0.2",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "91870",
+          "sample_name": "Na=0.015,Mg=0",
+          "composition": "Na0.015Pb0.985Te0.8Se0.2",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "91868",
+          "sample_name": "Na=0.01 ,Mg=0",
+          "composition": "Na0.01Pb0.99Te0.8Se0.2",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "91867",
+          "sample_name": "Na=0.005,Mg=0",
+          "composition": "Na0.005Pb0.995Te0.8Se0.2",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "91865",
+          "sample_name": "Na=0    ,Mg=0",
+          "composition": "PbTe0.8Se0.2",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "91873",
+          "sample_name": "Na=0.02 ,Mg=0.01",
+          "composition": "Na0.02Pb0.97Mg0.01Te0.8Se0.2",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "91874",
+          "sample_name": "Na=0.02 ,Mg=0.02",
+          "composition": "Na0.02Pb0.96Mg0.02Te0.8Se0.2",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "91875",
+          "sample_name": "Na=0.02 ,Mg=0.03",
+          "composition": "Na0.02Pb0.95Mg0.03Te0.8Se0.2",
+          "composition_details": ""
+        }
+      ]
+    },
+    {
+      "doi": "10.15011/jasma.25.3.549",
+      "title": "Undercooling Solidification Behavior and Magnetic Properties of the Nd-Fe-B Permanent Magnet Materials Solidified by Containerless Process",
+      "bibliography_verified": true,
+      "bibliography_source_url": "https://www.jstage.jst.go.jp/article/jasma/25/3/25_549/_article",
+      "review_level": "publisher_abstract",
+      "evidence": [
+        {
+          "evidence_id": "registry_jasma_2008",
+          "url": "https://www.jstage.jst.go.jp/article/jasma/25/3/25_549/_article",
+          "location": "J-STAGE citation_title/citation_doi; Abstract",
+          "short_quote": "mainly consisted of the Nd2Fe14B phase",
+          "summary_ja": "Nd-Fe-Bの組成系列と、凝固法によりNd2Fe14B相・α-Fe相が変化することを公式抄録で確認。全試料を単一Nd2Fe14B化学量論へ置き換えず、Nd-Fe-B母材系として扱う。",
+          "access_method": "公式J-STAGE HTMLを承認付きurllibで直接取得。PDFリンクは存在するがPDF本文は今回未取得。",
+          "accessed_date": "2026-10-25"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "83148",
+            "83149",
+            "83151",
+            "83152",
+            "83153"
+          ],
+          "composition_condition": "DOIとsample_id、listed_samplesの原組成・試料名を対応。紙面の試料番号の新規推定はしない。",
+          "host_family": "Nd-Fe-B",
+          "host_elements": [
+            "Nd",
+            "Fe",
+            "B"
+          ],
+          "dopant_elements": [],
+          "dopant_candidates": [],
+          "additive_components": [
+            {
+              "component": "Nd2Fe14B / alpha-Fe",
+              "role": "processing-dependent phase assemblage; not elemental dopants"
+            }
+          ],
+          "status": "host_only_confirmed",
+          "reason_ja": "公式抄録のNd11.8Fe82.3B5.9、Nd13Fe80B7、Nd15Fe77B8および710–1000μm試料の記載と元試料名が整合。相分率の個別値は未確認。",
+          "evidence_ids": [
+            "registry_jasma_2008"
+          ],
+          "data_quality_flags": [
+            "publisher_abstract_only",
+            "phase_fractions_not_verified",
+            "do_not_replace_nominal_formula_with_Nd2Fe14B"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83150"
+          ],
+          "composition_condition": "DOIとsample_id、listed_samplesの原組成・試料名を対応。紙面の試料番号の新規推定はしない。",
+          "host_family": "Nd-Fe-B",
+          "host_elements": [
+            "Nd",
+            "Fe",
+            "B"
+          ],
+          "dopant_elements": [],
+          "dopant_candidates": [],
+          "additive_components": [
+            {
+              "component": "Nd2Fe14B / alpha-Fe",
+              "role": "processing-dependent phase assemblage"
+            }
+          ],
+          "status": "host_only_confirmed",
+          "reason_ja": "母材元素はNd/Fe/Bで公式対象系と一致する。ただし公式抄録はNd14Fe80B7、元組成はNd14Fe79B7なので正確な組成比の照合は保留。",
+          "evidence_ids": [
+            "registry_jasma_2008"
+          ],
+          "data_quality_flags": [
+            "publisher_abstract_only",
+            "source_abstract_composition_conflict_Nd14Fe80B7_vs_Nd14Fe79B7",
+            "do_not_autocorrect_original_composition"
+          ]
+        }
+      ],
+      "note_ja": "2008年JASMA25(3)、開始頁549。公式要旨内のNd14Fe80B7は合計101であり誤植の可能性があるが、本監査では決めつけず原値を保持。",
+      "access_availability": {
+        "official_html_obtained": true,
+        "abstract_obtained": true,
+        "fulltext_downloaded": false,
+        "pdf_link_present": true,
+        "doi_present_on_official_page": true
+      },
+      "listed_samples": [
+        {
+          "sample_id": "83148",
+          "sample_name": "Nd11.8Fe82.3B5.9",
+          "composition": "Nd11.8Fe82.3B5.9",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "83149",
+          "sample_name": "Nd13Fe80B7",
+          "composition": "Nd13Fe80B7",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "83150",
+          "sample_name": "Nd14Fe79B7",
+          "composition": "Nd14Fe79B7",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "83151",
+          "sample_name": "Nd15Fe77B8 ",
+          "composition": "Nd15Fe77B8 ",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "83152",
+          "sample_name": "Nd15Fe77B8 212-300μm",
+          "composition": "Nd15Fe77B8 ",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "83153",
+          "sample_name": "Nd15Fe77B8 710-1000μm",
+          "composition": "Nd15Fe77B8 ",
+          "composition_details": ""
+        }
+      ]
+    },
+    {
+      "doi": "10.36410/jcpr.2020.21.3.319",
+      "title": "Enhanced TE performance of FeVSb1-xSnx half-heusler matrices using zirconia vial",
+      "bibliography_verified": true,
+      "bibliography_source_url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002596985",
+      "review_level": "official_doi_landing_abstract_and_author_manuscript_index",
+      "evidence": [
+        {
+          "evidence_id": "registry_jcpr_2020",
+          "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002596985",
+          "location": "Official KCI DOI landing metadata and abstract",
+          "short_quote": "near single half-Heusler phases with a minor portion of the second phase",
+          "summary_ja": "公式DOI解決先に著者・タイトル・2020年21(3),319–325とFeVSb1-xSnx要旨を確認。Sn濃度系列を扱い、少量第二相が残るため単相化やSn全量除去を確定しない。",
+          "access_method": "KCI/KOAJ公式DOI解決先を承認付きurllibで直接取得。著者が公開した原稿の検索本文・Fig.1説明でもx=0〜0.055系列を確認。",
+          "accessed_date": "2026-10-25"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "83969"
+          ],
+          "composition_condition": "DOIとsample_id、listed_samplesの原組成・試料名を対応。紙面の試料番号の新規推定はしない。",
+          "host_family": "FeVSb",
+          "host_elements": [
+            "Fe",
+            "V",
+            "Sb"
+          ],
+          "dopant_elements": [],
+          "dopant_candidates": [],
+          "additive_components": [],
+          "status": "host_only_confirmed",
+          "reason_ja": "著者公開原稿Fig.1説明のx=0系列と元試料名x=0.0 mol%が整合。",
+          "evidence_ids": [
+            "registry_jcpr_2020"
+          ],
+          "data_quality_flags": [
+            "minor_second_phase_reported",
+            "phase_fractions_not_verified"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83970",
+            "83971",
+            "83972",
+            "83973",
+            "83974"
+          ],
+          "composition_condition": "DOIとsample_id、listed_samplesの原組成・試料名を対応。紙面の試料番号の新規推定はしない。",
+          "host_family": "FeVSb (Sn-substituted half-Heusler)",
+          "host_elements": [
+            "Fe",
+            "V",
+            "Sb"
+          ],
+          "dopant_elements": [],
+          "dopant_candidates": [
+            "Sn"
+          ],
+          "additive_components": [
+            {
+              "component": "minor second phase",
+              "role": "identity and composition not resolved in this review"
+            }
+          ],
+          "status": "host_only_confirmed",
+          "reason_ja": "公開要旨と著者原稿にFeVSb1-xSnx系列が明記され、元試料のx=0.015〜0.055に対応。Sn添加の濃度系列は確認したが第二相との分配が未確認のため除去しない。",
+          "evidence_ids": [
+            "registry_jcpr_2020"
+          ],
+          "data_quality_flags": [
+            "minor_second_phase_reported",
+            "dopant_partition_not_verified"
+          ]
+        }
+      ],
+      "note_ja": "著者公開原稿URL: https://www.researchgate.net/publication/340528470_Enhanced_TE_performance_of_FeVSb1-xSnx_half-heusler_matrices_using_zirconia_vial 。その原稿先頭には仮DOI10.36410/jcpr.2020.21.0.1があるため、正式DOI/頁はKCI公式ランディング情報を優先。",
+      "access_availability": {
+        "official_html_obtained": true,
+        "abstract_obtained": true,
+        "fulltext_downloaded": false,
+        "author_manuscript_indexed_text_obtained": true,
+        "doi_present_on_official_page": true
+      },
+      "listed_samples": [
+        {
+          "sample_id": "83969",
+          "sample_name": "x=0.0 mol%, FeVSb1-xSnx",
+          "composition": "FeVSb",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "83970",
+          "sample_name": "x=1.5 mol%, FeVSb1-xSnx",
+          "composition": "FeVSb0.985Sn0.015",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "83971",
+          "sample_name": "x=2.5 mol%, FeVSb1-xSnx",
+          "composition": "FeVSb0.975Sn0.025",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "83972",
+          "sample_name": "x=3.5 mol%, FeVSb1-xSnx",
+          "composition": "FeVSb0.965Sn0.035",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "83973",
+          "sample_name": "x=4.5 mol%, FeVSb1-xSnx",
+          "composition": "FeVSb0.955Sn0.045",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "83974",
+          "sample_name": "x=5.5 mol%, FeVSb1-xSnx",
+          "composition": "FeVSb0.945Sn0.055",
+          "composition_details": ""
+        }
+      ]
+    },
+    {
+      "doi": "10.5277/oa130115",
+      "title": "Magnetic properties and surface domain structure of (Nd0.85Dy0.15)10Fe83Zr1B6 thin ribbons",
+      "bibliography_verified": true,
+      "bibliography_source_url": "https://opticaapplicata.pwr.edu.pl/files/pdf/2013/no1/optappl_4301p117.pdf",
+      "review_level": "publisher_fulltext_indexed_relevant_sections",
+      "evidence": [
+        {
+          "evidence_id": "registry_optica_2013",
+          "url": "https://opticaapplicata.pwr.edu.pl/files/pdf/2013/no1/optappl_4301p117.pdf",
+          "location": "Publisher PDF p.117 title/abstract; p.118 sections 2 and 3",
+          "short_quote": "A small amount of Zr (1 at.%) was added",
+          "summary_ja": "出版社PDFの表題・DOIと対象組成を確認。主相はRe2Fe14Bとα-Feで、ReはNd/Dyを含む希土類。Zr1at%は粒成長抑制の添加成分であり、全体はナノ複合材料。Dy、Zrの役割を同じ微量ドーパントにまとめない。",
+          "access_method": "出版社PDFの公開検索索引でp.117–118本文を確認。直接PDF openは一時的な取得制限で失敗し、PDFファイル自体は保存していない。",
+          "accessed_date": "2026-10-25"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "81865"
+          ],
+          "composition_condition": "DOIとsample_id、listed_samplesの原組成・試料名を対応。紙面の試料番号の新規推定はしない。",
+          "host_family": "(Nd,Dy)-Fe-B nanocomposite",
+          "host_elements": [
+            "Nd",
+            "Dy",
+            "Fe",
+            "B"
+          ],
+          "dopant_elements": [],
+          "dopant_candidates": [],
+          "additive_components": [
+            {
+              "component": "Zr",
+              "role": "grain-growth inhibitor; 1 at.% reported"
+            },
+            {
+              "component": "alpha-Fe and amorphous contribution",
+              "role": "reported secondary phase/structure; not dopant"
+            }
+          ],
+          "status": "host_only_confirmed",
+          "reason_ja": "出版社本文の(Nd0.85Dy0.15)10Fe83Zr1B6と元組成Nd8.5Dy1.5Fe83Zr1B6は同じ元素比。Nd/Dy含有硬磁性相とα-Fe、粒成長抑制Zrを区別する。",
+          "evidence_ids": [
+            "registry_optica_2013"
+          ],
+          "data_quality_flags": [
+            "multiphase_nanocomposite",
+            "no_elemental_removal",
+            "publisher_pdf_indexed_text_only"
+          ]
+        }
+      ],
+      "note_ja": "Optica Applicata 43(1),117–122 (2013)。公式PDF表紙にDOIが印刷され、既存DataCite記録とも対応可能。",
+      "access_availability": {
+        "official_title_doi_obtained": true,
+        "abstract_obtained": true,
+        "fulltext_downloaded": false,
+        "publisher_fulltext_indexed_sections_obtained": true,
+        "doi_present_on_official_page": true
+      },
+      "listed_samples": [
+        {
+          "sample_id": "81865",
+          "sample_name": "(Nd0.85Dy0.15)10Fe83Zr1B6 ribbon",
+          "composition": "Nd8.5Dy1.5Fe83Zr1B6",
+          "composition_details": ""
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "dois_reviewed": 5,
+    "samples_host_only": 23,
+    "samples_normalized": 0
+  }
+}

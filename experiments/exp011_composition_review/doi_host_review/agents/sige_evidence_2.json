@@ -1,0 +1,1474 @@
+{
+  "reviewer": "review_sige_papers",
+  "reviewed_at": "2026-10-25",
+  "scope_ja": "SiGe候補から追加した15 DOI。試料IDはDOIとの組で照合。文献確認レベルと未解決を区別し、複相材料の全添加元素除去・正規化は行わない。",
+  "reviewed_papers": [
+    {
+      "doi": "10.1016/j.actamat.2013.10.062",
+      "title": "Influence of in situ formed MoSi2 inclusions on the thermoelectrical properties of an N-type silicon–germanium alloy",
+      "review_level": "author_institution_report_plus_secondary_abstract_reproduction",
+      "evidence": [
+        {
+          "evidence_id": "sige_favier_cea_2013",
+          "url": "https://liten.cea.fr/cea-tech/liten/Documents/Medias/Rapports/CEA-Liten-RS-2013.pdf",
+          "location": "PDF p.7（冊子pp.12–13）: Development of efficient thermoelectrical materials... / Approach, Results, References [2]",
+          "short_quote": "a tailored volume fraction of metal-silicide inclusions during sintering",
+          "summary_ja": "原著者らのCEA報告はSi92Ge08合金の母相と金属シリサイド介在物を区別し、当該Favier論文をActa Mater 2013 in pressとして引用する。P種類・量はこの報告では確認できない。",
+          "access_method": "web.openで著者所属機関の報告PDF本文を確認",
+          "accessed_date": "2026-10-25"
+        },
+        {
+          "evidence_id": "sige_favier_abstract_reproduction",
+          "url": "https://www.researchgate.net/publication/274024286_Influence_of_in-situ_formed_MoSi2_inclusions_on_the_thermoelectrical_properties_of_N-type_silicon-germanium_alloy",
+          "location": "Abstract 第1文と第5文（原出版社・HAL本文は取得失敗。転載abstractのみ）",
+          "short_quote": "Si92Ge08 (7000 at. ppm P doping)",
+          "summary_ja": "転載abstractはP添加SiGe母材、1.3vol.%Mo添加、および焼結反応でのMoSi2介在物生成を記す。ただし原出版社またはHALでのabstract照合未了のためP除去を確定しない。",
+          "access_method": "web.openでResearchGate転載abstractを確認。原出版社・HALへの複数経路は取得失敗",
+          "accessed_date": "2026-10-25"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "21108"
+          ],
+          "composition_condition": "DOIとsample_idが一致し、listed_samplesの組成・試料名に一致するものだけ。論文内の他試料には転用しない。",
+          "host_family": "SiGe",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [],
+          "dopant_candidates": [
+            "P"
+          ],
+          "additive_components": [],
+          "status": "host_confirmed_dopant_unresolved",
+          "reason_ja": "著者機関の報告とDOI書誌題名によりSiGe母材を確認。Pは転載abstractでドープと記されるが一次abstractが取得できていないため保留。",
+          "evidence_ids": [
+            "sige_favier_cea_2013",
+            "sige_favier_abstract_reproduction"
+          ],
+          "data_quality_flags": [
+            "Pの直接一次根拠未取得",
+            "原文公称Si92Ge08とCSVのSi0.913Ge0.080を自動的に同一比率へ補正しない"
+          ]
+        },
+        {
+          "sample_ids": [
+            "21109"
+          ],
+          "composition_condition": "DOIとsample_idが一致し、listed_samplesの組成・試料名に一致するものだけ。論文内の他試料には転用しない。",
+          "host_family": "SiGe",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [],
+          "dopant_candidates": [
+            "P"
+          ],
+          "additive_components": [
+            "Mo添加由来のMoSi2介在物（著者報告のmetal-silicide、DOI題名のMoSi2 inclusions、転載abstractで対応）"
+          ],
+          "status": "host_confirmed_dopant_unresolved",
+          "reason_ja": "SiGeが母相で、Moは金属シリサイド第二相を作る添加材。Moを原子ドーパントとみなさない。Pの一次abstract確認と相別組成が未了なので除去正規化は保留。",
+          "evidence_ids": [
+            "sige_favier_cea_2013",
+            "sige_favier_abstract_reproduction"
+          ],
+          "data_quality_flags": [
+            "multiphase",
+            "Mo係数0.02と1.3vol.%は同じ単位ではない",
+            "MoSi2は母相のSiも消費するためMoだけの除去では実際の母相組成にならない",
+            "Pの直接一次根拠未取得"
+          ]
+        }
+      ],
+      "note_ja": "一次資料が支持する母材/介在物の区別と、転載abstractによるP情報を別レベルで記録。全文確認済みとは扱わない。",
+      "listed_samples": [
+        {
+          "sample_id": "21108",
+          "sample_name": "matrix",
+          "composition": "Si0.913Ge0.080P0.007",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21109",
+          "sample_name": "1.3 vol% Mo",
+          "composition": "Si0.913Ge0.080P0.007Mo0.02",
+          "composition_details": "Si0.913Ge0.080P0.007:1.3 vol% Mo"
+        }
+      ]
+    },
+    {
+      "doi": "10.1016/j.proeng.2011.12.442",
+      "title": "Thermoelectric properties of N-type Si80Ge20 doped with P",
+      "review_level": "publisher_abstract",
+      "evidence": [
+        {
+          "evidence_id": "sige_hu_2012",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1877705811062783",
+          "location": "Abstract 第1文と最終文",
+          "short_quote": "Dopant P was used to increase the carrier concentration",
+          "summary_ja": "Si80Ge20のキャリア濃度をPドープで調整する研究。P0.06at.%試料を明示する。原論文の公開転載全文Table 1にも0.03/0.04/0.05/0.06/0.1at.%系列がある。",
+          "access_method": "web.searchで出版社abstractを確認。直接openは403; 原論文公開転載本文でTable 1も照合",
+          "accessed_date": "2026-10-25"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "11783",
+            "11784",
+            "11785",
+            "11786",
+            "11787",
+            "11790"
+          ],
+          "composition_condition": "DOIとsample_idが一致し、listed_samplesの組成・試料名に一致するものだけ。論文内の他試料には転用しない。",
+          "host_family": "SiGe",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [
+            "P"
+          ],
+          "dopant_candidates": [],
+          "additive_components": [],
+          "status": "host_and_dopant_confirmed",
+          "reason_ja": "P添加量を変えたSi80Ge20の系列で、Pをキャリア濃度調整用dopantと明記。母材はSi/Ge双方を残す。",
+          "evidence_ids": [
+            "sige_hu_2012"
+          ],
+          "data_quality_flags": []
+        },
+        {
+          "sample_ids": [
+            "11791"
+          ],
+          "composition_condition": "DOIとsample_idが一致し、listed_samplesの組成・試料名に一致するものだけ。論文内の他試料には転用しない。",
+          "host_family": "SiGe",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [],
+          "dopant_candidates": [],
+          "additive_components": [],
+          "status": "host_confirmed_dopant_unresolved",
+          "reason_ja": "Si80Ge20という母材は対応するが、この試料のP有無を個別照合できない。",
+          "evidence_ids": [
+            "sige_hu_2012"
+          ],
+          "data_quality_flags": [
+            "組成式にPなし。無添加とは断定しない",
+            "reference_or_baseline_sample_role_unresolved"
+          ]
+        }
+      ],
+      "note_ja": "",
+      "listed_samples": [
+        {
+          "sample_id": "11783",
+          "sample_name": "0.03at%",
+          "composition": "Si80Ge20P0.03",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "11784",
+          "sample_name": "0.04at%",
+          "composition": "Si80Ge20P0.04",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "11785",
+          "sample_name": "0.05at%",
+          "composition": "Si80Ge20P0.05",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "11786",
+          "sample_name": "0.06at%",
+          "composition": "Si80Ge20P0.06",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "11787",
+          "sample_name": "0.1at%",
+          "composition": "Si80Ge20P0.1",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "11790",
+          "sample_name": "K",
+          "composition": "Si80Ge20P0.06",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "11791",
+          "sample_name": "Si80Ge20",
+          "composition": "Si80Ge20",
+          "composition_details": ""
+        }
+      ]
+    },
+    {
+      "doi": "10.1016/j.enconman.2015.01.082",
+      "title": "Thermoelectric performance of Si80Ge20−xSbx based multiphase alloys with inhomogeneous dopant distribution",
+      "review_level": "publisher_abstract",
+      "evidence": [
+        {
+          "evidence_id": "sige_wang_sb_2015",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0196890415000953",
+          "location": "Abstract 第3–5文; Highlights 第2–3項",
+          "short_quote": "the intended doping element, Sb",
+          "summary_ja": "Si80Ge(20-x)SbxのSbは意図的ドープ元素。ただしSi-rich母相、Ge-rich相、Si-Ge-Sb析出物の多相で、Sbは主としてGe-rich/三元相に分配される。",
+          "access_method": "web.searchで出版社abstract全文とHighlightsを確認",
+          "accessed_date": "2026-10-25"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "1338",
+            "1339",
+            "1340",
+            "1341",
+            "1342",
+            "1343"
+          ],
+          "composition_condition": "DOIとsample_idが一致し、listed_samplesの組成・試料名に一致するものだけ。論文内の他試料には転用しない。",
+          "host_family": "SiGe",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [],
+          "dopant_candidates": [
+            "Sb"
+          ],
+          "additive_components": [
+            "Ge-rich secondary phase",
+            "Si-Ge-Sb ternary precipitates"
+          ],
+          "status": "host_confirmed_dopant_unresolved",
+          "reason_ja": "SiGe系という分類とSbのドープ意図は確認できるが、Sbの全部がSi-rich母相のドーパントではない。SiとGeも複数相へ分配されるため全Sb除去による母相比率の算出を保留。",
+          "evidence_ids": [
+            "sige_wang_sb_2015"
+          ],
+          "data_quality_flags": [
+            "multiphase",
+            "Si-rich matrixと材料全体のSiGe組成を区別",
+            "相別分配未定量のため正規化不可"
+          ]
+        }
+      ],
+      "note_ja": "",
+      "listed_samples": [
+        {
+          "sample_id": "1338",
+          "sample_name": "2h-D-Sb2",
+          "composition": "Si80Ge18Sb2",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "1339",
+          "sample_name": "6h-D-Sb2",
+          "composition": "Si80Ge18Sb2",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "1340",
+          "sample_name": "16h-D-Sb2",
+          "composition": "Si80Ge18Sb2",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "1341",
+          "sample_name": "16h-W-Sb2",
+          "composition": "Si80Ge18Sb2",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "1342",
+          "sample_name": "6h-W-Sb2",
+          "composition": "Si80Ge18Sb2",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "1343",
+          "sample_name": "16h-D-Sb1",
+          "composition": "Si80Ge19Sb1",
+          "composition_details": ""
+        }
+      ]
+    },
+    {
+      "doi": "10.1063/1.359663",
+      "title": "Si80Ge20thermoelectric alloys prepared with GaP additions",
+      "review_level": "publisher_abstract",
+      "evidence": [
+        {
+          "evidence_id": "sige_cook_1995",
+          "url": "https://pubs.aip.org/aip/jap/article/78/9/5474/2103/Si80Ge20-thermoelectric-alloys-prepared-with-GaP",
+          "location": "Abstract 第1文; Ga/P比、P過不足、最適GaP添加量を記す段落",
+          "short_quote": "GaP and P were added to a Si 0.8 Ge 0.2 matrix",
+          "summary_ja": "Si0.8Ge0.2母材へGaPとPを添加し、Ga/P比・総ドープ量・P溶解度を調べた。GaP添加量と実際の固溶量は別である。",
+          "access_method": "web.openで出版社公開abstractを確認",
+          "accessed_date": "2026-10-25"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "21819",
+            "21820",
+            "21821",
+            "21822",
+            "21823",
+            "21824",
+            "21825",
+            "21826",
+            "21827"
+          ],
+          "composition_condition": "DOIとsample_idが一致し、listed_samplesの組成・試料名に一致するものだけ。論文内の他試料には転用しない。",
+          "host_family": "SiGe",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [],
+          "dopant_candidates": [
+            "Ga",
+            "P"
+          ],
+          "additive_components": [
+            "GaP（添加原料。添加後の残存GaP/固溶Ga/P配分未確認）"
+          ],
+          "status": "host_confirmed_dopant_unresolved",
+          "reason_ja": "A90–A99の組成詳細はSi:Ge=80:20とGaP/P添加に一致する。母材SiGeは確定するが、GaP由来Ga/Pの相別・活性ドーパント配分を未確認のため両元素の一括除去は保留。",
+          "evidence_ids": [
+            "sige_cook_1995"
+          ],
+          "data_quality_flags": [
+            "Ga/P添加係数はSi80Ge20と単純加算するだけでは最終固溶組成を与えない",
+            "dopant_solubility_and_precipitation_depend_on_processing"
+          ]
+        }
+      ],
+      "note_ja": "",
+      "listed_samples": [
+        {
+          "sample_id": "21819",
+          "sample_name": "A90",
+          "composition": "Ga0.5P1.25Si80Ge20",
+          "composition_details": "Si and Ge were mixed in an 80:20 ratio and varying amounts of GaP and P were added to each charge"
+        },
+        {
+          "sample_id": "21820",
+          "sample_name": "A91",
+          "composition": "Ga1P2Si80Ge20",
+          "composition_details": "Si and Ge were mixed in an 80:20 ratio and varying amounts of GaP and P were added to each charge"
+        },
+        {
+          "sample_id": "21821",
+          "sample_name": "A92",
+          "composition": "Ga0.63P1.88Si80Ge20",
+          "composition_details": "Si and Ge were mixed in an 80:20 ratio and varying amounts of GaP and P were added to each charge"
+        },
+        {
+          "sample_id": "21822",
+          "sample_name": "A93",
+          "composition": "Ga1.25P2.5Si80Ge20",
+          "composition_details": "Si and Ge were mixed in an 80:20 ratio and varying amounts of GaP and P were added to each charge"
+        },
+        {
+          "sample_id": "21823",
+          "sample_name": "A94",
+          "composition": "Ga1.6P1.6Si80Ge20",
+          "composition_details": "Si and Ge were mixed in an 80:20 ratio and varying amounts of GaP and P were added to each charge"
+        },
+        {
+          "sample_id": "21824",
+          "sample_name": "A95",
+          "composition": "Ga1.25P2.75Si80Ge20",
+          "composition_details": "Si and Ge were mixed in an 80:20 ratio and varying amounts of GaP and P were added to each charge"
+        },
+        {
+          "sample_id": "21825",
+          "sample_name": "A96",
+          "composition": "Ga1.25P3Si80Ge20",
+          "composition_details": "Si and Ge were mixed in an 80:20 ratio and varying amounts of GaP and P were added to each charge"
+        },
+        {
+          "sample_id": "21826",
+          "sample_name": "A98",
+          "composition": "Ga0.8P1.9Si80Ge20",
+          "composition_details": "Si and Ge were mixed in an 80:20 ratio and varying amounts of GaP and P were added to each charge"
+        },
+        {
+          "sample_id": "21827",
+          "sample_name": "A99",
+          "composition": "Ga0.75P3Si80Ge20",
+          "composition_details": "Si and Ge were mixed in an 80:20 ratio and varying amounts of GaP and P were added to each charge"
+        }
+      ]
+    },
+    {
+      "doi": "10.1063/1.1352686",
+      "title": "Thermoelectric properties of heavily GaP- and P-doped Si0.95Ge0.05",
+      "review_level": "publisher_abstract",
+      "evidence": [
+        {
+          "evidence_id": "sige_yamashita_2001",
+          "url": "https://pubs.aip.org/aip/jap/article-pdf/89/11/6241/18978860/6241_1_online.pdf",
+          "location": "Abstract 第1–3文と最終2文（PDF URLは出版社abstract HTMLへリダイレクト）",
+          "short_quote": "doped with 0.4 at.% P and/or 0.5–2.0 mol% GaP",
+          "summary_ja": "Si0.95Ge0.05へのP/GaPドープを扱い、Ga/PとGeの粒界偏析を明記。比較対象Si0.8Ge0.2+2mol.%GaPもabstractにある。HTMLで欠ける数式は同DOIの出版社登録Crossref abstractで確認。",
+          "access_method": "web.openで出版社公開abstractを確認",
+          "accessed_date": "2026-10-25"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "21962"
+          ],
+          "composition_condition": "DOIとsample_idが一致し、listed_samplesの組成・試料名に一致するものだけ。論文内の他試料には転用しない。",
+          "host_family": "SiGe",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [
+            "P"
+          ],
+          "dopant_candidates": [],
+          "additive_components": [],
+          "status": "host_and_dopant_confirmed",
+          "reason_ja": "Si0.95Ge0.05P0.004はabstractの0.4at.%Pのみ添加した比較系列と一致。SiGe合金を母材とする。",
+          "evidence_ids": [
+            "sige_yamashita_2001"
+          ],
+          "data_quality_flags": []
+        },
+        {
+          "sample_ids": [
+            "21960"
+          ],
+          "composition_condition": "DOIとsample_idが一致し、listed_samplesの組成・試料名に一致するものだけ。論文内の他試料には転用しない。",
+          "host_family": "SiGe",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [],
+          "dopant_candidates": [
+            "P"
+          ],
+          "additive_components": [],
+          "status": "host_confirmed_dopant_unresolved",
+          "reason_ja": "Si0.949Ge0.051P0.0041は本文未取得の比較データで、abstractの公称比と完全一致しない。SiGe母材だけ確定しP役割の試料対応は保留。",
+          "evidence_ids": [
+            "sige_yamashita_2001"
+          ],
+          "data_quality_flags": [
+            "reference_sample_identity_unverified",
+            "trailing_fullwidth_whitespace_in_raw_formula"
+          ]
+        },
+        {
+          "sample_ids": [
+            "21961",
+            "21963",
+            "21964"
+          ],
+          "composition_condition": "DOIとsample_idが一致し、listed_samplesの組成・試料名に一致するものだけ。論文内の他試料には転用しない。",
+          "host_family": "SiGe",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [],
+          "dopant_candidates": [
+            "Ga",
+            "P"
+          ],
+          "additive_components": [
+            "GaP添加由来のGa/P/Ge粒界偏析（各元素の相別分配未確認）"
+          ],
+          "status": "host_confirmed_dopant_unresolved",
+          "reason_ja": "SiGeへのGaP/P添加という材料系は確認できる。Ga/PがGeとともに粒界偏析するため全Ga/Pを一律に除いて母材組成とする処理は保留。",
+          "evidence_ids": [
+            "sige_yamashita_2001"
+          ],
+          "data_quality_flags": [
+            "multiphase_or_grain_boundary_segregation",
+            "21963のP0.04Ga0.05P0.05はabstractの0.4at.%P、0.5–2mol.%GaPとの係数尺度に疑義",
+            "21961/21964はSi0.8Ge0.2比較試料のためSi0.95Ge0.05へ置換しない"
+          ]
+        }
+      ],
+      "note_ja": "",
+      "listed_samples": [
+        {
+          "sample_id": "21962",
+          "sample_name": "open triangle",
+          "composition": "Si0.95Ge0.05P0.004",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21960",
+          "sample_name": "black circle",
+          "composition": "Si0.949Ge0.051P0.0041　",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21961",
+          "sample_name": "black triangle ",
+          "composition": "Si0.8Ge0.2(GaP)0.02",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21963",
+          "sample_name": "open circle",
+          "composition": "Si0.95Ge0.05P0.04Ga0.05P0.05",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21964",
+          "sample_name": "black square",
+          "composition": "Si0.8Ge0.2(GaP)0.02",
+          "composition_details": ""
+        }
+      ]
+    },
+    {
+      "doi": "10.1063/1.3027060",
+      "title": "Enhanced thermoelectric figure of merit in nanostructured n-type silicon germanium bulk alloy",
+      "review_level": "author_uploaded_full_text_relevant_sections",
+      "evidence": [
+        {
+          "evidence_id": "sige_wang_p_2008",
+          "url": "https://www.researchgate.net/publication/231175385_Enhanced_Thermoelectric_Figure_of_Merit_in_Nanostructured_n-Type_Silicon_Germanium_Bulk_Alloy",
+          "location": "p.193121-1: n-doped nanopowdersの合成段落; p.193121-2: Fig.3導入; p.193121-3: Fig.3 caption",
+          "short_quote": "2.0 mol %P was added to Si and Ge chunks with a Si/Ge ratio of 80/20",
+          "summary_ja": "n型SiGeをSi/Ge塊とP微粉の機械合金化で作製。代表試料はSi80Ge20P2で、Fig.3は作製試料とそのアニール後を区別する。",
+          "access_method": "web.openで共著者Giri Joshi投稿の原論文全文を確認",
+          "accessed_date": "2026-10-25"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "21195",
+            "21196",
+            "21197",
+            "21198"
+          ],
+          "composition_condition": "DOIとsample_idが一致し、listed_samplesの組成・試料名に一致するものだけ。論文内の他試料には転用しない。",
+          "host_family": "SiGe",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [
+            "P"
+          ],
+          "dopant_candidates": [],
+          "additive_components": [],
+          "status": "host_and_dopant_confirmed",
+          "reason_ja": "nano-sample1–3およびsample1アニール後は原論文Fig.3のSi80Ge20P2系列に対応。Pはn型ドーパント、Si/Ge双方が合金母材。",
+          "evidence_ids": [
+            "sige_wang_p_2008"
+          ],
+          "data_quality_flags": [
+            "添加時公称組成を保持。Pの固溶量を2mol.%と断定しない"
+          ]
+        }
+      ],
+      "note_ja": "",
+      "listed_samples": [
+        {
+          "sample_id": "21195",
+          "sample_name": "nano-sample1",
+          "composition": "Si80Ge20P2",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21196",
+          "sample_name": "nano-sample2",
+          "composition": "Si80Ge20P2",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21197",
+          "sample_name": "nano-sample3",
+          "composition": "Si80Ge20P2",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21198",
+          "sample_name": "nano-sample1_after annealing",
+          "composition": "Si80Ge20P2",
+          "composition_details": ""
+        }
+      ]
+    },
+    {
+      "doi": "10.1063/1.332354",
+      "title": "The role of solitons and the kinetics of precipitate growth in boron doped silicon–germanium alloys",
+      "review_level": "publisher_abstract",
+      "evidence": [
+        {
+          "evidence_id": "sige_savvides_1983",
+          "url": "https://pubs.aip.org/aip/jap/article-pdf/54/5/2402/18401386/2402_1_online.pdf",
+          "location": "Abstract 第1–2文と最終文（出版社abstract HTMLへのリダイレクト）",
+          "short_quote": "boron doped Si70Ge30 alloys",
+          "summary_ja": "BドープSi70Ge30の初期状態と長時間熱処理でのB析出・再固溶を研究する。Bの析出でキャリア濃度等が変化する。",
+          "access_method": "web.openで出版社公開abstractを確認",
+          "accessed_date": "2026-10-25"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "21239",
+            "21240"
+          ],
+          "composition_condition": "DOIとsample_idが一致し、listed_samplesの組成・試料名に一致するものだけ。論文内の他試料には転用しない。",
+          "host_family": "SiGe",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [
+            "B"
+          ],
+          "dopant_candidates": [],
+          "additive_components": [
+            "B precipitates（熱履歴依存。析出量未定量）"
+          ],
+          "status": "host_and_dopant_confirmed",
+          "reason_ja": "組成B0.5Si70Ge30と初期/熱処理後の試料名がBドープSi70Ge30の経時実験に一致。Bの役割は確認できるが析出相との配分は未定量。",
+          "evidence_ids": [
+            "sige_savvides_1983"
+          ],
+          "data_quality_flags": [
+            "dopant_role_confirmed_but_active_fraction_not_constant",
+            "析出を含むため単一母相の定量組成へ正規化しない"
+          ]
+        }
+      ],
+      "note_ja": "",
+      "listed_samples": [
+        {
+          "sample_id": "21239",
+          "sample_name": "specimen 1_initial state",
+          "composition": "B0.5Si70Ge30",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21240",
+          "sample_name": "specimen 1_after heat treatment",
+          "composition": "B0.5Si70Ge30",
+          "composition_details": ""
+        }
+      ]
+    },
+    {
+      "doi": "10.1063/1.4726041",
+      "title": "Laser-sintered thin films of doped SiGe nanoparticles",
+      "review_level": "author_preprint_full_text_relevant_sections",
+      "evidence": [
+        {
+          "evidence_id": "sige_stoib_2012",
+          "url": "https://arxiv.org/pdf/1201.4370",
+          "location": "著者原稿p.1: NP synthesis段落; p.2末–p.3: Fig.2と説明段落",
+          "short_quote": "1 % per volume of phosphine was admixed to the silane source as dopant",
+          "summary_ja": "Si95Ge05/Si80Ge20は合金NP、Si-Ge60:40/91:09はSi/Ge NP複合体として区別。対象SiGe系列はphosphine源によるPドープで、Pの表面偏析/コア取り込みも論じる。",
+          "access_method": "web.openで著者arXiv原稿本文を確認。TUM機関書誌で掲載DOIとの一致を確認",
+          "accessed_date": "2026-10-25"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "21199",
+            "21200",
+            "21201",
+            "21202",
+            "21203",
+            "21204"
+          ],
+          "composition_condition": "DOIとsample_idが一致し、listed_samplesの組成・試料名に一致するものだけ。論文内の他試料には転用しない。",
+          "host_family": "SiGe",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [
+            "P"
+          ],
+          "dopant_candidates": [],
+          "additive_components": [],
+          "status": "host_and_dopant_confirmed",
+          "reason_ja": "合金NPのSi95Ge05/Si80Ge20についてLS/CAS/CAS(ZEM-3)がFig.2と一致する。式にはPがないが原文ではPドープを明記。",
+          "evidence_ids": [
+            "sige_stoib_2012"
+          ],
+          "data_quality_flags": [
+            "dopant_P_omitted_from_raw_formula",
+            "05は5、09は9の表記。Ge0.5/0.9と読み替えない",
+            "P原料ガス1vol.%は固体中1at.%ではない"
+          ]
+        },
+        {
+          "sample_ids": [
+            "21205",
+            "21206",
+            "21207",
+            "21208",
+            "21209",
+            "21210"
+          ],
+          "composition_condition": "DOIとsample_idが一致し、listed_samplesの組成・試料名に一致するものだけ。論文内の他試料には転用しない。",
+          "host_family": "SiGe",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [
+            "P"
+          ],
+          "dopant_candidates": [],
+          "additive_components": [
+            "separately synthesized Si and Ge nanoparticles（Si-Ge NP composite）"
+          ],
+          "status": "host_and_dopant_confirmed",
+          "reason_ja": "60:40/91:09はSi/Ge NP複合体で双方を材料分類に残す。Pドープは確認できるが均一SiGe単相とみなせない。",
+          "evidence_ids": [
+            "sige_stoib_2012"
+          ],
+          "data_quality_flags": [
+            "composite_not_homogeneous_alloy",
+            "dopant_P_omitted_from_raw_formula",
+            "P原料ガス1vol.%は固体中1at.%ではない"
+          ]
+        }
+      ],
+      "note_ja": "",
+      "listed_samples": [
+        {
+          "sample_id": "21199",
+          "sample_name": "Si95Ge05_LS",
+          "composition": "Si95Ge05",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21200",
+          "sample_name": "Si95Ge05_CAS",
+          "composition": "Si95Ge05",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21201",
+          "sample_name": "Si95Ge05_CAS(ZEM-3)",
+          "composition": "Si95Ge05",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21202",
+          "sample_name": "Si80Ge20_LS",
+          "composition": "Si80Ge20",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21203",
+          "sample_name": "Si80Ge20_CAS",
+          "composition": "Si80Ge20",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21204",
+          "sample_name": "Si80Ge20_CAS(ZEM-3)",
+          "composition": "Si80Ge20",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21205",
+          "sample_name": "Si60Ge40_LS",
+          "composition": "Si60Ge40",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21206",
+          "sample_name": "Si60Ge40_CAS",
+          "composition": "Si60Ge40",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21207",
+          "sample_name": "Si60Ge40_CAS(ZEM-3)",
+          "composition": "Si60Ge40",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21208",
+          "sample_name": "Si91Ge09_LS",
+          "composition": "Si91Ge09",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21209",
+          "sample_name": "Si91Ge09_CAS",
+          "composition": "Si91Ge09",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21210",
+          "sample_name": "Si91Ge09_CAS(ZEM-3)",
+          "composition": "Si91Ge09",
+          "composition_details": ""
+        }
+      ]
+    },
+    {
+      "doi": "10.1002/pssa.201228102",
+      "title": "The effect of synthesis parameters on transport properties of nanostructured bulk thermoelectric p-type silicon germanium alloy",
+      "review_level": "publisher_deposited_abstract_crossref",
+      "evidence": [
+        {
+          "evidence_id": "sige_zamanipour_2012",
+          "url": "https://api.crossref.org/works/10.1002%2Fpssa.201228102",
+          "location": "message.abstract 第1–3文; 出版社登録abstract（cache/crossrefに原JSON保存済み）",
+          "short_quote": "different nanostructured p-type SiGe alloys",
+          "summary_ja": "機械合金化・焼結で作るp型SiGe系列を対象とする。取得できたabstractにはB等のドーパント元素名がない。",
+          "access_method": "親エージェントが取得したCrossref原JSONの出版社提供abstractを直接読み、DOI照合。Wiley直接openは403",
+          "accessed_date": "2026-10-25"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "21181",
+            "21182",
+            "21183",
+            "21184",
+            "21185"
+          ],
+          "composition_condition": "DOIとsample_idが一致し、listed_samplesの組成・試料名に一致するものだけ。論文内の他試料には転用しない。",
+          "host_family": "SiGe",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [],
+          "dopant_candidates": [],
+          "additive_components": [],
+          "status": "host_confirmed_dopant_unresolved",
+          "reason_ja": "原文abstractでSiGe系合金は確認できる。p型というだけではBドープと断定できないので、係数からもドーパントを補わない。",
+          "evidence_ids": [
+            "sige_zamanipour_2012"
+          ],
+          "data_quality_flags": [
+            "dopant_identity_unreported_in_accessible_abstract",
+            "試料別配合表未取得"
+          ]
+        }
+      ],
+      "note_ja": "",
+      "listed_samples": [
+        {
+          "sample_id": "21181",
+          "sample_name": "sample1",
+          "composition": "Si0.95Ge0.05",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21182",
+          "sample_name": "sample2",
+          "composition": "Si0.8Ge0.2",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21183",
+          "sample_name": "sample3",
+          "composition": "Si0.8Ge0.2",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21184",
+          "sample_name": "sample4",
+          "composition": "Si0.8Ge0.2",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21185",
+          "sample_name": "sample5",
+          "composition": "Si0.8Ge0.2",
+          "composition_details": ""
+        }
+      ]
+    },
+    {
+      "doi": "10.1016/j.scriptamat.2014.10.001",
+      "title": "Optimization of ball-milling process for preparation of Si–Ge nanostructured thermoelectric materials with a high figure of merit",
+      "review_level": "publisher_abstract",
+      "evidence": [
+        {
+          "evidence_id": "sige_usenko_2015",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1359646214003868",
+          "location": "Abstract 第1–3文",
+          "short_quote": "n-type nanostructured SiGe bulk sample",
+          "summary_ja": "機械合金化とSPSで合成したn型SiGe系列の研究。公開abstractにはドーパント元素が記されていない。",
+          "access_method": "web.searchで出版社公開abstractを確認",
+          "accessed_date": "2026-10-25"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "21190",
+            "21191",
+            "21192",
+            "21193",
+            "21194"
+          ],
+          "composition_condition": "DOIとsample_idが一致し、listed_samplesの組成・試料名に一致するものだけ。論文内の他試料には転用しない。",
+          "host_family": "SiGe",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [],
+          "dopant_candidates": [],
+          "additive_components": [],
+          "status": "host_confirmed_dopant_unresolved",
+          "reason_ja": "Si80Ge20というCSV組成が研究対象SiGeに一致するため母材系のみ確認。n型からPを推定せず、個別の添加元素は保留する。",
+          "evidence_ids": [
+            "sige_usenko_2015"
+          ],
+          "data_quality_flags": [
+            "dopant_identity_unreported_in_accessible_abstract",
+            "試料別配合表未取得"
+          ]
+        }
+      ],
+      "note_ja": "",
+      "listed_samples": [
+        {
+          "sample_id": "21190",
+          "sample_name": "sample1",
+          "composition": "Si80Ge20",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21191",
+          "sample_name": "sample2",
+          "composition": "Si80Ge20",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21192",
+          "sample_name": "sample3",
+          "composition": "Si80Ge20",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21193",
+          "sample_name": "sample4",
+          "composition": "Si80Ge20",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21194",
+          "sample_name": "sample5",
+          "composition": "Si80Ge20",
+          "composition_details": ""
+        }
+      ]
+    },
+    {
+      "doi": "10.1021/cg501776h",
+      "title": "High Power Factor of Ga-Doped Compositionally Homogeneous Si0.68Ge0.32Bulk Crystal Grown by the Vertical Temperature Gradient Freezing Method",
+      "review_level": "publisher_abstract",
+      "evidence": [
+        {
+          "evidence_id": "sige_omprakash_2015",
+          "url": "https://pubs.acs.org/doi/10.1021/cg501776h",
+          "location": "Abstract 第1–3文（GSG1/GSG2とSi0.68Ge0.32を明記）",
+          "short_quote": "Compositionally homogeneous Ga-doped Si0.68Ge0.32 bulk crystals",
+          "summary_ja": "GSG1とGSG2はGa濃度10^18/10^19 cm^-3のSi0.68Ge0.32結晶。成長方向に切り出した各領域を測定する。",
+          "access_method": "web.searchで出版社公開abstract全文を確認",
+          "accessed_date": "2026-10-25"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "21212",
+            "21213",
+            "21214",
+            "21215",
+            "21216",
+            "21217"
+          ],
+          "composition_condition": "DOIとsample_idが一致し、listed_samplesの組成・試料名に一致するものだけ。論文内の他試料には転用しない。",
+          "host_family": "SiGe",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [
+            "Ga"
+          ],
+          "dopant_candidates": [],
+          "additive_components": [],
+          "status": "host_and_dopant_confirmed",
+          "reason_ja": "GSG1/GSG2という試料名とSi0.68Ge0.32がabstractに一致。Gaは元組成式に省略されるがドーパントとして明記される。",
+          "evidence_ids": [
+            "sige_omprakash_2015"
+          ],
+          "data_quality_flags": [
+            "dopant_Ga_omitted_from_raw_formula",
+            "cm^-3濃度を組成式係数へ推測変換しない"
+          ]
+        }
+      ],
+      "note_ja": "",
+      "listed_samples": [
+        {
+          "sample_id": "21212",
+          "sample_name": "GSG1_S(B)",
+          "composition": "Si0.68Ge0.32",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21213",
+          "sample_name": "GSG1_S(C)",
+          "composition": "Si0.68Ge0.32",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21214",
+          "sample_name": "GSG2_S(a)",
+          "composition": "Si0.68Ge0.32",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21215",
+          "sample_name": "GSG2_S(b)",
+          "composition": "Si0.68Ge0.32",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21216",
+          "sample_name": "GSG2_S(c)",
+          "composition": "Si0.68Ge0.32",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21217",
+          "sample_name": "GSG2_S(d)",
+          "composition": "Si0.68Ge0.32",
+          "composition_details": ""
+        }
+      ]
+    },
+    {
+      "doi": "10.1063/1.4801388",
+      "title": "Comparison of boron precipitation in p-type bulk nanostructured and polycrystalline silicon germanium alloy",
+      "review_level": "publisher_abstract",
+      "evidence": [
+        {
+          "evidence_id": "sige_zamanipour_2013",
+          "url": "https://pubs.aip.org/aip/jap/article-pdf/doi/10.1063/1.4801388/13210736/143715_1_online.pdf",
+          "location": "Abstract 第1–4文（出版社abstract HTMLへのリダイレクト）",
+          "short_quote": "Boron precipitation process and its effect on electronic properties",
+          "summary_ja": "Si0.8Ge0.2のナノ構造/大粒径試料で、加熱冷却時のB析出とキャリア濃度等の変化を比較する。",
+          "access_method": "web.openで出版社公開abstractを確認",
+          "accessed_date": "2026-10-25"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "21450",
+            "21451",
+            "21452",
+            "21453"
+          ],
+          "composition_condition": "DOIとsample_idが一致し、listed_samplesの組成・試料名に一致するものだけ。論文内の他試料には転用しない。",
+          "host_family": "SiGe",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [
+            "B"
+          ],
+          "dopant_candidates": [],
+          "additive_components": [
+            "B precipitates（温度・熱履歴で変化）"
+          ],
+          "status": "host_and_dopant_confirmed",
+          "reason_ja": "母材比とナノ構造/溶製・加熱/冷却という条件が原文abstractに一致。Bが電子特性に影響する添加種であるが、析出/固溶への配分は熱履歴で変わる。",
+          "evidence_ids": [
+            "sige_zamanipour_2013"
+          ],
+          "data_quality_flags": [
+            "dopant_B_omitted_from_raw_formula",
+            "析出を含むため単一母相の定量組成へ正規化しない"
+          ]
+        }
+      ],
+      "note_ja": "",
+      "listed_samples": [
+        {
+          "sample_id": "21450",
+          "sample_name": "Melted Si0.8Ge0.2_heating",
+          "composition": "Si0.8Ge0.2",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21451",
+          "sample_name": "Melted Si0.8Ge0.2_cooling",
+          "composition": "Si0.8Ge0.2",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21452",
+          "sample_name": "Nanostructured Si0.8Ge0.2_heating",
+          "composition": "Si0.8Ge0.2",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "21453",
+          "sample_name": "Nanostructured Si0.8Ge0.2_cooling",
+          "composition": "Si0.8Ge0.2",
+          "composition_details": ""
+        }
+      ]
+    },
+    {
+      "doi": "10.1021/acsami.9b20090",
+      "title": "Enhanced Thermoelectric Performance in n-Type SrTiO3/SiGe Composite",
+      "review_level": "publisher_abstract",
+      "evidence": [
+        {
+          "evidence_id": "sige_sto_2020",
+          "url": "https://pubs.acs.org/doi/10.1021/acsami.9b20090",
+          "location": "Abstract: P-doped SiGe powder、La-Nb-doped SrTiO3 powder、SiGe matrixを記す文",
+          "short_quote": "La–Nb–STO nanoparticles added to SiGe matrix",
+          "summary_ja": "PドープSiGe粉とLa/NbドープSrTiO3粉を混合熱間プレスする複合材。SiGeが母材でSrTiO3は第二相、La/Nbは第二相側のドーパント。",
+          "access_method": "web.searchで出版社abstract全文を確認",
+          "accessed_date": "2026-10-25"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "35339"
+          ],
+          "composition_condition": "DOIとsample_idが一致し、listed_samplesの組成・試料名に一致するものだけ。論文内の他試料には転用しない。",
+          "host_family": "SiGe",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [
+            "P"
+          ],
+          "dopant_candidates": [],
+          "additive_components": [],
+          "status": "host_and_dopant_confirmed",
+          "reason_ja": "SrTiO3添加0wt.%のSi80Ge20P1で、abstractのPドープSiGe粉単体に対応する。",
+          "evidence_ids": [
+            "sige_sto_2020"
+          ],
+          "data_quality_flags": []
+        },
+        {
+          "sample_ids": [
+            "35340",
+            "35341",
+            "35343",
+            "35344",
+            "35345"
+          ],
+          "composition_condition": "DOIとsample_idが一致し、listed_samplesの組成・試料名に一致するものだけ。論文内の他試料には転用しない。",
+          "host_family": "SiGe",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [
+            "P"
+          ],
+          "dopant_candidates": [],
+          "additive_components": [
+            "La/Nb-doped SrTiO3 nanoparticles（第二相; raw formulaのSr/Ti/Oに対応）"
+          ],
+          "status": "host_and_dopant_confirmed",
+          "reason_ja": "SrTiO3添加量0.5–10wt.%の複合系列でSiGeが母材。Sr/Ti/Oを単なるドーパント元素として除去しない。",
+          "evidence_ids": [
+            "sige_sto_2020"
+          ],
+          "data_quality_flags": [
+            "multiphase_composite",
+            "第二相のLa/NbがCSV式には省略",
+            "添加量wt.%と式係数は単位が異なる",
+            "複合体全体の係数から実際の母相比率は再計算しない"
+          ]
+        },
+        {
+          "sample_ids": [
+            "35338"
+          ],
+          "composition_condition": "DOIとsample_idが一致し、listed_samplesの組成・試料名に一致するものだけ。論文内の他試料には転用しない。",
+          "host_family": "SiGe",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [],
+          "dopant_candidates": [
+            "P"
+          ],
+          "additive_components": [],
+          "status": "host_confirmed_dopant_unresolved",
+          "reason_ja": "RTG比較試料はSi63.5Ge36.5P0.17で研究作製試料Si80Ge20P1と異なる。母材SiGeは確認できるが、Pの個別資料対応は未確認。",
+          "evidence_ids": [
+            "sige_sto_2020"
+          ],
+          "data_quality_flags": [
+            "reference_sample",
+            "本論文の作製条件を比較試料へ一律適用しない"
+          ]
+        }
+      ],
+      "note_ja": "",
+      "listed_samples": [
+        {
+          "sample_id": "35339",
+          "sample_name": "0wt% SrTiO3",
+          "composition": "Si80Ge20P1",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "35340",
+          "sample_name": "0.5wt% SrTiO3",
+          "composition": "Sr0.1Ti0.1O0.3Si80Ge20P1",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "35341",
+          "sample_name": "1wt% SrTiO3",
+          "composition": "Sr0.20Ti0.20O0.61Si80Ge20P1",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "35343",
+          "sample_name": "3wt% SrTiO3",
+          "composition": "Sr0.62Ti0.62O1.87Si80Ge20P1",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "35344",
+          "sample_name": "5wt% SrTiO3",
+          "composition": "Sr1.06Ti1.06O3.18Si80Ge20P1",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "35345",
+          "sample_name": "10wt% SrTiO3",
+          "composition": "Sr2.24Ti2.24O6.72Si80Ge20P1",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "35338",
+          "sample_name": "RTG",
+          "composition": "Si63.5Ge36.5P0.17",
+          "composition_details": "radio-isotope thermoelectric generator sample"
+        }
+      ]
+    },
+    {
+      "doi": "10.1039/c4nr04470c",
+      "title": "Bottom-up nanostructured bulk silicon: a practical high-efficiency thermoelectric material",
+      "review_level": "publisher_accepted_manuscript_relevant_sections",
+      "evidence": [
+        {
+          "evidence_id": "sige_yusufu_2014",
+          "url": "https://pubs.rsc.org/en/content/getauthorversionpdf/C4NR04470C",
+          "location": "Accepted Manuscript本文p.2: Results and Discussion冒頭、Table 1; p.3–4: Ge置換・P析出の説明",
+          "short_quote": "P-doping supplied electrons to Si",
+          "summary_ja": "Si100P1/Si100P3/Si99Ge1P3/Si97Ge3P3を個別に記載。Pは電子供給ドーパント、GeはSi置換して格子・合金散乱を変える成分。P-rich析出物によるナノ構造も扱う。",
+          "access_method": "web.openでRSC公開accepted manuscript本文を確認",
+          "accessed_date": "2026-10-25"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "29807",
+            "29808"
+          ],
+          "composition_condition": "DOIとsample_idが一致し、listed_samplesの組成・試料名に一致するものだけ。論文内の他試料には転用しない。",
+          "host_family": "Si",
+          "host_elements": [
+            "Si"
+          ],
+          "dopant_elements": [
+            "P"
+          ],
+          "dopant_candidates": [],
+          "additive_components": [
+            "P-rich nanoprecipitates（論文のナノ構造機構。試料別析出量は未確定）"
+          ],
+          "status": "host_and_dopant_confirmed",
+          "reason_ja": "表1のSi100P1/Si100P3はSi母材にPを添加する系列。Pドープと電子供給を原文で明記。P-rich析出の存在/分率を試料ごとに確定できていないため正規化は保留。",
+          "evidence_ids": [
+            "sige_yusufu_2014"
+          ],
+          "data_quality_flags": [
+            "原文はP添加量と固溶P濃度を区別",
+            "母材名のみ確定。P-rich相へのSi分配未定量"
+          ]
+        },
+        {
+          "sample_ids": [
+            "29809",
+            "29810"
+          ],
+          "composition_condition": "DOIとsample_idが一致し、listed_samplesの組成・試料名に一致するものだけ。論文内の他試料には転用しない。",
+          "host_family": "SiGe",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [
+            "P"
+          ],
+          "dopant_candidates": [],
+          "additive_components": [
+            "P-rich nanoprecipitates（Si母相と整合/半整合に形成）"
+          ],
+          "status": "host_and_dopant_confirmed",
+          "reason_ja": "Ge1/Ge3は量が小さくてもSiを置換し格子定数・合金散乱を変える成分で、Pと役割が異なる。Si/Ge双方を母材構成に残す。",
+          "evidence_ids": [
+            "sige_yusufu_2014"
+          ],
+          "data_quality_flags": [
+            "Si-rich SiGe alloy; 著者の広義材料名はbulk silicon",
+            "Geの係数の大小で削除しない",
+            "析出相へのSi/P分配未定量のため正規化不可"
+          ]
+        }
+      ],
+      "note_ja": "",
+      "listed_samples": [
+        {
+          "sample_id": "29807",
+          "sample_name": "Si100P1",
+          "composition": "Si100P1",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "29808",
+          "sample_name": "Si100P3",
+          "composition": "Si100P3",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "29809",
+          "sample_name": "Si99Ge1P3",
+          "composition": "Si99Ge1P3",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "29810",
+          "sample_name": "Si97Ge3P3",
+          "composition": "Si97Ge3P3",
+          "composition_details": ""
+        }
+      ]
+    },
+    {
+      "doi": "10.2109/jcersj.113.558",
+      "title": "Preparation of Phosphorus-Doped Si0.8Ge0.2 Thermoelectric Thin Film Using RF Sputtering with Induction Coil",
+      "review_level": "publisher_full_text_relevant_sections",
+      "evidence": [
+        {
+          "evidence_id": "sige_tajima_2005",
+          "url": "https://www.jstage.jst.go.jp/article/jcersj/113/1320/113_1320_558/_pdf",
+          "location": "p.558: Abstract; p.560: 3.3 Thermoelectric properties, Fig.4–6; p.561: Table 1",
+          "short_quote": "A phosphorus-doped Si0.8Ge0.2 thin film",
+          "summary_ja": "RFスパッタで作製したPドープSi0.8Ge0.2薄膜をアニール。3.3節/Fig.4–5は10/20/50hの3試料を明示し、Fig.6と本文はSIMSでPドーパント濃度を測定する。",
+          "access_method": "web.open/findでJ-STAGE原論文PDFの本文・図説明を確認（見出し等テキストの一部は文字化け）",
+          "accessed_date": "2026-10-25"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "16478",
+            "16479",
+            "16480"
+          ],
+          "composition_condition": "DOIとsample_idが一致し、listed_samplesの組成・試料名に一致するものだけ。論文内の他試料には転用しない。",
+          "host_family": "SiGe",
+          "host_elements": [
+            "Si",
+            "Ge"
+          ],
+          "dopant_elements": [
+            "P"
+          ],
+          "dopant_candidates": [],
+          "additive_components": [],
+          "status": "host_and_dopant_confirmed",
+          "reason_ja": "Si0.8Ge0.2の10/20/50hアニール薄膜は同じPドープ薄膜系列。元CSVはPを省略するが原文はPドープを明記する。",
+          "evidence_ids": [
+            "sige_tajima_2005"
+          ],
+          "data_quality_flags": [
+            "dopant_P_omitted_from_raw_formula",
+            "ドープ量を式へ補完しない"
+          ]
+        }
+      ],
+      "note_ja": "",
+      "listed_samples": [
+        {
+          "sample_id": "16478",
+          "sample_name": "Si0.8Ge0.2 annealed for 50h",
+          "composition": "Si0.8Ge0.2",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "16479",
+          "sample_name": "Si0.8Ge0.2 annealed for 20h",
+          "composition": "Si0.8Ge0.2",
+          "composition_details": ""
+        },
+        {
+          "sample_id": "16480",
+          "sample_name": "Si0.8Ge0.2 annealed for 10h",
+          "composition": "Si0.8Ge0.2",
+          "composition_details": ""
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "reviewed_dois": 15,
+    "mapped_samples": 81,
+    "host_confirmed_dopant_unresolved": 33,
+    "source_curve_rows": 303,
+    "host_and_dopant_confirmed": 48
+  }
+}

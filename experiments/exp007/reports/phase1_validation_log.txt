@@ -1,0 +1,23 @@
+exp007 Phase 1 residual dataset validation
+============================================
+PASS source_config_is_frozen: ['sample_holdout__ref_conservative_valid__eval_all_valid__material_family__sample_median']
+PASS source_hash_matches_phase0_manifest: phase0=ac044f3cdfb6e7bab707aa300dac490f5fcb10ce8075f3d12890e5a6887d2be3; current=ac044f3cdfb6e7bab707aa300dac490f5fcb10ce8075f3d12890e5a6887d2be3
+PASS row_ids_are_unique: duplicate_count=0
+PASS all_source_rows_preserved: source=19008; output=19008
+PASS stored_residual_reproduced: max_abs_difference=8.79e-14
+PASS residuals_only_on_evaluable_rows: not_evaluable_rows=40
+PASS residual_bands_partition_evaluable_rows: band_total=18968; evaluable=18968
+PASS phase0_n_rows_reproduced: phase0=18968; phase1=18968
+PASS phase0_mean_log10_error_reproduced: absolute_difference=2.78e-17
+PASS phase0_mae_log10_reproduced: absolute_difference=0
+PASS phase0_rmse_log10_reproduced: absolute_difference=0
+PASS phase0_factor_2_accuracy_reproduced: absolute_difference=5.55e-17
+PASS phase0_factor_10_accuracy_reproduced: absolute_difference=0
+PASS exp006_source_unchanged_during_run: before=ac044f3cdfb6e7bab707aa300dac490f5fcb10ce8075f3d12890e5a6887d2be3; after=ac044f3cdfb6e7bab707aa300dac490f5fcb10ce8075f3d12890e5a6887d2be3
+
+test_rows=19008
+evaluable_rows=18968
+evaluable_samples=3189
+evaluable_papers=2200
+factor_10_outlier_rows=4101
+Final status: PASS

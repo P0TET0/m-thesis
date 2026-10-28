@@ -1,0 +1,36 @@
+Phase 4 independent checks
+status=PASS
+checks=32
+failed=0
+required_outputs_exist: PASS | missing=[]
+all_build_validation_passes: PASS | failed=0
+taxonomy_version_fixed: PASS | oxide_v1
+row_count_reconciles: PASS | phase4=3437; phase3=3437
+row_ids_match_phase3: PASS | unique=3437
+row_ids_unique: PASS | duplicates=0
+all_rows_have_one_rule: PASS | missing=0
+sample_count_reconciles: PASS | samples=610
+label_count_reconciles: PASS | labels=506
+sample_assignment_unique: PASS | duplicates=0
+no_sample_assignment_conflicts: PASS | conflicts=0
+class_rows_reconcile: PASS | sum=3437
+transition_rows_reconcile: PASS | sum=3437
+rule_ids_unique: PASS | rules=15
+rules_hash_matches_implementation: PASS | 185239a6fa68e0403c1984b9e6338dd5eec4842b116cbab6201d33e2fc706999
+rules_hash_matches_config: PASS | 185239a6fa68e0403c1984b9e6338dd5eec4842b116cbab6201d33e2fc706999
+fail_safe_rule_unused: PASS | OXV1_R999
+organic_exclusion_present: PASS | excluded samples=21
+mixed_anion_rules_present: PASS | rules=['OXV1_R020', 'OXV1_R030', 'OXV1_R040']
+inclusion_status_complete: PASS | exclude, include, review
+eligible_only_when_included: PASS | eligible=553
+structural_class_not_inferred: PASS | composition-only v1
+review_queue_reconciles: PASS | queue=57
+status_counts_frozen: PASS | counts={'include': 553, 'review': 36, 'exclude': 21}
+manifest_sources_exist: PASS | missing=[]
+manifest_hashes_match: PASS | current SHA-256 versus recorded
+workbook_zip_integrity: PASS | bad_member=None
+workbook_sheets_complete: PASS | sheets=['Class summary', 'Label assignments', 'Phase3 transition', 'Review queue', 'Row assignments', 'Rule examples', 'Rules', 'Sample assignments', 'Summary', 'Validation']
+workbook_has_no_error_text: PASS | scan of xl/*.xml
+workbook_nonempty: PASS | size=8863495
+workbook_validation_passes: PASS | phase4_workbook_validation_log.txt
+report_records_scope_and_limit: PASS | scope and interpretation limit

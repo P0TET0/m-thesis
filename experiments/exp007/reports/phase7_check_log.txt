@@ -1,0 +1,33 @@
+Phase 7 independent checks
+status=PASS
+checks=29
+failed=0
+required_outputs_exist: PASS | missing=[]
+all_build_checks_pass: PASS | failed=0
+phase6_comparison_frozen: PASS | rows=19008; paired=18890
+primary_cohort_frozen: PASS | rows=2984; samples=552
+primary_metrics_recomputed: PASS | max_abs_difference=2.220e-16
+sample_change_counts_recomputed: PASS | counts=(323, 211, 18)
+sample_change_rows_match: PASS | rows=552
+bootstrap_shape: PASS | rows=42
+bootstrap_intervals_contain_point: PASS | lower <= point <= upper
+primary_error_intervals_support_improvement: PASS | {'mae_log10': {'ci95_lower': -0.2427982620273522, 'ci95_upper': -0.0657490038479277}, 'rmse_log10': {'ci95_lower': -0.3670672373918907, 'ci95_upper': -0.1063940759251905}}
+group_rows_reconcile: PASS | rows=2984
+group_samples_have_support_labels: PASS | groups=12
+stratified_dimensions_complete: PASS | ['carrier_type', 'experimental_sigma_decade', 'oxide_v1_group', 'temperature_bin']
+coverage_loss_rows_recomputed: PASS | rows=78
+primary_coverage_loss_count: PASS | rows=48
+primary_coverage_recomputed: PASS | test=3032; ok=2984
+decision_summary_matches_evidence: PASS | classification_improves_large_error_control_with_small_coverage_cost
+manifest_sources_exist: PASS | missing=[]
+manifest_hashes_match: PASS | current SHA-256 versus recorded
+figure_valid_figure_phase7_primary_metrics_before_after: PASS | size=104407
+figure_valid_figure_phase7_group_mae_coverage_tradeoff: PASS | size=134561
+figure_valid_figure_phase7_sample_error_changes: PASS | size=65394
+workbook_zip_integrity: PASS | bad_member=None
+workbook_sheets_complete: PASS | sheets=['Bootstrap CIs', 'Coverage losses', 'Coverage summary', 'Oxide groups', 'Primary metrics', 'Sample changes', 'Stratified', 'Summary', 'Validation']
+workbook_has_no_error_text: PASS | scan of xl/*.xml
+workbook_nonempty: PASS | size=127059
+workbook_validation_passes: PASS | phase7_workbook_validation_log.txt
+report_documents_design: PASS | paired, sample-equal, and coverage statements
+report_documents_limits: PASS | interpretation limits

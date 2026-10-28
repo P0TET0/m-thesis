@@ -1,0 +1,21 @@
+Phase 7 build validation
+status=PASS
+checks=17
+failed=0
+phase6_build_validation_passes: PASS | phase6_validation_checks.csv
+phase6_independent_check_passes: PASS | phase6_check_log.txt
+comparison_row_count_frozen: PASS | rows=19008
+paired_row_count_frozen: PASS | rows=18890
+primary_row_count: PASS | rows=2984
+primary_sample_count: PASS | samples=552
+paired_metric_table_complete: PASS | rows=70
+bootstrap_table_complete: PASS | rows=42
+bootstrap_intervals_ordered: PASS | lower <= point <= upper
+group_count_reconciles: PASS | groups=12
+group_paired_rows_reconcile: PASS | rows=2984
+coverage_loss_count: PASS | rows=78
+primary_coverage_loss_count: PASS | rows=48
+coverage_scopes_complete: PASS | ['all_oxide_assigned', 'oxide_default_eligible', 'oxide_excluded_only', 'oxide_review_only']
+nonoxide_predictions_remain_unchanged: PASS | max_abs_delta=1.157e-15
+figures_created: PASS | figure_phase7_primary_metrics_before_after.png=104407, figure_phase7_group_mae_coverage_tradeoff.png=134561, figure_phase7_sample_error_changes.png=65394
+input_hashes_match_manifest: PASS | current SHA-256 versus recorded

@@ -1,0 +1,30 @@
+Phase 3 independent checks
+status=PASS
+checks=26
+failed=0
+required_outputs_exist: PASS | missing=[]
+all_build_validation_passes: PASS | failed=0
+phase1_oxide_rows_reconcile: PASS | phase3=3437; phase1=3437
+row_ids_match_phase1: PASS | unique=3437
+row_ids_unique: PASS | duplicates=0
+sample_rows_reconcile: PASS | samples=610
+label_rows_reconcile: PASS | labels=506
+family_rows_reconcile: PASS | sum=3437
+review_queue_reconciles: PASS | review=184
+all_rows_have_O: PASS | parsed_elements
+all_rows_parse_from_formula: PASS | formula_raw
+all_current_reasons_contains_O: PASS | contains_O
+candidate_families_nonempty: PASS | families=13
+organic_false_positive_candidates_present: PASS | samples=18
+mixed_anion_candidates_present: PASS | samples=54
+temperature_support_has_both_pass_and_fail: PASS | cells=186
+element_inventory_contains_O: PASS | elements=71
+residuals_finite: PASS | rows=3437
+manifest_sources_exist: PASS | missing=[]
+manifest_hashes_match: PASS | current SHA-256 versus recorded
+workbook_zip_integrity: PASS | bad_member=None
+workbook_sheets_complete: PASS | sheets=['Candidate families', 'Elements', 'Material labels', 'Oxide rows', 'Review queue', 'Samples', 'Summary', 'Temperature support', 'Validation']
+workbook_has_no_error_text: PASS | scan of xl/*.xml
+workbook_nonempty: PASS | size=6483138
+report_records_scope_and_limit: PASS | scope and interpretation limit
+workbook_validation_passes: PASS | phase3_workbook_validation_log.txt

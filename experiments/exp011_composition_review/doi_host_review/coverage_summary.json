@@ -1,0 +1,42 @@
+{
+  "generated_at_utc": "2026-10-25T14:25:52.848084+00:00",
+  "input_counts": {
+    "curve_rows": 233297,
+    "doi_raw_distinct": 17338,
+    "doi_normalized_distinct": 17337,
+    "sample_doi_keys": 104832,
+    "sample_id_distinct": 91612,
+    "sample_metadata_matches": 104832,
+    "local_papers_doi_matches": 17334,
+    "composition_conflicts": 0
+  },
+  "doi_total": 17337,
+  "samples_total": 104832,
+  "crossref_successful_queries": 17337,
+  "crossref_records": 17320,
+  "europepmc_successful_queries": 17337,
+  "europepmc_records": 2269,
+  "online_records_union": 17333,
+  "abstract_obtained_dois": 6848,
+  "open_fulltext_xml_dois": 648,
+  "individually_reviewed_dois": 55,
+  "dois_with_confirmed_sample_host": 54,
+  "dois_with_all_samples_confirmed_host": 42,
+  "sample_status_counts": {
+    "unresolved": 77078,
+    "unresolved_after_review": 125,
+    "automatic_candidate": 26842,
+    "literature_host_and_roles": 635,
+    "literature_host_only": 152
+  },
+  "samples_with_confirmed_dopant_removal": 171,
+  "evidence_records": 7707,
+  "all_dois_queried_crossref": true,
+  "all_dois_queried_europepmc": true,
+  "unqueried_or_failed_crossref": [],
+  "unqueried_or_failed_europepmc": [],
+  "datacite_records": 13,
+  "doi_resolver_supplement_count": 4,
+  "official_bibliography_supplement": 4,
+  "bibliography_confirmed_union": 17337
+}

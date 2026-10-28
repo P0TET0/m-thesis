@@ -1,0 +1,3832 @@
+{
+  "snapshot_status_counts": {
+    "unresolved": 75513,
+    "unresolved_after_review": 59,
+    "automatic_candidate": 29002,
+    "literature_host_and_roles": 167,
+    "literature_host_only": 91
+  },
+  "automated_integrity_problems": {},
+  "confirmed_sample_cases": 20,
+  "automatic_candidate_cases": 30,
+  "selected_cases": [
+    {
+      "selection_type": "confirmed",
+      "sample": {
+        "doi": "10.1002/adma.200600527",
+        "doi_original": "10.1002/adma.200600527",
+        "sample_id": "26769",
+        "SID": "149",
+        "composition_original": "Si0.80Ge0.20B0.016",
+        "sample_name": "SGMA05",
+        "curve_count": 1,
+        "host_material": "SiGe",
+        "host_elements": "Si;Ge",
+        "dopant_elements": "B",
+        "additive_components": "",
+        "judgment_status": "literature_host_and_roles",
+        "host_candidate": "",
+        "dopant_candidates": "",
+        "excluded_elements": "B",
+        "retained_atomic_fractions": "{\"Si\":0.8,\"Ge\":0.2}",
+        "normalization_status": "confirmed_dopants_removed_then_sum1",
+        "evidence_ids": "sige_dresselhaus_2007",
+        "reason_ja": "SGMA04/05という試料名とSi0.80Ge0.20B0.016が原文の図・説明に一致し、B dopingが明記される。",
+        "data_quality_flags": "nanocomposite: SiGe系分類は確定するが単一均一相とみなさない",
+        "review_level": "full_text_indexed_relevant_pages",
+        "previous_material_group": "",
+        "source_sample_record": "765",
+        "source_material_family": "{\"MaterialFamily\":{\"category\":\"Si/Ge\",\"comment\":\"\"}}",
+        "composition_details": "",
+        "source_figures": "21522:9"
+      },
+      "paper_title": "New Directions for Low‐Dimensional Thermoelectric Materials",
+      "source_metadata": {
+        "sample_name": "SGMA05",
+        "composition_details": "",
+        "compositions": [
+          "Si0.80Ge0.20B0.016"
+        ],
+        "SIDs": [
+          "149"
+        ],
+        "metadata_records": [
+          765
+        ],
+        "figures": [
+          "21522:9"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "sige_dresselhaus_2007",
+          "doi": "10.1002/adma.200600527",
+          "source_type": "primary_literature_manual",
+          "source_url": "https://wiki.physics.udel.edu/wiki_qttg/images/6/67/DRESSELHAUS%3Dnew_direction_for_low_dimensional_thermoelectric_materials.pdf",
+          "source_location": "p.1049: Fig.9および周辺段落; p.1050: Fig.10, Fig.11およびFig.12説明段落",
+          "short_excerpt": "Si0.80Ge0.20B0.016 sample doped with 1.6 % boron",
+          "interpretation_ja": "SGMA05/SGMA04はSiGeナノ複合材料で、B添加を記載。P-JIMOは比較用のbulk/advanced SiGe合金。HTB AはFig.9にあるがB量の個別確認は不足。",
+          "verification_level": "full_text_indexed_relevant_pages",
+          "host_candidate": "",
+          "dopant_candidates": "",
+          "applicable_sample_count": 4,
+          "limitations": "抜粋だけでなく該当箇所と試料対応を参照。本文全体を精読した意味ではない。",
+          "local_cache": "agents\\sige_evidence.json"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。保存された手動根拠と母材・成分保持方針の整合を確認。"
+    },
+    {
+      "selection_type": "confirmed",
+      "sample": {
+        "doi": "10.1016/j.jallcom.2018.09.029",
+        "doi_original": "10.1016/j.jallcom.2018.09.029",
+        "sample_id": "41700",
+        "SID": "31661",
+        "composition_original": "Si80Ge20B0.005",
+        "sample_name": "Si80Ge20B0.5at%",
+        "curve_count": 5,
+        "host_material": "SiGe",
+        "host_elements": "Si;Ge",
+        "dopant_elements": "B",
+        "additive_components": "",
+        "judgment_status": "literature_host_and_roles",
+        "host_candidate": "",
+        "dopant_candidates": "",
+        "excluded_elements": "B",
+        "retained_atomic_fractions": "{\"Si\":0.8,\"Ge\":0.2}",
+        "normalization_status": "confirmed_dopants_removed_then_sum1",
+        "evidence_ids": "sige_murugasami_b_2019",
+        "reason_ja": "原文のSiGe-B系列と試料名のB0.5–2.0at%が一致し、Bはドーパントと明記される。",
+        "data_quality_flags": "coefficient_scale_mismatch: Si/Geが80/20なのにB係数は0.005–0.02。試料名と原論文は0.5–2.0at%でありraw組成係数の尺度が一致しない;原本組成は修正せず品質問題として保持",
+        "review_level": "publisher_abstract_and_section_snippets",
+        "previous_material_group": "broad::SiGe_like",
+        "source_sample_record": "48623",
+        "source_material_family": "{\"MaterialFamily\":{\"category\":\"Si/Ge\",\"comment\":\"\"}}",
+        "composition_details": "",
+        "source_figures": "32481:4(a);32482:4(b);32483:4(c);32484:4(d);32485:4(e)"
+      },
+      "paper_title": "Simultaneous enhancement in thermoelectric performance and mechanical stability of p-type SiGe alloy doped with Boron prepared by mechanical alloying and spark plasma sintering",
+      "source_metadata": {
+        "sample_name": "Si80Ge20B0.5at%",
+        "composition_details": "",
+        "compositions": [
+          "Si80Ge20B0.005"
+        ],
+        "SIDs": [
+          "31661"
+        ],
+        "metadata_records": [
+          48623
+        ],
+        "figures": [
+          "32481:4(a)",
+          "32482:4(b)",
+          "32483:4(c)",
+          "32484:4(d)",
+          "32485:4(e)"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "sige_murugasami_b_2019",
+          "doi": "10.1016/j.jallcom.2018.09.029",
+          "source_type": "primary_literature_manual",
+          "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0925838818332584",
+          "source_location": "Introduction 最終段落; Material selection 最終文; Conclusion 第1文",
+          "short_excerpt": "The SiGe alloy doped with B (0.5–2.0 at.%)",
+          "interpretation_ja": "BをドープしたSiGe系列を作製し、p型RTG SiGeと比較。Material selectionでもBをdoping elementと記載。",
+          "verification_level": "publisher_abstract_and_section_snippets",
+          "host_candidate": "",
+          "dopant_candidates": "",
+          "applicable_sample_count": 5,
+          "limitations": "抜粋だけでなく該当箇所と試料対応を参照。本文全体を精読した意味ではない。",
+          "local_cache": "agents\\sige_evidence.json"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。保存された手動根拠と母材・成分保持方針の整合を確認。"
+    },
+    {
+      "selection_type": "confirmed",
+      "sample": {
+        "doi": "10.1016/j.jnucmat.2019.151856",
+        "doi_original": "10.1016/j.jnucmat.2019.151856",
+        "sample_id": "31425",
+        "SID": "21592",
+        "composition_original": "Si0.7895Ge0.198Ga0.0025P0.01",
+        "sample_name": "n-type SiGe_pristine",
+        "curve_count": 5,
+        "host_material": "SiGe",
+        "host_elements": "Si;Ge",
+        "dopant_elements": "",
+        "additive_components": "[\"GaP and P introduced in powder preparation\"]",
+        "judgment_status": "literature_host_only",
+        "host_candidate": "",
+        "dopant_candidates": "Ga;P",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "sige_li_neutron_2020",
+        "reason_ja": "本文の調合組成とn-type SiGe試料名が一致するため母材系はSiGe。Ga/Pを導入することは確認したが、元素ごとのドーパント/副相の区分を公開部分で確定していない。",
+        "data_quality_flags": "Ga/Pの個別役割・相状態未確認;host_known_but_composition_removal_not_fully_supported",
+        "review_level": "publisher_abstract_and_section_snippets",
+        "previous_material_group": "broad::SiGe_like",
+        "source_sample_record": "36818",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "25230:3(a);25232:3(c);25234:3(e);25236:4(c);25237:4(d)"
+      },
+      "paper_title": "Influence of fast neutron and gamma irradiation on the thermoelectric properties of n-type and p-type SiGe alloy",
+      "source_metadata": {
+        "sample_name": "n-type SiGe_pristine",
+        "composition_details": "",
+        "compositions": [
+          "Si0.7895Ge0.198Ga0.0025P0.01"
+        ],
+        "SIDs": [
+          "21592"
+        ],
+        "metadata_records": [
+          36818
+        ],
+        "figures": [
+          "25230:3(a)",
+          "25232:3(c)",
+          "25234:3(e)",
+          "25236:4(c)",
+          "25237:4(d)"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "sige_li_neutron_2020",
+          "doi": "10.1016/j.jnucmat.2019.151856",
+          "source_type": "primary_literature_manual",
+          "source_url": "https://www.sciencedirect.com/science/article/pii/S002231151930844X",
+          "source_location": "Abstract; Experimentalの粉末調合を述べる第1段落（公開section snippet）",
+          "short_excerpt": "Si0.7895Ge0.198Ga0.0025P0.01 or Si0.7925Ge0.2B0.0075",
+          "interpretation_ja": "n/p型SiGeの照射実験。Si/Ge、BまたはGaPとPの粉末から、元CSVと同じ二つの組成を作製したことを確認。公開部分では添加元素の固溶・析出の詳細は確認できない。",
+          "verification_level": "publisher_abstract_and_section_snippets",
+          "host_candidate": "",
+          "dopant_candidates": "",
+          "applicable_sample_count": 16,
+          "limitations": "抜粋だけでなく該当箇所と試料対応を参照。本文全体を精読した意味ではない。",
+          "local_cache": "agents\\sige_evidence.json"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。保存された手動根拠と母材・成分保持方針の整合を確認。"
+    },
+    {
+      "selection_type": "confirmed",
+      "sample": {
+        "doi": "10.1016/j.matchemphys.2013.09.019",
+        "doi_original": "10.1016/j.matchemphys.2013.09.019",
+        "sample_id": "21169",
+        "SID": "3728",
+        "composition_original": "Si80Ge20P2",
+        "sample_name": "Si80Ge20P2_Group B",
+        "curve_count": 5,
+        "host_material": "SiGe",
+        "host_elements": "Si;Ge",
+        "dopant_elements": "P",
+        "additive_components": "",
+        "judgment_status": "literature_host_and_roles",
+        "host_candidate": "",
+        "dopant_candidates": "",
+        "excluded_elements": "P",
+        "retained_atomic_fractions": "{\"Si\":0.8,\"Ge\":0.2}",
+        "normalization_status": "confirmed_dopants_removed_then_sum1",
+        "evidence_ids": "sige_li_2013",
+        "reason_ja": "該当Si80Ge20P2のn型材料を得るためPをSi/Geへ添加しており、SiGeを母材とする。",
+        "data_quality_flags": "ミリング媒体を母材・ドーパントとして組成に追加しない;媒体由来汚染と偏析の定量は未判定",
+        "review_level": "publisher_abstract_and_section_snippets",
+        "previous_material_group": "",
+        "source_sample_record": "12550",
+        "source_material_family": "{\"MaterialFamily\":{\"category\":\"Silicide\",\"comment\":\"\"}}",
+        "composition_details": "",
+        "source_figures": "17636:7a;17637:7b;17638:7c;17639:7d;17640:7e"
+      },
+      "paper_title": "Influences of milling media on the fabricating process and thermoelectric properties of silicon germanium alloys",
+      "source_metadata": {
+        "sample_name": "Si80Ge20P2_Group B",
+        "composition_details": "",
+        "compositions": [
+          "Si80Ge20P2"
+        ],
+        "SIDs": [
+          "3728"
+        ],
+        "metadata_records": [
+          12550
+        ],
+        "figures": [
+          "17636:7a",
+          "17637:7b",
+          "17638:7c",
+          "17639:7d",
+          "17640:7e"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "sige_li_2013",
+          "doi": "10.1016/j.matchemphys.2013.09.019",
+          "source_type": "primary_literature_manual",
+          "source_url": "https://www.sciencedirect.com/science/article/pii/S0254058413006998",
+          "source_location": "Abstract 第1文; Experimental details 第1段落; Microstructure and phase composition 第1段落",
+          "short_excerpt": "For fabricating such n-type material, phosphorus (P) powder",
+          "interpretation_ja": "Si80Ge20P2の合成、Si/Ge粉へのP添加、GeがSi結晶に固溶していく過程を記載。SiO2/ZrO2はミリング媒体。",
+          "verification_level": "publisher_abstract_and_section_snippets",
+          "host_candidate": "",
+          "dopant_candidates": "",
+          "applicable_sample_count": 1,
+          "limitations": "抜粋だけでなく該当箇所と試料対応を参照。本文全体を精読した意味ではない。",
+          "local_cache": "agents\\sige_evidence.json"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。保存された手動根拠と母材・成分保持方針の整合を確認。"
+    },
+    {
+      "selection_type": "confirmed",
+      "sample": {
+        "doi": "10.1016/j.materresbull.2019.05.008",
+        "doi_original": "10.1016/j.materresbull.2019.05.008",
+        "sample_id": "41600",
+        "SID": "24432",
+        "composition_original": "Si80Ge20P0.5",
+        "sample_name": "Si80Ge20P0.5",
+        "curve_count": 5,
+        "host_material": "SiGe",
+        "host_elements": "Si;Ge",
+        "dopant_elements": "P",
+        "additive_components": "",
+        "judgment_status": "literature_host_and_roles",
+        "host_candidate": "",
+        "dopant_candidates": "",
+        "excluded_elements": "P",
+        "retained_atomic_fractions": "{\"Si\":0.8,\"Ge\":0.2}",
+        "normalization_status": "confirmed_dopants_removed_then_sum1",
+        "evidence_ids": "sige_murugasami_p_2019",
+        "reason_ja": "試料名・組成のP0.5/1.0/1.5/2.0が原論文のP添加系列に一致する。母材はSiGeの両元素。",
+        "data_quality_flags": "",
+        "review_level": "publisher_abstract_and_section_snippets",
+        "previous_material_group": "broad::SiGe_like",
+        "source_sample_record": "38471",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "32347:4(a);32348:4(b);32349:4(c);32350:4(d);32351:4(e)"
+      },
+      "paper_title": "Synergetic enhancement of thermoelectric and mechanical properties of n-type SiGe-P alloy through solid state synthesis and spark plasma sintering",
+      "source_metadata": {
+        "sample_name": "Si80Ge20P0.5",
+        "composition_details": "",
+        "compositions": [
+          "Si80Ge20P0.5"
+        ],
+        "SIDs": [
+          "24432"
+        ],
+        "metadata_records": [
+          38471
+        ],
+        "figures": [
+          "32347:4(a)",
+          "32348:4(b)",
+          "32349:4(c)",
+          "32350:4(d)",
+          "32351:4(e)"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "sige_murugasami_p_2019",
+          "doi": "10.1016/j.materresbull.2019.05.008",
+          "source_type": "primary_literature_manual",
+          "source_url": "https://www.sciencedirect.com/science/article/pii/S0025540818335815",
+          "source_location": "Abstract 第3文; Materials and methods 第2段落; Conclusions 項目i",
+          "short_excerpt": "SiGe alloy doped with phosphorus (P) (0.5–2.0 at.%)",
+          "interpretation_ja": "Si:Ge=80:20 at.%の母材に、Pを0.5–2.0 at.%添加した系列。公開のMaterials and methodsに母材比を明記。",
+          "verification_level": "publisher_abstract_and_section_snippets",
+          "host_candidate": "",
+          "dopant_candidates": "",
+          "applicable_sample_count": 4,
+          "limitations": "抜粋だけでなく該当箇所と試料対応を参照。本文全体を精読した意味ではない。",
+          "local_cache": "agents\\sige_evidence.json"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。保存された手動根拠と母材・成分保持方針の整合を確認。"
+    },
+    {
+      "selection_type": "confirmed",
+      "sample": {
+        "doi": "10.1021/acs.chemmater.6b02308",
+        "doi_original": "10.1021/acs.chemmater.6b02308",
+        "sample_id": "9530",
+        "SID": "7401",
+        "composition_original": "Mg2Si0.3Sn0.7",
+        "sample_name": "x,y=0",
+        "curve_count": 1,
+        "host_material": "Mg2(Si,Sn)",
+        "host_elements": "Mg;Si;Sn",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "literature_host_and_roles",
+        "host_candidate": "",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "{\"Mg\":0.6666666666666666,\"Si\":0.1,\"Sn\":0.23333333333333334}",
+        "normalization_status": "no_elements_removed_sum1",
+        "evidence_ids": "other_07",
+        "reason_ja": "抄録と補足資料の説明に、SiまたはSnをGe置換する系列およびSb添加系列が明示される。",
+        "data_quality_flags": "abstract_and_si_description_only;do_not_reset_mg_excess",
+        "review_level": "primary_abstract_and_supporting_information_description_web_index",
+        "previous_material_group": "",
+        "source_sample_record": "18634",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "7838:2(a)"
+      },
+      "paper_title": "Optimization of the Electronic Band Structure and the Lattice Thermal Conductivity of Solid Solutions According to Simple Calculations: A Canonical Example of the Mg2Si1– x – y Ge x Sn y Ternary Solid Solution",
+      "source_metadata": {
+        "sample_name": "x,y=0",
+        "composition_details": "",
+        "compositions": [
+          "Mg2Si0.3Sn0.7"
+        ],
+        "SIDs": [
+          "7401"
+        ],
+        "metadata_records": [
+          18634
+        ],
+        "figures": [
+          "7838:2(a)"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "other_07",
+          "doi": "10.1021/acs.chemmater.6b02308",
+          "source_type": "primary_literature_manual",
+          "source_url": "https://pubs.acs.org/doi/abs/10.1021/acs.chemmater.6b02308",
+          "source_location": "Abstract; Supporting Information description, Figures S1-S3",
+          "short_excerpt": "Sb-doped solid solutions",
+          "interpretation_ja": "Mg2Si–Mg2Ge–Mg2Sn三元固溶体系を明記し、Sbをドーパントとして区別している。Ge量0.02～0.05は少量でも母材の固溶成分。Mg過剰量は元組成として維持する。",
+          "verification_level": "primary_abstract_and_supporting_information_description_web_index",
+          "host_candidate": "",
+          "dopant_candidates": "",
+          "applicable_sample_count": 18,
+          "limitations": "抜粋だけでなく該当箇所と試料対応を参照。本文全体を精読した意味ではない。",
+          "local_cache": "agents\\other_evidence.json"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。保存された手動根拠と母材・成分保持方針の整合を確認。"
+    },
+    {
+      "selection_type": "confirmed",
+      "sample": {
+        "doi": "10.1021/acs.chemmater.6b04898",
+        "doi_original": "10.1021/acs.chemmater.6b04898",
+        "sample_id": "45283",
+        "SID": "38600",
+        "composition_original": "ZrNiPb0.995Bi0.005",
+        "sample_name": "ZrNiPb1−xBix, x=0.005",
+        "curve_count": 6,
+        "host_material": "ZrNiPb",
+        "host_elements": "Zr;Ni;Pb",
+        "dopant_elements": "Bi",
+        "additive_components": "",
+        "judgment_status": "literature_host_and_roles",
+        "host_candidate": "",
+        "dopant_candidates": "",
+        "excluded_elements": "Bi",
+        "retained_atomic_fractions": "{\"Zr\":0.333889816360601,\"Ni\":0.333889816360601,\"Pb\":0.332220367278798}",
+        "normalization_status": "confirmed_dopants_removed_then_sum1",
+        "evidence_ids": "other_08",
+        "reason_ja": "抄録のZrNiPbベースBi添加およびSn合金化系列と元素構成が整合。個別測定値や添加量の照合までは未実施。",
+        "data_quality_flags": "abstract_only;dopant_amount_not_verified",
+        "review_level": "primary_abstract_web_index",
+        "previous_material_group": "broad::other_formula_system",
+        "source_sample_record": "54176",
+        "source_material_family": "{\"MaterialFamily\":{\"category\":\"Half-Heusler\",\"comment\":\"\"}}",
+        "composition_details": "",
+        "source_figures": "35119:2a;35121:2b;35123:2c;35126:2d;35128:2e;35135:2f"
+      },
+      "paper_title": "Thermoelectric Properties of n-type ZrNiPb-Based Half-Heuslers",
+      "source_metadata": {
+        "sample_name": "ZrNiPb1−xBix, x=0.005",
+        "composition_details": "",
+        "compositions": [
+          "ZrNiPb0.995Bi0.005"
+        ],
+        "SIDs": [
+          "38600"
+        ],
+        "metadata_records": [
+          54176
+        ],
+        "figures": [
+          "35119:2a",
+          "35121:2b",
+          "35123:2c",
+          "35126:2d",
+          "35128:2e",
+          "35135:2f"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "other_08",
+          "doi": "10.1021/acs.chemmater.6b04898",
+          "source_type": "primary_literature_manual",
+          "source_url": "https://pubs.acs.org/doi/abs/10.1021/acs.chemmater.6b04898",
+          "source_location": "Abstract, second and third sentences",
+          "short_excerpt": "via Bi doping. By further Sn-alloying in Pb site",
+          "interpretation_ja": "ZrNiPbでBiドーピングによるキャリア調整とSn合金化を区別。Snは母材側に保持し、Biをドーパントに分離する。Hf/Zr系比較試料にこの説明を適用しない。",
+          "verification_level": "primary_abstract_web_index",
+          "host_candidate": "",
+          "dopant_candidates": "",
+          "applicable_sample_count": 15,
+          "limitations": "抜粋だけでなく該当箇所と試料対応を参照。本文全体を精読した意味ではない。",
+          "local_cache": "agents\\other_evidence.json"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。保存された手動根拠と母材・成分保持方針の整合を確認。"
+    },
+    {
+      "selection_type": "confirmed",
+      "sample": {
+        "doi": "10.1021/acsami.7b14231",
+        "doi_original": "10.1021/acsami.7b14231",
+        "sample_id": "52830",
+        "SID": "30659",
+        "composition_original": "Sr0.9La0.067TiO3",
+        "sample_name": "x10A Sr1−xLa(2x/3)TiO3 x=0.1 (Fig 9)",
+        "curve_count": 1,
+        "host_material": "SrTiO3-La2/3TiO3",
+        "host_elements": "Sr;La;Ti;O",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "literature_host_only",
+        "host_candidate": "",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "other_02",
+        "reason_ja": "対象固溶体系は確認済み。Laは置換種だが端成分も形成するため、全濃度で除去してSrTiO3に戻す規則は未確定。Laを保留として保持。",
+        "data_quality_flags": "dopant_vs_alloy_boundary;a_site_vacancies;structural_transition;no_automatic_la_removal;host_known_but_composition_removal_not_fully_supported",
+        "review_level": "author_manuscript_fulltext",
+        "previous_material_group": "",
+        "source_sample_record": "47533",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "40225:9"
+      },
+      "paper_title": "Concurrent La and A-Site Vacancy Doping Modulates the Thermoelectric Response of SrTiO3: Experimental and Computational Evidence",
+      "source_metadata": {
+        "sample_name": "x10A Sr1−xLa(2x/3)TiO3 x=0.1 (Fig 9)",
+        "composition_details": "",
+        "compositions": [
+          "Sr0.9La0.067TiO3"
+        ],
+        "SIDs": [
+          "30659"
+        ],
+        "metadata_records": [
+          47533
+        ],
+        "figures": [
+          "40225:9"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "other_02",
+          "doi": "10.1021/acsami.7b14231",
+          "source_type": "primary_literature_manual",
+          "source_url": "https://eprints.whiterose.ac.uk/id/eprint/125290/1/Azough_ACSApplMatInterfaces_2017_OAM.pdf",
+          "source_location": "PDF pp. 3-5 (printed manuscript pp. 2-4): Introduction, Methods, Phase Analysis, Table 2",
+          "short_excerpt": "the solid solution SrTiO3-La2/3TiO3",
+          "interpretation_ja": "La置換とAサイト空孔を伴うSrTiO3–La2/3TiO3系列。高La側で結晶構造が変わり、La2/3TiO3端成分をSrTiO3が安定化する記述がある。ドーピングという用語だけではLa全量を母材から消せない。",
+          "verification_level": "author_manuscript_fulltext",
+          "host_candidate": "",
+          "dopant_candidates": "",
+          "applicable_sample_count": 36,
+          "limitations": "抜粋だけでなく該当箇所と試料対応を参照。本文全体を精読した意味ではない。",
+          "local_cache": "agents\\other_evidence.json"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。保存された手動根拠と母材・成分保持方針の整合を確認。"
+    },
+    {
+      "selection_type": "confirmed",
+      "sample": {
+        "doi": "10.1021/acsomega.8b01552",
+        "doi_original": "10.1021/acsomega.8b01552",
+        "sample_id": "429",
+        "SID": "34174",
+        "composition_original": "Ca2.95Lu0.05Co3.85Ga0.15O9",
+        "sample_name": "Ca2.95La0.05Co3.85Ga0.15O9(SPS)",
+        "curve_count": 1,
+        "host_material": "Ca3Co4O9",
+        "host_elements": "Ca;Co;O",
+        "dopant_elements": "Lu;Ga",
+        "additive_components": "",
+        "judgment_status": "literature_host_and_roles",
+        "host_candidate": "",
+        "dopant_candidates": "",
+        "excluded_elements": "Ga;Lu",
+        "retained_atomic_fractions": "{\"Ca\":0.18670886075949367,\"Co\":0.24367088607594936,\"O\":0.569620253164557}",
+        "normalization_status": "confirmed_dopants_removed_then_sum1",
+        "evidence_ids": "other_03",
+        "reason_ja": "試料調製節のCa3Co4O9系列に一致。Lu/Gaをドーパントとして区別。",
+        "data_quality_flags": "",
+        "review_level": "primary_fulltext_sections_web_index",
+        "previous_material_group": "",
+        "source_sample_record": "51256",
+        "source_material_family": "",
+        "composition_details": "spark plasma sintering",
+        "source_figures": "154:Fig 7(a)"
+      },
+      "paper_title": "Nanoscale Texturing and Interfaces in Compositionally Modified Ca3Co4O9 with Enhanced Thermoelectric Performance",
+      "source_metadata": {
+        "sample_name": "Ca2.95La0.05Co3.85Ga0.15O9(SPS)",
+        "composition_details": "spark plasma sintering",
+        "compositions": [
+          "Ca2.95Lu0.05Co3.85Ga0.15O9"
+        ],
+        "SIDs": [
+          "34174"
+        ],
+        "metadata_records": [
+          51256
+        ],
+        "figures": [
+          "154:Fig 7(a)"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "other_03",
+          "doi": "10.1021/acsomega.8b01552",
+          "source_type": "primary_literature_manual",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6645353/",
+          "source_location": "4.1 Sample Preparation; Phase Analysis and Microstructure of Textured Ca3Co4O9 with Ag Inclusions; Figure 3",
+          "short_excerpt": "Lu/Ga substitution will occur on Ca/Co sites.",
+          "interpretation_ja": "試料調製節の組成系列と図3を照合。Lu/GaはCa/Coサイト置換。Agは主に粒界の第二相で、一部はCaサイトに入ると記載されている。",
+          "verification_level": "primary_fulltext_sections_web_index",
+          "host_candidate": "",
+          "dopant_candidates": "",
+          "applicable_sample_count": 31,
+          "limitations": "抜粋だけでなく該当箇所と試料対応を参照。本文全体を精読した意味ではない。",
+          "local_cache": "agents\\other_evidence.json"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。保存された手動根拠と母材・成分保持方針の整合を確認。"
+    },
+    {
+      "selection_type": "confirmed",
+      "sample": {
+        "doi": "10.1021/ja206380h",
+        "doi_original": "10.1021/ja206380h",
+        "sample_id": "343",
+        "SID": "3490",
+        "composition_original": "Pb0.98Na0.02Te0.88S0.12",
+        "sample_name": "Pb0.98Na0.02Te0.88S0.12",
+        "curve_count": 3,
+        "host_material": "PbTe-PbS",
+        "host_elements": "Pb;Te;S",
+        "dopant_elements": "Na",
+        "additive_components": "",
+        "judgment_status": "literature_host_and_roles",
+        "host_candidate": "",
+        "dopant_candidates": "",
+        "excluded_elements": "Na",
+        "retained_atomic_fractions": "{\"Pb\":0.494949494949495,\"Te\":0.4444444444444444,\"S\":0.06060606060606061}",
+        "normalization_status": "confirmed_dopants_removed_then_sum1",
+        "evidence_ids": "other_05",
+        "reason_ja": "抄録で明示されたPbS 12%、Na 2%の対象試料に組成が一致。",
+        "data_quality_flags": "multiphase_or_nanostructured;abstract_only",
+        "review_level": "primary_abstract_web_index",
+        "previous_material_group": "broad::PbTe_like",
+        "source_sample_record": "11799",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "160:3(a);36:1(d);87:1(b)"
+      },
+      "paper_title": "High Performance Na-doped PbTe–PbS Thermoelectric Materials: Electronic Density of States Modification and Shape-Controlled Nanostructures",
+      "source_metadata": {
+        "sample_name": "Pb0.98Na0.02Te0.88S0.12",
+        "composition_details": "",
+        "compositions": [
+          "Pb0.98Na0.02Te0.88S0.12"
+        ],
+        "SIDs": [
+          "3490"
+        ],
+        "metadata_records": [
+          11799
+        ],
+        "figures": [
+          "160:3(a)",
+          "36:1(d)",
+          "87:1(b)"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "other_05",
+          "doi": "10.1021/ja206380h",
+          "source_type": "primary_literature_manual",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/21902270/",
+          "source_location": "Abstract, sentence beginning We report that",
+          "short_excerpt": "PbTe-PbS 12% doped with 2% Na",
+          "interpretation_ja": "抄録でPbTe–PbS 12%とNa 2%の組合せを確認。PbSは母材に固溶する成分とナノ構造の両方を形成し、Naがドーパント。抄録だけで他濃度を全て確定しない。",
+          "verification_level": "primary_abstract_web_index",
+          "host_candidate": "",
+          "dopant_candidates": "",
+          "applicable_sample_count": 24,
+          "limitations": "抜粋だけでなく該当箇所と試料対応を参照。本文全体を精読した意味ではない。",
+          "local_cache": "agents\\other_evidence.json"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。保存された手動根拠と母材・成分保持方針の整合を確認。"
+    },
+    {
+      "selection_type": "confirmed",
+      "sample": {
+        "doi": "10.1021/nl3003045",
+        "doi_original": "10.1021/nl3003045",
+        "sample_id": "1348",
+        "SID": "4145",
+        "composition_original": "Si93.75Ge6.25P0.15",
+        "sample_name": "5% NPs",
+        "curve_count": 4,
+        "host_material": "SiGe",
+        "host_elements": "Si;Ge",
+        "dopant_elements": "P",
+        "additive_components": "[\"P-doped Si70Ge30 nanoparticles in Si95Ge5 matrix\"]",
+        "judgment_status": "literature_host_and_roles",
+        "host_candidate": "",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "sige_yu_2012",
+        "reason_ja": "5–45%NPsという試料名と組成が、(Si95Ge5)1-x(Si70Ge30P3)xの総組成に一致。Pはドーピング用、Si/Geは両相の構成元素。",
+        "data_quality_flags": "nanocomposite: 実際の連続母相はSi95Ge5、粒子側はSi70Ge30;総組成のP除去後比率はSiGe系全体の比率であり連続母相そのものの比率ではない;host_known_but_composition_removal_not_fully_supported",
+        "review_level": "full_text_indexed_relevant_pages",
+        "previous_material_group": "broad::SiGe_like",
+        "source_sample_record": "13500",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "30334:3f;782:3a;783:3b;784:3e"
+      },
+      "paper_title": "Enhancement of Thermoelectric Properties by Modulation-Doping in Silicon Germanium Alloy Nanocomposites",
+      "source_metadata": {
+        "sample_name": "5% NPs",
+        "composition_details": "",
+        "compositions": [
+          "Si93.75Ge6.25P0.15"
+        ],
+        "SIDs": [
+          "4145"
+        ],
+        "metadata_records": [
+          13500
+        ],
+        "figures": [
+          "30334:3f",
+          "782:3a",
+          "783:3b",
+          "784:3e"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "sige_yu_2012",
+          "doi": "10.1021/nl3003045",
+          "source_type": "primary_literature_manual",
+          "source_url": "https://citeseerx.ist.psu.edu/document?doi=2e2bba0596359dcc606c19f0506a5016d3b9295b&repid=rep1&type=pdf",
+          "source_location": "p.2078: 新しいmodulation-doping設計の段落、試料作製段落、Table 1",
+          "short_excerpt": "Si95Ge5 as the matrix",
+          "interpretation_ja": "Si95Ge5母相とP添加Si70Ge30P3粒子を組み合わせる。Table 1に粒子5/15/25/35/45%と同組成均一試料の双方がある。",
+          "verification_level": "full_text_indexed_relevant_pages",
+          "host_candidate": "",
+          "dopant_candidates": "",
+          "applicable_sample_count": 5,
+          "limitations": "抜粋だけでなく該当箇所と試料対応を参照。本文全体を精読した意味ではない。",
+          "local_cache": "agents\\sige_evidence.json"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。保存された手動根拠と母材・成分保持方針の整合を確認。"
+    },
+    {
+      "selection_type": "confirmed",
+      "sample": {
+        "doi": "10.1039/c4cp00641k",
+        "doi_original": "10.1039/c4cp00641k",
+        "sample_id": "33435",
+        "SID": "4600",
+        "composition_original": "Mg2(Si0.3Sn0.7)0.975Bi0.025",
+        "sample_name": "y=0.025",
+        "curve_count": 1,
+        "host_material": "Mg2(Si,Sn)",
+        "host_elements": "Mg;Si;Sn",
+        "dopant_elements": "Bi",
+        "additive_components": "",
+        "judgment_status": "literature_host_and_roles",
+        "host_candidate": "",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "other_04",
+        "reason_ja": "全組成が本文のBi添加量範囲0～0.04とSi:Sn=0.3:0.7に一致。",
+        "data_quality_flags": "non_flat_formula_not_parsed;host_known_but_composition_removal_not_fully_supported",
+        "review_level": "author_manuscript_fulltext",
+        "previous_material_group": "",
+        "source_sample_record": "14372",
+        "source_material_family": "{\"MaterialFamily\":{\"category\":\"Mg2Si\",\"comment\":\"\"}}",
+        "composition_details": "Mg2(Si0.3Sn0.7)1−yBiy",
+        "source_figures": "26652:2(c)"
+      },
+      "paper_title": "Advanced thermoelectrics governed by a single parabolic band: Mg2Si0.3Sn0.7, a canonical example",
+      "source_metadata": {
+        "sample_name": "y=0.025",
+        "composition_details": "Mg2(Si0.3Sn0.7)1−yBiy",
+        "compositions": [
+          "Mg2(Si0.3Sn0.7)0.975Bi0.025"
+        ],
+        "SIDs": [
+          "4600"
+        ],
+        "metadata_records": [
+          14372
+        ],
+        "figures": [
+          "26652:2(c)"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "other_04",
+          "doi": "10.1039/c4cp00641k",
+          "source_type": "primary_literature_manual",
+          "source_url": "https://pubs.rsc.org/en/content/getauthorversionpdf/c4cp00641k",
+          "source_location": "PDF p. 3 (printed p. 2), synthesis paragraph; Table 1 on PDF p. 4",
+          "short_excerpt": "Mg2(Si0.3Sn0.7)1-yBiy (0 ≤ y ≤ 0.04)",
+          "interpretation_ja": "Biを添加するMg2Si0.3Sn0.7系列を原稿本文の合成段落とTable 1で確認。Si0.3は母材の合金構成元素であり除去しない。",
+          "verification_level": "author_manuscript_fulltext",
+          "host_candidate": "",
+          "dopant_candidates": "",
+          "applicable_sample_count": 15,
+          "limitations": "抜粋だけでなく該当箇所と試料対応を参照。本文全体を精読した意味ではない。",
+          "local_cache": "agents\\other_evidence.json"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。保存された手動根拠と母材・成分保持方針の整合を確認。"
+    },
+    {
+      "selection_type": "confirmed",
+      "sample": {
+        "doi": "10.1039/c5ee01147g",
+        "doi_original": "10.1039/c5ee01147g",
+        "sample_id": "185",
+        "SID": "874",
+        "composition_original": "Pb1Te0.9S0.1Na0.06",
+        "sample_name": "Pb1Te0.9S0.1Na0.06",
+        "curve_count": 3,
+        "host_material": "PbTe-PbS",
+        "host_elements": "Pb;Te;S",
+        "dopant_elements": "Na",
+        "additive_components": "",
+        "judgment_status": "literature_host_and_roles",
+        "host_candidate": "",
+        "dopant_candidates": "",
+        "excluded_elements": "Na",
+        "retained_atomic_fractions": "{\"Pb\":0.5,\"Te\":0.45,\"S\":0.05}",
+        "normalization_status": "confirmed_dopants_removed_then_sum1",
+        "evidence_ids": "other_06",
+        "reason_ja": "S比0.10～0.35の主系列は抄録の組成範囲と一致。Na0.06は入力表記のまま保存し、論文の3 at%と数値を直接比較しない。",
+        "data_quality_flags": "multiphase_or_nanostructured;abstract_only;dopant_amount_convention_not_verified",
+        "review_level": "primary_abstract_web_index",
+        "previous_material_group": "broad::PbTe_like",
+        "source_sample_record": "3227",
+        "source_material_family": "{\"MaterialFamily\":{\"category\":\"PbTe\",\"comment\":\"\"}}",
+        "composition_details": "",
+        "source_figures": "132:1(b);145:1(a);30:1(d)"
+      },
+      "paper_title": "Superior thermoelectric performance in PbTe–PbS pseudo-binary: extremely low thermal conductivity and modulated carrier concentration",
+      "source_metadata": {
+        "sample_name": "Pb1Te0.9S0.1Na0.06",
+        "composition_details": "",
+        "compositions": [
+          "Pb1Te0.9S0.1Na0.06"
+        ],
+        "SIDs": [
+          "874"
+        ],
+        "metadata_records": [
+          3227
+        ],
+        "figures": [
+          "132:1(b)",
+          "145:1(a)",
+          "30:1(d)"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "other_06",
+          "doi": "10.1039/c5ee01147g",
+          "source_type": "primary_literature_manual",
+          "source_url": "https://pubs.rsc.org/en/content/articlelanding/2015/ee/c5ee01147g",
+          "source_location": "Abstract, sentence listing x = 10%, 15%, 20%, 25%, 30% and 35%",
+          "short_excerpt": "3 at% Na-doped (PbTe)1−x(PbS)x",
+          "interpretation_ja": "PbTe–PbS擬二元系のNa添加試料。Sは合金化・相分離に関与する母材成分であり、少量だからという理由では除去しない。Na添加濃度の基準は式係数と異なり、原子%の明記がある。",
+          "verification_level": "primary_abstract_web_index",
+          "host_candidate": "",
+          "dopant_candidates": "",
+          "applicable_sample_count": 17,
+          "limitations": "抜粋だけでなく該当箇所と試料対応を参照。本文全体を精読した意味ではない。",
+          "local_cache": "agents\\other_evidence.json"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。保存された手動根拠と母材・成分保持方針の整合を確認。"
+    },
+    {
+      "selection_type": "confirmed",
+      "sample": {
+        "doi": "10.1063/1.323271",
+        "doi_original": "10.1063/1.323271",
+        "sample_id": "21110",
+        "SID": "1853",
+        "composition_original": "As0.2P0.2Si80Ge20",
+        "sample_name": "AsP5-18",
+        "curve_count": 2,
+        "host_material": "SiGe",
+        "host_elements": "Si;Ge",
+        "dopant_elements": "As;P",
+        "additive_components": "",
+        "judgment_status": "literature_host_and_roles",
+        "host_candidate": "",
+        "dopant_candidates": "",
+        "excluded_elements": "As;P",
+        "retained_atomic_fractions": "{\"Si\":0.8,\"Ge\":0.2}",
+        "normalization_status": "confirmed_dopants_removed_then_sum1",
+        "evidence_ids": "sige_heller_1976",
+        "reason_ja": "As/Pを含む試料組成とAsP試料名がabstractの共ドープ系列に一致する。",
+        "data_quality_flags": "Table 1による個別濃度照合は未実施",
+        "review_level": "publisher_abstract",
+        "previous_material_group": "",
+        "source_sample_record": "6073",
+        "source_material_family": "{\"MaterialFamily\":{\"category\":\"Alloy\",\"comment\":\"\"}}",
+        "composition_details": "table 1",
+        "source_figures": "17577:5;17578:6"
+      },
+      "paper_title": "Electrical transpoet properties of SiGe thermoelectric alloys doped with As, P, and As+P",
+      "source_metadata": {
+        "sample_name": "AsP5-18",
+        "composition_details": "table 1",
+        "compositions": [
+          "As0.2P0.2Si80Ge20"
+        ],
+        "SIDs": [
+          "1853"
+        ],
+        "metadata_records": [
+          6073
+        ],
+        "figures": [
+          "17577:5",
+          "17578:6"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "sige_heller_1976",
+          "doi": "10.1063/1.323271",
+          "source_type": "primary_literature_manual",
+          "source_url": "https://pubs.aip.org/aip/jap/article/47/9/4113/502358/Electrical-transpoet-properties-of-SiGe",
+          "source_location": "Abstract 第1–2文 (HTMLは記事見出し直後; p.4113のabstractに相当)",
+          "short_excerpt": "The alloys were doped with As, P, or As+P",
+          "interpretation_ja": "Si80Ge20合金にAs、P、As+Pをドープした系列を測定。個別濃度を与えるTable 1は今回未取得。",
+          "verification_level": "publisher_abstract",
+          "host_candidate": "",
+          "dopant_candidates": "",
+          "applicable_sample_count": 5,
+          "limitations": "抜粋だけでなく該当箇所と試料対応を参照。本文全体を精読した意味ではない。",
+          "local_cache": "agents\\sige_evidence.json"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。保存された手動根拠と母材・成分保持方針の整合を確認。"
+    },
+    {
+      "selection_type": "confirmed",
+      "sample": {
+        "doi": "10.1063/1.348408",
+        "doi_original": "10.1063/1.348408",
+        "sample_id": "21167",
+        "SID": "1862",
+        "composition_original": "B0.002Si0.8Ge0.2",
+        "sample_name": "p-type sintered Si0.8Ge0.2",
+        "curve_count": 4,
+        "host_material": "SiGe",
+        "host_elements": "Si;Ge",
+        "dopant_elements": "B",
+        "additive_components": "",
+        "judgment_status": "literature_host_and_roles",
+        "host_candidate": "",
+        "dopant_candidates": "",
+        "excluded_elements": "B",
+        "retained_atomic_fractions": "{\"Si\":0.8,\"Ge\":0.2}",
+        "normalization_status": "confirmed_dopants_removed_then_sum1",
+        "evidence_ids": "sige_vining_1991",
+        "reason_ja": "原文のp型Si0.8Ge0.2とB添加記述が試料名・composition_detailsに一致する。Geは母材構成元素。",
+        "data_quality_flags": "B係数とwt.%の関係は本判定では換算・修正しない",
+        "review_level": "full_text_relevant_sections",
+        "previous_material_group": "broad::SiGe_like",
+        "source_sample_record": "6097",
+        "source_material_family": "{\"MaterialFamily\":{\"category\":\"Alloy\",\"comment\":\"\"}}",
+        "composition_details": "p-type samples were prepared with 0.08 wt. % boron",
+        "source_figures": "17632:4-1;17633:4-2;17634:4-3;17635:4-4"
+      },
+      "paper_title": "Thermoelectric properties of pressure‐sintered Si0.8Ge0.2thermoelectric alloys",
+      "source_metadata": {
+        "sample_name": "p-type sintered Si0.8Ge0.2",
+        "composition_details": "p-type samples were prepared with 0.08 wt. % boron",
+        "compositions": [
+          "B0.002Si0.8Ge0.2"
+        ],
+        "SIDs": [
+          "1862"
+        ],
+        "metadata_records": [
+          6097
+        ],
+        "figures": [
+          "17632:4-1",
+          "17633:4-2",
+          "17634:4-3",
+          "17635:4-4"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "sige_vining_1991",
+          "doi": "10.1063/1.348408",
+          "source_type": "primary_literature_manual",
+          "source_url": "https://cvining.com/system/files/articles/vining/Vining-JAP-1991b.pdf",
+          "source_location": "p.4333: Abstract, II. EXPERIMENTAL DETAILS 第1段落; pp.4334–4335: Table I",
+          "short_excerpt": "heavily doped with either boron or phosphorus",
+          "interpretation_ja": "SiとGeの原子比4:1の溶融体に、n型ではP、p型ではBを添加。表IではB/P濃度の例外を区別している。",
+          "verification_level": "full_text_relevant_sections",
+          "host_candidate": "",
+          "dopant_candidates": "",
+          "applicable_sample_count": 2,
+          "limitations": "抜粋だけでなく該当箇所と試料対応を参照。本文全体を精読した意味ではない。",
+          "local_cache": "agents\\sige_evidence.json"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。保存された手動根拠と母材・成分保持方針の整合を確認。"
+    },
+    {
+      "selection_type": "confirmed",
+      "sample": {
+        "doi": "10.1073/pnas.1617663113",
+        "doi_original": "10.1073/pnas.1617663113",
+        "sample_id": "31556",
+        "SID": "21244",
+        "composition_original": "Nb0.95Ti0.05FeSb",
+        "sample_name": "Nb0.95Ti0.05FeSb",
+        "curve_count": 1,
+        "host_material": "NbFeSb",
+        "host_elements": "Nb;Fe;Sb",
+        "dopant_elements": "Ti",
+        "additive_components": "",
+        "judgment_status": "literature_host_and_roles",
+        "host_candidate": "",
+        "dopant_candidates": "",
+        "excluded_elements": "Ti",
+        "retained_atomic_fractions": "{\"Nb\":0.3220338983050847,\"Fe\":0.3389830508474576,\"Sb\":0.3389830508474576}",
+        "normalization_status": "confirmed_dopants_removed_then_sum1",
+        "evidence_ids": "other_11",
+        "reason_ja": "図7キャプションのx=0.05/0.2に正確に一致。",
+        "data_quality_flags": "",
+        "review_level": "primary_fulltext_sections_web_index",
+        "previous_material_group": "",
+        "source_sample_record": "36147",
+        "source_material_family": "{\"MaterialFamily\":{\"category\":\"Half-Heusler\",\"comment\":\"\"}}",
+        "composition_details": "",
+        "source_figures": "25325:7f"
+      },
+      "paper_title": "Achieving high power factor and output power density in p-type half-Heuslers Nb1-xTixFeSb",
+      "source_metadata": {
+        "sample_name": "Nb0.95Ti0.05FeSb",
+        "composition_details": "",
+        "compositions": [
+          "Nb0.95Ti0.05FeSb"
+        ],
+        "SIDs": [
+          "21244"
+        ],
+        "metadata_records": [
+          36147
+        ],
+        "figures": [
+          "25325:7f"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "other_11",
+          "doi": "10.1073/pnas.1617663113",
+          "source_type": "primary_literature_manual",
+          "source_url": "https://www.pnas.org/content/pnas/113/48/13576.full.pdf",
+          "source_location": "Results and Discussion, thermal-conductivity discussion; Figure 7 caption, p. 13580",
+          "short_excerpt": "With increased Ti doping, the lattice thermal conductivity decreases significantly",
+          "interpretation_ja": "Nb1-xTixFeSbをTiドーピング系列として扱い、Nb0.95Ti0.05FeSbとNb0.8Ti0.2FeSbを図7で明示。組成式のNb/Fe/Sbが母材、Tiが置換ドーパント。",
+          "verification_level": "primary_fulltext_sections_web_index",
+          "host_candidate": "",
+          "dopant_candidates": "",
+          "applicable_sample_count": 13,
+          "limitations": "抜粋だけでなく該当箇所と試料対応を参照。本文全体を精読した意味ではない。",
+          "local_cache": "agents\\other_evidence.json"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。保存された手動根拠と母材・成分保持方針の整合を確認。"
+    },
+    {
+      "selection_type": "confirmed",
+      "sample": {
+        "doi": "10.1126/sciadv.aar5606",
+        "doi_original": "10.1126/sciadv.aar5606",
+        "sample_id": "40280",
+        "SID": "31786",
+        "composition_original": "(Bi0.5Sb1.5Te3)79.21(Te)20.79",
+        "sample_name": "Bi0.5Sb1.5Te3+x wt % excess of Te_x=5_perpendicular",
+        "curve_count": 6,
+        "host_material": "Bi0.5Sb1.5Te3",
+        "host_elements": "Bi;Sb;Te",
+        "dopant_elements": "",
+        "additive_components": "[\"excess Te\"]",
+        "judgment_status": "literature_host_only",
+        "host_candidate": "",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "other_09",
+        "reason_ja": "母材と過剰Te加工添加の関係を本文で確認。元CSVの括弧外混合比と最終残留Te量は同一とみなさない。",
+        "data_quality_flags": "non_flat_formula_not_parsed;starting_vs_final_composition;excess_te_not_elemental_dopant;host_known_but_composition_removal_not_fully_supported",
+        "review_level": "primary_abstract_and_fulltext_sections_web_index",
+        "previous_material_group": "broad::BiSbTe_tetradymite_like",
+        "source_sample_record": "48888",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "31344:4(A);31346:4(C);31347:5(A)perp.;31348:5(B);31349:5(C);31350:5(D)"
+      },
+      "paper_title": "Thermal conductivity in Bi0.5Sb1.5Te3+xand the role of dense dislocation arrays at grain boundaries",
+      "source_metadata": {
+        "sample_name": "Bi0.5Sb1.5Te3+x wt % excess of Te_x=5_perpendicular",
+        "composition_details": "",
+        "compositions": [
+          "(Bi0.5Sb1.5Te3)79.21(Te)20.79"
+        ],
+        "SIDs": [
+          "31786"
+        ],
+        "metadata_records": [
+          48888
+        ],
+        "figures": [
+          "31344:4(A)",
+          "31346:4(C)",
+          "31347:5(A)perp.",
+          "31348:5(B)",
+          "31349:5(C)",
+          "31350:5(D)"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "other_09",
+          "doi": "10.1126/sciadv.aar5606",
+          "source_type": "primary_literature_manual",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5983911/",
+          "source_location": "Abstract; thermal-conductivity discussion around Figure 4",
+          "short_excerpt": "with excess Te (which formed liquid phase, thereby facilitating sintering)",
+          "interpretation_ja": "母材Bi0.5Sb1.5Te3に過剰Teを加えて加工する研究。Biは係数0.5でも母材成分。過剰Teは焼結過程の液相添加分で、母材中Teと区別し、元素Te全体は消さない。",
+          "verification_level": "primary_abstract_and_fulltext_sections_web_index",
+          "host_candidate": "",
+          "dopant_candidates": "",
+          "applicable_sample_count": 14,
+          "limitations": "抜粋だけでなく該当箇所と試料対応を参照。本文全体を精読した意味ではない。",
+          "local_cache": "agents\\other_evidence.json"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。保存された手動根拠と母材・成分保持方針の整合を確認。"
+    },
+    {
+      "selection_type": "confirmed",
+      "sample": {
+        "doi": "10.1142/s1793604714500088",
+        "doi_original": "10.1142/s1793604714500088",
+        "sample_id": "27605",
+        "SID": "973",
+        "composition_original": "Si80Ge19Ga1",
+        "sample_name": "1#",
+        "curve_count": 5,
+        "host_material": "SiGe",
+        "host_elements": "Si;Ge",
+        "dopant_elements": "Ga",
+        "additive_components": "",
+        "judgment_status": "literature_host_and_roles",
+        "host_candidate": "",
+        "dopant_candidates": "",
+        "excluded_elements": "Ga",
+        "retained_atomic_fractions": "{\"Si\":0.8080808080808081,\"Ge\":0.1919191919191919}",
+        "normalization_status": "confirmed_dopants_removed_then_sum1",
+        "evidence_ids": "sige_lin_2014",
+        "reason_ja": "試料名1#–5#とSi80Ge(20-x)Gax系列をTable 1で対応。材料系としてSiGeを保持し、Gaは意図的ドープ元素として別管理する。",
+        "data_quality_flags": "Ga全量を電気的に活性なドーパント濃度と解釈しない;multiphase: 試料2#/3#で組成不均一; 3#はWSi2も報告;Ga除去は分類表現に限り実際の相組成の再現とはしない",
+        "review_level": "author_uploaded_full_text_relevant_sections",
+        "previous_material_group": "broad::SiGe_like",
+        "source_sample_record": "3370",
+        "source_material_family": "{\"MaterialFamily\":{\"category\":\"Si/Ge\",\"comment\":\"\"}}",
+        "composition_details": "",
+        "source_figures": "22176:3(a);22177:3(b);22178:3(c);22179:3(d);22180:3(f)"
+      },
+      "paper_title": "Microstructure and thermoelectric properties of Ga-DOPED SiGe alloys prepared by mechanical alloying and induction hot pressing",
+      "source_metadata": {
+        "sample_name": "1#",
+        "composition_details": "",
+        "compositions": [
+          "Si80Ge19Ga1"
+        ],
+        "SIDs": [
+          "973"
+        ],
+        "metadata_records": [
+          3370
+        ],
+        "figures": [
+          "22176:3(a)",
+          "22177:3(b)",
+          "22178:3(c)",
+          "22179:3(d)",
+          "22180:3(f)"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "sige_lin_2014",
+          "doi": "10.1142/s1793604714500088",
+          "source_type": "primary_literature_manual",
+          "source_url": "https://www.researchgate.net/publication/262263058_Microstructure_and_thermoelectric_properties_of_Ga-DOPED_SiGe_alloys_prepared_by_mechanical_alloying_and_induction_hot_pressing",
+          "source_location": "Abstract; Table 1; Fig.2説明; temperature-dependent propertiesを述べる段落",
+          "short_excerpt": "only part of Ga atoms is incorporated as dopant in the SiGe solid solution phase",
+          "interpretation_ja": "著者Dexuan Huoの公開全文でGa添加とp型化を記載。Gaの全量が固溶ドーパントになるわけではなく、Ge/Gaリッチ相やWSi2を含む試料もある。",
+          "verification_level": "author_uploaded_full_text_relevant_sections",
+          "host_candidate": "",
+          "dopant_candidates": "",
+          "applicable_sample_count": 5,
+          "limitations": "抜粋だけでなく該当箇所と試料対応を参照。本文全体を精読した意味ではない。",
+          "local_cache": "agents\\sige_evidence.json"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。保存された手動根拠と母材・成分保持方針の整合を確認。ただしGa全量除去の相分配問題はQA03を参照。"
+    },
+    {
+      "selection_type": "confirmed",
+      "sample": {
+        "doi": "10.3390/ma11040649",
+        "doi_original": "10.3390/ma11040649",
+        "sample_id": "83154",
+        "SID": "49308",
+        "composition_original": "ZrNiSn",
+        "sample_name": "Zr(1-x)HfxNiSn, x=0",
+        "curve_count": 4,
+        "host_material": "ZrNiSn",
+        "host_elements": "Zr;Ni;Sn",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "literature_host_and_roles",
+        "host_candidate": "",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "{\"Zr\":0.3333333333333333,\"Ni\":0.3333333333333333,\"Sn\":0.3333333333333333}",
+        "normalization_status": "no_elements_removed_sum1",
+        "evidence_ids": "other_01",
+        "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+        "data_quality_flags": "phase_separation_possible;host_family_not_phase_resolved",
+        "review_level": "primary_fulltext_sections_web_index",
+        "previous_material_group": "broad::other_formula_system",
+        "source_sample_record": "84699",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "55397:3_top-left;55428:3_top-right;55432:3_bottom-left;55440:3_bottom-right"
+      },
+      "paper_title": "On the Phase Separation in n-Type Thermoelectric Half-Heusler Materials",
+      "source_metadata": {
+        "sample_name": "Zr(1-x)HfxNiSn, x=0",
+        "composition_details": "",
+        "compositions": [
+          "ZrNiSn"
+        ],
+        "SIDs": [
+          "49308"
+        ],
+        "metadata_records": [
+          84699
+        ],
+        "figures": [
+          "55397:3_top-left",
+          "55428:3_top-right",
+          "55432:3_bottom-left",
+          "55440:3_bottom-right"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "other_01",
+          "doi": "10.3390/ma11040649",
+          "source_type": "primary_literature_manual",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5951533/",
+          "source_location": "2.1 Understanding the Phase Separation; 2.2; Tables 1, 2, 9, 10",
+          "short_excerpt": "the Ti${}_{x}$Zr${}_{y}$Hf${}_{z}$NiSn system",
+          "interpretation_ja": "Ti/Zr/Hfを構成元素として秤量した半Heusler系列。混合比を変えて相分離を調べているため、少量Ti/Zr/Hfも母材構成元素として保持する。単一固溶体・単相とは限らない。",
+          "verification_level": "primary_fulltext_sections_web_index",
+          "host_candidate": "",
+          "dopant_candidates": "",
+          "applicable_sample_count": 47,
+          "limitations": "抜粋だけでなく該当箇所と試料対応を参照。本文全体を精読した意味ではない。",
+          "local_cache": "agents\\other_evidence.json"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。保存された手動根拠と母材・成分保持方針の整合を確認。"
+    },
+    {
+      "selection_type": "confirmed",
+      "sample": {
+        "doi": "10.3390/ma14020273",
+        "doi_original": "10.3390/ma14020273",
+        "sample_id": "54046",
+        "SID": "38053",
+        "composition_original": "Ca3Co4O9",
+        "sample_name": "bulk Ca349 sintered 850dC/10h (Fig 5a)",
+        "curve_count": 1,
+        "host_material": "Ca3Co4O9",
+        "host_elements": "Ca;Co;O",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "literature_host_only",
+        "host_candidate": "",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "other_10",
+        "reason_ja": "入力式と抄録の合成対象が一致。別添加元素は入力にないが、ドーパント不存在を全本文で証明したものではない。",
+        "data_quality_flags": "abstract_only;host_known_but_composition_removal_not_fully_supported",
+        "review_level": "primary_abstract_web_index",
+        "previous_material_group": "",
+        "source_sample_record": "53703",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "40801:5a"
+      },
+      "paper_title": "Effect of Heating Modes on Reactive Sintering of Ca3Co4O9 Ceramics",
+      "source_metadata": {
+        "sample_name": "bulk Ca349 sintered 850dC/10h (Fig 5a)",
+        "composition_details": "",
+        "compositions": [
+          "Ca3Co4O9"
+        ],
+        "SIDs": [
+          "38053"
+        ],
+        "metadata_records": [
+          53703
+        ],
+        "figures": [
+          "40801:5a"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "other_10",
+          "doi": "10.3390/ma14020273",
+          "source_type": "primary_literature_manual",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/33430402/",
+          "source_location": "Abstract, first sentence",
+          "short_excerpt": "bulk calcium cobaltite (Ca349/Ca3Co4O9) ceramics",
+          "interpretation_ja": "Ca3Co4O9の焼結法・加熱条件を比較する論文。入力試料はすべてCa3Co4O9で、母材を一致させられる。",
+          "verification_level": "primary_abstract_web_index",
+          "host_candidate": "",
+          "dopant_candidates": "",
+          "applicable_sample_count": 18,
+          "limitations": "抜粋だけでなく該当箇所と試料対応を参照。本文全体を精読した意味ではない。",
+          "local_cache": "agents\\other_evidence.json"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。保存された手動根拠と母材・成分保持方針の整合を確認。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.1063/1.2067704",
+        "doi_original": "10.1063/1.2067704",
+        "sample_id": "3891",
+        "SID": "1918",
+        "composition_original": "Co4Sb12",
+        "sample_name": "x=0",
+        "curve_count": 5,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "CoSb3",
+        "dopant_candidates": "Te",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_5a69e08271652aba",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "",
+        "source_sample_record": "6358",
+        "source_material_family": "{\"MaterialFamily\":{\"category\":\"Skutterudite\",\"comment\":\"\"}}",
+        "composition_details": "",
+        "source_figures": "2659:5;2660:8;2661:9;2662:10;2663:11",
+        "_bucket": "antimonide"
+      },
+      "paper_title": "Thermoelectric properties of Te-doped CoSb3 by spark plasma sintering",
+      "source_metadata": {
+        "sample_name": "x=0",
+        "composition_details": "",
+        "compositions": [
+          "Co4Sb12"
+        ],
+        "SIDs": [
+          "1918"
+        ],
+        "metadata_records": [
+          6358
+        ],
+        "figures": [
+          "2659:5",
+          "2660:8",
+          "2661:9",
+          "2662:10",
+          "2663:11"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_5a69e08271652aba",
+          "doi": "10.1063/1.2067704",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.1063/1.2067704",
+          "source_location": "starrydata_papers.csv title; normalized-text character span=[29,43]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として CoSb3 を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "CoSb3",
+          "dopant_candidates": "Te",
+          "applicable_sample_count": 9,
+          "limitations": "",
+          "local_cache": "cache/papers.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。ただし試料に存在しないドーパント候補がありQA01を参照。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.1063/1.1901813",
+        "doi_original": "10.1063/1.1901813",
+        "sample_id": "13347",
+        "SID": "6692",
+        "composition_original": "Ga0.03In0.97Sb",
+        "sample_name": "Ga0.03In0.97Sb/SiO2 glass",
+        "curve_count": 1,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "Ga0.03In0.97Sb",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_5b5a2561c78cb7b3",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "material_role_not_explicit;multiple_material_candidates",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "",
+        "source_sample_record": "17504",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "11170:6",
+        "_bucket": "antimonide"
+      },
+      "paper_title": "Thermoelectric properties of InSb and Ga0.03In0.97Sb thin films grown by metalorganic vapor-phase epitaxy",
+      "source_metadata": {
+        "sample_name": "Ga0.03In0.97Sb/SiO2 glass",
+        "composition_details": "",
+        "compositions": [
+          "Ga0.03In0.97Sb"
+        ],
+        "SIDs": [
+          "6692"
+        ],
+        "metadata_records": [
+          17504
+        ],
+        "figures": [
+          "11170:6"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_5b5a2561c78cb7b3",
+          "doi": "10.1063/1.1901813",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.1063/1.1901813",
+          "source_location": "starrydata_papers.csv title; normalized-text character span=[38,52]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として Ga0.03In0.97Sb を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "Ga0.03In0.97Sb",
+          "dopant_candidates": "",
+          "applicable_sample_count": 3,
+          "limitations": "material_role_not_explicit;multiple_material_candidates",
+          "local_cache": "cache/papers.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.1063/1.2172705",
+        "doi_original": "10.1063/1.2172705",
+        "sample_id": "3913",
+        "SID": "1922",
+        "composition_original": "Sr0.4Co4Sb12",
+        "sample_name": "y=0.40",
+        "curve_count": 5,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "SryCo4Sb12",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_9fbe589421715639",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "material_role_not_explicit;variable_composition",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "broad::CoSb_skutterudite_like",
+        "source_sample_record": "6376",
+        "source_material_family": "{\"MaterialFamily\":{\"category\":\"Skutterudite\",\"comment\":\"\"}}",
+        "composition_details": "",
+        "source_figures": "2668:2;2669:3;2670:4;2671:4_lattice;2672:6",
+        "_bucket": "antimonide"
+      },
+      "paper_title": "Synthesis and thermoelectric properties of Sr-filled skutterudite SryCo4Sb12",
+      "source_metadata": {
+        "sample_name": "y=0.40",
+        "composition_details": "",
+        "compositions": [
+          "Sr0.4Co4Sb12"
+        ],
+        "SIDs": [
+          "1922"
+        ],
+        "metadata_records": [
+          6376
+        ],
+        "figures": [
+          "2668:2",
+          "2669:3",
+          "2670:4",
+          "2671:4_lattice",
+          "2672:6"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_9fbe589421715639",
+          "doi": "10.1063/1.2172705",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.1063/1.2172705",
+          "source_location": "starrydata_papers.csv title; normalized-text character span=[66,76]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として SryCo4Sb12 を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "SryCo4Sb12",
+          "dopant_candidates": "",
+          "applicable_sample_count": 5,
+          "limitations": "material_role_not_explicit;variable_composition",
+          "local_cache": "cache/papers.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.1063/1.2884524",
+        "doi_original": "10.1063/1.2884524",
+        "sample_id": "78769",
+        "SID": "46798",
+        "composition_original": "Mn0.994Cr0.006As",
+        "sample_name": "x=0.006 301K",
+        "curve_count": 1,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "Mn1-xCrxAs",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_084b544a5919fb74",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "material_role_not_explicit;variable_composition",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "",
+        "source_sample_record": "73423",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "52560:2(a)",
+        "_bucket": "arsenide"
+      },
+      "paper_title": "Giant room-temperature magnetocaloric effect in Mn1−xCrxAs",
+      "source_metadata": {
+        "sample_name": "x=0.006 301K",
+        "composition_details": "",
+        "compositions": [
+          "Mn0.994Cr0.006As"
+        ],
+        "SIDs": [
+          "46798"
+        ],
+        "metadata_records": [
+          73423
+        ],
+        "figures": [
+          "52560:2(a)"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_084b544a5919fb74",
+          "doi": "10.1063/1.2884524",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.1063/1.2884524",
+          "source_location": "starrydata_papers.csv title; normalized-text character span=[48,58]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として Mn1-xCrxAs を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "Mn1-xCrxAs",
+          "dopant_candidates": "",
+          "applicable_sample_count": 24,
+          "limitations": "material_role_not_explicit;variable_composition",
+          "local_cache": "cache/papers.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.1063/1.1643774",
+        "doi_original": "10.1063/1.1643774",
+        "sample_id": "76470",
+        "SID": "48201",
+        "composition_original": "MnAs",
+        "sample_name": "MnAs",
+        "curve_count": 1,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "MnAs",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_4b6e44244da70a20",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "material_role_not_explicit;multiple_material_candidates",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "",
+        "source_sample_record": "80068",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "51601:1",
+        "_bucket": "arsenide"
+      },
+      "paper_title": "Thermal transport properties of magnetic refrigerants La(FexSi1−x)13 and their hydrides, and Gd5Si2Ge2 and MnAs",
+      "source_metadata": {
+        "sample_name": "MnAs",
+        "composition_details": "",
+        "compositions": [
+          "MnAs"
+        ],
+        "SIDs": [
+          "48201"
+        ],
+        "metadata_records": [
+          80068
+        ],
+        "figures": [
+          "51601:1"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_4b6e44244da70a20",
+          "doi": "10.1063/1.1643774",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.1063/1.1643774",
+          "source_location": "starrydata_papers.csv title; normalized-text character span=[107,111]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として MnAs を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "MnAs",
+          "dopant_candidates": "",
+          "applicable_sample_count": 1,
+          "limitations": "material_role_not_explicit;multiple_material_candidates",
+          "local_cache": "cache/papers.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.1016/j.jallcom.2019.152182",
+        "doi_original": "10.1016/j.jallcom.2019.152182",
+        "sample_id": "35354",
+        "SID": "23949",
+        "composition_original": "YbB66",
+        "sample_name": "YbB66",
+        "curve_count": 5,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "YbB66",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_ba9cc63d3ea033b0",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "material_role_not_explicit",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "broad::other_formula_system",
+        "source_sample_record": "38034",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "27955:5;27956:7;27957:8;27958:9;27959:10",
+        "_bucket": "other_alloy"
+      },
+      "paper_title": "On the thermoelectric and magnetic properties, hardness, and crystal structure of the higher boride YbB66",
+      "source_metadata": {
+        "sample_name": "YbB66",
+        "composition_details": "",
+        "compositions": [
+          "YbB66"
+        ],
+        "SIDs": [
+          "23949"
+        ],
+        "metadata_records": [
+          38034
+        ],
+        "figures": [
+          "27955:5",
+          "27956:7",
+          "27957:8",
+          "27958:9",
+          "27959:10"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_ba9cc63d3ea033b0",
+          "doi": "10.1016/j.jallcom.2019.152182",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.1016/j.jallcom.2019.152182",
+          "source_location": "Crossref /title/0; normalized-text character span=[100,105]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として YbB66 を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "YbB66",
+          "dopant_candidates": "",
+          "applicable_sample_count": 1,
+          "limitations": "material_role_not_explicit",
+          "local_cache": "cache\\crossref\\batch_0073.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.3390/ma12183019",
+        "doi_original": "10.3390/ma12183019",
+        "sample_id": "30514",
+        "SID": "25491",
+        "composition_original": "FeCr30Co8",
+        "sample_name": "750C",
+        "curve_count": 2,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "FeCr30Co8",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_631797945e537a3f",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "",
+        "source_sample_record": "39644",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "24505:5(a) (initial magnetization curve);24506:5(a)",
+        "_bucket": "other_alloy"
+      },
+      "paper_title": "Microstructure Evolution and Some Properties of Hard Magnetic FeCr30Co8 Alloy Subjected to Torsion Combined with Tension",
+      "source_metadata": {
+        "sample_name": "750C",
+        "composition_details": "",
+        "compositions": [
+          "FeCr30Co8"
+        ],
+        "SIDs": [
+          "25491"
+        ],
+        "metadata_records": [
+          39644
+        ],
+        "figures": [
+          "24505:5(a) (initial magnetization curve)",
+          "24506:5(a)"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_631797945e537a3f",
+          "doi": "10.3390/ma12183019",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.3390/ma12183019",
+          "source_location": "starrydata_papers.csv title; normalized-text character span=[62,77]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として FeCr30Co8 を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "FeCr30Co8",
+          "dopant_candidates": "",
+          "applicable_sample_count": 3,
+          "limitations": "",
+          "local_cache": "cache/papers.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.1063/1.1290389",
+        "doi_original": "10.1063/1.1290389",
+        "sample_id": "78486",
+        "SID": "46790",
+        "composition_original": "TbAl2",
+        "sample_name": "TbAl2 T=110K",
+        "curve_count": 1,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "TbAl2",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_d59069e51ba84fef",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "material_role_not_explicit;multiple_material_candidates",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "",
+        "source_sample_record": "73303",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "52378:2(a)",
+        "_bucket": "other_alloy"
+      },
+      "paper_title": "Large magnetic entropy change in TbAl2 and (Tb0.4Gd0.6)Al2",
+      "source_metadata": {
+        "sample_name": "TbAl2 T=110K",
+        "composition_details": "",
+        "compositions": [
+          "TbAl2"
+        ],
+        "SIDs": [
+          "46790"
+        ],
+        "metadata_records": [
+          73303
+        ],
+        "figures": [
+          "52378:2(a)"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_d59069e51ba84fef",
+          "doi": "10.1063/1.1290389",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.1063/1.1290389",
+          "source_location": "starrydata_papers.csv title; normalized-text character span=[33,38]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として TbAl2 を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "TbAl2",
+          "dopant_candidates": "",
+          "applicable_sample_count": 32,
+          "limitations": "material_role_not_explicit;multiple_material_candidates",
+          "local_cache": "cache/papers.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.1063/1.1642282",
+        "doi_original": "10.1063/1.1642282",
+        "sample_id": "33028",
+        "SID": "1897",
+        "composition_original": "Cd84Yb16",
+        "sample_name": "#2",
+        "curve_count": 4,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "Cd-Yb;Cd6Yb",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_e8ddb6b5dd368ba0;auto_c75b509f7aa1a5a2",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "element_family_not_stoichiometry;material_role_not_explicit;multiple_material_candidates",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "broad::other_formula_system",
+        "source_sample_record": "6209",
+        "source_material_family": "{\"MaterialFamily\":{\"category\":\"Alloy\",\"comment\":\"\"}}",
+        "composition_details": "",
+        "source_figures": "26357:2(b);26416:3(b);26423:4(b);26430:5",
+        "_bucket": "other_alloy"
+      },
+      "paper_title": "Thermoelectric properties of binary Cd-Yb quasicrystals and Cd6Yb",
+      "source_metadata": {
+        "sample_name": "#2",
+        "composition_details": "",
+        "compositions": [
+          "Cd84Yb16"
+        ],
+        "SIDs": [
+          "1897"
+        ],
+        "metadata_records": [
+          6209
+        ],
+        "figures": [
+          "26357:2(b)",
+          "26416:3(b)",
+          "26423:4(b)",
+          "26430:5"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_e8ddb6b5dd368ba0",
+          "doi": "10.1063/1.1642282",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.1063/1.1642282",
+          "source_location": "starrydata_papers.csv title; normalized-text character span=[36,41]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として Cd-Yb を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "Cd-Yb",
+          "dopant_candidates": "",
+          "applicable_sample_count": 5,
+          "limitations": "element_family_not_stoichiometry;material_role_not_explicit;multiple_material_candidates",
+          "local_cache": "cache/papers.json.gz"
+        },
+        {
+          "evidence_id": "auto_c75b509f7aa1a5a2",
+          "doi": "10.1063/1.1642282",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.1063/1.1642282",
+          "source_location": "starrydata_papers.csv title; normalized-text character span=[60,65]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として Cd6Yb を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "Cd6Yb",
+          "dopant_candidates": "",
+          "applicable_sample_count": 5,
+          "limitations": "material_role_not_explicit;multiple_material_candidates",
+          "local_cache": "cache/papers.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。固定候補式と試料の比率は異なる。親側で比率不一致フラグ追加済みとの連絡があるため再生成後に確認。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.1016/j.jpcs.2013.03.007",
+        "doi_original": "10.1016/j.jpcs.2013.03.007",
+        "sample_id": "14767",
+        "SID": "3171",
+        "composition_original": "Y0.74B22.12C1.88N",
+        "sample_name": "so044",
+        "curve_count": 2,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "Y1-xB22+yC2-yN",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_7f47d5cedbd8bfd3",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "material_role_not_explicit;variable_composition",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "",
+        "source_sample_record": "10498",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "12526:4;12527:5",
+        "_bucket": "other_alloy"
+      },
+      "paper_title": "Structural and thermoelectric properties of Y1−xB22+yC2−yN",
+      "source_metadata": {
+        "sample_name": "so044",
+        "composition_details": "",
+        "compositions": [
+          "Y0.74B22.12C1.88N"
+        ],
+        "SIDs": [
+          "3171"
+        ],
+        "metadata_records": [
+          10498
+        ],
+        "figures": [
+          "12526:4",
+          "12527:5"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_7f47d5cedbd8bfd3",
+          "doi": "10.1016/j.jpcs.2013.03.007",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.1016/j.jpcs.2013.03.007",
+          "source_location": "Crossref /title/0; normalized-text character span=[44,58]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として Y1-xB22+yC2-yN を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "Y1-xB22+yC2-yN",
+          "dopant_candidates": "",
+          "applicable_sample_count": 5,
+          "limitations": "material_role_not_explicit;variable_composition",
+          "local_cache": "cache\\crossref\\batch_0087.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.1007/s11664-013-2821-7",
+        "doi_original": "10.1007/s11664-013-2821-7",
+        "sample_id": "25614",
+        "SID": "2526",
+        "composition_original": "CaCu3Ti4O12",
+        "sample_name": "1080",
+        "curve_count": 4,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "CaCu3Ti4O12",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_7076783b17ca0c44",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "material_role_not_explicit",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "",
+        "source_sample_record": "8507",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "20694:2;20698:5;20699:6left;20700:6right",
+        "_bucket": "oxide"
+      },
+      "paper_title": "Thermoelectric Properties and Conduction Mechanism of CaCu3Ti4O12 Ceramics at High Temperatures",
+      "source_metadata": {
+        "sample_name": "1080",
+        "composition_details": "",
+        "compositions": [
+          "CaCu3Ti4O12"
+        ],
+        "SIDs": [
+          "2526"
+        ],
+        "metadata_records": [
+          8507
+        ],
+        "figures": [
+          "20694:2",
+          "20698:5",
+          "20699:6left",
+          "20700:6right"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_7076783b17ca0c44",
+          "doi": "10.1007/s11664-013-2821-7",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.1007/s11664-013-2821-7",
+          "source_location": "Crossref /title/0; normalized-text character span=[54,65]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として CaCu3Ti4O12 を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "CaCu3Ti4O12",
+          "dopant_candidates": "",
+          "applicable_sample_count": 3,
+          "limitations": "material_role_not_explicit",
+          "local_cache": "cache\\crossref\\batch_0029.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.1088/1742-6596/1310/1/012016",
+        "doi_original": "10.1088/1742-6596/1310/1/012016",
+        "sample_id": "42446",
+        "SID": "25477",
+        "composition_original": "MnFe2O4",
+        "sample_name": "As-prepared MnFe2O4 ",
+        "curve_count": 1,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "MnFe2O4",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_5d300fe027b1abcb",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "material_role_not_explicit;multiple_material_candidates",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "",
+        "source_sample_record": "39580",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "33143:4(a)",
+        "_bucket": "oxide"
+      },
+      "paper_title": "Chitosan coating by mechanical milling of MnFe2O4 and Mn0.5Co0.5Fe2O4: Effect of milling",
+      "source_metadata": {
+        "sample_name": "As-prepared MnFe2O4 ",
+        "composition_details": "",
+        "compositions": [
+          "MnFe2O4"
+        ],
+        "SIDs": [
+          "25477"
+        ],
+        "metadata_records": [
+          39580
+        ],
+        "figures": [
+          "33143:4(a)"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_5d300fe027b1abcb",
+          "doi": "10.1088/1742-6596/1310/1/012016",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.1088/1742-6596/1310/1/012016",
+          "source_location": "starrydata_papers.csv title; normalized-text character span=[42,49]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として MnFe2O4 を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "MnFe2O4",
+          "dopant_candidates": "",
+          "applicable_sample_count": 6,
+          "limitations": "material_role_not_explicit;multiple_material_candidates",
+          "local_cache": "cache/papers.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.1149/1945-7111/ac6e8f",
+        "doi_original": "10.1149/1945-7111/ac6e8f",
+        "sample_id": "63435",
+        "SID": "45924",
+        "composition_original": "SrTi0.6Fe0.4O3",
+        "sample_name": "SrTi0.4Fe0.6O3-delta humidified Ar (Fig 3)",
+        "curve_count": 1,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "Sr(Ti,Fe)O3",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_ca428b8fcc32194a",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "material_role_not_explicit",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "",
+        "source_sample_record": "65674",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "45399:3",
+        "_bucket": "oxide"
+      },
+      "paper_title": "Proton-Electron Hole Interactions in Sr(Ti,Fe)O<sub>3−δ\n               </sub> Mixed-Conducting Perovskites",
+      "source_metadata": {
+        "sample_name": "SrTi0.4Fe0.6O3-delta humidified Ar (Fig 3)",
+        "composition_details": "",
+        "compositions": [
+          "SrTi0.6Fe0.4O3"
+        ],
+        "SIDs": [
+          "45924"
+        ],
+        "metadata_records": [
+          65674
+        ],
+        "figures": [
+          "45399:3"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_ca428b8fcc32194a",
+          "doi": "10.1149/1945-7111/ac6e8f",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.1149/1945-7111/ac6e8f",
+          "source_location": "starrydata_papers.csv title; normalized-text character span=[37,53]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として Sr(Ti,Fe)O3 を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "Sr(Ti,Fe)O3",
+          "dopant_candidates": "",
+          "applicable_sample_count": 8,
+          "limitations": "material_role_not_explicit",
+          "local_cache": "cache/papers.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。ただしδ切断と試料名のTi/Fe逆転はQA04/QA05を参照。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.2478/s11532-009-0012-4",
+        "doi_original": "10.2478/s11532-009-0012-4",
+        "sample_id": "44166",
+        "SID": "27033",
+        "composition_original": "Co3O4",
+        "sample_name": "Co3O4 nanoparticles at 10 K.",
+        "curve_count": 1,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "Co3O4",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_e9af0b3f0265c29e",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "composite_or_multiphase_context;material_role_not_explicit",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "",
+        "source_sample_record": "42810",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "34231:5",
+        "_bucket": "oxide"
+      },
+      "paper_title": "Synthesis of Co3O4 nanoparticles by oxidation-reduction method and its magnetic characterization",
+      "source_metadata": {
+        "sample_name": "Co3O4 nanoparticles at 10 K.",
+        "composition_details": "",
+        "compositions": [
+          "Co3O4"
+        ],
+        "SIDs": [
+          "27033"
+        ],
+        "metadata_records": [
+          42810
+        ],
+        "figures": [
+          "34231:5"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_e9af0b3f0265c29e",
+          "doi": "10.2478/s11532-009-0012-4",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.2478/s11532-009-0012-4",
+          "source_location": "starrydata_papers.csv title; normalized-text character span=[13,18]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として Co3O4 を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "Co3O4",
+          "dopant_candidates": "",
+          "applicable_sample_count": 2,
+          "limitations": "composite_or_multiphase_context;material_role_not_explicit",
+          "local_cache": "cache/papers.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.1016/j.jmmm.2018.05.102",
+        "doi_original": "10.1016/j.jmmm.2018.05.102",
+        "sample_id": "88074",
+        "SID": "50553",
+        "composition_original": "CoFe2O4",
+        "sample_name": "400℃",
+        "curve_count": 1,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "CoFe2O4",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_dd2b6e2596b30c4e",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "composite_or_multiphase_context;material_role_not_explicit",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "",
+        "source_sample_record": "89411",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "58121:5",
+        "_bucket": "oxide"
+      },
+      "paper_title": "Post-synthesis annealing of coprecipitated CoFe2O4 nanoparticles in silica matrix",
+      "source_metadata": {
+        "sample_name": "400℃",
+        "composition_details": "",
+        "compositions": [
+          "CoFe2O4"
+        ],
+        "SIDs": [
+          "50553"
+        ],
+        "metadata_records": [
+          89411
+        ],
+        "figures": [
+          "58121:5"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_dd2b6e2596b30c4e",
+          "doi": "10.1016/j.jmmm.2018.05.102",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.1016/j.jmmm.2018.05.102",
+          "source_location": "Crossref /title/0; normalized-text character span=[43,50]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として CoFe2O4 を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "CoFe2O4",
+          "dopant_candidates": "",
+          "applicable_sample_count": 6,
+          "limitations": "composite_or_multiphase_context;material_role_not_explicit",
+          "local_cache": "cache\\crossref\\batch_0084.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.1007/s11664-010-1479-7",
+        "doi_original": "10.1007/s11664-010-1479-7",
+        "sample_id": "16434",
+        "SID": "11122",
+        "composition_original": "Ga2Se3",
+        "sample_name": "GS-HT",
+        "curve_count": 1,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "Ga2Se3",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_3b87c303b2274fbf",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "material_role_not_explicit;multiple_material_candidates",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "",
+        "source_sample_record": "26151",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "13936:6",
+        "_bucket": "selenide"
+      },
+      "paper_title": "Effect of Vacancy Distribution on the Thermal Conductivity of Ga2Te3 and Ga2Se3",
+      "source_metadata": {
+        "sample_name": "GS-HT",
+        "composition_details": "",
+        "compositions": [
+          "Ga2Se3"
+        ],
+        "SIDs": [
+          "11122"
+        ],
+        "metadata_records": [
+          26151
+        ],
+        "figures": [
+          "13936:6"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_3b87c303b2274fbf",
+          "doi": "10.1007/s11664-010-1479-7",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.1007/s11664-010-1479-7",
+          "source_location": "Crossref /title/0; normalized-text character span=[73,79]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として Ga2Se3 を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "Ga2Se3",
+          "dopant_candidates": "",
+          "applicable_sample_count": 2,
+          "limitations": "material_role_not_explicit;multiple_material_candidates",
+          "local_cache": "cache\\crossref\\batch_0026.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.1002/adma.202300893",
+        "doi_original": "10.1002/adma.202300893",
+        "sample_id": "91425",
+        "SID": "51210",
+        "composition_original": "GeSe",
+        "sample_name": "0%",
+        "curve_count": 6,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "GeSe",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_6065ad49b7a630c9",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "",
+        "source_sample_record": "91966",
+        "source_material_family": "{\"MaterialFamily\":{\"category\":\"Selenide\",\"comment\":\"\",\"extracted\":\"\"}}",
+        "composition_details": "",
+        "source_figures": "60037:1(a);60040:1(b);60041:1(c);60042:1(d);60043:1(e);60044:1(f)",
+        "_bucket": "selenide"
+      },
+      "paper_title": "Doping by Design: Enhanced Thermoelectric Performance of GeSe Alloys Through Metavalent Bonding",
+      "source_metadata": {
+        "sample_name": "0%",
+        "composition_details": "",
+        "compositions": [
+          "GeSe"
+        ],
+        "SIDs": [
+          "51210"
+        ],
+        "metadata_records": [
+          91966
+        ],
+        "figures": [
+          "60037:1(a)",
+          "60040:1(b)",
+          "60041:1(c)",
+          "60042:1(d)",
+          "60043:1(e)",
+          "60044:1(f)"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_6065ad49b7a630c9",
+          "doi": "10.1002/adma.202300893",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.1002/adma.202300893",
+          "source_location": "Crossref /title/0; normalized-text character span=[57,68]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として GeSe を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "GeSe",
+          "dopant_candidates": "",
+          "applicable_sample_count": 1,
+          "limitations": "",
+          "local_cache": "cache\\crossref\\batch_0005.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.1103/physrevb.83.195209",
+        "doi_original": "10.1103/physrevb.83.195209",
+        "sample_id": "6214",
+        "SID": "4775",
+        "composition_original": "Pb1.005Se1",
+        "sample_name": "Pb_1.7*10^19",
+        "curve_count": 4,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "PbSe",
+        "dopant_candidates": "Ga",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_c7413237e488eadc",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "",
+        "source_sample_record": "14755",
+        "source_material_family": "{\"MaterialFamily\":{\"category\":\"Selenide\",\"comment\":\"\"}}",
+        "composition_details": "",
+        "source_figures": "4898:2(c);4901:3(c);4903:6(c);4906:8(c)",
+        "_bucket": "selenide"
+      },
+      "paper_title": "High-temperature thermoelectric properties ofn-type PbSe doped with Ga, In, and Pb",
+      "source_metadata": {
+        "sample_name": "Pb_1.7*10^19",
+        "composition_details": "",
+        "compositions": [
+          "Pb1.005Se1"
+        ],
+        "SIDs": [
+          "4775"
+        ],
+        "metadata_records": [
+          14755
+        ],
+        "figures": [
+          "4898:2(c)",
+          "4901:3(c)",
+          "4903:6(c)",
+          "4906:8(c)"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_c7413237e488eadc",
+          "doi": "10.1103/physrevb.83.195209",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.1103/physrevb.83.195209",
+          "source_location": "starrydata_papers.csv title; normalized-text character span=[52,70]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として PbSe を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "PbSe",
+          "dopant_candidates": "Ga",
+          "applicable_sample_count": 18,
+          "limitations": "",
+          "local_cache": "cache/papers.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。ただし試料に存在しないドーパント候補がありQA01を参照。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.1039/c4dt01457j",
+        "doi_original": "10.1039/c4dt01457j",
+        "sample_id": "13006",
+        "SID": "785",
+        "composition_original": "Cu1.975Sn1.025Se3",
+        "sample_name": "x=1.025",
+        "curve_count": 7,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "Cu3-xSnxSe3",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_61dc1d817ca2e41f",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "material_role_not_explicit;variable_composition",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "broad::selenide",
+        "source_sample_record": "2923",
+        "source_material_family": "{\"MaterialFamily\":{\"category\":\"Selenide\",\"comment\":\"\"}}",
+        "composition_details": "",
+        "source_figures": "10833:4a;10836:4b;10840:6a;10844:6b;10847:6c;10852:8a;10853:9",
+        "_bucket": "selenide"
+      },
+      "paper_title": "Structural evolvement and thermoelectric properties of Cu3−xSnxSe3 compounds with diamond-like crystal structures",
+      "source_metadata": {
+        "sample_name": "x=1.025",
+        "composition_details": "",
+        "compositions": [
+          "Cu1.975Sn1.025Se3"
+        ],
+        "SIDs": [
+          "785"
+        ],
+        "metadata_records": [
+          2923
+        ],
+        "figures": [
+          "10833:4a",
+          "10836:4b",
+          "10840:6a",
+          "10844:6b",
+          "10847:6c",
+          "10852:8a",
+          "10853:9"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_61dc1d817ca2e41f",
+          "doi": "10.1039/c4dt01457j",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.1039/c4dt01457j",
+          "source_location": "starrydata_papers.csv title; normalized-text character span=[55,66]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として Cu3-xSnxSe3 を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "Cu3-xSnxSe3",
+          "dopant_candidates": "",
+          "applicable_sample_count": 7,
+          "limitations": "material_role_not_explicit;variable_composition",
+          "local_cache": "cache/papers.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.3103/s1068375512050043",
+        "doi_original": "10.3103/s1068375512050043",
+        "sample_id": "14316",
+        "SID": "5424",
+        "composition_original": "CuInSe2",
+        "sample_name": "CuInSe2 solid solution",
+        "curve_count": 1,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "CuInSe2",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_fcf59aab06dd4b3f",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "",
+        "source_sample_record": "15989",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "12116:2 right",
+        "_bucket": "selenide"
+      },
+      "paper_title": "The electric and thermoelectric properties of CuInSe2-based chalcopyrite",
+      "source_metadata": {
+        "sample_name": "CuInSe2 solid solution",
+        "composition_details": "",
+        "compositions": [
+          "CuInSe2"
+        ],
+        "SIDs": [
+          "5424"
+        ],
+        "metadata_records": [
+          15989
+        ],
+        "figures": [
+          "12116:2 right"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_fcf59aab06dd4b3f",
+          "doi": "10.3103/s1068375512050043",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.3103/s1068375512050043",
+          "source_location": "starrydata_papers.csv title; normalized-text character span=[46,59]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として CuInSe2 を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "CuInSe2",
+          "dopant_candidates": "",
+          "applicable_sample_count": 3,
+          "limitations": "",
+          "local_cache": "cache/papers.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.1088/1361-6528/ab9393",
+        "doi_original": "10.1088/1361-6528/ab9393",
+        "sample_id": "37974",
+        "SID": "29410",
+        "composition_original": "Cu2ZnSnS4",
+        "sample_name": "CZTS 0.25% GNs",
+        "curve_count": 6,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "Cu2ZnSnS4",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_71ccf9c75a1034ad",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "composite_or_multiphase_context;material_role_not_explicit",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "broad::sulfide",
+        "source_sample_record": "45808",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "29474:6a;29482:6b;29487:6c;29490:8a;29492:8b;29494:9a",
+        "_bucket": "sulfide"
+      },
+      "paper_title": "Synergistic optimization of thermoelectric performance in earth-abundant Cu2ZnSnS4 by inclusion of graphene nanosheets",
+      "source_metadata": {
+        "sample_name": "CZTS 0.25% GNs",
+        "composition_details": "",
+        "compositions": [
+          "Cu2ZnSnS4"
+        ],
+        "SIDs": [
+          "29410"
+        ],
+        "metadata_records": [
+          45808
+        ],
+        "figures": [
+          "29474:6a",
+          "29482:6b",
+          "29487:6c",
+          "29490:8a",
+          "29492:8b",
+          "29494:9a"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_71ccf9c75a1034ad",
+          "doi": "10.1088/1361-6528/ab9393",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.1088/1361-6528/ab9393",
+          "source_location": "starrydata_papers.csv title; normalized-text character span=[73,82]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として Cu2ZnSnS4 を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "Cu2ZnSnS4",
+          "dopant_candidates": "",
+          "applicable_sample_count": 5,
+          "limitations": "composite_or_multiphase_context;material_role_not_explicit",
+          "local_cache": "cache/papers.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.1016/s1002-0721(09)60013-2",
+        "doi_original": "10.1016/s1002-0721(09)60013-2",
+        "sample_id": "7329",
+        "SID": "3340",
+        "composition_original": "Ce2.6Eu0.4S4",
+        "sample_name": "x=0.4",
+        "curve_count": 3,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "Ce3-xEuxS4",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_37b8db4c66b58632",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "material_role_not_explicit;variable_composition",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "",
+        "source_sample_record": "11142",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "5888:3;5889:4;5890:5",
+        "_bucket": "sulfide"
+      },
+      "paper_title": "Preparation and thermoelectric properties of ternary rare earth sulfide γ-Ce3–xEuxS4",
+      "source_metadata": {
+        "sample_name": "x=0.4",
+        "composition_details": "",
+        "compositions": [
+          "Ce2.6Eu0.4S4"
+        ],
+        "SIDs": [
+          "3340"
+        ],
+        "metadata_records": [
+          11142
+        ],
+        "figures": [
+          "5888:3",
+          "5889:4",
+          "5890:5"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_37b8db4c66b58632",
+          "doi": "10.1016/s1002-0721(09)60013-2",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.1016/s1002-0721(09)60013-2",
+          "source_location": "Crossref /title/0; normalized-text character span=[74,84]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として Ce3-xEuxS4 を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "Ce3-xEuxS4",
+          "dopant_candidates": "",
+          "applicable_sample_count": 4,
+          "limitations": "material_role_not_explicit;variable_composition",
+          "local_cache": "cache\\crossref\\batch_0117.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.7567/apex.6.043001",
+        "doi_original": "10.7567/apex.6.043001",
+        "sample_id": "6605",
+        "SID": "247",
+        "composition_original": "Cu0.95Fe1.05S2",
+        "sample_name": "Cu0.95Fe1.05S2",
+        "curve_count": 5,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "CuFeS2",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_9d10b9cf5c5b8655",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "material_role_not_explicit",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "broad::sulfide",
+        "source_sample_record": "1141",
+        "source_material_family": "{\"MaterialFamily\":{\"category\":\"Sulfide\",\"comment\":\"\"}}",
+        "composition_details": "",
+        "source_figures": "5234:2(a);5235:2(b);5236:2(c);5237:4(a);5238:4(b)",
+        "_bucket": "sulfide"
+      },
+      "paper_title": "High Thermoelectric Power Factor in a Carrier-Doped Magnetic Semiconductor CuFeS2",
+      "source_metadata": {
+        "sample_name": "Cu0.95Fe1.05S2",
+        "composition_details": "",
+        "compositions": [
+          "Cu0.95Fe1.05S2"
+        ],
+        "SIDs": [
+          "247"
+        ],
+        "metadata_records": [
+          1141
+        ],
+        "figures": [
+          "5234:2(a)",
+          "5235:2(b)",
+          "5236:2(c)",
+          "5237:4(a)",
+          "5238:4(b)"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_9d10b9cf5c5b8655",
+          "doi": "10.7567/apex.6.043001",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.7567/apex.6.043001",
+          "source_location": "starrydata_papers.csv title; normalized-text character span=[75,81]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として CuFeS2 を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "CuFeS2",
+          "dopant_candidates": "",
+          "applicable_sample_count": 3,
+          "limitations": "material_role_not_explicit",
+          "local_cache": "cache/papers.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。固定候補式と試料の比率は異なる。親側で比率不一致フラグ追加済みとの連絡があるため再生成後に確認。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.1088/0022-3727/47/11/115303",
+        "doi_original": "10.1088/0022-3727/47/11/115303",
+        "sample_id": "7327",
+        "SID": "3302",
+        "composition_original": "Pb0.975Ag0.025S",
+        "sample_name": "x=0.025",
+        "curve_count": 5,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "PbS",
+        "dopant_candidates": "Ag",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_59c29632ff83c8c9",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "broad::sulfide",
+        "source_sample_record": "11083",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "5882:7(a);5884:7(b)_upper;5885:7(d);5886:8(a);5887:9",
+        "_bucket": "sulfide"
+      },
+      "paper_title": "Thermoelectric transport properties of p-type silver-doped PbS within situAg2S nanoprecipitates",
+      "source_metadata": {
+        "sample_name": "x=0.025",
+        "composition_details": "",
+        "compositions": [
+          "Pb0.975Ag0.025S"
+        ],
+        "SIDs": [
+          "3302"
+        ],
+        "metadata_records": [
+          11083
+        ],
+        "figures": [
+          "5882:7(a)",
+          "5884:7(b)_upper",
+          "5885:7(d)",
+          "5886:8(a)",
+          "5887:9"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_59c29632ff83c8c9",
+          "doi": "10.1088/0022-3727/47/11/115303",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.1088/0022-3727/47/11/115303",
+          "source_location": "starrydata_papers.csv title; normalized-text character span=[46,62]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として PbS を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "PbS",
+          "dopant_candidates": "Ag",
+          "applicable_sample_count": 6,
+          "limitations": "",
+          "local_cache": "cache/papers.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.1016/j.jssc.2011.11.040",
+        "doi_original": "10.1016/j.jssc.2011.11.040",
+        "sample_id": "7350",
+        "SID": "3399",
+        "composition_original": "CuCrS2",
+        "sample_name": "1073K",
+        "curve_count": 3,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "CuCrS2",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_b1cfe896654e9629",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "material_role_not_explicit",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "",
+        "source_sample_record": "11391",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "5906:5(a);5908:5(b);5909:5(c)",
+        "_bucket": "sulfide"
+      },
+      "paper_title": "Preparation and thermoelectric properties of ternary superionic conductor CuCrS2",
+      "source_metadata": {
+        "sample_name": "1073K",
+        "composition_details": "",
+        "compositions": [
+          "CuCrS2"
+        ],
+        "SIDs": [
+          "3399"
+        ],
+        "metadata_records": [
+          11391
+        ],
+        "figures": [
+          "5906:5(a)",
+          "5908:5(b)",
+          "5909:5(c)"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_b1cfe896654e9629",
+          "doi": "10.1016/j.jssc.2011.11.040",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.1016/j.jssc.2011.11.040",
+          "source_location": "Crossref /title/0; normalized-text character span=[74,80]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として CuCrS2 を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "CuCrS2",
+          "dopant_candidates": "",
+          "applicable_sample_count": 5,
+          "limitations": "material_role_not_explicit",
+          "local_cache": "cache\\crossref\\batch_0091.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.1109/ict.2006.331356",
+        "doi_original": "10.1109/ict.2006.331356",
+        "sample_id": "7069",
+        "SID": "9046",
+        "composition_original": "Bi0.5Sb1.5Te3",
+        "sample_name": "Bi0.5Sb1.5Te3_2.5GPa",
+        "curve_count": 3,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "Bi0.5Sb1.5Te3",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_f10c4111a6a4bf36",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "material_role_not_explicit",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "",
+        "source_sample_record": "21140",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "5653:2;5654:2b;5655:2c",
+        "_bucket": "telluride"
+      },
+      "paper_title": "Thermoelectric Measurements on Bi0.5Sb1.5Te3 Under Hydrostatic Pressure",
+      "source_metadata": {
+        "sample_name": "Bi0.5Sb1.5Te3_2.5GPa",
+        "composition_details": "",
+        "compositions": [
+          "Bi0.5Sb1.5Te3"
+        ],
+        "SIDs": [
+          "9046"
+        ],
+        "metadata_records": [
+          21140
+        ],
+        "figures": [
+          "5653:2",
+          "5654:2b",
+          "5655:2c"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_f10c4111a6a4bf36",
+          "doi": "10.1109/ict.2006.331356",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.1109/ict.2006.331356",
+          "source_location": "starrydata_papers.csv title; normalized-text character span=[31,44]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として Bi0.5Sb1.5Te3 を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "Bi0.5Sb1.5Te3",
+          "dopant_candidates": "",
+          "applicable_sample_count": 5,
+          "limitations": "material_role_not_explicit",
+          "local_cache": "cache/papers.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.12693/aphyspola.130.1255",
+        "doi_original": "10.12693/aphyspola.130.1255",
+        "sample_id": "778",
+        "SID": "18583",
+        "composition_original": "PbTe",
+        "sample_name": "PbTe",
+        "curve_count": 4,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "PbTe",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_ece75118de8af022",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "material_role_not_explicit",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "broad::PbTe_like",
+        "source_sample_record": "34481",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "1765:6(a);1766:6(b);1767:6(c);1768:6(d)",
+        "_bucket": "telluride"
+      },
+      "paper_title": "Impact of Different Conditions of Technological Process on Thermoelectric Properties of Fine-Grained PbTe",
+      "source_metadata": {
+        "sample_name": "PbTe",
+        "composition_details": "",
+        "compositions": [
+          "PbTe"
+        ],
+        "SIDs": [
+          "18583"
+        ],
+        "metadata_records": [
+          34481
+        ],
+        "figures": [
+          "1765:6(a)",
+          "1766:6(b)",
+          "1767:6(c)",
+          "1768:6(d)"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_ece75118de8af022",
+          "doi": "10.12693/aphyspola.130.1255",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.12693/aphyspola.130.1255",
+          "source_location": "starrydata_papers.csv title; normalized-text character span=[101,105]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として PbTe を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "PbTe",
+          "dopant_candidates": "",
+          "applicable_sample_count": 1,
+          "limitations": "material_role_not_explicit",
+          "local_cache": "cache/papers.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.1016/j.materresbull.2010.11.024",
+        "doi_original": "10.1016/j.materresbull.2010.11.024",
+        "sample_id": "29785",
+        "SID": "3809",
+        "composition_original": "Bi0.5Sb1.5Te3",
+        "sample_name": "S1",
+        "curve_count": 5,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "Bi0.5Sb1.5Te3",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_ae275113529e1d14",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "material_role_not_explicit",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "",
+        "source_sample_record": "12808",
+        "source_material_family": "{\"MaterialFamily\":{\"category\":\"Antimonide\",\"comment\":\"\"}}",
+        "composition_details": "",
+        "source_figures": "23920:4a;23921:4b;23922:4c;23923:4c(ph);23924:4d",
+        "_bucket": "telluride"
+      },
+      "paper_title": "Hydrothermal synthesis and thermoelectric properties of nanostructured Bi0.5Sb1.5Te3 compounds",
+      "source_metadata": {
+        "sample_name": "S1",
+        "composition_details": "",
+        "compositions": [
+          "Bi0.5Sb1.5Te3"
+        ],
+        "SIDs": [
+          "3809"
+        ],
+        "metadata_records": [
+          12808
+        ],
+        "figures": [
+          "23920:4a",
+          "23921:4b",
+          "23922:4c",
+          "23923:4c(ph)",
+          "23924:4d"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_ae275113529e1d14",
+          "doi": "10.1016/j.materresbull.2010.11.024",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.1016/j.materresbull.2010.11.024",
+          "source_location": "Crossref /title/0; normalized-text character span=[71,84]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として Bi0.5Sb1.5Te3 を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "Bi0.5Sb1.5Te3",
+          "dopant_candidates": "",
+          "applicable_sample_count": 2,
+          "limitations": "material_role_not_explicit",
+          "local_cache": "cache\\crossref\\batch_0094.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.1016/j.physb.2020.412173",
+        "doi_original": "10.1016/j.physb.2020.412173",
+        "sample_id": "33450",
+        "SID": "27869",
+        "composition_original": "Mg3Sb1.97Te0.03",
+        "sample_name": "Mg3Sb1.97Te0.03",
+        "curve_count": 6,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "Mg3Sb2",
+        "dopant_candidates": "Te",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_a07ff923788ebe5c",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "broad::SbTe_like",
+        "source_sample_record": "43810",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "26666:4(a);26667:4(b);26668:4(c);26669:4(c)inset;26670:4(d);26671:5",
+        "_bucket": "telluride"
+      },
+      "paper_title": "Thermoelectric properties of Te-doped Mg3Sb2 synthesized by spark plasma sintering",
+      "source_metadata": {
+        "sample_name": "Mg3Sb1.97Te0.03",
+        "composition_details": "",
+        "compositions": [
+          "Mg3Sb1.97Te0.03"
+        ],
+        "SIDs": [
+          "27869"
+        ],
+        "metadata_records": [
+          43810
+        ],
+        "figures": [
+          "26666:4(a)",
+          "26667:4(b)",
+          "26668:4(c)",
+          "26669:4(c)inset",
+          "26670:4(d)",
+          "26671:5"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_a07ff923788ebe5c",
+          "doi": "10.1016/j.physb.2020.412173",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.1016/j.physb.2020.412173",
+          "source_location": "Crossref /title/0; normalized-text character span=[29,44]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として Mg3Sb2 を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "Mg3Sb2",
+          "dopant_candidates": "Te",
+          "applicable_sample_count": 9,
+          "limitations": "",
+          "local_cache": "cache\\crossref\\batch_0103.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。"
+    },
+    {
+      "selection_type": "automatic",
+      "sample": {
+        "doi": "10.1016/j.jallcom.2015.12.036",
+        "doi_original": "10.1016/j.jallcom.2015.12.036",
+        "sample_id": "2730",
+        "SID": "9779",
+        "composition_original": "PbTe",
+        "sample_name": "MS-21",
+        "curve_count": 6,
+        "host_material": "",
+        "host_elements": "",
+        "dopant_elements": "",
+        "additive_components": "",
+        "judgment_status": "automatic_candidate",
+        "host_candidate": "PbTe",
+        "dopant_candidates": "",
+        "excluded_elements": "",
+        "retained_atomic_fractions": "",
+        "normalization_status": "not_applied",
+        "evidence_ids": "auto_2b5d3cc73f0ac039",
+        "reason_ja": "論文タイトル・要旨の材料記載と試料の元素集合が整合する候補。比較試料・結晶相・ドーパントの役割は個別未確認。",
+        "data_quality_flags": "composite_or_multiphase_context;material_role_not_explicit",
+        "review_level": "automatic_candidate_not_verified",
+        "previous_material_group": "",
+        "source_sample_record": "22508",
+        "source_material_family": "",
+        "composition_details": "",
+        "source_figures": "1787:4(a);1788:4(b);1789:4(c);1792:5(a);1793:5(a)_insert;1794:5(b)",
+        "_bucket": "telluride"
+      },
+      "paper_title": "Thermoelectric properties of melt spun PbTe with multi-scaled nanostructures",
+      "source_metadata": {
+        "sample_name": "MS-21",
+        "composition_details": "",
+        "compositions": [
+          "PbTe"
+        ],
+        "SIDs": [
+          "9779"
+        ],
+        "metadata_records": [
+          22508
+        ],
+        "figures": [
+          "1787:4(a)",
+          "1788:4(b)",
+          "1789:4(c)",
+          "1792:5(a)",
+          "1793:5(a)_insert",
+          "1794:5(b)"
+        ]
+      },
+      "evidence": [
+        {
+          "evidence_id": "auto_2b5d3cc73f0ac039",
+          "doi": "10.1016/j.jallcom.2015.12.036",
+          "source_type": "automatic_text_extraction",
+          "source_url": "https://doi.org/10.1016/j.jallcom.2015.12.036",
+          "source_location": "Crossref /title/0; normalized-text character span=[39,43]",
+          "short_excerpt": "",
+          "interpretation_ja": "母材候補として PbTe を抽出。個別試料への適用は未確認。",
+          "verification_level": "automatic_candidate_not_verified",
+          "host_candidate": "PbTe",
+          "dopant_candidates": "",
+          "applicable_sample_count": 7,
+          "limitations": "composite_or_multiphase_context;material_role_not_explicit",
+          "local_cache": "cache\\crossref\\batch_0070.json.gz"
+        }
+      ],
+      "qa_assessment_ja": "DOI+sample_id、組成、試料名・詳細の対応は元キャッシュと一致。論文記載との元素集合対応は候補として整合。確定欄・元素除去・正規化は空であり、候補と確定は分離されている。"
+    }
+  ],
+  "notes": [
+    "Intermediate build while retrieval is active. Automatic source excerpt repair is already present in source code but not in this snapshot."
+  ],
+  "additional_machine_findings": {
+    "automatic_sample_dopant_candidates_absent_from_composition_count": 703,
+    "automatic_sample_dopant_candidates_absent_examples": [
+      {
+        "doi": "10.1103/physrevb.83.195209",
+        "sample_id": "297",
+        "composition_original": "Pb1.005Se1",
+        "host_candidate": "PbSe",
+        "dopant_candidates": "Ga",
+        "evidence_ids": "auto_c7413237e488eadc",
+        "absent": [
+          "Ga"
+        ]
+      },
+      {
+        "doi": "10.1103/physrevb.83.195209",
+        "sample_id": "253",
+        "composition_original": "Pb1.02Se1",
+        "host_candidate": "PbSe",
+        "dopant_candidates": "Ga",
+        "evidence_ids": "auto_c7413237e488eadc",
+        "absent": [
+          "Ga"
+        ]
+      },
+      {
+        "doi": "10.1007/s11664-013-2645-5",
+        "sample_id": "9",
+        "composition_original": "Pb1Te1",
+        "host_candidate": "PbTe1-x",
+        "dopant_candidates": "Se",
+        "evidence_ids": "auto_dd3f9c82b23f2d42",
+        "absent": [
+          "Se"
+        ]
+      },
+      {
+        "doi": "10.1109/ict.2003.1287471",
+        "sample_id": "475",
+        "composition_original": "FeSi2",
+        "host_candidate": "FeSi",
+        "dopant_candidates": "Co",
+        "evidence_ids": "auto_97bc624dccb97e36",
+        "absent": [
+          "Co"
+        ]
+      },
+      {
+        "doi": "10.7567/jjap.52.10mb21",
+        "sample_id": "521",
+        "composition_original": "MnSi1.72",
+        "host_candidate": "MnSi1.75",
+        "dopant_candidates": "Al",
+        "evidence_ids": "auto_fffaeb39170daa49",
+        "absent": [
+          "Al"
+        ]
+      },
+      {
+        "doi": "10.7567/jjap.52.10mb21",
+        "sample_id": "522",
+        "composition_original": "MnSi1.73",
+        "host_candidate": "MnSi1.75",
+        "dopant_candidates": "Al",
+        "evidence_ids": "auto_fffaeb39170daa49",
+        "absent": [
+          "Al"
+        ]
+      },
+      {
+        "doi": "10.7567/jjap.52.10mb21",
+        "sample_id": "523",
+        "composition_original": "MnSi1.74",
+        "host_candidate": "MnSi1.75",
+        "dopant_candidates": "Al",
+        "evidence_ids": "auto_fffaeb39170daa49",
+        "absent": [
+          "Al"
+        ]
+      },
+      {
+        "doi": "10.7567/jjap.52.10mb21",
+        "sample_id": "527",
+        "composition_original": "MnSi1.75",
+        "host_candidate": "MnSi1.75",
+        "dopant_candidates": "Al",
+        "evidence_ids": "auto_fffaeb39170daa49",
+        "absent": [
+          "Al"
+        ]
+      },
+      {
+        "doi": "10.1016/j.jallcom.2012.05.049",
+        "sample_id": "705",
+        "composition_original": "Ba7.97Ga15.95Cu0.000Sn30.05",
+        "host_candidate": "Ba8Ga16Sn30",
+        "dopant_candidates": "Cu",
+        "evidence_ids": "auto_29b3946ac4bf69b0",
+        "absent": [
+          "Cu"
+        ]
+      },
+      {
+        "doi": "10.1016/j.jallcom.2012.05.049",
+        "sample_id": "709",
+        "composition_original": "Ba7.96Ga15.90Cu0.000Sn30.10",
+        "host_candidate": "Ba8Ga16Sn30",
+        "dopant_candidates": "Cu",
+        "evidence_ids": "auto_29b3946ac4bf69b0",
+        "absent": [
+          "Cu"
+        ]
+      },
+      {
+        "doi": "10.1063/1.1847723",
+        "sample_id": "1289",
+        "composition_original": "SrTiO3",
+        "host_candidate": "SrTiO3",
+        "dopant_candidates": "Nb",
+        "evidence_ids": "auto_81c97562bfa0eba1",
+        "absent": [
+          "Nb"
+        ]
+      },
+      {
+        "doi": "10.1063/1.1847723",
+        "sample_id": "1290",
+        "composition_original": "SrTiO3",
+        "host_candidate": "SrTiO3",
+        "dopant_candidates": "Nb",
+        "evidence_ids": "auto_81c97562bfa0eba1",
+        "absent": [
+          "Nb"
+        ]
+      },
+      {
+        "doi": "10.1063/1.1847723",
+        "sample_id": "1291",
+        "composition_original": "SrTiO3",
+        "host_candidate": "SrTiO3",
+        "dopant_candidates": "Nb",
+        "evidence_ids": "auto_81c97562bfa0eba1",
+        "absent": [
+          "Nb"
+        ]
+      },
+      {
+        "doi": "10.1063/1.1847723",
+        "sample_id": "1292",
+        "composition_original": "SrTiO3",
+        "host_candidate": "SrTiO3",
+        "dopant_candidates": "Nb",
+        "evidence_ids": "auto_81c97562bfa0eba1",
+        "absent": [
+          "Nb"
+        ]
+      },
+      {
+        "doi": "10.1016/j.jallcom.2011.02.045",
+        "sample_id": "1293",
+        "composition_original": "Na0.8CoO2",
+        "host_candidate": "Na0.8CoO2",
+        "dopant_candidates": "Zn",
+        "evidence_ids": "auto_a6bd819e1811f862",
+        "absent": [
+          "Zn"
+        ]
+      },
+      {
+        "doi": "10.1007/s13391-014-4139-x",
+        "sample_id": "1511",
+        "composition_original": "Bi2Te3",
+        "host_candidate": "Bi2Te3",
+        "dopant_candidates": "Ce",
+        "evidence_ids": "auto_1a08950d36159fc8",
+        "absent": [
+          "Ce"
+        ]
+      },
+      {
+        "doi": "10.1016/j.jallcom.2015.03.124",
+        "sample_id": "1643",
+        "composition_original": "Bi2Se3",
+        "host_candidate": "Bi2Se3",
+        "dopant_candidates": "Cu",
+        "evidence_ids": "auto_f381fb898567280a",
+        "absent": [
+          "Cu"
+        ]
+      },
+      {
+        "doi": "10.1103/physrevb.83.125209",
+        "sample_id": "1899",
+        "composition_original": "FeSi",
+        "host_candidate": "FeSi",
+        "dopant_candidates": "Os",
+        "evidence_ids": "auto_0b5e86142e753109;auto_854c42d9ea6092cb",
+        "absent": [
+          "Os"
+        ]
+      },
+      {
+        "doi": "10.1103/physrevb.83.125209",
+        "sample_id": "1900",
+        "composition_original": "FeSi",
+        "host_candidate": "FeSi",
+        "dopant_candidates": "Os",
+        "evidence_ids": "auto_0b5e86142e753109;auto_854c42d9ea6092cb",
+        "absent": [
+          "Os"
+        ]
+      },
+      {
+        "doi": "10.1007/s11664-016-5013-4",
+        "sample_id": "2323",
+        "composition_original": "Ba8Yb0Ni0.1Zn0.54Ga13.8Ge31.56",
+        "host_candidate": "Ba8Ni0.1Zn0.54Ga13.8Ge31.56",
+        "dopant_candidates": "Yb",
+        "evidence_ids": "auto_5d274a96aa62c93c",
+        "absent": [
+          "Yb"
+        ]
+      }
+    ],
+    "europepmc_evidence_crossref_cache_path_count": 1,
+    "europepmc_cache_path_examples": [
+      {
+        "evidence_id": "auto_1259428958344cb8",
+        "doi": "10.1007/s11356-022-23420-y",
+        "source_type": "automatic_text_extraction",
+        "source_url": "https://doi.org/10.1007/s11356-022-23420-y",
+        "source_location": "Europe PMC /abstractText; normalized-text character span=[2229,2245]",
+        "short_excerpt": "",
+        "interpretation_ja": "母材候補として MnFe2O4 を抽出。個別試料への適用は未確認。",
+        "verification_level": "automatic_candidate_not_verified",
+        "host_candidate": "MnFe2O4",
+        "dopant_candidates": "Gd",
+        "applicable_sample_count": 61,
+        "limitations": "composite_or_multiphase_context;multiple_material_candidates",
+        "local_cache": "cache\\crossref\\batch_0024.json.gz"
+      }
+    ]
+  },
+  "qa_scope_ja": "取得継続中の暫定JSONLを読取監査。全104832試料の機械整合性検査に加え、確認済み20試料（20 DOI）と自動候補30試料（酸化物・テルル化物・セレン化物・硫化物・アンチモン化物・ヒ化物・その他合金に分散）を、元samplesキャッシュ・論文タイトル・手動根拠記録と照合。原論文の独立オンライン再取得は3 DOIであり、20論文全部を再読したという意味ではない。",
+  "findings": [
+    {
+      "id": "QA01",
+      "priority": "P2",
+      "category": "sample_level_candidate",
+      "status": "root_reports_code_fix_pending_regeneration",
+      "title": "試料に存在しないドーパント候補",
+      "count_in_snapshot": 703,
+      "example": {
+        "doi": "10.1103/physrevb.83.195209",
+        "sample_id": "6214",
+        "composition": "Pb1.005Se1",
+        "dopant_candidates": "Ga"
+      },
+      "finding_ja": "論文全体のGaドープ記載がGaを含まない対照試料に流入する。未確定欄だが試料固有情報としては誤解を招く。",
+      "recommendation_ja": "試料欄は組成に存在する元素との積集合とし、論文でのみ報告された元素は別フラグで保持。"
+    },
+    {
+      "id": "QA02",
+      "priority": "P2",
+      "category": "evidence_provenance",
+      "status": "root_reports_code_fix_pending_regeneration",
+      "title": "Europe PMC要旨の根拠がCrossrefキャッシュを指す",
+      "count_in_snapshot": 1,
+      "affected_samples": 61,
+      "example": {
+        "doi": "10.1007/s11356-022-23420-y",
+        "evidence_id": "auto_1259428958344cb8"
+      },
+      "finding_ja": "source_locationはEurope PMC /abstractTextだがlocal_cacheはCrossref。",
+      "recommendation_ja": "title/abstractの選択元に応じたキャッシュパスを保存。"
+    },
+    {
+      "id": "QA03",
+      "priority": "P2",
+      "category": "scientific_role_and_removal",
+      "status": "reported_to_root_for_decision",
+      "title": "Gaが複数相へ分配されるSiGe試料で全Gaを除去",
+      "affected_samples": 5,
+      "example": {
+        "doi": "10.1142/s1793604714500088",
+        "sample_ids": [
+          "27605",
+          "27606",
+          "27607",
+          "27608",
+          "27609"
+        ]
+      },
+      "finding_ja": "手動根拠はGaの一部だけがSiGe固溶体のドーパントになること、Ge/Gaリッチ相やWSi2を述べる。それでもadditive_componentsが空なので全Ga除去後の正規化が通る。分類専用という注記はあるが、他の複合材では組成除去を止める方針と不統一。",
+      "recommendation_ja": "SiGe系母材の確認は維持し、相組成未解決を独立に記録。該当試料をhost_only扱いまたはadditive/phase情報で正規化を停止することを検討。"
+    },
+    {
+      "id": "QA04",
+      "priority": "P2",
+      "category": "formula_extraction",
+      "status": "reported_to_root_not_modified",
+      "title": "Greek deltaが候補式から落ちる",
+      "example": {
+        "doi": "10.1149/1945-7111/ac6e8f",
+        "sample_id": "63435",
+        "title_formula": "Sr(Ti,Fe)O3−δ",
+        "candidate": "Sr(Ti,Fe)O3"
+      },
+      "finding_ja": "抽出器が係数変数δを認識せず固定O3へ切り詰める。全元素保持でも酸素不定比情報が失われる。",
+      "recommendation_ja": "δなど変数を保持してvariable_compositionを付けるか、未対応記法として固定式への切り詰めを拒否。"
+    },
+    {
+      "id": "QA05",
+      "priority": "P3",
+      "category": "source_data_quality",
+      "status": "reported_to_root_not_modified",
+      "title": "原データ中で試料名と組成のTi/Fe比が逆",
+      "example": {
+        "doi": "10.1149/1945-7111/ac6e8f",
+        "sample_id": "63435",
+        "sample_name": "SrTi0.4Fe0.6O3-delta humidified Ar (Fig 3)",
+        "composition": "SrTi0.6Fe0.4O3"
+      },
+      "finding_ja": "元メタデータに存在する不整合であり結合の誤りではない。現在の候補はSr(Ti,Fe)系なので確定誤りは生じていない。",
+      "recommendation_ja": "sample_name_composition_conflict等の要確認フラグを付け、元値を修正しない。"
+    },
+    {
+      "id": "QA06",
+      "priority": "P3",
+      "category": "evidence_excerpt",
+      "status": "known_fix_pending_regeneration",
+      "title": "暫定版の自動根拠抜粋が空",
+      "finding_ja": "親エージェントからmatched_text対応修正済み・未再生成と説明済み。最終出力で追確認する。"
+    }
+  ],
+  "independent_online_checks": [
+    {
+      "doi": "10.1142/s1793604714500088",
+      "url": "https://www.researchgate.net/publication/262263058_Microstructure_and_thermoelectric_properties_of_Ga-DOPED_SiGe_alloys_prepared_by_mechanical_alloying_and_induction_hot_pressing",
+      "access": "author-uploaded primary article indexed text; direct open cache miss",
+      "result_ja": "Gaの部分固溶、Geリッチ相での偏析、ミリング条件による不均一さの記述を確認。QA03の懸念を支持。"
+    },
+    {
+      "doi": "10.1021/acs.chemmater.6b04898",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.chemmater.6b04898",
+      "access": "publisher abstract via web search; direct open 403",
+      "result_ja": "Biによるキャリア調整とSn合金化の役割区別が抄録に明記され、保存された手動解釈と整合。濃度・個別試料の追加確認ではない。"
+    },
+    {
+      "doi": "10.1039/c5ee01147g",
+      "url": "https://pubs.rsc.org/en/content/articlehtml/2015/ee/c5ee01147g",
+      "access": "publisher abstract via web search; direct landing open 403",
+      "result_ja": "Na 3at%とPbS割合10〜35%、合金化・相分離の共存が抄録に明記され、保存解釈と整合。単相組成としての断定は不可。"
+    }
+  ],
+  "overall_ja": "DOI・試料結合不備、根拠ID欠損・別DOI参照、自動候補での確定/ドーパント除去、正規化の算術不整合は全件検査で0。根拠出典2件の実装修正、Greek変数保持、Ga複数相試料の除去方針、原データ不整合のフラグが未再生成または未解決。"
+}

@@ -1,0 +1,36 @@
+Phase 5 independent checks
+status=PASS
+checks=32
+failed=0
+required_outputs_exist: PASS | missing=[]
+all_build_validation_passes: PASS | failed=0
+row_count_reconciles: PASS | phase5=3437; phase1=3437; phase4=3437
+row_ids_match_phase1: PASS | unique=3437
+row_ids_unique: PASS | duplicates=0
+taxonomy_fixed: PASS | 185239a6fa68e0403c1984b9e6338dd5eec4842b116cbab6201d33e2fc706999
+classification_complete: PASS | missing=0
+sample_count_reconciles: PASS | samples=610
+sample_ids_unique: PASS | duplicates=0
+no_sample_conflicts: PASS | conflicts=0
+sample_status_counts_frozen: PASS | {'include': 553, 'review': 36, 'exclude': 21}
+eligible_rows_frozen: PASS | rows=3032
+prediction_residuals_unchanged: PASS | max_abs_difference=4.441e-16
+group_assignments_match_phase4: PASS | row-level group key
+overall_scope_rows_partition: PASS | {'all_assigned': 3437, 'default_eligible': 3032, 'review_only': 263, 'excluded_only': 142}
+group_scope_rows_reconcile: PASS | {'all_assigned': 3437, 'default_eligible': 3032, 'excluded_only': 142, 'review_only': 263}
+primary_has_all_groups: PASS | groups=14
+primary_rows_reconcile: PASS | sum=3032
+carrier_rows_reconcile: PASS | sum=3032
+temperature_rows_reconcile: PASS | sum=3032
+primary_row_mae_recomputed: PASS | max_abs_difference=1.110e-16
+primary_sample_equal_mae_recomputed: PASS | max_abs_difference=0.000e+00
+supported_rank_scope: PASS | ranked=11
+outlier_rule_reproduced: PASS | outliers=218
+manifest_sources_exist: PASS | missing=[]
+manifest_hashes_match: PASS | current SHA-256 versus recorded
+workbook_zip_integrity: PASS | bad_member=None
+workbook_sheets_complete: PASS | sheets=['All group scopes', 'Carrier metrics', 'Outlier samples', 'Primary groups', 'Row predictions', 'Sample metrics', 'Scope comparison', 'Summary', 'Temperature metrics', 'Validation']
+workbook_has_no_error_text: PASS | scan of xl/*.xml
+workbook_nonempty: PASS | size=8784052
+workbook_validation_passes: PASS | phase5_workbook_validation_log.txt
+report_records_no_retraining: PASS | scope and interpretation limit

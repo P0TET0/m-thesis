@@ -1,0 +1,3981 @@
+{
+  "reviewed_papers": [
+    {
+      "doi": "10.3390/ma11040649",
+      "title": "On the Phase Separation in n-Type Thermoelectric Half-Heusler Materials",
+      "review_level": "primary_fulltext_sections_web_index",
+      "evidence": [
+        {
+          "evidence_id": "other_01",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5951533/",
+          "location": "2.1 Understanding the Phase Separation; 2.2; Tables 1, 2, 9, 10",
+          "short_quote": "the Ti${}_{x}$Zr${}_{y}$Hf${}_{z}$NiSn system",
+          "summary_ja": "Ti/Zr/Hfを構成元素として秤量した半Heusler系列。混合比を変えて相分離を調べているため、少量Ti/Zr/Hfも母材構成元素として保持する。単一固溶体・単相とは限らない。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "83154"
+          ],
+          "composition_condition": "ZrNiSn",
+          "host_family": "ZrNiSn",
+          "host_elements": [
+            "Zr",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83155"
+          ],
+          "composition_condition": "Zr0.95Hf0.05NiSn",
+          "host_family": "(Zr,Hf)NiSn",
+          "host_elements": [
+            "Zr",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83156"
+          ],
+          "composition_condition": "Zr0.9Hf0.1NiSn",
+          "host_family": "(Zr,Hf)NiSn",
+          "host_elements": [
+            "Zr",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83157"
+          ],
+          "composition_condition": "Zr0.8Hf0.2NiSn",
+          "host_family": "(Zr,Hf)NiSn",
+          "host_elements": [
+            "Zr",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83158"
+          ],
+          "composition_condition": "Zr0.7Hf0.3NiSn",
+          "host_family": "(Zr,Hf)NiSn",
+          "host_elements": [
+            "Zr",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83159"
+          ],
+          "composition_condition": "Zr0.6Hf0.4NiSn",
+          "host_family": "(Zr,Hf)NiSn",
+          "host_elements": [
+            "Zr",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83160"
+          ],
+          "composition_condition": "Zr0.5Hf0.5NiSn",
+          "host_family": "(Zr,Hf)NiSn",
+          "host_elements": [
+            "Zr",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83161"
+          ],
+          "composition_condition": "Zr0.4Hf0.6NiSn",
+          "host_family": "(Zr,Hf)NiSn",
+          "host_elements": [
+            "Zr",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83162"
+          ],
+          "composition_condition": "Zr0.3Hf0.7NiSn",
+          "host_family": "(Zr,Hf)NiSn",
+          "host_elements": [
+            "Zr",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83163"
+          ],
+          "composition_condition": "Zr0.2Hf0.8NiSn",
+          "host_family": "(Zr,Hf)NiSn",
+          "host_elements": [
+            "Zr",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83164"
+          ],
+          "composition_condition": "Zr0.1Hf0.9NiSn",
+          "host_family": "(Zr,Hf)NiSn",
+          "host_elements": [
+            "Zr",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83165"
+          ],
+          "composition_condition": "Zr0.05Hf0.95NiSn",
+          "host_family": "(Zr,Hf)NiSn",
+          "host_elements": [
+            "Zr",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83166"
+          ],
+          "composition_condition": "HfNiSn",
+          "host_family": "HfNiSn",
+          "host_elements": [
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83242"
+          ],
+          "composition_condition": "Ti0.95Zr0.05NiSn",
+          "host_family": "(Ti,Zr)NiSn",
+          "host_elements": [
+            "Ti",
+            "Zr",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83243"
+          ],
+          "composition_condition": "Ti0.9Zr0.1NiSn",
+          "host_family": "(Ti,Zr)NiSn",
+          "host_elements": [
+            "Ti",
+            "Zr",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83244"
+          ],
+          "composition_condition": "Ti0.8Zr0.2NiSn",
+          "host_family": "(Ti,Zr)NiSn",
+          "host_elements": [
+            "Ti",
+            "Zr",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83245"
+          ],
+          "composition_condition": "Ti0.7Zr0.3NiSn",
+          "host_family": "(Ti,Zr)NiSn",
+          "host_elements": [
+            "Ti",
+            "Zr",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83246"
+          ],
+          "composition_condition": "Ti0.6Zr0.4NiSn",
+          "host_family": "(Ti,Zr)NiSn",
+          "host_elements": [
+            "Ti",
+            "Zr",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83247"
+          ],
+          "composition_condition": "Ti0.5Zr0.5NiSn",
+          "host_family": "(Ti,Zr)NiSn",
+          "host_elements": [
+            "Ti",
+            "Zr",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83248"
+          ],
+          "composition_condition": "Ti0.4Zr0.6NiSn",
+          "host_family": "(Ti,Zr)NiSn",
+          "host_elements": [
+            "Ti",
+            "Zr",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83249"
+          ],
+          "composition_condition": "Ti0.3Zr0.7NiSn",
+          "host_family": "(Ti,Zr)NiSn",
+          "host_elements": [
+            "Ti",
+            "Zr",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83256"
+          ],
+          "composition_condition": "Ti0.2Zr0.8NiSn",
+          "host_family": "(Ti,Zr)NiSn",
+          "host_elements": [
+            "Ti",
+            "Zr",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83257"
+          ],
+          "composition_condition": "Ti0.1Zr0.9NiSn",
+          "host_family": "(Ti,Zr)NiSn",
+          "host_elements": [
+            "Ti",
+            "Zr",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83258"
+          ],
+          "composition_condition": "Ti0.05Zr0.95NiSn",
+          "host_family": "(Ti,Zr)NiSn",
+          "host_elements": [
+            "Ti",
+            "Zr",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83261"
+          ],
+          "composition_condition": "Ti0.95Hf0.05NiSn",
+          "host_family": "(Ti,Hf)NiSn",
+          "host_elements": [
+            "Ti",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83262"
+          ],
+          "composition_condition": "Ti0.9Hf0.1NiSn",
+          "host_family": "(Ti,Hf)NiSn",
+          "host_elements": [
+            "Ti",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83263"
+          ],
+          "composition_condition": "Ti0.8Hf0.2NiSn",
+          "host_family": "(Ti,Hf)NiSn",
+          "host_elements": [
+            "Ti",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83264"
+          ],
+          "composition_condition": "Ti0.7Hf0.3NiSn",
+          "host_family": "(Ti,Hf)NiSn",
+          "host_elements": [
+            "Ti",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83265"
+          ],
+          "composition_condition": "Ti0.6Hf0.4NiSn",
+          "host_family": "(Ti,Hf)NiSn",
+          "host_elements": [
+            "Ti",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83266"
+          ],
+          "composition_condition": "Ti0.5Hf0.5NiSn",
+          "host_family": "(Ti,Hf)NiSn",
+          "host_elements": [
+            "Ti",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83267"
+          ],
+          "composition_condition": "Ti0.4Hf0.6NiSn",
+          "host_family": "(Ti,Hf)NiSn",
+          "host_elements": [
+            "Ti",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83268"
+          ],
+          "composition_condition": "Ti0.3Hf0.7NiSn",
+          "host_family": "(Ti,Hf)NiSn",
+          "host_elements": [
+            "Ti",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83269"
+          ],
+          "composition_condition": "Ti0.2Hf0.8NiSn",
+          "host_family": "(Ti,Hf)NiSn",
+          "host_elements": [
+            "Ti",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83270"
+          ],
+          "composition_condition": "Ti0.1Hf0.9NiSn",
+          "host_family": "(Ti,Hf)NiSn",
+          "host_elements": [
+            "Ti",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83271"
+          ],
+          "composition_condition": "Ti0.05Hf0.95NiSn",
+          "host_family": "(Ti,Hf)NiSn",
+          "host_elements": [
+            "Ti",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83274"
+          ],
+          "composition_condition": "TiNiSn",
+          "host_family": "TiNiSn",
+          "host_elements": [
+            "Ti",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83275"
+          ],
+          "composition_condition": "Ti0.9(Zr0.5Hf0.5)0.1NiSn",
+          "host_family": "(Ti,Zr,Hf)NiSn",
+          "host_elements": [
+            "Ti",
+            "Zr",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83276"
+          ],
+          "composition_condition": "Ti0.8(Zr0.5Hf0.5)0.2NiSn",
+          "host_family": "(Ti,Zr,Hf)NiSn",
+          "host_elements": [
+            "Ti",
+            "Zr",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83277"
+          ],
+          "composition_condition": "Ti0.7(Zr0.5Hf0.5)0.3NiSn",
+          "host_family": "(Ti,Zr,Hf)NiSn",
+          "host_elements": [
+            "Ti",
+            "Zr",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83278"
+          ],
+          "composition_condition": "Ti0.6(Zr0.5Hf0.5)0.4NiSn",
+          "host_family": "(Ti,Zr,Hf)NiSn",
+          "host_elements": [
+            "Ti",
+            "Zr",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83279"
+          ],
+          "composition_condition": "Ti0.5(Zr0.5Hf0.5)0.5NiSn",
+          "host_family": "(Ti,Zr,Hf)NiSn",
+          "host_elements": [
+            "Ti",
+            "Zr",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83280"
+          ],
+          "composition_condition": "Ti0.4(Zr0.5Hf0.5)0.6NiSn",
+          "host_family": "(Ti,Zr,Hf)NiSn",
+          "host_elements": [
+            "Ti",
+            "Zr",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83281"
+          ],
+          "composition_condition": "Ti0.3(Zr0.5Hf0.5)0.7NiSn",
+          "host_family": "(Ti,Zr,Hf)NiSn",
+          "host_elements": [
+            "Ti",
+            "Zr",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83282"
+          ],
+          "composition_condition": "Ti0.2(Zr0.5Hf0.5)0.8NiSn",
+          "host_family": "(Ti,Zr,Hf)NiSn",
+          "host_elements": [
+            "Ti",
+            "Zr",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83283"
+          ],
+          "composition_condition": "Ti0.1(Zr0.5Hf0.5)0.9NiSn",
+          "host_family": "(Ti,Zr,Hf)NiSn",
+          "host_elements": [
+            "Ti",
+            "Zr",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83284"
+          ],
+          "composition_condition": "Ti0.05(Zr0.5Hf0.5)0.95NiSn",
+          "host_family": "(Ti,Zr,Hf)NiSn",
+          "host_elements": [
+            "Ti",
+            "Zr",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        },
+        {
+          "sample_ids": [
+            "83285"
+          ],
+          "composition_condition": "(Zr0.5Hf0.5)NiSn",
+          "host_family": "(Zr,Hf)NiSn",
+          "host_elements": [
+            "Zr",
+            "Hf",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "本文で対象系列が明記され、Ti/Zr/Hfは混合母材の構成元素。組成式にドーパントとして除去する元素なし。",
+          "data_quality_flags": [
+            "phase_separation_possible",
+            "host_family_not_phase_resolved"
+          ],
+          "evidence_ids": [
+            "other_01"
+          ]
+        }
+      ]
+    },
+    {
+      "doi": "10.1021/acsami.7b14231",
+      "title": "Concurrent La and A-Site Vacancy Doping Modulates the Thermoelectric Response of SrTiO3: Experimental and Computational Evidence",
+      "review_level": "author_manuscript_fulltext",
+      "evidence": [
+        {
+          "evidence_id": "other_02",
+          "url": "https://eprints.whiterose.ac.uk/id/eprint/125290/1/Azough_ACSApplMatInterfaces_2017_OAM.pdf",
+          "location": "PDF pp. 3-5 (printed manuscript pp. 2-4): Introduction, Methods, Phase Analysis, Table 2",
+          "short_quote": "the solid solution SrTiO3-La2/3TiO3",
+          "summary_ja": "La置換とAサイト空孔を伴うSrTiO3–La2/3TiO3系列。高La側で結晶構造が変わり、La2/3TiO3端成分をSrTiO3が安定化する記述がある。ドーピングという用語だけではLa全量を母材から消せない。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "52829"
+          ],
+          "composition_condition": "SrTiO3",
+          "host_family": "SrTiO3",
+          "host_elements": [
+            "Sr",
+            "Ti",
+            "O"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "Methodsのx=0系列に一致する。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other_02"
+          ]
+        },
+        {
+          "sample_ids": [
+            "52830",
+            "52840",
+            "52851",
+            "52859",
+            "52864",
+            "52869",
+            "52835"
+          ],
+          "composition_condition": "Sr0.9La0.067TiO3",
+          "host_family": "SrTiO3-La2/3TiO3",
+          "host_elements": [
+            "Sr",
+            "La",
+            "Ti",
+            "O"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_confirmed_dopant_role_ambiguous",
+          "reason_ja": "対象固溶体系は確認済み。Laは置換種だが端成分も形成するため、全濃度で除去してSrTiO3に戻す規則は未確定。Laを保留として保持。",
+          "data_quality_flags": [
+            "dopant_vs_alloy_boundary",
+            "a_site_vacancies",
+            "structural_transition",
+            "no_automatic_la_removal"
+          ],
+          "evidence_ids": [
+            "other_02"
+          ]
+        },
+        {
+          "sample_ids": [
+            "52831",
+            "52841",
+            "52852",
+            "52860",
+            "52865",
+            "52870",
+            "52836"
+          ],
+          "composition_condition": "Sr0.7La0.2TiO3",
+          "host_family": "SrTiO3-La2/3TiO3",
+          "host_elements": [
+            "Sr",
+            "La",
+            "Ti",
+            "O"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_confirmed_dopant_role_ambiguous",
+          "reason_ja": "対象固溶体系は確認済み。Laは置換種だが端成分も形成するため、全濃度で除去してSrTiO3に戻す規則は未確定。Laを保留として保持。",
+          "data_quality_flags": [
+            "dopant_vs_alloy_boundary",
+            "a_site_vacancies",
+            "structural_transition",
+            "no_automatic_la_removal"
+          ],
+          "evidence_ids": [
+            "other_02"
+          ]
+        },
+        {
+          "sample_ids": [
+            "52832",
+            "52843",
+            "52853",
+            "52861",
+            "52866",
+            "52871",
+            "52837"
+          ],
+          "composition_condition": "Sr0.5La0.33TiO3",
+          "host_family": "SrTiO3-La2/3TiO3",
+          "host_elements": [
+            "Sr",
+            "La",
+            "Ti",
+            "O"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_confirmed_dopant_role_ambiguous",
+          "reason_ja": "対象固溶体系は確認済み。Laは置換種だが端成分も形成するため、全濃度で除去してSrTiO3に戻す規則は未確定。Laを保留として保持。",
+          "data_quality_flags": [
+            "dopant_vs_alloy_boundary",
+            "a_site_vacancies",
+            "structural_transition",
+            "no_automatic_la_removal"
+          ],
+          "evidence_ids": [
+            "other_02"
+          ]
+        },
+        {
+          "sample_ids": [
+            "52833",
+            "52844",
+            "52854",
+            "52862",
+            "52867",
+            "52872",
+            "52838"
+          ],
+          "composition_condition": "Sr0.3La0.47TiO3",
+          "host_family": "SrTiO3-La2/3TiO3",
+          "host_elements": [
+            "Sr",
+            "La",
+            "Ti",
+            "O"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_confirmed_dopant_role_ambiguous",
+          "reason_ja": "対象固溶体系は確認済み。Laは置換種だが端成分も形成するため、全濃度で除去してSrTiO3に戻す規則は未確定。Laを保留として保持。",
+          "data_quality_flags": [
+            "dopant_vs_alloy_boundary",
+            "a_site_vacancies",
+            "structural_transition",
+            "no_automatic_la_removal"
+          ],
+          "evidence_ids": [
+            "other_02"
+          ]
+        },
+        {
+          "sample_ids": [
+            "52834",
+            "52846",
+            "52855",
+            "52863",
+            "52868",
+            "52873",
+            "52839"
+          ],
+          "composition_condition": "Sr0.1La0.6TiO3",
+          "host_family": "SrTiO3-La2/3TiO3",
+          "host_elements": [
+            "Sr",
+            "La",
+            "Ti",
+            "O"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_confirmed_dopant_role_ambiguous",
+          "reason_ja": "対象固溶体系は確認済み。Laは置換種だが端成分も形成するため、全濃度で除去してSrTiO3に戻す規則は未確定。Laを保留として保持。",
+          "data_quality_flags": [
+            "dopant_vs_alloy_boundary",
+            "a_site_vacancies",
+            "structural_transition",
+            "no_automatic_la_removal"
+          ],
+          "evidence_ids": [
+            "other_02"
+          ]
+        }
+      ]
+    },
+    {
+      "doi": "10.1021/acsomega.8b01552",
+      "title": "Nanoscale Texturing and Interfaces in Compositionally Modified Ca3Co4O9 with Enhanced Thermoelectric Performance",
+      "review_level": "primary_fulltext_sections_web_index",
+      "evidence": [
+        {
+          "evidence_id": "other_03",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6645353/",
+          "location": "4.1 Sample Preparation; Phase Analysis and Microstructure of Textured Ca3Co4O9 with Ag Inclusions; Figure 3",
+          "short_quote": "Lu/Ga substitution will occur on Ca/Co sites.",
+          "summary_ja": "試料調製節の組成系列と図3を照合。Lu/GaはCa/Coサイト置換。Agは主に粒界の第二相で、一部はCaサイトに入ると記載されている。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "45611",
+            "45612",
+            "45615",
+            "45618",
+            "45629",
+            "45631",
+            "45649",
+            "423",
+            "425",
+            "435",
+            "437"
+          ],
+          "composition_condition": "Ca3Co4O9",
+          "host_family": "Ca3Co4O9",
+          "host_elements": [
+            "Ca",
+            "Co",
+            "O"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "試料調製節のCa3Co4O9系列に一致。Lu/Gaをドーパントとして区別。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other_03"
+          ]
+        },
+        {
+          "sample_ids": [
+            "45613",
+            "45616",
+            "45619",
+            "429",
+            "441",
+            "442"
+          ],
+          "composition_condition": "Ca2.95Lu0.05Co3.85Ga0.15O9",
+          "host_family": "Ca3Co4O9",
+          "host_elements": [
+            "Ca",
+            "Co",
+            "O"
+          ],
+          "dopant_elements": [
+            "Lu",
+            "Ga"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "試料調製節のCa3Co4O9系列に一致。Lu/Gaをドーパントとして区別。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other_03"
+          ]
+        },
+        {
+          "sample_ids": [
+            "45614",
+            "45617",
+            "45620",
+            "430",
+            "438",
+            "440"
+          ],
+          "composition_condition": "Ca2.85Lu0.15Co3.95Ga0.05O9",
+          "host_family": "Ca3Co4O9",
+          "host_elements": [
+            "Ca",
+            "Co",
+            "O"
+          ],
+          "dopant_elements": [
+            "Lu",
+            "Ga"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "試料調製節のCa3Co4O9系列に一致。Lu/Gaをドーパントとして区別。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other_03"
+          ]
+        },
+        {
+          "sample_ids": [
+            "45632",
+            "45637"
+          ],
+          "composition_condition": "Ca2.95Ag0.05Co4O9",
+          "host_family": "Ca3Co4O9",
+          "host_elements": [
+            "Ca",
+            "Co",
+            "O"
+          ],
+          "dopant_elements": [],
+          "additive_components": [
+            "Ag"
+          ],
+          "status": "host_confirmed_additive_role_mixed",
+          "reason_ja": "試料調製節のCa3Co4O9系列に一致。Lu/Gaをドーパントとして区別。Agは介在物と一部置換の両方の役割があり、各割合は未確定。",
+          "data_quality_flags": [
+            "ag_secondary_phase_and_partial_substitution"
+          ],
+          "evidence_ids": [
+            "other_03"
+          ]
+        },
+        {
+          "sample_ids": [
+            "45633",
+            "45638"
+          ],
+          "composition_condition": "Ca2.9Ag0.05Lu0.05Co4O9",
+          "host_family": "Ca3Co4O9",
+          "host_elements": [
+            "Ca",
+            "Co",
+            "O"
+          ],
+          "dopant_elements": [
+            "Lu"
+          ],
+          "additive_components": [
+            "Ag"
+          ],
+          "status": "host_confirmed_additive_role_mixed",
+          "reason_ja": "試料調製節のCa3Co4O9系列に一致。Lu/Gaをドーパントとして区別。Agは介在物と一部置換の両方の役割があり、各割合は未確定。",
+          "data_quality_flags": [
+            "ag_secondary_phase_and_partial_substitution"
+          ],
+          "evidence_ids": [
+            "other_03"
+          ]
+        },
+        {
+          "sample_ids": [
+            "45636",
+            "45639",
+            "45650"
+          ],
+          "composition_condition": "Ca2.95Ag0.05Co3.95Ga0.05O9",
+          "host_family": "Ca3Co4O9",
+          "host_elements": [
+            "Ca",
+            "Co",
+            "O"
+          ],
+          "dopant_elements": [
+            "Ga"
+          ],
+          "additive_components": [
+            "Ag"
+          ],
+          "status": "host_confirmed_additive_role_mixed",
+          "reason_ja": "試料調製節のCa3Co4O9系列に一致。Lu/Gaをドーパントとして区別。Agは介在物と一部置換の両方の役割があり、各割合は未確定。",
+          "data_quality_flags": [
+            "ag_secondary_phase_and_partial_substitution"
+          ],
+          "evidence_ids": [
+            "other_03"
+          ]
+        },
+        {
+          "sample_ids": [
+            "45651"
+          ],
+          "composition_condition": "ZnO",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "論文内の比較材料と思われるが、ZnO試料の出典位置を未確認。Ca3Co4O9へ一括分類しない。",
+          "data_quality_flags": [
+            "comparison_sample_not_mapped"
+          ],
+          "evidence_ids": [
+            "other_03"
+          ]
+        }
+      ]
+    },
+    {
+      "doi": "10.1039/c4cp00641k",
+      "title": "Advanced thermoelectrics governed by a single parabolic band: Mg2Si0.3Sn0.7, a canonical example",
+      "review_level": "author_manuscript_fulltext",
+      "evidence": [
+        {
+          "evidence_id": "other_04",
+          "url": "https://pubs.rsc.org/en/content/getauthorversionpdf/c4cp00641k",
+          "location": "PDF p. 3 (printed p. 2), synthesis paragraph; Table 1 on PDF p. 4",
+          "short_quote": "Mg2(Si0.3Sn0.7)1-yBiy (0 ≤ y ≤ 0.04)",
+          "summary_ja": "Biを添加するMg2Si0.3Sn0.7系列を原稿本文の合成段落とTable 1で確認。Si0.3は母材の合金構成元素であり除去しない。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "9324"
+          ],
+          "composition_condition": "Mg2(Si0.3Sn0.7)",
+          "host_family": "Mg2(Si,Sn)",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "全組成が本文のBi添加量範囲0～0.04とSi:Sn=0.3:0.7に一致。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other_04"
+          ]
+        },
+        {
+          "sample_ids": [
+            "9325"
+          ],
+          "composition_condition": "Mg2(Si0.3Sn0.7)0.995Bi0.005",
+          "host_family": "Mg2(Si,Sn)",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Sn"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "全組成が本文のBi添加量範囲0～0.04とSi:Sn=0.3:0.7に一致。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other_04"
+          ]
+        },
+        {
+          "sample_ids": [
+            "9326",
+            "33436",
+            "33437",
+            "33438",
+            "33439",
+            "33440",
+            "33441"
+          ],
+          "composition_condition": "Mg2(Si0.3Sn0.7)0.99Bi0.01",
+          "host_family": "Mg2(Si,Sn)",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Sn"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "全組成が本文のBi添加量範囲0～0.04とSi:Sn=0.3:0.7に一致。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other_04"
+          ]
+        },
+        {
+          "sample_ids": [
+            "9327"
+          ],
+          "composition_condition": "Mg2(Si0.3Sn0.7)0.985Bi0.015",
+          "host_family": "Mg2(Si,Sn)",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Sn"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "全組成が本文のBi添加量範囲0～0.04とSi:Sn=0.3:0.7に一致。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other_04"
+          ]
+        },
+        {
+          "sample_ids": [
+            "9328"
+          ],
+          "composition_condition": "Mg2(Si0.3Sn0.7)0.98Bi0.02",
+          "host_family": "Mg2(Si,Sn)",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Sn"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "全組成が本文のBi添加量範囲0～0.04とSi:Sn=0.3:0.7に一致。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other_04"
+          ]
+        },
+        {
+          "sample_ids": [
+            "9329",
+            "33435"
+          ],
+          "composition_condition": "Mg2(Si0.3Sn0.7)0.975Bi0.025",
+          "host_family": "Mg2(Si,Sn)",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Sn"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "全組成が本文のBi添加量範囲0～0.04とSi:Sn=0.3:0.7に一致。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other_04"
+          ]
+        },
+        {
+          "sample_ids": [
+            "9330"
+          ],
+          "composition_condition": "Mg2(Si0.3Sn0.7)0.97Bi0.03",
+          "host_family": "Mg2(Si,Sn)",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Sn"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "全組成が本文のBi添加量範囲0～0.04とSi:Sn=0.3:0.7に一致。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other_04"
+          ]
+        },
+        {
+          "sample_ids": [
+            "9331"
+          ],
+          "composition_condition": "Mg2(Si0.3Sn0.7)0.96Bi0.04",
+          "host_family": "Mg2(Si,Sn)",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Sn"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "全組成が本文のBi添加量範囲0～0.04とSi:Sn=0.3:0.7に一致。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other_04"
+          ]
+        }
+      ]
+    },
+    {
+      "doi": "10.1021/ja206380h",
+      "title": "High Performance Na-doped PbTe–PbS Thermoelectric Materials: Electronic Density of States Modification and Shape-Controlled Nanostructures",
+      "review_level": "primary_abstract_web_index",
+      "evidence": [
+        {
+          "evidence_id": "other_05",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21902270/",
+          "location": "Abstract, sentence beginning We report that",
+          "short_quote": "PbTe-PbS 12% doped with 2% Na",
+          "summary_ja": "抄録でPbTe–PbS 12%とNa 2%の組合せを確認。PbSは母材に固溶する成分とナノ構造の両方を形成し、Naがドーパント。抄録だけで他濃度を全て確定しない。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "235",
+            "6117"
+          ],
+          "composition_condition": "Pb0.98Na0.02S1",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "対象抄録でこの個別濃度・比較試料まで確認できていない。タイトルを全試料に適用しない。",
+          "data_quality_flags": [
+            "sample_range_not_verified",
+            "abstract_only"
+          ],
+          "evidence_ids": [
+            "other_05"
+          ]
+        },
+        {
+          "sample_ids": [
+            "274",
+            "6112"
+          ],
+          "composition_condition": "Pb0.98Na0.02Te0.96S0.04",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "対象抄録でこの個別濃度・比較試料まで確認できていない。タイトルを全試料に適用しない。",
+          "data_quality_flags": [
+            "sample_range_not_verified",
+            "abstract_only"
+          ],
+          "evidence_ids": [
+            "other_05"
+          ]
+        },
+        {
+          "sample_ids": [
+            "303"
+          ],
+          "composition_condition": "Pb0.98Na0.015Te0.88S0.12",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "対象抄録でこの個別濃度・比較試料まで確認できていない。タイトルを全試料に適用しない。",
+          "data_quality_flags": [
+            "sample_range_not_verified",
+            "abstract_only"
+          ],
+          "evidence_ids": [
+            "other_05"
+          ]
+        },
+        {
+          "sample_ids": [
+            "387"
+          ],
+          "composition_condition": "Pb0.98Na0.005Te0.88S0.12",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "対象抄録でこの個別濃度・比較試料まで確認できていない。タイトルを全試料に適用しない。",
+          "data_quality_flags": [
+            "sample_range_not_verified",
+            "abstract_only"
+          ],
+          "evidence_ids": [
+            "other_05"
+          ]
+        },
+        {
+          "sample_ids": [
+            "369",
+            "6116"
+          ],
+          "composition_condition": "Pb0.98Na0.02Te0.7S0.3",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "対象抄録でこの個別濃度・比較試料まで確認できていない。タイトルを全試料に適用しない。",
+          "data_quality_flags": [
+            "sample_range_not_verified",
+            "abstract_only"
+          ],
+          "evidence_ids": [
+            "other_05"
+          ]
+        },
+        {
+          "sample_ids": [
+            "327"
+          ],
+          "composition_condition": "Pb0.98Na0.01Te0.88S0.12",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "対象抄録でこの個別濃度・比較試料まで確認できていない。タイトルを全試料に適用しない。",
+          "data_quality_flags": [
+            "sample_range_not_verified",
+            "abstract_only"
+          ],
+          "evidence_ids": [
+            "other_05"
+          ]
+        },
+        {
+          "sample_ids": [
+            "270",
+            "6111",
+            "6118",
+            "6122"
+          ],
+          "composition_condition": "Pb0.98Na0.02Te1",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "対象抄録でこの個別濃度・比較試料まで確認できていない。タイトルを全試料に適用しない。",
+          "data_quality_flags": [
+            "sample_range_not_verified",
+            "abstract_only"
+          ],
+          "evidence_ids": [
+            "other_05"
+          ]
+        },
+        {
+          "sample_ids": [
+            "343",
+            "6114",
+            "6119"
+          ],
+          "composition_condition": "Pb0.98Na0.02Te0.88S0.12",
+          "host_family": "PbTe-PbS",
+          "host_elements": [
+            "Pb",
+            "Te",
+            "S"
+          ],
+          "dopant_elements": [
+            "Na"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録で明示されたPbS 12%、Na 2%の対象試料に組成が一致。",
+          "data_quality_flags": [
+            "multiphase_or_nanostructured",
+            "abstract_only"
+          ],
+          "evidence_ids": [
+            "other_05"
+          ]
+        },
+        {
+          "sample_ids": [
+            "240",
+            "6115"
+          ],
+          "composition_condition": "Pb0.98Na0.02Te0.84S0.16",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "対象抄録でこの個別濃度・比較試料まで確認できていない。タイトルを全試料に適用しない。",
+          "data_quality_flags": [
+            "sample_range_not_verified",
+            "abstract_only"
+          ],
+          "evidence_ids": [
+            "other_05"
+          ]
+        },
+        {
+          "sample_ids": [
+            "236",
+            "6113"
+          ],
+          "composition_condition": "Pb0.98Na0.02Te0.92S0.08",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "対象抄録でこの個別濃度・比較試料まで確認できていない。タイトルを全試料に適用しない。",
+          "data_quality_flags": [
+            "sample_range_not_verified",
+            "abstract_only"
+          ],
+          "evidence_ids": [
+            "other_05"
+          ]
+        },
+        {
+          "sample_ids": [
+            "6120"
+          ],
+          "composition_condition": "Pb0.985Na0.015Te0.88S0.12",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "対象抄録でこの個別濃度・比較試料まで確認できていない。タイトルを全試料に適用しない。",
+          "data_quality_flags": [
+            "sample_range_not_verified",
+            "abstract_only"
+          ],
+          "evidence_ids": [
+            "other_05"
+          ]
+        },
+        {
+          "sample_ids": [
+            "6121"
+          ],
+          "composition_condition": "Pb0.99Na0.01Te0.88S0.12",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "対象抄録でこの個別濃度・比較試料まで確認できていない。タイトルを全試料に適用しない。",
+          "data_quality_flags": [
+            "sample_range_not_verified",
+            "abstract_only"
+          ],
+          "evidence_ids": [
+            "other_05"
+          ]
+        },
+        {
+          "sample_ids": [
+            "6123"
+          ],
+          "composition_condition": "PbTe",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "対象抄録でこの個別濃度・比較試料まで確認できていない。タイトルを全試料に適用しない。",
+          "data_quality_flags": [
+            "sample_range_not_verified",
+            "abstract_only"
+          ],
+          "evidence_ids": [
+            "other_05"
+          ]
+        },
+        {
+          "sample_ids": [
+            "6124"
+          ],
+          "composition_condition": "PbTe0.88S0.12",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "対象抄録でこの個別濃度・比較試料まで確認できていない。タイトルを全試料に適用しない。",
+          "data_quality_flags": [
+            "sample_range_not_verified",
+            "abstract_only"
+          ],
+          "evidence_ids": [
+            "other_05"
+          ]
+        }
+      ]
+    },
+    {
+      "doi": "10.1039/c5ee01147g",
+      "title": "Superior thermoelectric performance in PbTe–PbS pseudo-binary: extremely low thermal conductivity and modulated carrier concentration",
+      "review_level": "primary_abstract_web_index",
+      "evidence": [
+        {
+          "evidence_id": "other_06",
+          "url": "https://pubs.rsc.org/en/content/articlelanding/2015/ee/c5ee01147g",
+          "location": "Abstract, sentence listing x = 10%, 15%, 20%, 25%, 30% and 35%",
+          "short_quote": "3 at% Na-doped (PbTe)1−x(PbS)x",
+          "summary_ja": "PbTe–PbS擬二元系のNa添加試料。Sは合金化・相分離に関与する母材成分であり、少量だからという理由では除去しない。Na添加濃度の基準は式係数と異なり、原子%の明記がある。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "329",
+            "6052"
+          ],
+          "composition_condition": "Pb1Te0.65S0.35Na0.06",
+          "host_family": "PbTe-PbS",
+          "host_elements": [
+            "Pb",
+            "Te",
+            "S"
+          ],
+          "dopant_elements": [
+            "Na"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "S比0.10～0.35の主系列は抄録の組成範囲と一致。Na0.06は入力表記のまま保存し、論文の3 at%と数値を直接比較しない。",
+          "data_quality_flags": [
+            "multiphase_or_nanostructured",
+            "abstract_only",
+            "dopant_amount_convention_not_verified"
+          ],
+          "evidence_ids": [
+            "other_06"
+          ]
+        },
+        {
+          "sample_ids": [
+            "317",
+            "6051"
+          ],
+          "composition_condition": "Pb1Te0.7S0.3Na0.06",
+          "host_family": "PbTe-PbS",
+          "host_elements": [
+            "Pb",
+            "Te",
+            "S"
+          ],
+          "dopant_elements": [
+            "Na"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "S比0.10～0.35の主系列は抄録の組成範囲と一致。Na0.06は入力表記のまま保存し、論文の3 at%と数値を直接比較しない。",
+          "data_quality_flags": [
+            "multiphase_or_nanostructured",
+            "abstract_only",
+            "dopant_amount_convention_not_verified"
+          ],
+          "evidence_ids": [
+            "other_06"
+          ]
+        },
+        {
+          "sample_ids": [
+            "230",
+            "6050"
+          ],
+          "composition_condition": "Pb1Te0.75S0.25Na0.06",
+          "host_family": "PbTe-PbS",
+          "host_elements": [
+            "Pb",
+            "Te",
+            "S"
+          ],
+          "dopant_elements": [
+            "Na"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "S比0.10～0.35の主系列は抄録の組成範囲と一致。Na0.06は入力表記のまま保存し、論文の3 at%と数値を直接比較しない。",
+          "data_quality_flags": [
+            "multiphase_or_nanostructured",
+            "abstract_only",
+            "dopant_amount_convention_not_verified"
+          ],
+          "evidence_ids": [
+            "other_06"
+          ]
+        },
+        {
+          "sample_ids": [
+            "224",
+            "6049"
+          ],
+          "composition_condition": "Pb1Te0.8S0.2Na0.06",
+          "host_family": "PbTe-PbS",
+          "host_elements": [
+            "Pb",
+            "Te",
+            "S"
+          ],
+          "dopant_elements": [
+            "Na"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "S比0.10～0.35の主系列は抄録の組成範囲と一致。Na0.06は入力表記のまま保存し、論文の3 at%と数値を直接比較しない。",
+          "data_quality_flags": [
+            "multiphase_or_nanostructured",
+            "abstract_only",
+            "dopant_amount_convention_not_verified"
+          ],
+          "evidence_ids": [
+            "other_06"
+          ]
+        },
+        {
+          "sample_ids": [
+            "185",
+            "6047"
+          ],
+          "composition_condition": "Pb1Te0.9S0.1Na0.06",
+          "host_family": "PbTe-PbS",
+          "host_elements": [
+            "Pb",
+            "Te",
+            "S"
+          ],
+          "dopant_elements": [
+            "Na"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "S比0.10～0.35の主系列は抄録の組成範囲と一致。Na0.06は入力表記のまま保存し、論文の3 at%と数値を直接比較しない。",
+          "data_quality_flags": [
+            "multiphase_or_nanostructured",
+            "abstract_only",
+            "dopant_amount_convention_not_verified"
+          ],
+          "evidence_ids": [
+            "other_06"
+          ]
+        },
+        {
+          "sample_ids": [
+            "265",
+            "6048"
+          ],
+          "composition_condition": "Pb1Te0.85S0.15Na0.06",
+          "host_family": "PbTe-PbS",
+          "host_elements": [
+            "Pb",
+            "Te",
+            "S"
+          ],
+          "dopant_elements": [
+            "Na"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "S比0.10～0.35の主系列は抄録の組成範囲と一致。Na0.06は入力表記のまま保存し、論文の3 at%と数値を直接比較しない。",
+          "data_quality_flags": [
+            "multiphase_or_nanostructured",
+            "abstract_only",
+            "dopant_amount_convention_not_verified"
+          ],
+          "evidence_ids": [
+            "other_06"
+          ]
+        },
+        {
+          "sample_ids": [
+            "6053"
+          ],
+          "composition_condition": "Pb1Te0.9S0.1Na0.03",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "別添加濃度またはK添加の比較試料。抄録の主系列の説明だけでは個別根拠が不足する。",
+          "data_quality_flags": [
+            "comparison_sample_not_mapped",
+            "abstract_only"
+          ],
+          "evidence_ids": [
+            "other_06"
+          ]
+        },
+        {
+          "sample_ids": [
+            "6054"
+          ],
+          "composition_condition": "Pb1Te0.8S0.2Na0.03",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "別添加濃度またはK添加の比較試料。抄録の主系列の説明だけでは個別根拠が不足する。",
+          "data_quality_flags": [
+            "comparison_sample_not_mapped",
+            "abstract_only"
+          ],
+          "evidence_ids": [
+            "other_06"
+          ]
+        },
+        {
+          "sample_ids": [
+            "6056"
+          ],
+          "composition_condition": "Pb1Te0.88S0.12Na0.02",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "別添加濃度またはK添加の比較試料。抄録の主系列の説明だけでは個別根拠が不足する。",
+          "data_quality_flags": [
+            "comparison_sample_not_mapped",
+            "abstract_only"
+          ],
+          "evidence_ids": [
+            "other_06"
+          ]
+        },
+        {
+          "sample_ids": [
+            "6055"
+          ],
+          "composition_condition": "Pb1Te0.7S0.3Na0.03",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "別添加濃度またはK添加の比較試料。抄録の主系列の説明だけでは個別根拠が不足する。",
+          "data_quality_flags": [
+            "comparison_sample_not_mapped",
+            "abstract_only"
+          ],
+          "evidence_ids": [
+            "other_06"
+          ]
+        },
+        {
+          "sample_ids": [
+            "6057"
+          ],
+          "composition_condition": "Pb1Te0.7S0.3K0.03",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "別添加濃度またはK添加の比較試料。抄録の主系列の説明だけでは個別根拠が不足する。",
+          "data_quality_flags": [
+            "comparison_sample_not_mapped",
+            "abstract_only"
+          ],
+          "evidence_ids": [
+            "other_06"
+          ]
+        }
+      ]
+    },
+    {
+      "doi": "10.1021/acs.chemmater.6b02308",
+      "title": "Optimization of the Electronic Band Structure and the Lattice Thermal Conductivity of Solid Solutions According to Simple Calculations: A Canonical Example of the Mg2Si1–x–yGexSnyTernary Solid Solution",
+      "review_level": "primary_abstract_and_supporting_information_description_web_index",
+      "evidence": [
+        {
+          "evidence_id": "other_07",
+          "url": "https://pubs.acs.org/doi/abs/10.1021/acs.chemmater.6b02308",
+          "location": "Abstract; Supporting Information description, Figures S1-S3",
+          "short_quote": "Sb-doped solid solutions",
+          "summary_ja": "Mg2Si–Mg2Ge–Mg2Sn三元固溶体系を明記し、Sbをドーパントとして区別している。Ge量0.02～0.05は少量でも母材の固溶成分。Mg過剰量は元組成として維持する。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "9530"
+          ],
+          "composition_condition": "Mg2Si0.3Sn0.7",
+          "host_family": "Mg2(Si,Sn)",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録と補足資料の説明に、SiまたはSnをGe置換する系列およびSb添加系列が明示される。",
+          "data_quality_flags": [
+            "abstract_and_si_description_only",
+            "do_not_reset_mg_excess"
+          ],
+          "evidence_ids": [
+            "other_07"
+          ]
+        },
+        {
+          "sample_ids": [
+            "9531"
+          ],
+          "composition_condition": "Mg2Si0.28Ge0.02Sn0.7",
+          "host_family": "Mg2(Si,Ge,Sn)",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Ge",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録と補足資料の説明に、SiまたはSnをGe置換する系列およびSb添加系列が明示される。",
+          "data_quality_flags": [
+            "abstract_and_si_description_only",
+            "do_not_reset_mg_excess"
+          ],
+          "evidence_ids": [
+            "other_07"
+          ]
+        },
+        {
+          "sample_ids": [
+            "9532"
+          ],
+          "composition_condition": "Mg2Si0.27Ge0.03Sn0.7",
+          "host_family": "Mg2(Si,Ge,Sn)",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Ge",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録と補足資料の説明に、SiまたはSnをGe置換する系列およびSb添加系列が明示される。",
+          "data_quality_flags": [
+            "abstract_and_si_description_only",
+            "do_not_reset_mg_excess"
+          ],
+          "evidence_ids": [
+            "other_07"
+          ]
+        },
+        {
+          "sample_ids": [
+            "9533"
+          ],
+          "composition_condition": "Mg2Si0.26Ge0.04Sn0.7",
+          "host_family": "Mg2(Si,Ge,Sn)",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Ge",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録と補足資料の説明に、SiまたはSnをGe置換する系列およびSb添加系列が明示される。",
+          "data_quality_flags": [
+            "abstract_and_si_description_only",
+            "do_not_reset_mg_excess"
+          ],
+          "evidence_ids": [
+            "other_07"
+          ]
+        },
+        {
+          "sample_ids": [
+            "9534"
+          ],
+          "composition_condition": "Mg2Si0.25Ge0.05Sn0.7",
+          "host_family": "Mg2(Si,Ge,Sn)",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Ge",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録と補足資料の説明に、SiまたはSnをGe置換する系列およびSb添加系列が明示される。",
+          "data_quality_flags": [
+            "abstract_and_si_description_only",
+            "do_not_reset_mg_excess"
+          ],
+          "evidence_ids": [
+            "other_07"
+          ]
+        },
+        {
+          "sample_ids": [
+            "9535"
+          ],
+          "composition_condition": "Mg2Si0.3Ge0.02Sn0.68",
+          "host_family": "Mg2(Si,Ge,Sn)",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Ge",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録と補足資料の説明に、SiまたはSnをGe置換する系列およびSb添加系列が明示される。",
+          "data_quality_flags": [
+            "abstract_and_si_description_only",
+            "do_not_reset_mg_excess"
+          ],
+          "evidence_ids": [
+            "other_07"
+          ]
+        },
+        {
+          "sample_ids": [
+            "9536"
+          ],
+          "composition_condition": "Mg2Si0.3Ge0.03Sn0.67",
+          "host_family": "Mg2(Si,Ge,Sn)",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Ge",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録と補足資料の説明に、SiまたはSnをGe置換する系列およびSb添加系列が明示される。",
+          "data_quality_flags": [
+            "abstract_and_si_description_only",
+            "do_not_reset_mg_excess"
+          ],
+          "evidence_ids": [
+            "other_07"
+          ]
+        },
+        {
+          "sample_ids": [
+            "9537"
+          ],
+          "composition_condition": "Mg2Si0.3Ge0.04Sn0.66",
+          "host_family": "Mg2(Si,Ge,Sn)",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Ge",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録と補足資料の説明に、SiまたはSnをGe置換する系列およびSb添加系列が明示される。",
+          "data_quality_flags": [
+            "abstract_and_si_description_only",
+            "do_not_reset_mg_excess"
+          ],
+          "evidence_ids": [
+            "other_07"
+          ]
+        },
+        {
+          "sample_ids": [
+            "9538"
+          ],
+          "composition_condition": "Mg2Si0.3Ge0.05Sn0.65",
+          "host_family": "Mg2(Si,Ge,Sn)",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Ge",
+            "Sn"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録と補足資料の説明に、SiまたはSnをGe置換する系列およびSb添加系列が明示される。",
+          "data_quality_flags": [
+            "abstract_and_si_description_only",
+            "do_not_reset_mg_excess"
+          ],
+          "evidence_ids": [
+            "other_07"
+          ]
+        },
+        {
+          "sample_ids": [
+            "9539"
+          ],
+          "composition_condition": "Mg2.16(Si0.3Sn0.7)0.98Sb0.02",
+          "host_family": "Mg2(Si,Sn)",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Sn"
+          ],
+          "dopant_elements": [
+            "Sb"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録と補足資料の説明に、SiまたはSnをGe置換する系列およびSb添加系列が明示される。",
+          "data_quality_flags": [
+            "abstract_and_si_description_only",
+            "do_not_reset_mg_excess"
+          ],
+          "evidence_ids": [
+            "other_07"
+          ]
+        },
+        {
+          "sample_ids": [
+            "9540"
+          ],
+          "composition_condition": "Mg2.16(Si0.28Ge0.02Sn0.7)0.98Sb0.02",
+          "host_family": "Mg2(Si,Ge,Sn)",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Ge",
+            "Sn"
+          ],
+          "dopant_elements": [
+            "Sb"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録と補足資料の説明に、SiまたはSnをGe置換する系列およびSb添加系列が明示される。",
+          "data_quality_flags": [
+            "abstract_and_si_description_only",
+            "do_not_reset_mg_excess"
+          ],
+          "evidence_ids": [
+            "other_07"
+          ]
+        },
+        {
+          "sample_ids": [
+            "9541"
+          ],
+          "composition_condition": "Mg2.16(Si0.27Ge0.03Sn0.7)0.98Sb0.02",
+          "host_family": "Mg2(Si,Ge,Sn)",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Ge",
+            "Sn"
+          ],
+          "dopant_elements": [
+            "Sb"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録と補足資料の説明に、SiまたはSnをGe置換する系列およびSb添加系列が明示される。",
+          "data_quality_flags": [
+            "abstract_and_si_description_only",
+            "do_not_reset_mg_excess"
+          ],
+          "evidence_ids": [
+            "other_07"
+          ]
+        },
+        {
+          "sample_ids": [
+            "9542"
+          ],
+          "composition_condition": "Mg2.16(Si0.26Ge0.04Sn0.7)0.98Sb0.02",
+          "host_family": "Mg2(Si,Ge,Sn)",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Ge",
+            "Sn"
+          ],
+          "dopant_elements": [
+            "Sb"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録と補足資料の説明に、SiまたはSnをGe置換する系列およびSb添加系列が明示される。",
+          "data_quality_flags": [
+            "abstract_and_si_description_only",
+            "do_not_reset_mg_excess"
+          ],
+          "evidence_ids": [
+            "other_07"
+          ]
+        },
+        {
+          "sample_ids": [
+            "9543"
+          ],
+          "composition_condition": "Mg2.16(Si0.25Ge0.05Sn0.7)0.98Sb0.02",
+          "host_family": "Mg2(Si,Ge,Sn)",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Ge",
+            "Sn"
+          ],
+          "dopant_elements": [
+            "Sb"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録と補足資料の説明に、SiまたはSnをGe置換する系列およびSb添加系列が明示される。",
+          "data_quality_flags": [
+            "abstract_and_si_description_only",
+            "do_not_reset_mg_excess"
+          ],
+          "evidence_ids": [
+            "other_07"
+          ]
+        },
+        {
+          "sample_ids": [
+            "9544"
+          ],
+          "composition_condition": "Mg2.16(Si0.3Ge0.02Sn0.68)0.98Sb0.02",
+          "host_family": "Mg2(Si,Ge,Sn)",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Ge",
+            "Sn"
+          ],
+          "dopant_elements": [
+            "Sb"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録と補足資料の説明に、SiまたはSnをGe置換する系列およびSb添加系列が明示される。",
+          "data_quality_flags": [
+            "abstract_and_si_description_only",
+            "do_not_reset_mg_excess"
+          ],
+          "evidence_ids": [
+            "other_07"
+          ]
+        },
+        {
+          "sample_ids": [
+            "9545"
+          ],
+          "composition_condition": "Mg2.16(Si0.3Ge0.03Sn0.67)0.98Sb0.02",
+          "host_family": "Mg2(Si,Ge,Sn)",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Ge",
+            "Sn"
+          ],
+          "dopant_elements": [
+            "Sb"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録と補足資料の説明に、SiまたはSnをGe置換する系列およびSb添加系列が明示される。",
+          "data_quality_flags": [
+            "abstract_and_si_description_only",
+            "do_not_reset_mg_excess"
+          ],
+          "evidence_ids": [
+            "other_07"
+          ]
+        },
+        {
+          "sample_ids": [
+            "9546"
+          ],
+          "composition_condition": "Mg2.16(Si0.3Ge0.04Sn0.66)0.98Sb0.02",
+          "host_family": "Mg2(Si,Ge,Sn)",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Ge",
+            "Sn"
+          ],
+          "dopant_elements": [
+            "Sb"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録と補足資料の説明に、SiまたはSnをGe置換する系列およびSb添加系列が明示される。",
+          "data_quality_flags": [
+            "abstract_and_si_description_only",
+            "do_not_reset_mg_excess"
+          ],
+          "evidence_ids": [
+            "other_07"
+          ]
+        },
+        {
+          "sample_ids": [
+            "9547"
+          ],
+          "composition_condition": "Mg2.16(Si0.3Ge0.05Sn0.65)0.98Sb0.02",
+          "host_family": "Mg2(Si,Ge,Sn)",
+          "host_elements": [
+            "Mg",
+            "Si",
+            "Ge",
+            "Sn"
+          ],
+          "dopant_elements": [
+            "Sb"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録と補足資料の説明に、SiまたはSnをGe置換する系列およびSb添加系列が明示される。",
+          "data_quality_flags": [
+            "abstract_and_si_description_only",
+            "do_not_reset_mg_excess"
+          ],
+          "evidence_ids": [
+            "other_07"
+          ]
+        }
+      ]
+    },
+    {
+      "doi": "10.1021/acs.chemmater.6b04898",
+      "title": "Thermoelectric Properties of n-type ZrNiPb-Based Half-Heuslers",
+      "review_level": "primary_abstract_web_index",
+      "evidence": [
+        {
+          "evidence_id": "other_08",
+          "url": "https://pubs.acs.org/doi/abs/10.1021/acs.chemmater.6b04898",
+          "location": "Abstract, second and third sentences",
+          "short_quote": "via Bi doping. By further Sn-alloying in Pb site",
+          "summary_ja": "ZrNiPbでBiドーピングによるキャリア調整とSn合金化を区別。Snは母材側に保持し、Biをドーパントに分離する。Hf/Zr系比較試料にこの説明を適用しない。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "45282"
+          ],
+          "composition_condition": "ZrNiPb",
+          "host_family": "ZrNiPb",
+          "host_elements": [
+            "Zr",
+            "Ni",
+            "Pb"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録のZrNiPbベースBi添加およびSn合金化系列と元素構成が整合。個別測定値や添加量の照合までは未実施。",
+          "data_quality_flags": [
+            "abstract_only",
+            "dopant_amount_not_verified"
+          ],
+          "evidence_ids": [
+            "other_08"
+          ]
+        },
+        {
+          "sample_ids": [
+            "45283"
+          ],
+          "composition_condition": "ZrNiPb0.995Bi0.005",
+          "host_family": "ZrNiPb",
+          "host_elements": [
+            "Zr",
+            "Ni",
+            "Pb"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録のZrNiPbベースBi添加およびSn合金化系列と元素構成が整合。個別測定値や添加量の照合までは未実施。",
+          "data_quality_flags": [
+            "abstract_only",
+            "dopant_amount_not_verified"
+          ],
+          "evidence_ids": [
+            "other_08"
+          ]
+        },
+        {
+          "sample_ids": [
+            "45284"
+          ],
+          "composition_condition": "ZrNiPb0.993Bi0.007",
+          "host_family": "ZrNiPb",
+          "host_elements": [
+            "Zr",
+            "Ni",
+            "Pb"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録のZrNiPbベースBi添加およびSn合金化系列と元素構成が整合。個別測定値や添加量の照合までは未実施。",
+          "data_quality_flags": [
+            "abstract_only",
+            "dopant_amount_not_verified"
+          ],
+          "evidence_ids": [
+            "other_08"
+          ]
+        },
+        {
+          "sample_ids": [
+            "45285"
+          ],
+          "composition_condition": "ZrNiPb0.990Bi0.010",
+          "host_family": "ZrNiPb",
+          "host_elements": [
+            "Zr",
+            "Ni",
+            "Pb"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録のZrNiPbベースBi添加およびSn合金化系列と元素構成が整合。個別測定値や添加量の照合までは未実施。",
+          "data_quality_flags": [
+            "abstract_only",
+            "dopant_amount_not_verified"
+          ],
+          "evidence_ids": [
+            "other_08"
+          ]
+        },
+        {
+          "sample_ids": [
+            "45286"
+          ],
+          "composition_condition": "ZrNiPb0.985Bi0.015",
+          "host_family": "ZrNiPb",
+          "host_elements": [
+            "Zr",
+            "Ni",
+            "Pb"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録のZrNiPbベースBi添加およびSn合金化系列と元素構成が整合。個別測定値や添加量の照合までは未実施。",
+          "data_quality_flags": [
+            "abstract_only",
+            "dopant_amount_not_verified"
+          ],
+          "evidence_ids": [
+            "other_08"
+          ]
+        },
+        {
+          "sample_ids": [
+            "45287"
+          ],
+          "composition_condition": "ZrNiPb0.980Bi0.020",
+          "host_family": "ZrNiPb",
+          "host_elements": [
+            "Zr",
+            "Ni",
+            "Pb"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録のZrNiPbベースBi添加およびSn合金化系列と元素構成が整合。個別測定値や添加量の照合までは未実施。",
+          "data_quality_flags": [
+            "abstract_only",
+            "dopant_amount_not_verified"
+          ],
+          "evidence_ids": [
+            "other_08"
+          ]
+        },
+        {
+          "sample_ids": [
+            "45294"
+          ],
+          "composition_condition": "Hf0.6Zr0.4NiSn0.98Sb0.02",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "Hf/Zr系は比較試料と考えられるが個別出典未確認。NiSb0.99Sb0.01という入力には重複Sbもあり、誤記候補として保持。",
+          "data_quality_flags": [
+            "comparison_sample_not_mapped"
+          ],
+          "evidence_ids": [
+            "other_08"
+          ]
+        },
+        {
+          "sample_ids": [
+            "45295",
+            "45296"
+          ],
+          "composition_condition": "Hf0.75Zr0.25NiSb0.99Sb0.01",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "Hf/Zr系は比較試料と考えられるが個別出典未確認。NiSb0.99Sb0.01という入力には重複Sbもあり、誤記候補として保持。",
+          "data_quality_flags": [
+            "comparison_sample_not_mapped",
+            "possible_formula_typo_duplicate_sb"
+          ],
+          "evidence_ids": [
+            "other_08"
+          ]
+        },
+        {
+          "sample_ids": [
+            "45305"
+          ],
+          "composition_condition": "ZrNiPb0.98Bi0.02",
+          "host_family": "ZrNiPb",
+          "host_elements": [
+            "Zr",
+            "Ni",
+            "Pb"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録のZrNiPbベースBi添加およびSn合金化系列と元素構成が整合。個別測定値や添加量の照合までは未実施。",
+          "data_quality_flags": [
+            "abstract_only",
+            "dopant_amount_not_verified"
+          ],
+          "evidence_ids": [
+            "other_08"
+          ]
+        },
+        {
+          "sample_ids": [
+            "45310"
+          ],
+          "composition_condition": "ZrNiPb0.78Sn0.2Bi0.02",
+          "host_family": "ZrNi(Pb,Sn)",
+          "host_elements": [
+            "Zr",
+            "Ni",
+            "Pb",
+            "Sn"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録のZrNiPbベースBi添加およびSn合金化系列と元素構成が整合。個別測定値や添加量の照合までは未実施。",
+          "data_quality_flags": [
+            "abstract_only",
+            "dopant_amount_not_verified"
+          ],
+          "evidence_ids": [
+            "other_08"
+          ]
+        },
+        {
+          "sample_ids": [
+            "45312"
+          ],
+          "composition_condition": "ZrNiPb0.58Sn0.4Bi0.02",
+          "host_family": "ZrNi(Pb,Sn)",
+          "host_elements": [
+            "Zr",
+            "Ni",
+            "Pb",
+            "Sn"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録のZrNiPbベースBi添加およびSn合金化系列と元素構成が整合。個別測定値や添加量の照合までは未実施。",
+          "data_quality_flags": [
+            "abstract_only",
+            "dopant_amount_not_verified"
+          ],
+          "evidence_ids": [
+            "other_08"
+          ]
+        },
+        {
+          "sample_ids": [
+            "45313"
+          ],
+          "composition_condition": "ZrNiPb0.38Sn0.6Bi0.02",
+          "host_family": "ZrNi(Pb,Sn)",
+          "host_elements": [
+            "Zr",
+            "Ni",
+            "Pb",
+            "Sn"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録のZrNiPbベースBi添加およびSn合金化系列と元素構成が整合。個別測定値や添加量の照合までは未実施。",
+          "data_quality_flags": [
+            "abstract_only",
+            "dopant_amount_not_verified"
+          ],
+          "evidence_ids": [
+            "other_08"
+          ]
+        },
+        {
+          "sample_ids": [
+            "45315"
+          ],
+          "composition_condition": "ZrNiPb0.18Sn0.8Bi0.02",
+          "host_family": "ZrNi(Pb,Sn)",
+          "host_elements": [
+            "Zr",
+            "Ni",
+            "Pb",
+            "Sn"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録のZrNiPbベースBi添加およびSn合金化系列と元素構成が整合。個別測定値や添加量の照合までは未実施。",
+          "data_quality_flags": [
+            "abstract_only",
+            "dopant_amount_not_verified"
+          ],
+          "evidence_ids": [
+            "other_08"
+          ]
+        },
+        {
+          "sample_ids": [
+            "45316"
+          ],
+          "composition_condition": "ZrNiSn0.98Bi0.02",
+          "host_family": "ZrNiSn",
+          "host_elements": [
+            "Zr",
+            "Ni",
+            "Sn"
+          ],
+          "dopant_elements": [
+            "Bi"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "抄録のZrNiPbベースBi添加およびSn合金化系列と元素構成が整合。個別測定値や添加量の照合までは未実施。",
+          "data_quality_flags": [
+            "abstract_only",
+            "dopant_amount_not_verified"
+          ],
+          "evidence_ids": [
+            "other_08"
+          ]
+        }
+      ]
+    },
+    {
+      "doi": "10.1126/sciadv.aar5606",
+      "title": "Thermal conductivity in Bi0.5Sb1.5Te3+xand the role of dense dislocation arrays at grain boundaries",
+      "review_level": "primary_abstract_and_fulltext_sections_web_index",
+      "evidence": [
+        {
+          "evidence_id": "other_09",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5983911/",
+          "location": "Abstract; thermal-conductivity discussion around Figure 4",
+          "short_quote": "with excess Te (which formed liquid phase, thereby facilitating sintering)",
+          "summary_ja": "母材Bi0.5Sb1.5Te3に過剰Teを加えて加工する研究。Biは係数0.5でも母材成分。過剰Teは焼結過程の液相添加分で、母材中Teと区別し、元素Te全体は消さない。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "40279",
+            "40285"
+          ],
+          "composition_condition": "Bi0.5Sb1.5Te3",
+          "host_family": "Bi0.5Sb1.5Te3",
+          "host_elements": [
+            "Bi",
+            "Sb",
+            "Te"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "母材と過剰Te加工添加の関係を本文で確認。元CSVの括弧外混合比と最終残留Te量は同一とみなさない。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other_09"
+          ]
+        },
+        {
+          "sample_ids": [
+            "40280",
+            "40286"
+          ],
+          "composition_condition": "(Bi0.5Sb1.5Te3)79.21(Te)20.79",
+          "host_family": "Bi0.5Sb1.5Te3",
+          "host_elements": [
+            "Bi",
+            "Sb",
+            "Te"
+          ],
+          "dopant_elements": [],
+          "additive_components": [
+            "excess Te"
+          ],
+          "status": "host_confirmed_additive_role_mixed",
+          "reason_ja": "母材と過剰Te加工添加の関係を本文で確認。元CSVの括弧外混合比と最終残留Te量は同一とみなさない。",
+          "data_quality_flags": [
+            "starting_vs_final_composition",
+            "excess_te_not_elemental_dopant"
+          ],
+          "evidence_ids": [
+            "other_09"
+          ]
+        },
+        {
+          "sample_ids": [
+            "40281",
+            "40287"
+          ],
+          "composition_condition": "(Bi0.5Sb1.5Te3)65.57(Te)34.43",
+          "host_family": "Bi0.5Sb1.5Te3",
+          "host_elements": [
+            "Bi",
+            "Sb",
+            "Te"
+          ],
+          "dopant_elements": [],
+          "additive_components": [
+            "excess Te"
+          ],
+          "status": "host_confirmed_additive_role_mixed",
+          "reason_ja": "母材と過剰Te加工添加の関係を本文で確認。元CSVの括弧外混合比と最終残留Te量は同一とみなさない。",
+          "data_quality_flags": [
+            "starting_vs_final_composition",
+            "excess_te_not_elemental_dopant"
+          ],
+          "evidence_ids": [
+            "other_09"
+          ]
+        },
+        {
+          "sample_ids": [
+            "40282",
+            "40288"
+          ],
+          "composition_condition": "(Bi0.5Sb1.5Te3)55.94(Te)44.06",
+          "host_family": "Bi0.5Sb1.5Te3",
+          "host_elements": [
+            "Bi",
+            "Sb",
+            "Te"
+          ],
+          "dopant_elements": [],
+          "additive_components": [
+            "excess Te"
+          ],
+          "status": "host_confirmed_additive_role_mixed",
+          "reason_ja": "母材と過剰Te加工添加の関係を本文で確認。元CSVの括弧外混合比と最終残留Te量は同一とみなさない。",
+          "data_quality_flags": [
+            "starting_vs_final_composition",
+            "excess_te_not_elemental_dopant"
+          ],
+          "evidence_ids": [
+            "other_09"
+          ]
+        },
+        {
+          "sample_ids": [
+            "40283",
+            "40289",
+            "40291"
+          ],
+          "composition_condition": "(Bi0.5Sb1.5Te3)48.78(Te)51.22",
+          "host_family": "Bi0.5Sb1.5Te3",
+          "host_elements": [
+            "Bi",
+            "Sb",
+            "Te"
+          ],
+          "dopant_elements": [],
+          "additive_components": [
+            "excess Te"
+          ],
+          "status": "host_confirmed_additive_role_mixed",
+          "reason_ja": "母材と過剰Te加工添加の関係を本文で確認。元CSVの括弧外混合比と最終残留Te量は同一とみなさない。",
+          "data_quality_flags": [
+            "starting_vs_final_composition",
+            "excess_te_not_elemental_dopant"
+          ],
+          "evidence_ids": [
+            "other_09"
+          ]
+        },
+        {
+          "sample_ids": [
+            "40284",
+            "40290",
+            "40292"
+          ],
+          "composition_condition": "(Bi0.5Sb1.5Te3)43.24(Te)56.76",
+          "host_family": "Bi0.5Sb1.5Te3",
+          "host_elements": [
+            "Bi",
+            "Sb",
+            "Te"
+          ],
+          "dopant_elements": [],
+          "additive_components": [
+            "excess Te"
+          ],
+          "status": "host_confirmed_additive_role_mixed",
+          "reason_ja": "母材と過剰Te加工添加の関係を本文で確認。元CSVの括弧外混合比と最終残留Te量は同一とみなさない。",
+          "data_quality_flags": [
+            "starting_vs_final_composition",
+            "excess_te_not_elemental_dopant"
+          ],
+          "evidence_ids": [
+            "other_09"
+          ]
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ma14020273",
+      "title": "Effect of Heating Modes on Reactive Sintering of Ca3Co4O9 Ceramics",
+      "review_level": "primary_abstract_web_index",
+      "evidence": [
+        {
+          "evidence_id": "other_10",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33430402/",
+          "location": "Abstract, first sentence",
+          "short_quote": "bulk calcium cobaltite (Ca349/Ca3Co4O9) ceramics",
+          "summary_ja": "Ca3Co4O9の焼結法・加熱条件を比較する論文。入力試料はすべてCa3Co4O9で、母材を一致させられる。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "54046",
+            "54047",
+            "54048",
+            "54051",
+            "54052",
+            "54053",
+            "54054",
+            "54055",
+            "54056",
+            "54057",
+            "54058",
+            "54059",
+            "54060",
+            "54061",
+            "54062",
+            "54064",
+            "54065",
+            "54066"
+          ],
+          "composition_condition": "Ca3Co4O9",
+          "host_family": "Ca3Co4O9",
+          "host_elements": [
+            "Ca",
+            "Co",
+            "O"
+          ],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "host_confirmed_dopants_not_reported",
+          "reason_ja": "入力式と抄録の合成対象が一致。別添加元素は入力にないが、ドーパント不存在を全本文で証明したものではない。",
+          "data_quality_flags": [
+            "abstract_only"
+          ],
+          "evidence_ids": [
+            "other_10"
+          ]
+        }
+      ]
+    },
+    {
+      "doi": "10.1073/pnas.1617663113",
+      "title": "Achieving high power factor and output power density in p-type half-Heuslers Nb1-xTixFeSb",
+      "review_level": "primary_fulltext_sections_web_index",
+      "evidence": [
+        {
+          "evidence_id": "other_11",
+          "url": "https://www.pnas.org/content/pnas/113/48/13576.full.pdf",
+          "location": "Results and Discussion, thermal-conductivity discussion; Figure 7 caption, p. 13580",
+          "short_quote": "With increased Ti doping, the lattice thermal conductivity decreases significantly",
+          "summary_ja": "Nb1-xTixFeSbをTiドーピング系列として扱い、Nb0.95Ti0.05FeSbとNb0.8Ti0.2FeSbを図7で明示。組成式のNb/Fe/Sbが母材、Tiが置換ドーパント。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "20540"
+          ],
+          "composition_condition": "Fe1.00Nb0.89Ti0.1Sb0.99",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "測定組成と思われる非化学量論式。Ti添加系列との対応は有力だが、測定組成表を確認していないため個別確定は保留。",
+          "data_quality_flags": [
+            "measured_composition_mapping_not_verified"
+          ],
+          "evidence_ids": [
+            "other_11"
+          ]
+        },
+        {
+          "sample_ids": [
+            "20640"
+          ],
+          "composition_condition": "Fe1.02Nb0.69Ti0.3Sb0.98",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "測定組成と思われる非化学量論式。Ti添加系列との対応は有力だが、測定組成表を確認していないため個別確定は保留。",
+          "data_quality_flags": [
+            "measured_composition_mapping_not_verified"
+          ],
+          "evidence_ids": [
+            "other_11"
+          ]
+        },
+        {
+          "sample_ids": [
+            "20641"
+          ],
+          "composition_condition": "Fe1.03Nb0.95Ti0.04Sb0.98",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "測定組成と思われる非化学量論式。Ti添加系列との対応は有力だが、測定組成表を確認していないため個別確定は保留。",
+          "data_quality_flags": [
+            "measured_composition_mapping_not_verified"
+          ],
+          "evidence_ids": [
+            "other_11"
+          ]
+        },
+        {
+          "sample_ids": [
+            "20642"
+          ],
+          "composition_condition": "Fe1.01Nb0.94Ti0.05Sb0.99",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "測定組成と思われる非化学量論式。Ti添加系列との対応は有力だが、測定組成表を確認していないため個別確定は保留。",
+          "data_quality_flags": [
+            "measured_composition_mapping_not_verified"
+          ],
+          "evidence_ids": [
+            "other_11"
+          ]
+        },
+        {
+          "sample_ids": [
+            "20643"
+          ],
+          "composition_condition": "Fe1.01Nb0.93Ti0.06Sb0.99",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "測定組成と思われる非化学量論式。Ti添加系列との対応は有力だが、測定組成表を確認していないため個別確定は保留。",
+          "data_quality_flags": [
+            "measured_composition_mapping_not_verified"
+          ],
+          "evidence_ids": [
+            "other_11"
+          ]
+        },
+        {
+          "sample_ids": [
+            "20644"
+          ],
+          "composition_condition": "Fe0.99Nb0.92Ti0.07Sb1.01",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "測定組成と思われる非化学量論式。Ti添加系列との対応は有力だが、測定組成表を確認していないため個別確定は保留。",
+          "data_quality_flags": [
+            "measured_composition_mapping_not_verified"
+          ],
+          "evidence_ids": [
+            "other_11"
+          ]
+        },
+        {
+          "sample_ids": [
+            "20539"
+          ],
+          "composition_condition": "Fe1.02Nb0.8Ti0.2Sb0.99",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "測定組成と思われる非化学量論式。Ti添加系列との対応は有力だが、測定組成表を確認していないため個別確定は保留。",
+          "data_quality_flags": [
+            "measured_composition_mapping_not_verified"
+          ],
+          "evidence_ids": [
+            "other_11"
+          ]
+        },
+        {
+          "sample_ids": [
+            "31556",
+            "35884",
+            "35886",
+            "35887",
+            "35889"
+          ],
+          "composition_condition": "Nb0.95Ti0.05FeSb",
+          "host_family": "NbFeSb",
+          "host_elements": [
+            "Nb",
+            "Fe",
+            "Sb"
+          ],
+          "dopant_elements": [
+            "Ti"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "図7キャプションのx=0.05/0.2に正確に一致。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other_11"
+          ]
+        },
+        {
+          "sample_ids": [
+            "31557"
+          ],
+          "composition_condition": "Nb0.8Ti0.2FeSb",
+          "host_family": "NbFeSb",
+          "host_elements": [
+            "Nb",
+            "Fe",
+            "Sb"
+          ],
+          "dopant_elements": [
+            "Ti"
+          ],
+          "additive_components": [],
+          "status": "host_and_roles_confirmed",
+          "reason_ja": "図7キャプションのx=0.05/0.2に正確に一致。",
+          "data_quality_flags": [],
+          "evidence_ids": [
+            "other_11"
+          ]
+        }
+      ]
+    },
+    {
+      "doi": "10.1063/1.4847455",
+      "title": "Influence of rare earth doping on thermoelectric properties of SrTiO3 ceramics",
+      "review_level": "primary_source_not_retrieved",
+      "evidence": [
+        {
+          "evidence_id": "other_12",
+          "url": "https://doi.org/10.1063/1.4847455",
+          "location": "Primary full text / abstract not retrieved in this review",
+          "short_quote": "",
+          "summary_ja": "ローカル書誌と二次書誌にはSrTiO3希土類ドープの題名があるが、一次資料取得未完了。同DOIにYbCu2(Si,Ge)2が含まれ、誤記または比較データの可能性がある。"
+        }
+      ],
+      "sample_rules": [
+        {
+          "sample_ids": [
+            "23199"
+          ],
+          "composition_condition": "YbCu2Si2",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "一次資料を未確認のため判定保留。SrTiO3論文の主題と元素構成が一致せず、DOIまたは試料対応の確認が必要。",
+          "data_quality_flags": [
+            "primary_source_unavailable",
+            "doi_sample_material_mismatch"
+          ],
+          "evidence_ids": [
+            "other_12"
+          ]
+        },
+        {
+          "sample_ids": [
+            "23200"
+          ],
+          "composition_condition": "YbCu2Si1.75Ge0.25",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "一次資料を未確認のため判定保留。SrTiO3論文の主題と元素構成が一致せず、DOIまたは試料対応の確認が必要。",
+          "data_quality_flags": [
+            "primary_source_unavailable",
+            "doi_sample_material_mismatch"
+          ],
+          "evidence_ids": [
+            "other_12"
+          ]
+        },
+        {
+          "sample_ids": [
+            "23201"
+          ],
+          "composition_condition": "YbCu2Si1.5Ge0.5",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "一次資料を未確認のため判定保留。SrTiO3論文の主題と元素構成が一致せず、DOIまたは試料対応の確認が必要。",
+          "data_quality_flags": [
+            "primary_source_unavailable",
+            "doi_sample_material_mismatch"
+          ],
+          "evidence_ids": [
+            "other_12"
+          ]
+        },
+        {
+          "sample_ids": [
+            "23202"
+          ],
+          "composition_condition": "YbCu2Si1.25Ge0.75",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "一次資料を未確認のため判定保留。SrTiO3論文の主題と元素構成が一致せず、DOIまたは試料対応の確認が必要。",
+          "data_quality_flags": [
+            "primary_source_unavailable",
+            "doi_sample_material_mismatch"
+          ],
+          "evidence_ids": [
+            "other_12"
+          ]
+        },
+        {
+          "sample_ids": [
+            "23203"
+          ],
+          "composition_condition": "YbCu2SiGe",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "一次資料を未確認のため判定保留。SrTiO3論文の主題と元素構成が一致せず、DOIまたは試料対応の確認が必要。",
+          "data_quality_flags": [
+            "primary_source_unavailable",
+            "doi_sample_material_mismatch"
+          ],
+          "evidence_ids": [
+            "other_12"
+          ]
+        },
+        {
+          "sample_ids": [
+            "23204"
+          ],
+          "composition_condition": "YbCu2Si0.75Ge1.25",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "一次資料を未確認のため判定保留。SrTiO3論文の主題と元素構成が一致せず、DOIまたは試料対応の確認が必要。",
+          "data_quality_flags": [
+            "primary_source_unavailable",
+            "doi_sample_material_mismatch"
+          ],
+          "evidence_ids": [
+            "other_12"
+          ]
+        },
+        {
+          "sample_ids": [
+            "23205"
+          ],
+          "composition_condition": "YbCu2Si0.5Ge1.5",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "一次資料を未確認のため判定保留。SrTiO3論文の主題と元素構成が一致せず、DOIまたは試料対応の確認が必要。",
+          "data_quality_flags": [
+            "primary_source_unavailable",
+            "doi_sample_material_mismatch"
+          ],
+          "evidence_ids": [
+            "other_12"
+          ]
+        },
+        {
+          "sample_ids": [
+            "23206"
+          ],
+          "composition_condition": "YbCu2Si0.25Ge1.75",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "一次資料を未確認のため判定保留。SrTiO3論文の主題と元素構成が一致せず、DOIまたは試料対応の確認が必要。",
+          "data_quality_flags": [
+            "primary_source_unavailable",
+            "doi_sample_material_mismatch"
+          ],
+          "evidence_ids": [
+            "other_12"
+          ]
+        },
+        {
+          "sample_ids": [
+            "23207"
+          ],
+          "composition_condition": "YbCu2Ge2",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "一次資料を未確認のため判定保留。SrTiO3論文の主題と元素構成が一致せず、DOIまたは試料対応の確認が必要。",
+          "data_quality_flags": [
+            "primary_source_unavailable",
+            "doi_sample_material_mismatch"
+          ],
+          "evidence_ids": [
+            "other_12"
+          ]
+        },
+        {
+          "sample_ids": [
+            "41704"
+          ],
+          "composition_condition": "Sr0.9La0.1TiO3",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "一次資料を未確認のため判定保留。希土類ドープ候補だが原典の試料対応を未確認。",
+          "data_quality_flags": [
+            "primary_source_unavailable"
+          ],
+          "evidence_ids": [
+            "other_12"
+          ]
+        },
+        {
+          "sample_ids": [
+            "41705"
+          ],
+          "composition_condition": "Sr0.9Nd0.1TiO3",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "一次資料を未確認のため判定保留。希土類ドープ候補だが原典の試料対応を未確認。",
+          "data_quality_flags": [
+            "primary_source_unavailable"
+          ],
+          "evidence_ids": [
+            "other_12"
+          ]
+        },
+        {
+          "sample_ids": [
+            "41706"
+          ],
+          "composition_condition": "Sr0.9Sm0.1TiO3",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "一次資料を未確認のため判定保留。希土類ドープ候補だが原典の試料対応を未確認。",
+          "data_quality_flags": [
+            "primary_source_unavailable"
+          ],
+          "evidence_ids": [
+            "other_12"
+          ]
+        },
+        {
+          "sample_ids": [
+            "41707"
+          ],
+          "composition_condition": "Sr0.9Gd0.1TiO3",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "一次資料を未確認のため判定保留。希土類ドープ候補だが原典の試料対応を未確認。",
+          "data_quality_flags": [
+            "primary_source_unavailable"
+          ],
+          "evidence_ids": [
+            "other_12"
+          ]
+        },
+        {
+          "sample_ids": [
+            "41708"
+          ],
+          "composition_condition": "Sr0.9Dy0.1TiO3",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "一次資料を未確認のため判定保留。希土類ドープ候補だが原典の試料対応を未確認。",
+          "data_quality_flags": [
+            "primary_source_unavailable"
+          ],
+          "evidence_ids": [
+            "other_12"
+          ]
+        },
+        {
+          "sample_ids": [
+            "41709"
+          ],
+          "composition_condition": "Sr0.9Y0.1TiO3",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "一次資料を未確認のため判定保留。希土類ドープ候補だが原典の試料対応を未確認。",
+          "data_quality_flags": [
+            "primary_source_unavailable"
+          ],
+          "evidence_ids": [
+            "other_12"
+          ]
+        },
+        {
+          "sample_ids": [
+            "41710"
+          ],
+          "composition_condition": "Sr0.9Er0.1TiO3",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "一次資料を未確認のため判定保留。希土類ドープ候補だが原典の試料対応を未確認。",
+          "data_quality_flags": [
+            "primary_source_unavailable"
+          ],
+          "evidence_ids": [
+            "other_12"
+          ]
+        },
+        {
+          "sample_ids": [
+            "41711"
+          ],
+          "composition_condition": "Sr0.9Yb0.1TiO3",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "一次資料を未確認のため判定保留。希土類ドープ候補だが原典の試料対応を未確認。",
+          "data_quality_flags": [
+            "primary_source_unavailable"
+          ],
+          "evidence_ids": [
+            "other_12"
+          ]
+        },
+        {
+          "sample_ids": [
+            "41712"
+          ],
+          "composition_condition": "Sr0.8La0.2TiO3",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "一次資料を未確認のため判定保留。希土類ドープ候補だが原典の試料対応を未確認。",
+          "data_quality_flags": [
+            "primary_source_unavailable"
+          ],
+          "evidence_ids": [
+            "other_12"
+          ]
+        },
+        {
+          "sample_ids": [
+            "41713"
+          ],
+          "composition_condition": "Sr0.8Nd0.2TiO3",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "一次資料を未確認のため判定保留。希土類ドープ候補だが原典の試料対応を未確認。",
+          "data_quality_flags": [
+            "primary_source_unavailable"
+          ],
+          "evidence_ids": [
+            "other_12"
+          ]
+        },
+        {
+          "sample_ids": [
+            "41714"
+          ],
+          "composition_condition": "Sr0.8Sm0.2TiO3",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "一次資料を未確認のため判定保留。希土類ドープ候補だが原典の試料対応を未確認。",
+          "data_quality_flags": [
+            "primary_source_unavailable"
+          ],
+          "evidence_ids": [
+            "other_12"
+          ]
+        },
+        {
+          "sample_ids": [
+            "41715"
+          ],
+          "composition_condition": "Sr0.8Gd0.2TiO3",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "一次資料を未確認のため判定保留。希土類ドープ候補だが原典の試料対応を未確認。",
+          "data_quality_flags": [
+            "primary_source_unavailable"
+          ],
+          "evidence_ids": [
+            "other_12"
+          ]
+        },
+        {
+          "sample_ids": [
+            "41716"
+          ],
+          "composition_condition": "Sr0.8Dy0.2TiO3",
+          "host_family": "",
+          "host_elements": [],
+          "dopant_elements": [],
+          "additive_components": [],
+          "status": "unresolved",
+          "reason_ja": "一次資料を未確認のため判定保留。希土類ドープ候補だが原典の試料対応を未確認。",
+          "data_quality_flags": [
+            "primary_source_unavailable"
+          ],
+          "evidence_ids": [
+            "other_12"
+          ]
+        }
+      ]
+    }
+  ],
+  "method_notes_ja": [
+    "これは選択した12 DOIの個別調査。全DOI調査済み件数ではない。",
+    "web_indexは検索ツールから表示された一次資料本文・抄録を読んだもの。全文ファイルの全頁精読とは区別する。",
+    "試料IDはDOIと組にして照合する。sample_ids以外への横展開は禁止。",
+    "母材名は分類用代表名。元組成の係数、酸素欠損、Mg過剰等を修正する指示ではない。",
+    "短い引用は原典ごとに1箇所とし、試料行にはevidence_idで結びつける。"
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "scope_note": "Local retained Starrydata2 snapshot; counts are sample keys, not temperature points or the current entire online database. Removal counts are hypothetical diagnostics, not verified dopants or classification errors.",
+  "parser_note": "Strict flat formulas only; missing coefficients mean 1; unicode subscript digits translated; repeated elements summed; zero amounts excluded; unsupported notation unassessed. Decimal arithmetic preserves <= boundaries.",
+  "counts_by_scope": {
+    "local_sample_master": {
+      "samples": 46661,
+      "unique_compositions": 24757,
+      "flat_numeric_samples": 39624,
+      "unassessed_samples": 7037,
+      "coefficient_sum_exactly_1": 1369,
+      "coefficient_sum_exactly_100": 957,
+      "coefficient_le_0_5": {
+        "samples_with_removed_elements": 22837,
+        "samples_with_no_remaining_elements": 54
+      },
+      "atomic_fraction_le_0_5": {
+        "samples_with_removed_elements": 38855,
+        "samples_with_no_remaining_elements": 12623
+      },
+      "atomic_fraction_le_0_005": {
+        "samples_with_removed_elements": 4848,
+        "samples_with_no_remaining_elements": 0
+      }
+    },
+    "saved_step32_classification": {
+      "samples": 17077,
+      "unique_compositions": 11758,
+      "flat_numeric_samples": 14308,
+      "unassessed_samples": 2769,
+      "coefficient_sum_exactly_1": 211,
+      "coefficient_sum_exactly_100": 298,
+      "coefficient_le_0_5": {
+        "samples_with_removed_elements": 8756,
+        "samples_with_no_remaining_elements": 5
+      },
+      "atomic_fraction_le_0_5": {
+        "samples_with_removed_elements": 14248,
+        "samples_with_no_remaining_elements": 6269
+      },
+      "atomic_fraction_le_0_005": {
+        "samples_with_removed_elements": 2259,
+        "samples_with_no_remaining_elements": 0
+      }
+    },
+    "current_plot_DF": {
+      "samples": 3201,
+      "unique_compositions": 2456,
+      "flat_numeric_samples": 2696,
+      "unassessed_samples": 505,
+      "coefficient_sum_exactly_1": 41,
+      "coefficient_sum_exactly_100": 40,
+      "coefficient_le_0_5": {
+        "samples_with_removed_elements": 1693,
+        "samples_with_no_remaining_elements": 1
+      },
+      "atomic_fraction_le_0_5": {
+        "samples_with_removed_elements": 2676,
+        "samples_with_no_remaining_elements": 1087
+      },
+      "atomic_fraction_le_0_005": {
+        "samples_with_removed_elements": 420,
+        "samples_with_no_remaining_elements": 0
+      }
+    },
+    "current_plot_ML": {
+      "samples": 2943,
+      "unique_compositions": 2292,
+      "flat_numeric_samples": 2489,
+      "unassessed_samples": 454,
+      "coefficient_sum_exactly_1": 31,
+      "coefficient_sum_exactly_100": 40,
+      "coefficient_le_0_5": {
+        "samples_with_removed_elements": 1550,
+        "samples_with_no_remaining_elements": 1
+      },
+      "atomic_fraction_le_0_5": {
+        "samples_with_removed_elements": 2475,
+        "samples_with_no_remaining_elements": 1030
+      },
+      "atomic_fraction_le_0_005": {
+        "samples_with_removed_elements": 389,
+        "samples_with_no_remaining_elements": 0
+      }
+    },
+    "current_plot_FML": {
+      "samples": 3189,
+      "unique_compositions": 2638,
+      "flat_numeric_samples": 2661,
+      "unassessed_samples": 528,
+      "coefficient_sum_exactly_1": 65,
+      "coefficient_sum_exactly_100": 88,
+      "coefficient_le_0_5": {
+        "samples_with_removed_elements": 1455,
+        "samples_with_no_remaining_elements": 1
+      },
+      "atomic_fraction_le_0_5": {
+        "samples_with_removed_elements": 2629,
+        "samples_with_no_remaining_elements": 979
+      },
+      "atomic_fraction_le_0_005": {
+        "samples_with_removed_elements": 335,
+        "samples_with_no_remaining_elements": 0
+      }
+    }
+  },
+  "equivalent_ratio_groups_with_scale_dependent_removal": 75,
+  "scale_dependent_removal_examples": [
+    [
+      {
+        "composition": "MnTe",
+        "sample_id": "76960",
+        "doi": "10.1002/adem.202000816",
+        "remaining_elements": [
+          "Mn",
+          "Te"
+        ]
+      },
+      {
+        "composition": "Mn0.50Te0.50",
+        "sample_id": "13876",
+        "doi": "10.1007/s13391-013-0035-z",
+        "remaining_elements": []
+      }
+    ],
+    [
+      {
+        "composition": "InSe",
+        "sample_id": "14516",
+        "doi": "10.1007/s00339-015-9237-6",
+        "remaining_elements": [
+          "In",
+          "Se"
+        ]
+      },
+      {
+        "composition": "In0.5Se0.5",
+        "sample_id": "15420",
+        "doi": "10.1155/2018/9380573",
+        "remaining_elements": []
+      }
+    ],
+    [
+      {
+        "composition": "Si0.5Ge0.5",
+        "sample_id": "27601",
+        "doi": "10.1016/j.mtla.2019.100374",
+        "remaining_elements": []
+      },
+      {
+        "composition": "SiGe",
+        "sample_id": "3098",
+        "doi": "10.1021/acs.chemmater.6b04076",
+        "remaining_elements": [
+          "Ge",
+          "Si"
+        ]
+      }
+    ],
+    [
+      {
+        "composition": "Fe3Si",
+        "sample_id": "11011",
+        "doi": "10.1016/s0925-8388(03)00024-0",
+        "remaining_elements": [
+          "Fe",
+          "Si"
+        ]
+      },
+      {
+        "composition": "Fe0.75Si0.25",
+        "sample_id": "81648",
+        "doi": "10.2320/jinstmet1952.63.11_1435",
+        "remaining_elements": [
+          "Fe"
+        ]
+      }
+    ],
+    [
+      {
+        "composition": "RuIn3",
+        "sample_id": "16252",
+        "doi": "10.1063/1.4729772",
+        "remaining_elements": [
+          "In",
+          "Ru"
+        ]
+      },
+      {
+        "composition": "Ru0.25In0.75",
+        "sample_id": "19943",
+        "doi": "10.1557/jmr.2011.153",
+        "remaining_elements": [
+          "In"
+        ]
+      }
+    ],
+    [
+      {
+        "composition": "Si0.98P0.02",
+        "sample_id": "42886",
+        "doi": "10.1002/aelm.201600171",
+        "remaining_elements": [
+          "Si"
+        ]
+      },
+      {
+        "composition": "Si98P2",
+        "sample_id": "46158",
+        "doi": "10.1021/acsami.1c12200",
+        "remaining_elements": [
+          "P",
+          "Si"
+        ]
+      }
+    ],
+    [
+      {
+        "composition": "Si99B1",
+        "sample_id": "30241",
+        "doi": "10.1063/1.4928463",
+        "remaining_elements": [
+          "B",
+          "Si"
+        ]
+      },
+      {
+        "composition": "Si0.99B0.01",
+        "sample_id": "49579",
+        "doi": "10.1063/1.4983776",
+        "remaining_elements": [
+          "Si"
+        ]
+      }
+    ],
+    [
+      {
+        "composition": "Bi0.93Sb0.07",
+        "sample_id": "11568",
+        "doi": "10.1002/pssb.2221430114",
+        "remaining_elements": [
+          "Bi"
+        ]
+      },
+      {
+        "composition": "Bi93Sb7",
+        "sample_id": "11098",
+        "doi": "10.1063/1.1957126",
+        "remaining_elements": [
+          "Bi",
+          "Sb"
+        ]
+      }
+    ],
+    [
+      {
+        "composition": "NaCo2O4",
+        "sample_id": "18824",
+        "doi": "10.1007/s10853-010-5039-6",
+        "remaining_elements": [
+          "Co",
+          "Na",
+          "O"
+        ]
+      },
+      {
+        "composition": "Na0.5CoO2",
+        "sample_id": "19060",
+        "doi": "10.1063/1.2967813",
+        "remaining_elements": [
+          "Co",
+          "O"
+        ]
+      }
+    ],
+    [
+      {
+        "composition": "Bi0.98Sb0.02",
+        "sample_id": "29967",
+        "doi": "10.1007/s11664-012-2090-x",
+        "remaining_elements": [
+          "Bi"
+        ]
+      },
+      {
+        "composition": "Bi98Sb2",
+        "sample_id": "12106",
+        "doi": "10.1016/0038-1101(72)90173-6",
+        "remaining_elements": [
+          "Bi",
+          "Sb"
+        ]
+      }
+    ]
+  ],
+  "examples": [
+    {
+      "composition": "Pb0.997Bi0.003Te",
+      "sample_key": "10.1002_aenm.201700099__sample_31676",
+      "sample_id": "31676",
+      "doi": "10.1002/aenm.201700099",
+      "number_of_samples_with_this_formula": 2,
+      "saved_step32_group": "broad::BiTe_like",
+      "current_plot_groups": {
+        "DF": null,
+        "ML": null,
+        "FML": null
+      },
+      "coefficient_le_0_5_removed": [
+        "Bi"
+      ],
+      "coefficient_le_0_5_remaining": [
+        "Pb",
+        "Te"
+      ]
+    },
+    {
+      "composition": "Si0.8Ge0.2",
+      "sample_key": "10.1016_j.msea.2012.11.073__sample_21170",
+      "sample_id": "21170",
+      "doi": "10.1016/j.msea.2012.11.073",
+      "number_of_samples_with_this_formula": 60,
+      "saved_step32_group": "broad::SiGe_like",
+      "current_plot_groups": {
+        "DF": "broad::SiGe_like",
+        "ML": "broad::SiGe_like",
+        "FML": null
+      },
+      "coefficient_le_0_5_removed": [
+        "Ge"
+      ],
+      "coefficient_le_0_5_remaining": [
+        "Si"
+      ]
+    },
+    {
+      "composition": "Si0.5Ge0.5",
+      "sample_key": "10.1016_j.mtla.2019.100374__sample_27601",
+      "sample_id": "27601",
+      "doi": "10.1016/j.mtla.2019.100374",
+      "number_of_samples_with_this_formula": 25,
+      "saved_step32_group": "broad::SiGe_like",
+      "current_plot_groups": {
+        "DF": "broad::SiGe_like",
+        "ML": "broad::SiGe_like",
+        "FML": null
+      },
+      "coefficient_le_0_5_removed": [
+        "Ge",
+        "Si"
+      ],
+      "coefficient_le_0_5_remaining": []
+    },
+    {
+      "composition": "Bi0.5Sb1.5Te3",
+      "sample_key": "10.1016_j.jallcom.2010.09.014__sample_1620",
+      "sample_id": "1620",
+      "doi": "10.1016/j.jallcom.2010.09.014",
+      "number_of_samples_with_this_formula": 347,
+      "saved_step32_group": "broad::BiSbTe_tetradymite_like",
+      "current_plot_groups": {
+        "DF": "broad::BiSbTe_tetradymite_like",
+        "ML": "broad::BiSbTe_tetradymite_like",
+        "FML": "broad::BiSbTe_tetradymite_like"
+      },
+      "coefficient_le_0_5_removed": [
+        "Bi"
+      ],
+      "coefficient_le_0_5_remaining": [
+        "Sb",
+        "Te"
+      ]
+    },
+    {
+      "composition": "Na0.5CoO2",
+      "sample_key": "10.1063_1.2967813__sample_19060",
+      "sample_id": "19060",
+      "doi": "10.1063/1.2967813",
+      "number_of_samples_with_this_formula": 2,
+      "saved_step32_group": null,
+      "current_plot_groups": {
+        "DF": null,
+        "ML": null,
+        "FML": null
+      },
+      "coefficient_le_0_5_removed": [
+        "Na"
+      ],
+      "coefficient_le_0_5_remaining": [
+        "Co",
+        "O"
+      ]
+    },
+    {
+      "composition": "Hf0.5Zr0.5NiSn0.99Sb0.01",
+      "sample_key": "10.1002_aenm.201300336__sample_10296",
+      "sample_id": "10296",
+      "doi": "10.1002/aenm.201300336",
+      "number_of_samples_with_this_formula": 4,
+      "saved_step32_group": "broad::other_formula_system",
+      "current_plot_groups": {
+        "DF": null,
+        "ML": null,
+        "FML": null
+      },
+      "coefficient_le_0_5_removed": [
+        "Hf",
+        "Sb",
+        "Zr"
+      ],
+      "coefficient_le_0_5_remaining": [
+        "Ni",
+        "Sn"
+      ]
+    },
+    {
+      "composition": "Ti0.5Hf0.5CoSb0.8Sn0.2",
+      "sample_key": "10.1002_ente.201500183__sample_82243",
+      "sample_id": "82243",
+      "doi": "10.1002/ente.201500183",
+      "number_of_samples_with_this_formula": 7,
+      "saved_step32_group": "broad::CoSb_skutterudite_like",
+      "current_plot_groups": {
+        "DF": null,
+        "ML": null,
+        "FML": null
+      },
+      "coefficient_le_0_5_removed": [
+        "Hf",
+        "Sn",
+        "Ti"
+      ],
+      "coefficient_le_0_5_remaining": [
+        "Co",
+        "Sb"
+      ]
+    }
+  ],
+  "unassessed_notation_examples": [
+    {
+      "sample_id": "84409",
+      "composition": "CSA doped Polyaniline",
+      "DOI": "10.1002/1439-2054(20010301)286:3<139::aid-mame139>3.0.co;2-f"
+    },
+    {
+      "sample_id": "26718",
+      "composition": "(PbTe)0.987(Ag2Te)0.013",
+      "DOI": "10.1002/adfm.201000878"
+    },
+    {
+      "sample_id": "26719",
+      "composition": "(PbTe)0.973(Ag2Te)0.027",
+      "DOI": "10.1002/adfm.201000878"
+    },
+    {
+      "sample_id": "26720",
+      "composition": "(PbTe)0.959(Ag2Te)0.041",
+      "DOI": "10.1002/adfm.201000878"
+    },
+    {
+      "sample_id": "26721",
+      "composition": "(PbTe)0.945(Ag2Te)0.055",
+      "DOI": "10.1002/adfm.201000878"
+    },
+    {
+      "sample_id": "26722",
+      "composition": "(Pb0.9906La0.0094Te)0.9457(Ag2Te)0.0543",
+      "DOI": "10.1002/adfm.201000878"
+    },
+    {
+      "sample_id": "26723",
+      "composition": "(Pb0.9814La0.0186Te)0.9462(Ag2Te)0.0538",
+      "DOI": "10.1002/adfm.201000878"
+    },
+    {
+      "sample_id": "26724",
+      "composition": "(Pb0.9724La0.0276Te)0.9467(Ag2Te)0.0533",
+      "DOI": "10.1002/adfm.201000878"
+    },
+    {
+      "sample_id": "26725",
+      "composition": "(Pb0.9636La0.0364Te)0.945(Ag2Te)0.055",
+      "DOI": "10.1002/adfm.201000878"
+    },
+    {
+      "sample_id": "4924",
+      "composition": "Ga0.027Co4Sb5.9865(GaSb)0.0135",
+      "DOI": "10.1002/adfm.201202571"
+    },
+    {
+      "sample_id": "4925",
+      "composition": "Ga0.067Co4Sb5.9665(GaSb)0.0335",
+      "DOI": "10.1002/adfm.201202571"
+    },
+    {
+      "sample_id": "4926",
+      "composition": "Ga0.087Co4Sb5.9565(GaSb)0.0435",
+      "DOI": "10.1002/adfm.201202571"
+    },
+    {
+      "sample_id": "4927",
+      "composition": "Ga0.1Co4Sb5.95(GaSb)0.05",
+      "DOI": "10.1002/adfm.201202571"
+    },
+    {
+      "sample_id": "1423",
+      "composition": "(Bi0.3Sb1.7Te3)99.23(SiC)0.77",
+      "DOI": "10.1002/adfm.201300146"
+    },
+    {
+      "sample_id": "1424",
+      "composition": "(Bi0.3Sb1.7Te3)96.98(SiC)3.02",
+      "DOI": "10.1002/adfm.201300146"
+    },
+    {
+      "sample_id": "1425",
+      "composition": "(Bi0.3Sb1.7Te3)95.53(SiC)4.47",
+      "DOI": "10.1002/adfm.201300146"
+    },
+    {
+      "sample_id": "7643",
+      "composition": "BiAgSeS0.985Cl 0.015",
+      "DOI": "10.1002/adfm.201402211"
+    },
+    {
+      "sample_id": "14507",
+      "composition": "Cu 2SnSe3",
+      "DOI": "10.1002/adfm.201601486"
+    },
+    {
+      "sample_id": "31222",
+      "composition": "Ba8Ga16-xCuxSn30",
+      "DOI": "10.1002/adfm.201606361"
+    },
+    {
+      "sample_id": "31224",
+      "composition": "YbCd2-xZnxSb2",
+      "DOI": "10.1002/adfm.201606361"
+    }
+  ],
+  "input_sha256": {
+    "data/output/starrydata2_prepared_for_relaxation_time_csv/sample_master.csv": "841864a8cedd7bcc67f42d1169b02128b4baa9dde471354108b45090984a3599",
+    "data/output/starrydata2_step32_sigma_ml_by_material_system/sample_material_system_classification_step32.csv": "fff8477cffbb4b72770b9b594edc0a3a89bef0bce9bd622e3ee319e389055e8e",
+    "data/output/df_ml_fml_material_parity_20261025/plot_source_DF.csv": "46deec0fa433f522d83bd473b26943fb78178c21e0b8e9d654da2e4195c83770",
+    "data/output/df_ml_fml_material_parity_20261025/plot_source_ML.csv": "d857be69a89ef51e70b129841833b0d02545554a91ef0035e7e3ea24d80fd372",
+    "data/output/df_ml_fml_material_parity_20261025/plot_source_FML.csv": "10e23a0b2433c755efc60dd9887a3dfb1c6d2469074cf86e5611cab99743b7a3"
+  }
+}

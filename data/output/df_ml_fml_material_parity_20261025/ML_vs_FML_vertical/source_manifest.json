@@ -1,0 +1,10 @@
+{
+  "ML": {
+    "path": "C:\\Users\\miots\\m-thesis\\m-thesis\\data\\output\\df_ml_fml_material_parity_20261025\\plot_source_ML.csv",
+    "sha256": "d857be69a89ef51e70b129841833b0d02545554a91ef0035e7e3ea24d80fd372"
+  },
+  "FML": {
+    "path": "C:\\Users\\miots\\m-thesis\\m-thesis\\data\\output\\df_ml_fml_material_parity_20261025\\plot_source_FML.csv",
+    "sha256": "10e23a0b2433c755efc60dd9887a3dfb1c6d2469074cf86e5611cab99743b7a3"
+  }
+}

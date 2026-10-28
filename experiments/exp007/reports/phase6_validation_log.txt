@@ -1,0 +1,28 @@
+Phase 6 build validation
+status=PASS
+checks=17
+failed=0
+date=2026-10-14
+source_rows=97086
+oxide_rows_reclassified=17715
+test_rows=19008
+prediction_status_counts={'ok': 18890, 'unreliable_reference_bin': 70, 'missing_reference_bin': 48}
+config_coverage=[{'config_id': 'phase6__sample_holdout__ref_conservative_valid__eval_all_valid__material_family_oxide_v1__sample_median', 'split_scheme': 'sample_holdout', 'reference_source_subset': 'conservative_valid', 'eval_target_subset': 'all_valid', 'group_scheme': 'material_family', 'curve_method': 'sample_median', 'test_rows': 19008, 'prediction_ok_rows': 18890, 'prediction_unavailable_rows': 118, 'coverage_fraction': 0.9937920875420876, 'p_test_rows': 10171, 'n_test_rows': 8837, 'p_prediction_ok_rows': 10098, 'n_prediction_ok_rows': 8792, 'reference_bins_total': 548, 'reference_bins_reliable': 449, 'prediction_status_counts': "{'missing_reference_bin': 48, 'ok': 18890, 'unreliable_reference_bin': 70}", 'T_bin_count_test': 19, 'material_family_count_test': 28, 'sample_count_test': 3191, 'paper_count_test': 2202}]
+dropped_rows=0
+source_row_count_frozen: PASS | rows=97086
+test_row_count_frozen: PASS | rows=19008
+oxide_row_count_all_splits: PASS | rows=17715
+all_oxide_rows_assigned: PASS | missing=0
+nonoxide_keys_unchanged: PASS | rows=79371
+broad_oxide_key_removed: PASS | remaining=0
+taxonomy_version_frozen: PASS | 185239a6fa68e0403c1984b9e6338dd5eec4842b116cbab6201d33e2fc706999
+heldout_assignments_match_phase4: PASS | phase6=3437; phase4=3437
+prediction_rows_complete: PASS | rows=19008
+reference_uses_train_only_keys: PASS | bins=548
+prediction_status_allowed: PASS | {'ok': 18890, 'unreliable_reference_bin': 70, 'missing_reference_bin': 48}
+new_predictions_positive: PASS | ok_rows=18890
+prediction_formula_recomputed: PASS | ok_rows=18890
+sample_holdout_no_leakage: PASS | train versus test validation_sample_group_id
+nonoxide_predictions_unchanged: PASS | paired_rows=15531; max_abs_delta=1.157e-15
+baseline_metrics_reproduce_phase0: PASS | mae_diff=0.000e+00
+overall_metrics_complete: PASS | rows=4

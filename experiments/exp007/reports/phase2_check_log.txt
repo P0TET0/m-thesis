@@ -1,0 +1,19 @@
+exp007 Phase 2 independent check
+=====================================
+PASS evaluable_source_count: rows=18968
+PASS material_rows_reconcile: sum=18968
+PASS temperature_rows_reconcile: sum=18968
+PASS oxide_rows_reconcile: sum=18968
+PASS scope_counts_match_source: scope_rows=18968
+PASS builder_validation_all_pass: failed=0
+PASS manifest_has_all_figures: manifest_files=8
+PASS figure_hashes_and_sizes_match_manifest: all files checked
+PASS png_dimensions_and_content: figures_checked=4
+PASS pdf_files_open_and_have_one_page: pages=[1, 1, 1, 1]
+PASS phase1_source_hash_matches_phase2_manifest: current=552eaba4097494f15ab3cb0e881fff9255f6deded73e6dff8ffb26f5a2b98ba6
+PASS report_describes_all_four_figures: figure list 1-4 present
+
+evaluable_rows=18968
+figure_png_files=4
+figure_pdf_files=4
+Final status: PASS

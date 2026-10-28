@@ -1,0 +1,30 @@
+{
+  "sources": [
+    {
+      "method": "DF",
+      "path": "C:\\Users\\miots\\m-thesis\\m-thesis\\data\\output\\df_ml_fml_material_parity_20261025\\plot_source_DF.csv",
+      "sha256": "46deec0fa433f522d83bd473b26943fb78178c21e0b8e9d654da2e4195c83770",
+      "rows": 55272
+    },
+    {
+      "method": "ML",
+      "path": "C:\\Users\\miots\\m-thesis\\m-thesis\\data\\output\\df_ml_fml_material_parity_20261025\\plot_source_ML.csv",
+      "sha256": "d857be69a89ef51e70b129841833b0d02545554a91ef0035e7e3ea24d80fd372",
+      "rows": 12010
+    },
+    {
+      "method": "FML",
+      "path": "C:\\Users\\miots\\m-thesis\\m-thesis\\data\\output\\df_ml_fml_material_parity_20261025\\plot_source_FML.csv",
+      "sha256": "10e23a0b2433c755efc60dd9887a3dfb1c6d2469074cf86e5611cab99743b7a3",
+      "rows": 18968
+    }
+  ],
+  "colormap": "plasma",
+  "temperature_color_limits_K": [
+    0.0,
+    1400.0
+  ],
+  "shuffle_seed": 8,
+  "subsampling": false,
+  "validation": "Original point counts, per-point temperatures, shared axes, and full-range coverage checked."
+}

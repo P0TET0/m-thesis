@@ -1,0 +1,32 @@
+Phase 4 oxide taxonomy v1 validation
+status=PASS
+taxonomy_version=oxide_v1
+rules_sha256=185239a6fa68e0403c1984b9e6338dd5eec4842b116cbab6201d33e2fc706999
+rows=3437
+samples=610
+nonempty_groups=14
+default_eligible_samples=553
+review_samples=36
+excluded_samples=21
+failed_checks=0
+taxonomy_version_fixed: PASS | oxide_v1
+rule_priorities_unique: PASS | rules=15
+rule_ids_unique: PASS | rules=15
+rule_hash_consistent: PASS | 185239a6fa68e0403c1984b9e6338dd5eec4842b116cbab6201d33e2fc706999
+all_phase3_rows_classified: PASS | rows=3,437
+row_ids_unique: PASS | unique=3,437
+all_assignments_have_rule: PASS | missing=0
+all_current_rows_contain_O: PASS | Phase 3 broad oxide expectation
+fail_safe_rule_unused: PASS | OXV1_R999
+class_rows_reconcile: PASS | sum=3,437
+transition_rows_reconcile: PASS | sum=3,437
+sample_count_reconciles: PASS | samples=610
+label_count_reconciles: PASS | labels=506
+no_sample_assignment_conflicts: PASS | conflicts=0
+inclusion_status_complete: PASS | exclude | review | include
+eligible_only_when_included: PASS | sample-level status
+structural_class_not_inferred: PASS | formula-only v1
+organic_exclusion_present: PASS | samples=21
+mixed_anion_rules_present: PASS | OXV1_R040 | OXV1_R020 | OXV1_R030
+review_queue_reconciles: PASS | review_or_excluded=57
+inputs_unchanged_during_build: PASS | SHA-256 before and after build

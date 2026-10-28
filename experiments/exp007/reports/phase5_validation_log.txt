@@ -1,0 +1,30 @@
+Phase 5 oxide_v1 reaggregation validation
+status=PASS
+date=2026-10-14
+baseline=broad_family_100K
+rows=3437
+samples=610
+default_eligible_rows=3032
+default_eligible_samples=553
+failed_checks=0
+phase1_check_passed: PASS | phase1_check_log.txt
+phase4_check_passed: PASS | phase4_check_log.txt
+taxonomy_version_fixed: PASS | oxide_v1
+taxonomy_hash_matches_config: PASS | 185239a6fa68e0403c1984b9e6338dd5eec4842b116cbab6201d33e2fc706999
+all_phase1_oxide_rows_joined: PASS | phase5=3,437; phase1=3,437; phase4=3,437
+row_ids_match_phase1: PASS | unique=3,437
+row_ids_unique: PASS | duplicates=0
+classification_join_complete: PASS | missing=0
+residuals_match_phase4: PASS | max_abs_difference=4.441e-16
+residuals_finite: PASS | rows=3,437
+sample_count_reconciles: PASS | samples=610
+no_sample_assignment_conflicts: PASS | conflicts=0
+status_sample_counts_frozen: PASS | {'include': 553, 'review': 36, 'exclude': 21}
+default_eligible_rows_frozen: PASS | rows=3,032
+all_group_rows_reconcile: PASS | sum=3,437
+eligible_group_rows_reconcile: PASS | sum=3,032
+scope_rows_partition: PASS | {'all_assigned': 3437, 'default_eligible': 3032, 'review_only': 263, 'excluded_only': 142}
+phase4_class_mae_reproduced: PASS | max_abs_difference=2.220e-16
+primary_contains_all_groups: PASS | groups=14
+ranked_groups_meet_support: PASS | ranked=11
+inputs_unchanged_during_build: PASS | SHA-256 before and after build

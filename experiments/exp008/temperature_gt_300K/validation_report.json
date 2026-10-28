@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "strict_T_gt_300K": true,
+  "source_hashes_unchanged": true,
+  "source_subset_values_and_rmse_verified": true,
+  "material_count_partitions_verified": true,
+  "comparison_shared_axes_verified": true,
+  "full_range_clipped_points": 0,
+  "png_files_verified": 300,
+  "pdf_files_verified": 300,
+  "gallery_links_verified": 169,
+  "material_quantity_method_rows": 96
+}

@@ -1,0 +1,100 @@
+exp007 Phase 0 baseline validation
+=============================================
+config_id=sample_holdout__ref_conservative_valid__eval_all_valid__material_family__sample_median
+variants=legacy_old_default,broad_family_100K,broad_family_25K
+common_prediction_rows=18883
+
+PASS legacy_old_default row_equal n_rows: calculated=19000, reference=19000, abs_diff=0
+PASS legacy_old_default row_equal n_samples: calculated=3191, reference=3191, abs_diff=0
+PASS legacy_old_default row_equal n_papers: calculated=2202, reference=2202, abs_diff=0
+PASS legacy_old_default row_equal n_material_families: calculated=1, reference=1, abs_diff=0
+PASS legacy_old_default row_equal n_T_bins: calculated=16, reference=16, abs_diff=0
+PASS legacy_old_default row_equal mean_log10_error: calculated=0.289601157226785, reference=0.289601157226785, abs_diff=0
+PASS legacy_old_default row_equal median_log10_error: calculated=-0.0128278172165359, reference=-0.0128278172165359, abs_diff=4.68e-17
+PASS legacy_old_default row_equal mae_log10: calculated=0.852081750001124, reference=0.852081750001124, abs_diff=0
+PASS legacy_old_default row_equal rmse_log10: calculated=1.40646298759675, reference=1.40646298759675, abs_diff=0
+PASS legacy_old_default row_equal factor_2_accuracy: calculated=0.326315789473684, reference=0.326315789473684, abs_diff=0
+PASS legacy_old_default row_equal factor_10_accuracy: calculated=0.750842105263158, reference=0.750842105263158, abs_diff=0
+PASS legacy_old_default row_equal test_rows: calculated=19008, reference=19008, abs_diff=0
+PASS legacy_old_default row_equal prediction_ok_rows: calculated=19000, reference=19000, abs_diff=0
+PASS legacy_old_default row_equal prediction_unavailable_rows: calculated=8, reference=8, abs_diff=0
+PASS legacy_old_default row_equal coverage_fraction: calculated=0.999579124579125, reference=0.999579124579125, abs_diff=0
+PASS legacy_old_default sample_equal n_rows: calculated=3191, reference=3191, abs_diff=0
+PASS legacy_old_default sample_equal n_samples: calculated=3191, reference=3191, abs_diff=0
+PASS legacy_old_default sample_equal n_papers: calculated=2202, reference=2202, abs_diff=0
+PASS legacy_old_default sample_equal n_material_families: calculated=1, reference=1, abs_diff=0
+PASS legacy_old_default sample_equal n_T_bins: calculated=25, reference=25, abs_diff=0
+PASS legacy_old_default sample_equal mean_log10_error: calculated=0.297589776359606, reference=0.297589776359606, abs_diff=0
+PASS legacy_old_default sample_equal median_log10_error: calculated=0.00120954701722106, reference=0.001209547017221, abs_diff=5.62e-17
+PASS legacy_old_default sample_equal mae_log10: calculated=0.737233731158294, reference=0.737233731158294, abs_diff=0
+PASS legacy_old_default sample_equal rmse_log10: calculated=1.23434486392329, reference=1.23434486392329, abs_diff=0
+PASS legacy_old_default sample_equal factor_2_accuracy: calculated=0.350987151363209, reference=0.350987151363209, abs_diff=0
+PASS legacy_old_default sample_equal factor_10_accuracy: calculated=0.797242243810718, reference=0.797242243810718, abs_diff=0
+PASS legacy_old_default sample_equal test_rows: calculated=19008, reference=19008, abs_diff=0
+PASS legacy_old_default sample_equal prediction_ok_rows: calculated=19000, reference=19000, abs_diff=0
+PASS legacy_old_default sample_equal prediction_unavailable_rows: calculated=8, reference=8, abs_diff=0
+PASS legacy_old_default sample_equal coverage_fraction: calculated=0.999579124579125, reference=0.999579124579125, abs_diff=0
+PASS broad_family_100K row_equal n_rows: calculated=18968, reference=18968, abs_diff=0
+PASS broad_family_100K row_equal n_samples: calculated=3189, reference=3189, abs_diff=0
+PASS broad_family_100K row_equal n_papers: calculated=2200, reference=2200, abs_diff=0
+PASS broad_family_100K row_equal n_material_families: calculated=15, reference=15, abs_diff=0
+PASS broad_family_100K row_equal n_T_bins: calculated=14, reference=14, abs_diff=0
+PASS broad_family_100K row_equal mean_log10_error: calculated=0.245359174009154, reference=0.245359174009154, abs_diff=1.11e-16
+PASS broad_family_100K row_equal median_log10_error: calculated=0.00308670944581378, reference=0.0030867094458137, abs_diff=7.89e-17
+PASS broad_family_100K row_equal mae_log10: calculated=0.723745697120183, reference=0.723745697120183, abs_diff=1.11e-16
+PASS broad_family_100K row_equal rmse_log10: calculated=1.25086797175794, reference=1.25086797175794, abs_diff=0
+PASS broad_family_100K row_equal factor_2_accuracy: calculated=0.426665963728385, reference=0.426665963728385, abs_diff=5.55e-17
+PASS broad_family_100K row_equal factor_10_accuracy: calculated=0.783793757908056, reference=0.783793757908056, abs_diff=0
+PASS broad_family_100K row_equal test_rows: calculated=19008, reference=19008, abs_diff=0
+PASS broad_family_100K row_equal prediction_ok_rows: calculated=18968, reference=18968, abs_diff=0
+PASS broad_family_100K row_equal prediction_unavailable_rows: calculated=40, reference=40, abs_diff=0
+PASS broad_family_100K row_equal coverage_fraction: calculated=0.997895622895623, reference=0.997895622895623, abs_diff=0
+PASS broad_family_100K sample_equal n_rows: calculated=3189, reference=3189, abs_diff=0
+PASS broad_family_100K sample_equal n_samples: calculated=3189, reference=3189, abs_diff=0
+PASS broad_family_100K sample_equal n_papers: calculated=2200, reference=2200, abs_diff=0
+PASS broad_family_100K sample_equal n_material_families: calculated=15, reference=15, abs_diff=0
+PASS broad_family_100K sample_equal n_T_bins: calculated=23, reference=23, abs_diff=0
+PASS broad_family_100K sample_equal mean_log10_error: calculated=0.251541543246336, reference=0.251541543246336, abs_diff=5.55e-17
+PASS broad_family_100K sample_equal median_log10_error: calculated=0.0113405912103784, reference=0.0113405912103783, abs_diff=5.72e-17
+PASS broad_family_100K sample_equal mae_log10: calculated=0.626433134269493, reference=0.626433134269493, abs_diff=0
+PASS broad_family_100K sample_equal rmse_log10: calculated=1.12099370155911, reference=1.12099370155911, abs_diff=0
+PASS broad_family_100K sample_equal factor_2_accuracy: calculated=0.481655691439323, reference=0.481655691439323, abs_diff=0
+PASS broad_family_100K sample_equal factor_10_accuracy: calculated=0.825650674192537, reference=0.825650674192537, abs_diff=0
+PASS broad_family_100K sample_equal test_rows: calculated=19008, reference=19008, abs_diff=0
+PASS broad_family_100K sample_equal prediction_ok_rows: calculated=18968, reference=18968, abs_diff=0
+PASS broad_family_100K sample_equal prediction_unavailable_rows: calculated=40, reference=40, abs_diff=0
+PASS broad_family_100K sample_equal coverage_fraction: calculated=0.997895622895623, reference=0.997895622895623, abs_diff=0
+PASS broad_family_25K row_equal n_rows: calculated=18883, reference=18883, abs_diff=0
+PASS broad_family_25K row_equal n_samples: calculated=3178, reference=3178, abs_diff=0
+PASS broad_family_25K row_equal n_papers: calculated=2193, reference=2193, abs_diff=0
+PASS broad_family_25K row_equal n_material_families: calculated=15, reference=15, abs_diff=0
+PASS broad_family_25K row_equal n_T_bins: calculated=50, reference=50, abs_diff=0
+PASS broad_family_25K row_equal mean_log10_error: calculated=0.241316253008541, reference=0.241316253008541, abs_diff=5.55e-17
+PASS broad_family_25K row_equal median_log10_error: calculated=0.00176946858223113, reference=0.0017694685822311, abs_diff=2.62e-17
+PASS broad_family_25K row_equal mae_log10: calculated=0.718479271695793, reference=0.718479271695793, abs_diff=0
+PASS broad_family_25K row_equal rmse_log10: calculated=1.24386143501588, reference=1.24386143501588, abs_diff=0
+PASS broad_family_25K row_equal factor_2_accuracy: calculated=0.429380924641212, reference=0.429380924641212, abs_diff=0
+PASS broad_family_25K row_equal factor_10_accuracy: calculated=0.785415453053011, reference=0.785415453053011, abs_diff=0
+PASS broad_family_25K row_equal test_rows: calculated=19008, reference=19008, abs_diff=0
+PASS broad_family_25K row_equal prediction_ok_rows: calculated=18883, reference=18883, abs_diff=0
+PASS broad_family_25K row_equal prediction_unavailable_rows: calculated=125, reference=125, abs_diff=0
+PASS broad_family_25K row_equal coverage_fraction: calculated=0.993423821548822, reference=0.993423821548822, abs_diff=0
+PASS broad_family_25K sample_equal n_rows: calculated=3178, reference=3178, abs_diff=0
+PASS broad_family_25K sample_equal n_samples: calculated=3178, reference=3178, abs_diff=0
+PASS broad_family_25K sample_equal n_papers: calculated=2193, reference=2193, abs_diff=0
+PASS broad_family_25K sample_equal n_material_families: calculated=15, reference=15, abs_diff=0
+PASS broad_family_25K sample_equal n_T_bins: calculated=86, reference=86, abs_diff=0
+PASS broad_family_25K sample_equal mean_log10_error: calculated=0.249210902968259, reference=0.249210902968259, abs_diff=8.33e-17
+PASS broad_family_25K sample_equal median_log10_error: calculated=0.00836480555303795, reference=0.0083648055530379, abs_diff=5.2e-17
+PASS broad_family_25K sample_equal mae_log10: calculated=0.626378540314805, reference=0.626378540314805, abs_diff=0
+PASS broad_family_25K sample_equal rmse_log10: calculated=1.12075913271799, reference=1.12075913271799, abs_diff=0
+PASS broad_family_25K sample_equal factor_2_accuracy: calculated=0.479546884833228, reference=0.479546884833228, abs_diff=5.55e-17
+PASS broad_family_25K sample_equal factor_10_accuracy: calculated=0.828193832599119, reference=0.828193832599119, abs_diff=0
+PASS broad_family_25K sample_equal test_rows: calculated=19008, reference=19008, abs_diff=0
+PASS broad_family_25K sample_equal prediction_ok_rows: calculated=18883, reference=18883, abs_diff=0
+PASS broad_family_25K sample_equal prediction_unavailable_rows: calculated=125, reference=125, abs_diff=0
+PASS broad_family_25K sample_equal coverage_fraction: calculated=0.993423821548822, reference=0.993423821548822, abs_diff=0
+
+PASS all reference checks=True
+PASS source files unchanged=True
+Final status: PASS

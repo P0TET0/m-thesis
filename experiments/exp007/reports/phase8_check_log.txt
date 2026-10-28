@@ -1,0 +1,20 @@
+Phase 8 independent validation
+status=PASS
+checks=16
+pass=16
+PASS all_expected_outputs_exist: missing=[]
+PASS build_checks_pass: pass=14/14
+PASS scenario_shape: scenarios=13; rows=39,416
+PASS scenario_row_keys_unique: scenario_id + row_id is unique
+PASS metric_grid_complete: records=39
+PASS frozen_status_reproduced: rows=3,032
+PASS frozen_residuals_reproduced: max_abs_diff=8.793e-14
+PASS frozen_metrics_recomputed: MAE 1.023496->0.875409; RMSE 1.586943->1.359271
+PASS all_model_comparisons_improve: improved=39/39
+PASS evaluation_sensitivities_improve: improved=6/6
+PASS leave_one_out_improves: improved=24/24
+PASS group_summary_complete: groups=12
+PASS decision_verdict_present: Expected qualified robustness verdict
+PASS workbook_validation_pass: Workbook export, render, and formula scan passed
+PASS figures_nonempty: figure_phase8_model_sensitivity.png=129530; figure_phase8_evaluation_sensitivity.png=67138; figure_phase8_leave_one_group_out.png=104937
+PASS report_contains_limits: Report states external-validation and coverage limitations

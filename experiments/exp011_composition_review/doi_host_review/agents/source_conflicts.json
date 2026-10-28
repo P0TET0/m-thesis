@@ -1,0 +1,16 @@
+{
+  "source": "local starrydata_samples.csv joined by DOI and sample_id",
+  "scope": "QA sample only; not an exhaustive text-name audit",
+  "conflicts": [
+    {
+      "doi": "10.1149/1945-7111/ac6e8f",
+      "sample_id": "63435",
+      "field_a": "composition",
+      "value_a": "SrTi0.6Fe0.4O3",
+      "field_b": "sample_name",
+      "value_b": "SrTi0.4Fe0.6O3-delta humidified Ar (Fig 3)",
+      "data_quality_flag": "sample_name_composition_conflict",
+      "note_ja": "元データ内でTi/Fe係数が試料名と組成欄で逆転している。DOI+sample_id結合は正しい。原論文Fig.3との照合が必要で、どちらも自動修正しない。"
+    }
+  ]
+}
